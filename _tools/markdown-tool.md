@@ -65,6 +65,6 @@ syntax:
 
 [Markdown Articles Tool](https://github.com/artiomn/markdown_articles_tool) là một tiện ích dòng lệnh miễn phí được thiết kế để giúp bạn quản lý các tài liệu Markdown trực tuyến (ví dụ: các bài báo). Bạn có thể tải xuống văn bản với hình ảnh sử dụng tính năng chống trùng lặp và chuyển đổi sang các định dạng khác nhau. Markdown Articles Tool có sẵn cho macOS, Windows và Linux. Nó được viết bằng Python — nếu bạn muốn sử dụng các chức năng riêng biệt, bạn chỉ cần nhập gói.
 
-{% include image.html file="/assets/images/tools/markdown-tool.png" alt="Markdown Articles Tool" %}
+{% include image.html file="{{ site.baseurl }}/assets/images/tools/markdown-tool.png" alt="Markdown Articles Tool" %}
 
 {% include tool-syntax-table.html %}

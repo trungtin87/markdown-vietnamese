@@ -82,7 +82,7 @@ Typora nổi bật bằng cách cung cấp nhiều cài đặt khác nhau mà kh
 
 Xem [tài liệu tham khảo Markdown](https://support.typora.io/Markdown-Reference/) của Typora cho tài liệu chính thức. Tài liệu Typora chỉ ra rằng ứng dụng thường sử dụng [GitHub Flavored Markdown (GFM)](https://github.github.com/gfm/).
 
-{% include image.html file="/assets/images/tools/typora-editor.png" alt="Giao diện trình soạn thảo Typora" width="70" %}
+{% include image.html file="{{ site.baseurl }}/assets/images/tools/typora-editor.png" alt="Giao diện trình soạn thảo Typora" width="70" %}
 
 {% include tool-syntax-table.html %}
 

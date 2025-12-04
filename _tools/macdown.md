@@ -79,7 +79,7 @@ see-also:
 
 MacDown có hai khung — bạn gõ ở bên trái và xem trước văn bản được định dạng ở bên phải. Các tùy chọn xuất cơ bản cho định dạng file HTML và PDF được cung cấp. Bạn có thể bật và tắt hỗ trợ cho nhiều phần tử cú pháp, một tính năng hay cho những người đơn giản là không muốn hoặc không cần tất cả các tính năng hào nhoáng.
 
-{% include image.html file="/assets/images/tools/macdown.png" alt="Ứng dụng MacDown với file Markdown đang mở." %}
+{% include image.html file="{{ site.baseurl }}/assets/images/tools/macdown.png" alt="Ứng dụng MacDown với file Markdown đang mở." %}
 
 {% include tool-syntax-table.html %}
 

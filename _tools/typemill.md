@@ -67,7 +67,7 @@ syntax:
 ---
 [Typemill](https://typemill.net) là một hệ thống quản lý nội dung (CMS) nhẹ để tạo các trang web và sách điện tử ở định dạng PDF và ePub. Typemill đặc biệt phổ biến trong các công ty vừa và nhỏ để tạo tài liệu và hướng dẫn sử dụng cho phần mềm, sản phẩm vật lý và dịch vụ.
 
-{% include image.html file="/assets/images/tools/typemill.gif" alt="Trình soạn thảo markdown Typemill" %}
+{% include image.html file="{{ site.baseurl }}/assets/images/tools/typemill.gif" alt="Trình soạn thảo markdown Typemill" %}
 
 Typemill được xây dựng bằng Vue.js và PHP. Nó sử dụng thư viện Parsedown được áp dụng rộng rãi để chuyển đổi Markdown.
 

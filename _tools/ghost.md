@@ -73,7 +73,7 @@ see-also:
 
 [Ghost](https://ghost.org/) là một hệ thống quản lý nội dung (CMS) tương đối mới để viết blog cạnh tranh với các sản phẩm CMS lâu đời hơn, đã được thiết lập như WordPress và Drupal. Ghost là một dự án mã nguồn mở nổi tiếng về tốc độ, sự đơn giản và dễ sử dụng. Hỗ trợ Markdown là tiêu chuẩn và có sẵn ngay lập tức.
 
-{% include image.html file="/assets/images/tools/ghost.png" alt="Trình soạn thảo blog Ghost" %}
+{% include image.html file="{{ site.baseurl }}/assets/images/tools/ghost.png" alt="Trình soạn thảo blog Ghost" %}
 
 Có một vài vấn đề tương thích nhỏ được ghi chú bên dưới nhưng, nói chung, Ghost có hỗ trợ Markdown vững chắc. Trình soạn thảo trực tiếp khá trực quan và có vẻ là một lựa chọn tốt cho các blogger. Sao chép và dán văn bản được định dạng Markdown vào trình soạn thảo hoạt động theo cách bạn mong đợi.
 

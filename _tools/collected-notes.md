@@ -69,6 +69,6 @@ syntax:
 
 [Collected Notes](https://collectednotes.com) là một nền tảng ghi chú có thể xuất bản các ghi chú Markdown của bạn lên internet. Các ghi chú của bạn có thể được giữ riêng tư hoặc xuất bản trên một trang web công khai. Bạn có thể soạn thảo ghi chú bằng trang web Collected Notes hoặc các ứng dụng macOS và iOS.
 
-{% include image.html file="/assets/images/tools/collected-notes.png" alt="Ứng dụng Markdown Collected Notes" width="90" %}
+{% include image.html file="{{ site.baseurl }}/assets/images/tools/collected-notes.png" alt="Ứng dụng Markdown Collected Notes" width="90" %}
 
 {% include tool-syntax-table.html %}

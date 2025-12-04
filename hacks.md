@@ -156,7 +156,7 @@ Markdown không hỗ trợ chú thích hình ảnh nguyên bản, nhưng có hai
 Kết quả hiển thị trông như thế này:
 
 <figure>
-    {% include image.html file="/assets/images/albuquerque.jpg" alt="Albuquerque, New Mexico" lazy="yes" %}
+    {% include image.html file="{{ site.baseurl }}/assets/images/albuquerque.jpg" alt="Albuquerque, New Mexico" lazy="yes" %}
     <figcaption>A single track trail outside of Albuquerque, New Mexico.</figcaption>
 </figure>
 
@@ -173,7 +173,7 @@ Nếu ứng dụng Markdown của bạn không hỗ trợ HTML, bạn có thể 
 
 Kết quả hiển thị trông như thế này:
 
-{% include image.html file="/assets/images/albuquerque.jpg" alt="Albuquerque, New Mexico" lazy="yes" %}
+{% include image.html file="{{ site.baseurl }}/assets/images/albuquerque.jpg" alt="Albuquerque, New Mexico" lazy="yes" %}
 *A single track trail outside of Albuquerque, New Mexico.*
 
 ## Mục Tiêu Liên Kết

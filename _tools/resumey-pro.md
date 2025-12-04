@@ -66,6 +66,6 @@ syntax:
 
 [Resumey.Pro](https://resumey.pro) là một trình tạo sơ yếu lý lịch dựa trên Markdown. Viết nội dung sơ yếu lý lịch bằng Markdown, thử nhiều thiết kế khác nhau như bộ lọc Instagram, và sau đó tải xuống dưới dạng PDF. Trình soạn thảo nội dung hỗ trợ các lệnh `/` (gạch chéo) để áp dụng nhanh cú pháp Markdown. Các thiết kế sơ yếu lý lịch cũng hỗ trợ tùy chỉnh màu nhấn, kích thước phông chữ và khoảng cách.
 
-{% include image.html file="/assets/images/tools/resumey-pro.png" alt="Ảnh chụp màn hình Resumey.Pro" %}
+{% include image.html file="{{ site.baseurl }}/assets/images/tools/resumey-pro.png" alt="Ảnh chụp màn hình Resumey.Pro" %}
 
 {% include tool-syntax-table.html %}

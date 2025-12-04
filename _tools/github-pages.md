@@ -74,7 +74,7 @@ see-also:
 
 GitHub Pages sử dụng trình tạo trang web tĩnh [Jekyll](/tools/jekyll/) để tạo trang web của bạn và hỗ trợ Markdown rất tuyệt vời. Bạn có thể chọn một trong các chủ đề có sẵn của GitHub cho trang web của mình, sử dụng [chủ đề Jekyll](http://jekyllthemes.org/), hoặc sử dụng CSS tùy chỉnh của riêng bạn. Dưới đây là một trang web mẫu sử dụng một trong các chủ đề có sẵn của GitHub.
 
-{% include image.html file="/assets/images/tools/github-pages.png" alt="Ví dụ về các trang web GitHub Pages" width="90" %}
+{% include image.html file="{{ site.baseurl }}/assets/images/tools/github-pages.png" alt="Ví dụ về các trang web GitHub Pages" width="90" %}
 
 Thật khó hiểu, GitHub Pages hiển thị Markdown khác với GitHub. GitHub sử dụng bộ xử lý Markdown của riêng mình; GitHub Pages sử dụng [jekyll-commonmark](https://github.com/github/jekyll-commonmark-ghpages). Điều này có nghĩa là file `README.md` của bạn sẽ trông khác trên trang web của GitHub so với trên trang web GitHub Pages của bạn. Ví dụ, biểu tượng cảm xúc được hiển thị trên trang web của GitHub, nhưng không hiển thị trên các trang web được tạo bằng GitHub Pages.
 

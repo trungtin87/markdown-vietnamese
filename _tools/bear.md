@@ -78,7 +78,7 @@ see-also:
 
 Không có nhiều tính năng hào nhoáng trong Bear. Thay vào đó, Bear luôn thực hiện đúng tất cả các lời hứa của mình. Thẻ, tìm kiếm và đồng bộ hóa đều hoạt động hoàn hảo. Ứng dụng này trực quan, và đó chính xác là những gì bạn muốn khi ghi chú.
 
-{% include image.html file="/assets/images/tools/bear.png" alt="Markdown trong ứng dụng Markdown Bear" %}
+{% include image.html file="{{ site.baseurl }}/assets/images/tools/bear.png" alt="Markdown trong ứng dụng Markdown Bear" %}
 
 Bear không tự động bật hỗ trợ Markdown theo mặc định, nhưng bạn có thể [bật nó trong tùy chọn](#enabling-markdown-support). Ứng dụng có trình soạn thảo trực tiếp và trình soạn thảo văn bản lai — bạn có thể thấy cả cú pháp Markdown và cách định dạng thay đổi văn bản. Phải mất một lúc để làm quen, nhưng nó hữu ích nếu bạn mới bắt đầu với Markdown.
 

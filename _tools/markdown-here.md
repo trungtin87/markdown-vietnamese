@@ -74,7 +74,7 @@ see-also:
 
 Để sử dụng Markdown Here sau khi cài đặt nó, hãy bắt đầu nhập văn bản được định dạng Markdown vào một biểu mẫu, chẳng hạn như một tin nhắn email mới trong Gmail. Khi bạn viết xong tin nhắn, hãy nhấp chuột phải vào biểu mẫu và chọn **Markdown Toggle**, như được hiển thị trong ảnh chụp màn hình bên dưới. Markdown Here sẽ chuyển đổi văn bản được định dạng Markdown của bạn thành văn bản đa dạng thức được định dạng đúng.
 
-{% include image.html file="/assets/images/tools/markdown-here.png" alt="Markdown Here trong Gmail" width="60" %}
+{% include image.html file="{{ site.baseurl }}/assets/images/tools/markdown-here.png" alt="Markdown Here trong Gmail" width="60" %}
 
 Một nguồn gây thất vọng là sự không nhất quán trong đầu ra được hiển thị. Vì Markdown Here dựa vào các tính năng được cung cấp bởi bất kỳ trình soạn thảo văn bản đa dạng thức nào mà bạn tình cờ đang làm việc, đầu ra được hiển thị sẽ khác nhau giữa các trang web. Điều này có lẽ không cần phải nói, nhưng bạn nên cẩn thận kiểm tra đầu ra trước khi gửi tin nhắn email hoặc lưu file của mình.
 

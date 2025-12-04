@@ -77,6 +77,6 @@ see-also:
 
 Logseq cung cấp một bộ tính năng rất hứa hẹn: Back links, biểu đồ ghi chú (lấy cảm hứng từ Roam Research), tạo thẻ tự động (để học tập), mẫu, và nhiều hơn nữa.
 
-{% include image.html file="/assets/images/tools/logseq.png" alt="Ứng dụng Logseq" %}
+{% include image.html file="{{ site.baseurl }}/assets/images/tools/logseq.png" alt="Ứng dụng Logseq" %}
 
 {% include tool-syntax-table.html %}

@@ -74,7 +74,7 @@ see-also:
 
 Things không hỗ trợ tất cả các phần tử cú pháp Markdown, nhưng các phần tử mà nó hỗ trợ có ý nghĩa trong bối cảnh của ứng dụng. Những người sử dụng Things không sử dụng nó để viết bài đăng trên blog — họ đang ghi chú ngắn.
 
-{% include image.html file="/assets/images/tools/things.png" alt="Markdown trong ứng dụng Things cho Mac" width="80" %}
+{% include image.html file="{{ site.baseurl }}/assets/images/tools/things.png" alt="Markdown trong ứng dụng Things cho Mac" width="80" %}
 
 Things ánh xạ định dạng Markdown với các phím tắt bàn phím để bạn không phải thực sự nhập các ký tự cần thiết để thêm định dạng Markdown. Ví dụ, bạn không phải nhập `**` để làm cho từ của bạn in đậm (mặc dù bạn có thể). Thay vào đó, bạn chỉ cần nhấn Command-B và Things sẽ bao bọc từ của bạn bằng dấu sao kép.
 

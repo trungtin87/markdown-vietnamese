@@ -71,6 +71,6 @@ see-also:
 
 Docusaurus sử dụng bộ xử lý Markdown [remarkable](https://github.com/jonschlinkert/remarkable).
 
-{% include image.html file="/assets/images/tools/docusaurus.png" alt="Ví dụ về trang web Docusaurus" %}
+{% include image.html file="{{ site.baseurl }}/assets/images/tools/docusaurus.png" alt="Ví dụ về trang web Docusaurus" %}
 
 {% include tool-syntax-table.html %}

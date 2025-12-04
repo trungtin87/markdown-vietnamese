@@ -77,7 +77,7 @@ Với Markdown, định dạng văn bản [Reddit](https://www.reddit.com) thậ
 
 Theo mặc định, Reddit vô hiệu hóa hỗ trợ Markdown cho các bài đăng và bình luận mới. Bạn có thể chuyển từ trình soạn thảo văn bản đa dạng thức sang Markdown bằng cách nhấp vào liên kết **Switch to markdown**, như được hiển thị bên dưới.
 
-{% include image.html file="/assets/images/tools/reddit.png" alt="Chuyển sang Markdown trên Reddit.com" width="80" %}
+{% include image.html file="{{ site.baseurl }}/assets/images/tools/reddit.png" alt="Chuyển sang Markdown trên Reddit.com" width="80" %}
 
 Để lưu vĩnh viễn cài đặt này, bạn có thể bật cài đặt **Default to Markdown** trong **User Settings** > **Feed Settings**. Bật cài đặt đó sẽ tự động bật Markdown cho các bài đăng hoặc bình luận mới.
 

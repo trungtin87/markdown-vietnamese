@@ -71,7 +71,7 @@ see-also:
 
 [Discord](https://discord.com/) là một trong những ứng dụng nhắn tin và cộng tác phổ biến nhất hiện có. Phổ biến trong giới game thủ và thanh thiếu niên, Discord cung cấp một giao diện nhanh và được thiết kế tốt, hoạt động tốt để giao tiếp với bạn bè. Tương tự như [Slack](/tools/slack/), Discord cung cấp hỗ trợ Markdown hạn chế, có thể so sánh với các ứng dụng khác trong danh mục này.
 
-{% include image.html file="/assets/images/tools/discord.png" alt="Ví dụ về Discord Markdown" %}
+{% include image.html file="{{ site.baseurl }}/assets/images/tools/discord.png" alt="Ví dụ về Discord Markdown" %}
 
 {% include tool-syntax-table.html %}
 

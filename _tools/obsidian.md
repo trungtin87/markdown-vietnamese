@@ -73,7 +73,7 @@ see-also:
 
 [Obsidian](https://obsidian.md/) là một người mới tham gia tương đối vào thị trường ghi chú và cơ sở kiến thức Markdown ngày càng đông đúc. Hỗ trợ Markdown tuyệt vời của Obsidian và thiết kế đơn giản, dễ hiểu của nó làm cho nó trở thành một ứng dụng nổi bật trong danh mục này. Có sẵn các ứng dụng [Máy tính để bàn](https://obsidian.md/download) và [di động](https://obsidian.md/mobile).
 
-{% include image.html file="/assets/images/tools/obsidian.png" alt="Ứng dụng Markdown Obsidian" %}
+{% include image.html file="{{ site.baseurl }}/assets/images/tools/obsidian.png" alt="Ứng dụng Markdown Obsidian" %}
 
 Obsidian có hầu như tất cả các tính năng tiêu chuẩn phổ biến cho các ứng dụng khác trong danh mục này, nhưng nó nâng cao vị thế bằng cách bao gồm một số tính năng khác cho người dùng chuyên nghiệp. Có một chế độ xem biểu đồ trực quan nổi bật, là một loại "bản đồ tư duy" của tất cả các file của bạn được lưu trữ trong Obsidian, một "trình nhập định dạng Markdown" có thể tìm và thay thế một số phần tử cú pháp Markdown nhất định trong các file của bạn, và hỗ trợ cho cú pháp [toán học](https://publish.obsidian.md/help/How+to/Format+your+notes) và [sơ đồ](https://publish.obsidian.md/help/How+to/Format+your+notes). Điều đó thực sự chỉ mới làm trầy xước bề mặt các khả năng của Obsidian. Obsidian có thể mở rộng, và có hàng trăm plugin cộng đồng miễn phí có sẵn trong ứng dụng.
 

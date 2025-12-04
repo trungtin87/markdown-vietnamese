@@ -75,7 +75,7 @@ see-also:
 
 Dendron rõ ràng dành cho đối tượng nhà phát triển. Công cụ này yêu cầu kiến thức tiên quyết về VS Code, và hầu hết mọi người có thể sẽ cần dành chút thời gian đọc [tài liệu](https://wiki.dendron.so/), khám phá các tính năng và nắm vững các phím tắt. Điểm bán hàng lớn nhất đối với người dùng Dendron có thể là công cụ này nằm trong VS Code. Các công cụ tương tự như [Obsidian](/tools/obsidian/) nằm trong các ứng dụng độc lập, riêng biệt — chúng có thể có ít tính năng hơn, nhưng chúng cũng có rào cản gia nhập thấp hơn.
 
-{% include image.html file="/assets/images/tools/dendron.png" alt="Ứng dụng Markdown Dendron" %}
+{% include image.html file="{{ site.baseurl }}/assets/images/tools/dendron.png" alt="Ứng dụng Markdown Dendron" %}
 
 {% include tool-syntax-table.html %}
 

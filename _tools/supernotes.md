@@ -76,7 +76,7 @@ Một trong những lợi ích lớn nhất của Supernotes là cộng đồng.
 
 [Tất cả các tính năng của Supernotes](https://supernotes.app/features/) đều được bao gồm trong gói Starter miễn phí. Trên gói Starter, bạn bắt đầu với 40 thẻ, nhưng bạn có thể giới thiệu bạn bè hoặc nâng cấp lên gói Unlimited để có nhiều tính năng hơn. Supernotes là một công ty khởi nghiệp độc lập nhỏ, được xây dựng bởi một nhóm hai người và việc đăng ký sẽ hỗ trợ họ và sự phát triển của nền tảng.
 
-{% include image.html file="/assets/images/tools/supernotes.png" alt="Ứng dụng Markdown Supernotes" width="90" %}
+{% include image.html file="{{ site.baseurl }}/assets/images/tools/supernotes.png" alt="Ứng dụng Markdown Supernotes" width="90" %}
 
 {% include tool-syntax-table.html %}
 

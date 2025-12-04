@@ -73,7 +73,7 @@ see-also:
 
 Một trong những đặc điểm nổi bật của ứng dụng là *chế độ tập trung* (focus mode). Khi được bật, tính năng đó giữ cho câu bạn đang làm việc được căn giữa theo chiều ngang, như được hiển thị trong ảnh chụp màn hình bên dưới. Cảm giác hơi giống như sử dụng máy đánh chữ.
 
-{% include image.html file="/assets/images/tools/ia-writer.png" alt="iA Writer ở chế độ tập trung" %}
+{% include image.html file="{{ site.baseurl }}/assets/images/tools/ia-writer.png" alt="iA Writer ở chế độ tập trung" %}
 
 Có một vài điều kỳ quặc bạn nên biết. iA Writer không lưu các file mới với phần mở rộng Markdown (`.md`) theo mặc định. Nếu bạn định tạo độc quyền các file Markdown bằng iA Writer, bạn nên thay đổi phần mở rộng mặc định thành `.md` trong **Preferences** > **Files**.
 

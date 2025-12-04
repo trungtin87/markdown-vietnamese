@@ -14,7 +14,7 @@ Giao diện tin nhắn của Slack là giao diện mọi người sử dụng nh
 
 Vào tháng 11 năm 2019, Slack đã giới thiệu một giao diện WYSIWYG mới, như được hiển thị bên dưới. Tính năng này được bật cho tất cả người dùng theo mặc định. Thay đổi rõ ràng nhất là việc bổ sung các nút định dạng trong các điều khiển giao diện, nhưng cũng có một trình soạn thảo trực tiếp ẩn định dạng Markdown sau khi bạn nhập. Bạn không cần phải sử dụng các điều khiển giao diện để định dạng văn bản của mình — bạn vẫn có thể sử dụng các phần tử cú pháp Markdown được mô tả trong phần tiếp theo.
 
-{% include image.html file="/assets/images/tools/slack-messages.png" alt="Slack markdown trong giao diện tin nhắn" width="70" %}
+{% include image.html file="{{ site.baseurl }}/assets/images/tools/slack-messages.png" alt="Slack markdown trong giao diện tin nhắn" width="70" %}
 
 Bạn có thể tắt giao diện WYSIWYG trong **Preferences** > **Advanced**. Chọn cài đặt **Format messages with markup**, như được hiển thị bên dưới. Bật cài đặt này sẽ ẩn các nút định dạng WYSIWYG và tắt trình soạn thảo trực tiếp để bạn có thể thấy định dạng Markdown khi bạn nhập.
 
@@ -22,7 +22,7 @@ Bạn có thể tắt giao diện WYSIWYG trong **Preferences** > **Advanced**. 
   <i class="fas fa-lightbulb"></i> <strong>Mẹo:</strong> Nếu bạn mở nhiều không gian làm việc trong Slack, bạn sẽ cần bật cài đặt này cho từng không gian làm việc.
 </div>
 
-{% include image.html file="/assets/images/tools/slack-enable-markdown.png" alt="Bật Markdown trong giao diện tin nhắn Slack" width="80" %}
+{% include image.html file="{{ site.baseurl }}/assets/images/tools/slack-enable-markdown.png" alt="Bật Markdown trong giao diện tin nhắn Slack" width="80" %}
 
 #### Hỗ trợ Markdown của Slack trong Tin nhắn
 

@@ -69,7 +69,7 @@ syntax:
 
 Trình soạn thảo email [hỗ trợ Markdown](https://buttondown.com/features/markdown), với khả năng chuyển sang trình soạn thảo WYSIWYG cho những người thích nó hơn.
 
-{% include image.html file="/assets/images/tools/buttondown.png" alt="Trình soạn thảo email Buttondown" %}
+{% include image.html file="{{ site.baseurl }}/assets/images/tools/buttondown.png" alt="Trình soạn thảo email Buttondown" %}
 
 Có một vài vấn đề tương thích nhỏ được ghi chú bên dưới nhưng, nói chung, Buttondown có hỗ trợ Markdown vững chắc. Theo [tài liệu của họ](https://docs.buttondown.com/using-markdown), nó sử dụng Python-Markdown để phân tích cú pháp và hiển thị cùng với một vài tiện ích mở rộng. Trình soạn thảo trực tiếp khá trực quan và cung cấp cho bạn bản xem trước về cách email sẽ trông như thế nào trong cả kho lưu trữ và trong các ứng dụng email như Gmail. Sao chép và dán văn bản được định dạng Markdown vào trình soạn thảo hoạt động theo cách bạn mong đợi.
 

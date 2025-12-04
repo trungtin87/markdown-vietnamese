@@ -67,6 +67,6 @@ syntax:
 
 Sử dụng sức mạnh của Markdown để định dạng các ghi chú của bạn và tạo bảng, danh sách, hình ảnh, sơ đồ và hơn thế nữa. Markdown sẽ giúp giữ cho các ghi chú của bạn theo cùng một phong cách bất kể bạn đã sao chép văn bản từ internet hay viết nó từ đầu. Ngoài các ghi chú, bạn có thể tạo bảng Kanban và sử dụng chúng như một công cụ để trực quan hóa công việc của mình và tối đa hóa hiệu quả của bạn. Điều này sẽ giúp bạn sắp xếp thời gian, tập trung vào những gì quan trọng và đạt được nhiều hơn.
 
-{% include image.html file="/assets/images/tools/noteshub.png" alt="NotesHub" %}
+{% include image.html file="{{ site.baseurl }}/assets/images/tools/noteshub.png" alt="NotesHub" %}
 
 {% include tool-syntax-table.html %}

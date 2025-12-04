@@ -68,7 +68,7 @@ syntax:
 
 Mục tiêu được nêu của ứng dụng rất đơn giản: "Cho phép các nhà nghiên cứu về nghệ thuật và nhân văn, ví dụ: những người không có bất kỳ kiến thức nào về lập trình, cuối cùng giải phóng bản thân khỏi phần mềm có giá hàng trăm đô la và mở đường vào kỷ nguyên Mã nguồn mở. Điều này sẽ chỉ phù hợp, với thực tế rằng đặc biệt là trong khoa học chính trị và xã hội học, tiếng kêu gọi các tạp chí Truy cập mở đang gia tăng. Vì vậy, đây là những gì Zettlr là tất cả về: Nó muốn trở thành đối thủ cạnh tranh nghiêm túc cho các bộ xử lý văn bản."
 
-{% include image.html file="/assets/images/tools/zettlr_view.png" alt="Giao diện trình soạn thảo Zettlr" %}
+{% include image.html file="{{ site.baseurl }}/assets/images/tools/zettlr_view.png" alt="Giao diện trình soạn thảo Zettlr" %}
 
 Xem [Tài liệu Zettlr](https://docs.zettlr.com/en/) cho tài liệu chính thức. Bản thân Zettlr triển khai một hỗn hợp của các phương ngữ khác nhau. Bản thân trình soạn thảo chỉ làm nổi bật GitHub Flavored Markdown cộng với một số phần tử bổ sung mở rộng cú pháp Markdown với các phần tử Zettelkasten. Bạn cũng có thể thêm các lệnh LaTeX.
 

@@ -70,7 +70,7 @@ see-also:
 
 [StackEdit](https://stackedit.io) là một trình soạn thảo Markdown trực tuyến mạnh mẽ. Giống như [Dillinger](/tools/dillinger/), nó tải ngay trong trình duyệt web của bạn, vì vậy không cần tải xuống và cài đặt ứng dụng trên máy tính của bạn. StackEdit có nhiều tính năng và tùy chọn cấu hình cho người dùng chuyên nghiệp, khiến nó trở thành một lựa chọn toàn diện tốt hơn so với các ứng dụng máy tính để bàn tương đương theo nhiều cách.
 
-{% include image.html file="/assets/images/tools/stackedit.png" alt="Trình soạn thảo Markdown StackEdit" %}
+{% include image.html file="{{ site.baseurl }}/assets/images/tools/stackedit.png" alt="Trình soạn thảo Markdown StackEdit" %}
 
 Hỗ trợ Markdown của StackEdit rất tuyệt vời. Các tính năng bao gồm khả năng đồng bộ hóa và lưu file vào các dịch vụ của bên thứ ba, xuất sang các định dạng file khác nhau bằng cách sử dụng các mẫu tùy chỉnh và định cấu hình các thuộc tính siêu dữ liệu cho các file. (Lưu ý rằng bạn phải đăng ký StackEdit để xuất sang một số định dạng file, như PDF.) LaTeX và sơ đồ UML cũng được hỗ trợ. Bạn dường như có thể sử dụng StackEdit mà không cần kết nối internet.
 

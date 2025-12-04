@@ -70,7 +70,7 @@ see-also:
 
 teedoc sử dụng trình phân tích cú pháp Markdown [mistune](https://github.com/lepture/mistune).
 
-{% include image.html file="/assets/images/tools/teedoc.png" alt="Ví dụ về trang web teedoc" %}
+{% include image.html file="{{ site.baseurl }}/assets/images/tools/teedoc.png" alt="Ví dụ về trang web teedoc" %}
 
 {% include tool-syntax-table.html %}
 

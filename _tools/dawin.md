@@ -76,6 +76,6 @@ Dawin cung cấp hỗ trợ Markdown tuyệt vời và có các tùy chọn xu�
 
 Ứng dụng sử dụng bộ xử lý Markdown [markdown-it](https://github.com/markdown-it/markdown-it) và [simplemde-rtl](https://github.com/imAbdelhadi/simplemde-rtl).
 
-{% include image.html file="/assets/images/dawin.png" alt="Trình soạn thảo Markdown RTL Dawin" %}
+{% include image.html file="{{ site.baseurl }}/assets/images/dawin.png" alt="Trình soạn thảo Markdown RTL Dawin" %}
 
 {% include tool-syntax-table.html %}

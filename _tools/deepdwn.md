@@ -66,7 +66,7 @@ syntax:
 
 [Deepdwn](https://billiam.itch.io/deepdwn) là một trình soạn thảo Markdown ngoại tuyến, giàu tính năng dành cho Windows, Mac và Linux.
 
-{% include image.html file="/assets/images/tools/deepdwn.png" alt="Cửa sổ ứng dụng Deepdwn với các bảng cho bộ lọc, danh sách file, dàn ý tài liệu và trình soạn thảo." %}
+{% include image.html file="{{ site.baseurl }}/assets/images/tools/deepdwn.png" alt="Cửa sổ ứng dụng Deepdwn với các bảng cho bộ lọc, danh sách file, dàn ý tài liệu và trình soạn thảo." %}
 
 Deepdwn hỗ trợ tổ chức tài liệu theo cả thẻ và danh mục được lưu trữ trong front matter YAML của tài liệu của bạn, và hỗ trợ backlinks để kết nối các tài liệu với nhau.
 
