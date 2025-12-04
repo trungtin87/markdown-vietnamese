@@ -190,7 +190,7 @@ Giao diện bài đăng của Slack là trình soạn thảo cho phép bạn t�
 
 Để tạo một bài đăng, hãy nhấp vào biểu tượng phím tắt và chọn **Create a Post** như được hiển thị bên dưới.
 
-<img src="/assets/images/tools/slack-posts.png" class="img-fluid" style="width:50%" alt="Slack markdown trong giao diện bài đăng">
+<img src="{{ site.baseurl }}/assets/images/tools/slack-posts.png" class="img-fluid" style="width:50%" alt="Slack markdown trong giao diện bài đăng">
 
 #### Hỗ trợ Markdown của Slack trong Bài đăng
 

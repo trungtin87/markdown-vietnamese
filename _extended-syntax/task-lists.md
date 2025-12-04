@@ -17,4 +17,4 @@ Danh sách tác vụ (còn được gọi là *danh sách kiểm tra* và danh s
 
 Kết quả hiển thị trông như thế này:
 
-<img src="/assets/images/tasklist.png" class="img-fluid" alt="Markdown task list">
+<img src="{{ site.baseurl }}/assets/images/tasklist.png" class="img-fluid" alt="Markdown task list">
