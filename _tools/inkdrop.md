@@ -73,6 +73,6 @@ see-also:
 
 Một trong những phần hay nhất của Inkdrop là khả năng mở rộng. Một loạt các plugin cho phép bạn thêm lưu đồ, biểu đồ trình tự và (mục yêu thích cá nhân của tôi) [lời khuyên răn](https://github.com/libeanim/inkdrop-admonition). Và, trên một ghi chú hơi không liên quan đến chính ứng dụng, bạn có thể quan tâm khi biết rằng nhà phát triển của Inkdrop là một [blogger sung mãn](https://blog.inkdrop.info/), người rất [coi trọng bảo mật](https://docs.inkdrop.app/security).
 
-{% include image.html file="{{ site.baseurl }}/assets/images/tools/inkdrop.png" alt="Ứng dụng Markdown Inkdrop" %}
+{% include image.html file="assets/images/tools/inkdrop.png" alt="Ứng dụng Markdown Inkdrop" %}
 
 {% include tool-syntax-table.html %}

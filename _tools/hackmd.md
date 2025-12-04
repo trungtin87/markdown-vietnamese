@@ -68,7 +68,7 @@ see-also:
 
 [HackMD](https://hackmd.io) là một trình soạn thảo Markdown cộng tác đa nền tảng, thời gian thực. Bạn có thể sử dụng HackMD để viết ghi chú với những người khác trên máy tính, máy tính bảng hoặc điện thoại của mình. HackMD cung cấp nhiều mẫu tài liệu khác nhau và cho phép người dùng đẩy tài liệu lên GitHub. Bạn có thể nhập và xuất tài liệu từ Dropbox, Google Drive và GitHub gists.
 
-{% include image.html file="{{ site.baseurl }}/assets/images/tools/hackmd.png" alt="Giao diện Markdown HackMD" %}
+{% include image.html file="assets/images/tools/hackmd.png" alt="Giao diện Markdown HackMD" %}
 
 HackMD hỗ trợ CommonMark và các cú pháp đánh dấu khác, chẳng hạn như:
 

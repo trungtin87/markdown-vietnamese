@@ -84,7 +84,7 @@ see-also:
 
 Nó không hỗ trợ chỉnh sửa WYSIWIG. Mặc dù Visual Studio Code không đi kèm với khả năng xuất Markdown sang bất kỳ định dạng nào khác ngay lập tức, nhưng nó có thể sao chép mã Markdown với màu cú pháp còn nguyên vẹn.
 
-{% include image.html file="{{ site.baseurl }}/assets/images/tools/vscode.png" alt="Visual Studio Code" %}
+{% include image.html file="assets/images/tools/vscode.png" alt="Visual Studio Code" %}
 
 Các tiện ích mở rộng Markdown có sẵn trong thị trường Visual Studio mở rộng nó với các tính năng sau:
 
@@ -97,6 +97,6 @@ Các tiện ích mở rộng Markdown có sẵn trong thị trường Visual Stu
 * Bộ công cụ tuân thủ kiểu cho các dịch vụ khác nhau (ví dụ: "Docs Authoring Pack" cho Microsoft Docs)
 * Kiểm tra chính tả (ví dụ: "Code Spell Checker")
 
-{% include image.html file="{{ site.baseurl }}/assets/images/tools/vscode-extended.png" alt="Visual Studio Code, với Markdown Preview Enhanced, Markdownlint, và One Dark Pro" lazy="yes" %}
+{% include image.html file="assets/images/tools/vscode-extended.png" alt="Visual Studio Code, với Markdown Preview Enhanced, Markdownlint, và One Dark Pro" lazy="yes" %}
 
 {% include tool-syntax-table.html %}

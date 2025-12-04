@@ -76,7 +76,7 @@ Dillinger cung cấp hỗ trợ Markdown tuyệt vời. Thật không may, các 
 
 Ứng dụng sử dụng bộ xử lý Markdown [markdown-it](https://github.com/markdown-it/markdown-it).
 
-{% include image.html file="{{ site.baseurl }}/assets/images/dillinger.png" alt="Trình soạn thảo Markdown Dillinger" %}
+{% include image.html file="assets/images/dillinger.png" alt="Trình soạn thảo Markdown Dillinger" %}
 
 {% include tool-syntax-table.html %}
 

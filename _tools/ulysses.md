@@ -80,6 +80,6 @@ syntax:
 
 Thật không may, sử dụng Ulysses để viết bằng Markdown là một bài tập gây thất vọng. Ứng dụng hỗ trợ một tập hợp con của cú pháp Markdown, nhưng hỗ trợ cho nhiều phần tử cú pháp vắng mặt đáng kể. Thậm chí tệ hơn, hỗ trợ cho một số phần tử được cung cấp bằng cách sử dụng ký hiệu không chuẩn. Ulysses có thể không phải là lựa chọn đầu tiên của bạn nếu bạn muốn viết độc quyền bằng Markdown.
 
-{% include image.html file="{{ site.baseurl }}/assets/images/tools/ulysses.png" alt="Ứng dụng Ulysses với một file Markdown" %}
+{% include image.html file="assets/images/tools/ulysses.png" alt="Ứng dụng Ulysses với một file Markdown" %}
 
 {% include tool-syntax-table.html %}

@@ -15,7 +15,7 @@ Tiện ích bổ sung này được tạo bởi một người viết kỹ thu�
 
 Sau khi bạn cài đặt tiện ích bổ sung [Docs to Markdown](https://workspace.google.com/marketplace/app/docs_to_markdown/700168918607) trong tài khoản Google của mình, bạn có thể mở một tài liệu trong Google Docs và truy cập tiện ích bổ sung từ menu **Add-ons**. Sau khi bạn chọn tùy chọn chuyển đổi, phiên bản được định dạng Markdown của tài liệu của bạn sẽ xuất hiện trong thanh bên, như được hiển thị bên dưới. Tại thời điểm đó, bạn có thể sao chép và dán văn bản được định dạng Markdown vào một ứng dụng khác.
 
-{% include image.html file="{{ site.baseurl }}/assets/images/tools/google-docs-to-markdown.png" alt="Markdown trong Google Docs" %}
+{% include image.html file="assets/images/tools/google-docs-to-markdown.png" alt="Markdown trong Google Docs" %}
 
 Gần đây tôi đã sử dụng Docs to Markdown để chuyển đổi một Google Doc dài 50 trang sang Markdown. Tôi không thể nói rằng trải nghiệm của tôi là tuyệt vời, nhưng nó tốt hơn là chuyển đổi thủ công tài liệu sang Markdown bằng tay.
 

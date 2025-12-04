@@ -79,7 +79,7 @@ see-also:
 
 Notion có sẵn các ứng dụng máy tính để bàn và di động, cũng như giao diện dựa trên web. Bạn tạo một tài khoản cho chính mình và tổ chức của mình — các tài khoản được sử dụng để đồng bộ hóa mọi thứ với máy chủ của Notion. Tài liệu được lưu trữ từ xa, yêu cầu kết nối internet để truy cập và cập nhật. Chỉnh sửa ngoại tuyến hạn chế có sẵn, nhưng chỉ cho các tài liệu bạn đã mở gần đây.
 
-{% include image.html file="{{ site.baseurl }}/assets/images/tools/notion.png" alt="Ứng dụng Markdown Notion" %}
+{% include image.html file="assets/images/tools/notion.png" alt="Ứng dụng Markdown Notion" %}
 
 Hỗ trợ Markdown của Notion lúc được lúc không. Sao chép và dán văn bản được định dạng Markdown vào Notion thường hoạt động theo cách bạn mong đợi, nhưng sử dụng trình soạn thảo trực tiếp của Notion để viết bằng Markdown không phải lúc nào cũng hoạt động. Ví dụ, bạn có thể sử dụng dấu sao để làm đậm văn bản, nhưng cố gắng sử dụng dấu ngoặc vuông để tạo liên kết hoặc dấu gạch đứng để tạo bảng không hoạt động — điều này thật kỳ lạ khi xem xét rằng các phần tử cú pháp đó _có_ hoạt động khi bạn sao chép và dán chúng vào. Cũng rất khó để chỉnh sửa văn bản được định dạng Markdown mà bạn đã sao chép và dán vào Notion.
 

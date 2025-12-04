@@ -73,7 +73,7 @@ see-also:
 
 Ngoài Markdown, Outline hỗ trợ một loạt các tính năng như tổ chức tài liệu có cấu trúc, tìm kiếm, quyền đọc/ghi, nhóm người dùng, backlinking, chia sẻ công khai và hơn thế nữa.
 
-{% include image.html file="{{ site.baseurl }}/assets/images/tools/outline.png" alt="Ảnh chụp màn hình Outline" %}
+{% include image.html file="assets/images/tools/outline.png" alt="Ảnh chụp màn hình Outline" %}
 
 Outline được cung cấp dưới dạng dịch vụ được lưu trữ và cũng có sẵn để tự lưu trữ dưới dạng vùng chứa docker. [Mã nguồn được công khai](https://github.com/outline/outline) trên GitHub.
 

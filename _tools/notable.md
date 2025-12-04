@@ -70,7 +70,7 @@ see-also:
 
 [Notable](https://notable.app) là một ứng dụng ghi chú đơn giản với hỗ trợ Markdown tuyệt vời. Miễn phí cho máy tính để bàn, Notable được thiết kế cho những người thích xem văn bản được định dạng Markdown trong khi họ đang nhập. Không có trình soạn thảo trực tiếp ở đây. Chỉ có bạn và văn bản thô. Bạn có thể nhấp vào nút Chỉnh sửa (Edit) để chuyển đổi giữa trình soạn thảo và màn hình xem trước — một tính năng tiện dụng khi bạn đang đọc qua các ghi chú của mình.
 
-{% include image.html file="{{ site.baseurl }}/assets/images/tools/notable.png" alt="Ứng dụng Markdown Notable" width="90" %}
+{% include image.html file="assets/images/tools/notable.png" alt="Ứng dụng Markdown Notable" width="90" %}
 
 Một trong những tính năng tốt nhất của Notable, nếu bạn có thể gọi nó như vậy, là sự thiếu các tính năng. Không cần tạo tài khoản và không có tính năng đồng bộ hóa. Một số người có thể coi đó là một hạn chế, nhưng nó loại bỏ khả năng các file của bạn bị xâm phạm trên máy chủ của bên thứ ba.
 

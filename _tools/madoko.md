@@ -71,7 +71,7 @@ syntax:
 
 Madoko có thể được chạy cục bộ như một chương trình dòng lệnh hoặc trên Madoko.net để tận dụng các tính năng lưu trữ và cộng tác. Madoko tích hợp liền mạch với Dropbox, Github và OneDrive. Nó tự động đồng bộ hóa tất cả các thay đổi trên đám mây. Bằng cách này, tài liệu của bạn luôn có sẵn từ mọi thiết bị. Trình soạn thảo trực tuyến cũng có thể chỉnh sửa các file trên đĩa cục bộ hoặc chạy LaTeX cục bộ, sử dụng chương trình cục bộ Madoko.
 
-{% include image.html file="{{ site.baseurl }}/assets/images/tools/madoko-editor.png" alt="Giao diện trình soạn thảo Madoko" width="90" %}
+{% include image.html file="assets/images/tools/madoko-editor.png" alt="Giao diện trình soạn thảo Madoko" width="90" %}
 
 Madoko triển khai các tiện ích mở rộng như Github Flavored Markdown, [pandoc](https://pandoc.org/), [Markdown Extra](https://michelf.ca/projects/php-markdown/extra/), và [multi-markdown](https://fletcherpenney.net/multimarkdown/), và nó thêm các tính năng hữu ích khác để viết các tài liệu học thuật và công nghiệp.
 

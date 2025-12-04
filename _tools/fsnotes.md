@@ -70,7 +70,7 @@ see-also:
 
 [FSNotes](https://fsnot.es) là một ứng dụng ghi chú Markdown mã nguồn mở được thiết kế cho các thiết bị chạy macOS và iOS. Ứng dụng được bảo trì tốt và được hỗ trợ bởi một cộng đồng nhà phát triển và người dùng tích cực. FSNotes có thể được tải xuống miễn phí từ [GitHub](https://github.com/glushchenko/fsnotes/), nhưng phương pháp phân phối ưu tiên là Apple App Store — cả phiên bản macOS và iOS đều có thể được mua với một khoản phí nhỏ.
 
-{% include image.html file="{{ site.baseurl }}/assets/images/tools/fsnotes.png" alt="Trình soạn thảo Markdown FSNotes" %}
+{% include image.html file="assets/images/tools/fsnotes.png" alt="Trình soạn thảo Markdown FSNotes" %}
 
 Hỗ trợ Markdown của FSNotes rất tuyệt vời. Ứng dụng có một số tính năng sẽ thu hút người dùng chuyên nghiệp. Ví dụ, các tính năng bảo mật cho phép bạn mã hóa ghi chú tự động khi máy tính của bạn chuyển sang chế độ ngủ. Ngoài ra còn có các tính năng tự động lưu và lưu trữ cho git, iCloud và Dropbox. Các tính năng gắn thẻ và tìm kiếm hoạt động hoàn hảo. Nhìn chung, FSNotes là một lựa chọn tuyệt vời cho những người đang tìm kiếm một ứng dụng ghi chú được thiết kế cho các thiết bị Apple.
 

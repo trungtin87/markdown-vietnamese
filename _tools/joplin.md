@@ -72,7 +72,7 @@ see-also:
 
 [Joplin](https://joplinapp.org) là một ứng dụng ghi chú mã nguồn mở và miễn phí hoạt động trên mọi nền tảng. Giao diện người dùng của Joplin không bóng bẩy như một số đối thủ cạnh tranh — nó có cảm giác lập dị hơn, nếu điều đó có ý nghĩa — nhưng ứng dụng này là một ứng dụng yêu thích của những người ủng hộ quyền riêng tư và được [Privacy Guides](https://www.privacyguides.org/en/notebooks/) khuyên dùng. Joplin lưu trữ các ghi chú trên hệ thống file cục bộ của bạn, cung cấp mã hóa đầu cuối và cho phép bạn đồng bộ hóa các file trên các thiết bị bằng cách lưu trữ chúng trên một dịch vụ như Dropbox hoặc Nextcloud. Hoặc, bạn có thể đăng ký [Joplin Cloud](https://joplinapp.org/plans/) để đồng bộ hóa.
 
-{% include image.html file="{{ site.baseurl }}/assets/images/tools/joplin.png" alt="Ứng dụng Markdown Joplin" width="90" %}
+{% include image.html file="assets/images/tools/joplin.png" alt="Ứng dụng Markdown Joplin" width="90" %}
 
 {% include tool-syntax-table.html %}
 

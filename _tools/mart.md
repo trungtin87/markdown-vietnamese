@@ -68,6 +68,6 @@ see-also:
 
 [Markdown ARticles Tool GUI](https://github.com/artiomn/mart_gui) là một Qt GUI cho [Markdown Articles Tool](https://github.com/artiomn/markdown_articles_tool). Bạn có thể tải xuống văn bản với hình ảnh sử dụng tính năng chống trùng lặp và chuyển đổi sang các định dạng khác nhau. Markdown ARticles Tool GUI có sẵn cho macOS, Windows và Linux.
 
-{% include image.html file="{{ site.baseurl }}/assets/images/tools/mart.png" alt="Markdown Articles Tool QT GUI" %}
+{% include image.html file="assets/images/tools/mart.png" alt="Markdown Articles Tool QT GUI" %}
 
 {% include tool-syntax-table.html %}

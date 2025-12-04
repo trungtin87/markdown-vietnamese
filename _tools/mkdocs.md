@@ -72,7 +72,7 @@ see-also:
 
 Ứng dụng sử dụng bộ xử lý Markdown [Python-Markdown](https://python-markdown.github.io/). Bạn có thể bật thêm [các tiện ích mở rộng](https://www.mkdocs.org/user-guide/configuration/#markdown_extensions).
 
-{% include image.html file="{{ site.baseurl }}/assets/images/tools/mkdocs.png" alt="Một trang web MkDocs mới được triển khai." width="70" %}
+{% include image.html file="assets/images/tools/mkdocs.png" alt="Một trang web MkDocs mới được triển khai." width="70" %}
 
 {% include tool-syntax-table.html %}
 

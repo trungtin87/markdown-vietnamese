@@ -74,7 +74,7 @@ syntax:
 
 [WikiBonsai](https://github.com/wikibonsai/wikibonsai) là một bộ sưu tập các công cụ mã nguồn mở để mang quy trình làm vườn kỹ thuật số đến markdown.
 
-{% include image.html file="{{ site.baseurl }}/assets/images/tools/wikibonsai-demo.png" alt="vscode-wikibonsai" %}
+{% include image.html file="assets/images/tools/wikibonsai-demo.png" alt="vscode-wikibonsai" %}
 
 Các quy trình làm việc chính:
 

@@ -69,7 +69,7 @@ syntax:
 
 [Carrd](https://carrd.co) là một dịch vụ đăng ký dựa trên web giúp bạn xây dựng các trang đích và trang web đơn giản. Nó thực sự tỏa sáng khi bạn cần một trang web một trang *ngay bây giờ* — thực sự chỉ mất vài phút để xây dựng và xuất bản một trang web bằng Carrd. Bạn có thể sử dụng giao diện web "không mã" của Carrd để dễ dàng thêm và chỉnh sửa các phần tử trên trang web của mình, như hình ảnh và văn bản.
 
-{% include image.html file="{{ site.baseurl }}/assets/images/tools/carrd.png" alt="Trình xây dựng trang web Carrd với Markdown." %}
+{% include image.html file="assets/images/tools/carrd.png" alt="Trình xây dựng trang web Carrd với Markdown." %}
 
 Carrd hỗ trợ một tập hợp con hạn chế của cú pháp Markdown cơ bản cho văn bản. Hỗ trợ Markdown của Carrd khá hạn chế, nhưng nó hoạt động cho trường hợp sử dụng cụ thể này. Các phần tử cú pháp được hỗ trợ chủ yếu giới hạn ở định dạng văn bản — in đậm, in nghiêng và danh sách.
 

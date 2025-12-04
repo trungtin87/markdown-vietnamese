@@ -75,6 +75,6 @@ see-also:
 
 Nó hỗ trợ CommonMark và GitHub Flavored Markdown (GFM) cũng như các kiểu cá nhân của bạn.
 
-{% include image.html file="{{ site.baseurl }}/assets/images/tools/simpleen.png" alt="Công cụ dịch Markdown Simpleen" %}
+{% include image.html file="assets/images/tools/simpleen.png" alt="Công cụ dịch Markdown Simpleen" %}
 
 {% include tool-syntax-table.html %}

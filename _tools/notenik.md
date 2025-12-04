@@ -83,6 +83,6 @@ Cửa sổ Bộ sưu tập hiển thị hai tab ở bên trái và hai tab khác
 
 Tất cả tài liệu Notenik được lưu trữ trong Cơ sở kiến thức Notenik, bản thân nó là một Bộ sưu tập Notenik và luôn có thể truy cập được từ bên trong Notenik (cũng như từ [web](https://notenik.app/knowledge-base/EPUB/html/notenik-knowledge-base.html)).
 
-{% include image.html file="{{ site.baseurl }}/assets/images/tools/notenik.png" alt="Cơ sở kiến thức Notenik được mở trong Notenik" %}
+{% include image.html file="assets/images/tools/notenik.png" alt="Cơ sở kiến thức Notenik được mở trong Notenik" %}
 
 {% include tool-syntax-table.html %}

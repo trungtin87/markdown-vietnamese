@@ -75,7 +75,7 @@ see-also:
 
 Đây là một ứng dụng dựa trên web yêu cầu cơ sở dữ liệu, vì vậy việc cài đặt có thể hơi đau đầu tùy thuộc vào sự quen thuộc của bạn với các tiện ích dòng lệnh. Điều đó nói rằng, đây là một dự án mã nguồn mở với tài liệu và hỗ trợ tuyệt vời. Nếu bạn gặp vấn đề, bạn có thể nộp một vấn đề GitHub hoặc ghé qua không gian làm việc Slack của Wiki.js.
 
-{% include image.html file="{{ site.baseurl }}/assets/images/tools/wikijs.png" alt="Ứng dụng Markdown Wiki.js" %}
+{% include image.html file="assets/images/tools/wikijs.png" alt="Ứng dụng Markdown Wiki.js" %}
 
 {% include tool-syntax-table.html %}
 

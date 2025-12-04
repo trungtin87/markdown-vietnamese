@@ -65,6 +65,6 @@ syntax:
 
 [Imdone](https://imdone.io) là một bộ công cụ quản lý tác vụ toàn diện ưu tiên nhà phát triển được thiết kế để hoạt động liền mạch với Markdown và mã. Bộ công cụ bao gồm một bảng kanban mạnh mẽ, nơi các khối Markdown trong ghi chú, tài liệu và mã của bạn được thể hiện dưới dạng thẻ, giao diện dòng lệnh (CLI) để đồng bộ hóa với Jira để giữ cho việc quản lý dự án của bạn được đồng bộ, tiện ích mở rộng VSCode để quản lý tác vụ tích hợp trong môi trường phát triển của bạn và plugin Obsidian để quản lý tác vụ dựa trên ghi chú. Bạn có thể thêm và chỉnh sửa thẻ bằng trình chỉnh sửa thẻ tích hợp, trình soạn thảo văn bản yêu thích của bạn hoặc trực tiếp thông qua đồng bộ hóa Jira, giúp thuận tiện cập nhật các tác vụ của bạn trong khi bạn đang làm việc trên tài liệu Markdown hoặc mã.
 
-{% include image.html file="{{ site.baseurl }}/assets/images/tools/imdone.png" alt="Ứng dụng kanban Imdone" width="90" %}
+{% include image.html file="assets/images/tools/imdone.png" alt="Ứng dụng kanban Imdone" width="90" %}
 
 {% include tool-syntax-table.html %}

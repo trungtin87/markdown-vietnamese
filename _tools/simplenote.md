@@ -79,7 +79,7 @@ Các tùy chọn xuất bị hạn chế, nhưng tính năng *Publish to Web* ch
 
 Để bật hỗ trợ Markdown trong Simplenote, hãy tạo một ghi chú, nhấp vào biểu tượng Thông tin (Info), và sau đó chọn **Markdown Formatted**.
 
-{% include image.html file="{{ site.baseurl }}/assets/images/tools/simplenote-markdown.png" alt="Bật hỗ trợ Markdown trong Simplenote" width="30" %}
+{% include image.html file="assets/images/tools/simplenote-markdown.png" alt="Bật hỗ trợ Markdown trong Simplenote" width="30" %}
 
 Ghi chú được chọn hiện tại và bất kỳ ghi chú mới nào bạn tạo trong tương lai sẽ tự động bật cài đặt này.
 

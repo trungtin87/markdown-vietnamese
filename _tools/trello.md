@@ -71,6 +71,6 @@ see-also:
 
 Trello có hỗ trợ tuyệt vời cho cú pháp Markdown cơ bản. Bạn có thể sử dụng Markdown trong mô tả thẻ, danh sách kiểm tra và bình luận. Bạn cũng có thể sử dụng Markdown cho tiểu sử Trello của mình. Không phải tất cả định dạng đều được hiển thị đúng khi xem trong các ứng dụng iOS và Android.
 
-{% include image.html file="{{ site.baseurl }}/assets/images/tools/trello.jpeg" alt="Bảng Trello với Markdown." %}
+{% include image.html file="assets/images/tools/trello.jpeg" alt="Bảng Trello với Markdown." %}
 
 {% include tool-syntax-table.html %}

@@ -75,7 +75,7 @@ Hãy xem xét rằng trong khi nhiều trình soạn thảo mới hơn như Atom
 
 Rõ ràng là tác giả của tiện ích này đã đầu tư rất nhiều thời gian và công sức để làm cho mọi thứ trở nên đúng đắn. Chính sự chú ý đến từng chi tiết làm cho ứng dụng này xứng đáng với mức giá yêu cầu. Ví dụ, khi bạn mở Marked 2, một trợ lý thiết lập sẽ hướng dẫn bạn cấu hình các tùy chọn hiển thị để hỗ trợ trường hợp sử dụng cụ thể của bạn (Marked 2 thực sự chứa hai bộ xử lý Markdown: MultiMarkdown và Discount). Rất khuyến khích cho người dùng Mac cần một cách đáng tin cậy để xem trước hoặc xuất các file Markdown (kiểm tra [các kiểu có sẵn](https://marked2app.com/styles/)).
 
-{% include image.html file="{{ site.baseurl }}/assets/images/tools/marked2-1.png" alt="Lựa chọn bộ xử lý Marked 2." %}
+{% include image.html file="assets/images/tools/marked2-1.png" alt="Lựa chọn bộ xử lý Marked 2." %}
 
 {% include tool-syntax-table.html %}
 

@@ -12,7 +12,7 @@ Các ứng dụng Markdown sử dụng một thứ gọi là *bộ xử lý Mark
   <i class="fas fa-info-circle"></i> <strong>Lưu ý:</strong> Ứng dụng Markdown và bộ xử lý là hai thành phần riêng biệt. Để ngắn gọn, tôi đã kết hợp chúng thành một phần tử ("Ứng dụng Markdown") trong hình bên dưới.
 </div>
 
-{% include image.html file="{{ site.baseurl }}/assets/images/markdown-flowchart.png" alt="Quy trình Markdown" lazy="yes" %}
+{% include image.html file="assets/images/markdown-flowchart.png" alt="Quy trình Markdown" lazy="yes" %}
 
 Tóm lại, đây là một quy trình gồm bốn phần:
 

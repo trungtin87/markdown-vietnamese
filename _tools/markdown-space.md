@@ -71,6 +71,6 @@ see-also:
 
 Xem hướng dẫn [Bắt đầu nhanh](https://markdown.space/getting-started) để biết thêm chi tiết.
 
-{% include image.html file="{{ site.baseurl }}/assets/images/tools/markdown-space.png" alt="Markdown Space" width="100" %}
+{% include image.html file="assets/images/tools/markdown-space.png" alt="Markdown Space" width="100" %}
 
 {% include tool-syntax-table.html %}

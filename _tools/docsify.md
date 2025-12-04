@@ -73,6 +73,6 @@ see-also:
 
 Xem hướng dẫn [Bắt đầu nhanh](https://docsify.js.org/#/quickstart) để biết thêm chi tiết.
 
-{% include image.html file="{{ site.baseurl }}/assets/images/tools/docsify.png" alt="Docsify" width="100" %}
+{% include image.html file="assets/images/tools/docsify.png" alt="Docsify" width="100" %}
 
 {% include tool-syntax-table.html %}

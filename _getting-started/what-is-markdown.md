@@ -6,7 +6,7 @@ Sử dụng Markdown khác với sử dụng trình soạn thảo [WYSIWYG](http
 
 Ví dụ, để biểu thị một tiêu đề, bạn thêm một dấu thăng vào trước nó (ví dụ: `# Tiêu đề Một`). Hoặc để làm cho một cụm từ in đậm, bạn thêm hai dấu sao vào trước và sau nó (ví dụ: `**văn bản này in đậm**`). Có thể mất một lúc để làm quen với việc nhìn thấy cú pháp Markdown trong văn bản của bạn, đặc biệt nếu bạn đã quen với các ứng dụng WYSIWYG. Ảnh chụp màn hình bên dưới hiển thị một file Markdown được hiển thị trong [trình soạn thảo văn bản Visual Studio Code](/tools/vscode/).
 
-{% include image.html file="{{ site.baseurl }}/assets/images/vscode.png" alt="File Markdown trong trình soạn thảo văn bản Visual Studio Code" %}
+{% include image.html file="assets/images/vscode.png" alt="File Markdown trong trình soạn thảo văn bản Visual Studio Code" %}
 
 Bạn có thể thêm các phần tử định dạng Markdown vào một file văn bản thuần túy bằng cách sử dụng ứng dụng trình soạn thảo văn bản. Hoặc bạn có thể sử dụng một trong nhiều ứng dụng Markdown cho các hệ điều hành macOS, Windows, Linux, iOS và Android. Cũng có một số ứng dụng dựa trên web được thiết kế đặc biệt để viết bằng Markdown.
 

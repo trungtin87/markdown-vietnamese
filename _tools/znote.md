@@ -65,6 +65,6 @@ syntax:
 
 [Znote](https://znote.lagrede.fr) là một ứng dụng miễn phí được thiết kế để giúp bạn viết các tài liệu Markdown có tổ chức. Bạn có thể nhanh chóng chỉnh sửa văn bản, ghi chú và file của mình bằng cách sử dụng widget tổ chức bên trái đơn giản để điều hướng các file khác nhau một cách mượt mà. Các tính năng chế độ tối và tô sáng mã được thiết kế cho các nhà phát triển. Có sẵn cho macOS, Windows và Linux.
 
-{% include image.html file="{{ site.baseurl }}/assets/images/tools/znote.png" alt="Ứng dụng Markdown Znote" %}
+{% include image.html file="assets/images/tools/znote.png" alt="Ứng dụng Markdown Znote" %}
 
 {% include tool-syntax-table.html %}

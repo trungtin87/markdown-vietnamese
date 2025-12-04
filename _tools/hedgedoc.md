@@ -69,7 +69,7 @@ see-also:
 
 [HedgeDoc](https://hedgedoc.org/) là một trình soạn thảo Markdown cộng tác thời gian thực mã nguồn mở. Dự án này được tách ra từ — và tương tự như — [CodiMD](/tools/codimd/) (xem trang web HedgeDoc để biết tóm tắt về [lịch sử của dự án](https://hedgedoc.org/history/)). Tính đến tháng 11 năm 2021, HedgeDoc phiên bản 2 vẫn chưa được công khai — trang này ghi lại hỗ trợ Markdown trong HedgeDoc phiên bản 1.
 
-{% include image.html file="{{ site.baseurl }}/assets/images/tools/hedgedoc.png" alt="Trình soạn thảo Markdown HedgeDoc." %}
+{% include image.html file="assets/images/tools/hedgedoc.png" alt="Trình soạn thảo Markdown HedgeDoc." %}
 
 {% include tool-syntax-table.html %}
 

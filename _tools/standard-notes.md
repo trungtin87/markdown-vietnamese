@@ -70,7 +70,7 @@ see-also:
 
 [Standard Notes](https://standardnotes.com) là một ứng dụng ghi chú mã nguồn mở, thanh lịch với bộ tính năng tuyệt vời. Hỗ trợ Markdown không được cung cấp theo mặc định, nhưng bằng cách trả tiền cho [đăng ký](https://standardnotes.com/plans) tùy chọn, bạn có thể bật một trong số các tiện ích mở rộng Markdown có sẵn cho người đăng ký.
 
-{% include image.html file="{{ site.baseurl }}/assets/images/tools/standard-notes.png" alt="Markdown trong Standard Notes" %}
+{% include image.html file="assets/images/tools/standard-notes.png" alt="Markdown trong Standard Notes" %}
 
 Phải thừa nhận rằng danh mục cho các ứng dụng ghi chú Markdown là một danh mục đông đúc. Standard Notes nổi bật bằng cách cung cấp trải nghiệm người dùng tuyệt vời, các tính năng bảo mật và đồng bộ hóa vượt trội, và cam kết mạnh mẽ đối với phần mềm mã nguồn mở. Ứng dụng và trải nghiệm tổng thể mang lại cảm giác chuyên nghiệp. Standard Notes hoạt động trên mọi nền tảng.
 

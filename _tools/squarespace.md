@@ -71,7 +71,7 @@ see-also:
 
 [Squarespace](https://www.squarespace.com) là một dịch vụ đăng ký phổ biến để xây dựng các trang web. Dịch vụ này có giao diện kéo và thả cho phép bạn xây dựng các trang web ngay trong trình duyệt web của mình. Một trong những thành phần có sẵn cho các trang web là *khối Markdown* — một khu vực nội dung hỗ trợ Markdown. Bạn sẽ thấy tùy chọn khi nhấp vào biểu tượng Thêm khối (Add Block), như được hiển thị bên dưới.
 
-{% include image.html file="{{ site.baseurl }}/assets/images/tools/squarespace.png" alt="Khối Markdown Squarespace" width="60" %}
+{% include image.html file="assets/images/tools/squarespace.png" alt="Khối Markdown Squarespace" width="60" %}
 
 Squarespace hỗ trợ hầu hết các phần tử cú pháp Markdown cơ bản, nhưng thiếu hỗ trợ cho một số phần tử cú pháp mở rộng. Một nhược điểm là trình soạn thảo cho khối Markdown là một hộp nhỏ và văn bản được hiển thị ở kích thước phông chữ rất nhỏ (và không thể điều chỉnh). Có lẽ tốt hơn là bạn nên sao chép và dán văn bản vào từ một ứng dụng khác.
 
