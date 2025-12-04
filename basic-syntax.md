@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Basic Syntax
-description: The Markdown elements outlined in the original design document.
+description: Các thành phần Markdown được nêu trong tài liệu thiết kế gốc.
 last_modified_at: 2025-09-28
 ---
 

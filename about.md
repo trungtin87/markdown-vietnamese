@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-description: Learn all about the Markdown Guide.
+description: Học về tất cả các thông tin về Markdown.
 ---
 
 ## Mục Đích

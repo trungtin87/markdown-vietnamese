@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Extended Syntax
-description: Advanced features that build on the basic Markdown syntax.
+description: Các tính năng tiên tiến xây dựng trên cú pháp Markdown cơ bản.
 last_modified_at: 2022-01-03
 ---
 

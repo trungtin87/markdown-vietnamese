@@ -2,11 +2,11 @@
 
 Thanks for visiting [The Markdown Guide](https://www.markdownguide.org)!
 
-This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for [basic syntax](https://www.markdownguide.org/basic-syntax/) and [extended syntax](https://www.markdownguide.org/extended-syntax/).
+Mã này cung cấp một cái nhìn nhanh về tất cả các thành phần cú pháp Markdown. Nó không thể bao phủ mọi trường hợp, vì vậy nếu bạn cần thêm thông tin về bất kỳ thành phần nào, hãy tham khảo các hướng dẫn tham khảo cho [cú pháp cơ bản](https://www.markdownguide.org/basic-syntax/) và [cú pháp mở rộng](https://www.markdownguide.org/extended-syntax/).
 
 ## Basic Syntax
 
-These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.
+Các thành phần này được nêu trong tài liệu thiết kế gốc của John Gruber. Tất cả các ứng dụng Markdown đều hỗ trợ các thành phần này.
 
 ### Heading
 
@@ -56,7 +56,7 @@ These are the elements outlined in John Gruber’s original design document. All
 
 ## Extended Syntax
 
-These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.
+Các thành phần này mở rộng cú pháp cơ bản bằng cách thêm các tính năng bổ sung. Không phải tất cả các ứng dụng Markdown đều hỗ trợ các thành phần này.
 
 ### Table
 
@@ -108,7 +108,7 @@ That is so funny! :joy:
 
 ### Highlight
 
-I need to highlight these ==very important words==.
+Tôi cần nhấn mạnh những từ này ==như những từ quan trọng==.
 
 ### Subscript
 
