@@ -10,7 +10,7 @@ last_modified_at: 2022-04-15
 Phần lớn những người sử dụng Markdown sẽ thấy rằng các thành phần [cú pháp cơ bản](/basic-syntax/) và [cú pháp mở rộng](/extended-syntax/) đáp ứng nhu cầu của họ. Nhưng rất có thể nếu bạn sử dụng Markdown đủ lâu, bạn sẽ không thể tránh khỏi việc phát hiện ra rằng nó không hỗ trợ thứ gì đó bạn cần. Trang này cung cấp các mẹo và thủ thuật để giải quyết các hạn chế của Markdown.
 
 <div class="alert alert-success">
-  <i class="fas fa-lightbulb"></i> <strong>Mẹo:</strong> Các thủ thuật này không được đảm bảo hoạt động trong ứng dụng Markdown của bạn. Nếu bạn cần sử dụng các thủ thuật này thường xuyên, bạn nên cân nhắc viết bằng thứ gì đó khác ngoài Markdown. 
+  <i class="fas fa-lightbulb"></i> <strong>Mẹo:</strong> Các thủ thuật này không được đảm bảo hoạt động trong ứng dụng Markdown của bạn. Nếu bạn cần sử dụng các thủ thuật này thường xuyên, bạn nên cân nhắc viết bằng thứ gì đó khác ngoài Markdown.
 </div>
 
 ## Gạch Chân
@@ -103,7 +103,6 @@ Kết quả hiển thị trông như thế này:
 
 Here's a paragraph that will be visible.
 
-[This is a comment that will be hidden.]: # 
 
 And here's another paragraph that's visible.
 
@@ -141,7 +140,7 @@ Cú pháp Markdown cho [hình ảnh](/basic-syntax/#images-1) không cho phép b
 <img src="image.png" width="200" height="100">
 ```
 
-Đầu ra được hiển thị sẽ chứa hình ảnh được thay đổi kích thước theo kích thước bạn chỉ định. 
+Đầu ra được hiển thị sẽ chứa hình ảnh được thay đổi kích thước theo kích thước bạn chỉ định.
 
 ## Chú Thích Hình Ảnh
 
@@ -149,7 +148,7 @@ Markdown không hỗ trợ chú thích hình ảnh nguyên bản, nhưng có hai
 
 ```html
 <figure>
-    <img src="/assets/images/albuquerque.jpg"
+    <img src="{{ site.baseurl }}/assets/images/albuquerque.jpg"
          alt="Albuquerque, New Mexico">
     <figcaption>A single track trail outside of Albuquerque, New Mexico.</figcaption>
 </figure>
@@ -188,10 +187,12 @@ Một số người thích tạo liên kết mở trong tab hoặc cửa sổ m�
 Bạn có thể phân tách các đoạn văn trong một ô bảng bằng cách sử dụng một hoặc nhiều thẻ HTML `<br>`.
 
 ```
+
 | Syntax      | Description |
 | ----------- | ----------- |
 | Header      | Title |
 | Paragraph   | First paragraph. <br><br> Second paragraph. |
+
 ```
 
 Kết quả hiển thị trông như thế này:
@@ -220,10 +221,12 @@ Kết quả hiển thị trông như thế này:
 Bạn có thể thêm danh sách trong một ô bảng bằng cách sử dụng thẻ HTML.
 
 ```
+
 | Syntax      | Description |
 | ----------- | ----------- |
 | Header      | Title |
 | List        | Here's a list! <ul><li>Item one.</li><li>Item two.</li></ul> |
+
 ```
 
 Kết quả hiển thị trông như thế này:
