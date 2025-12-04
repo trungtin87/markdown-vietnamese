@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hacks
-description: Workarounds for things not officially supported by Markdown.
+description: Giải pháp thay thế cho những thứ không được Markdown hỗ trợ chính thức.
 last_modified_at: 2022-04-15
 ---
 
@@ -102,7 +102,6 @@ And here's another paragraph that's visible.
 Kết quả hiển thị trông như thế này:
 
 Here's a paragraph that will be visible.
-
 
 And here's another paragraph that's visible.
 

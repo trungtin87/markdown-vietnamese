@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Markdown Cheat Sheet
-description: A quick reference to the Markdown syntax.
+description: Tài liệu tham khảo nhanh về cú pháp Markdown.
 last_modified_at: 2021-12-05
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: about
 title: Contact
-description: Get in touch with the Markdown Guide's maintainer.
+description: Liên hệ với người bảo trì Hướng Dẫn Markdown.
 ---
 
 ## Email
