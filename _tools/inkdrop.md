@@ -1,7 +1,7 @@
 ---
 title: Inkdrop
 category: "notes"
-description: "Inkdrop is a Markdown note-taking app with a great feature set."
+description: "Inkdrop là một ứng dụng ghi chú Markdown với bộ tính năng tuyệt vời."
 icon: inkdrop.png
 website: https://www.inkdrop.app
 syntax:
@@ -11,7 +11,7 @@ syntax:
     available: y
   - id: line-breaks
     available: y
-    notes: "In addition to trailing whitespace, you can also use a trailing backslash to achieve the same result."
+    notes: "Ngoài khoảng trắng ở cuối, bạn cũng có thể sử dụng dấu gạch chéo ngược ở cuối để đạt được kết quả tương tự."
   - id: bold
     available: y
   - id: italic
@@ -38,7 +38,7 @@ syntax:
     available: y
   - id: footnotes
     available: y
-    notes: "Disabled by default. Download and install the [footnotes plugin](https://github.com/inkdropapp/inkdrop-footnotes) to enable."
+    notes: "Bị vô hiệu hóa theo mặc định. Tải xuống và cài đặt [plugin chú thích cuối trang](https://github.com/inkdropapp/inkdrop-footnotes) để bật."
   - id: heading-ids
     available: n
   - id: definition-lists
@@ -51,7 +51,7 @@ syntax:
     available: y
   - id: emoji-sc
     available: y
-    notes: "Disabled by default. Download and install the [emoji plugin](https://github.com/inkdropapp/inkdrop-markdown-emoji) to enable."
+    notes: "Bị vô hiệu hóa theo mặc định. Tải xuống và cài đặt [plugin biểu tượng cảm xúc](https://github.com/inkdropapp/inkdrop-markdown-emoji) để bật."
   - id: highlight
     available: n
   - id: subscript
@@ -65,14 +65,14 @@ syntax:
   - id: html
     available: y
 see-also:
-  - name: Inkdrop Markdown Cheatsheet
+  - name: Bảng tra cứu Markdown Inkdrop
     link: https://docs.inkdrop.app/manual/markdown-cheatsheet
 ---
 
-[Inkdrop](https://www.inkdrop.app) is a Markdown note-taking app with a great feature set. You create an account on the Inkdrop website (free trial available, then monthly subscription required), download the desktop and mobile applications, and start writing. Organizing notes is easy with notebooks, statuses, and tags.
+[Inkdrop](https://www.inkdrop.app) là một ứng dụng ghi chú Markdown với bộ tính năng tuyệt vời. Bạn tạo một tài khoản trên trang web Inkdrop (có bản dùng thử miễn phí, sau đó yêu cầu đăng ký hàng tháng), tải xuống các ứng dụng máy tính để bàn và di động, và bắt đầu viết. Việc tổ chức các ghi chú rất dễ dàng với sổ ghi chép, trạng thái và thẻ.
 
-One of the best parts of Inkdrop is that it's extensible. A variety of plugins allow you to add flowcharts, sequence diagrams, and (my personal favorite) [admonitions](https://github.com/libeanim/inkdrop-admonition). And, on a note somewhat unrelated to the application itself, you might be interested in learning that Inkdrop's developer is a [prolific blogger](https://blog.inkdrop.info/) who takes [security seriously](https://docs.inkdrop.app/security).
+Một trong những phần hay nhất của Inkdrop là khả năng mở rộng. Một loạt các plugin cho phép bạn thêm lưu đồ, biểu đồ trình tự và (mục yêu thích cá nhân của tôi) [lời khuyên răn](https://github.com/libeanim/inkdrop-admonition). Và, trên một ghi chú hơi không liên quan đến chính ứng dụng, bạn có thể quan tâm khi biết rằng nhà phát triển của Inkdrop là một [blogger sung mãn](https://blog.inkdrop.info/), người rất [coi trọng bảo mật](https://docs.inkdrop.app/security).
 
-{% include image.html file="/assets/images/tools/inkdrop.png" alt="Inkdrop Markdown application" %}
+{% include image.html file="/assets/images/tools/inkdrop.png" alt="Ứng dụng Markdown Inkdrop" %}
 
 {% include tool-syntax-table.html %}

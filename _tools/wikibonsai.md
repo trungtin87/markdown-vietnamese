@@ -3,7 +3,7 @@ title: WikiBonsai
 category:
   - notes
   - websites
-description: "WikiBonsai is collection of open source tools for markdown-based digital gardening."
+description: "WikiBonsai là bộ sưu tập các công cụ mã nguồn mở cho việc làm vườn kỹ thuật số dựa trên markdown."
 icon: wikibonsai.png
 website: https://github.com/wikibonsai/wikibonsai
 syntax:
@@ -31,7 +31,7 @@ syntax:
     available: y
   - id: images
     available: y
-    notes: "Image display in preview is subject to content security policy, adjustable from the drop-down menu to the top-right"
+    notes: "Hiển thị hình ảnh trong xem trước tuân theo chính sách bảo mật nội dung, có thể điều chỉnh từ menu thả xuống ở góc trên bên phải"
   - id: tables
     available: y
   - id: fenced-code-blocks
@@ -40,24 +40,24 @@ syntax:
     available: y
   - id: footnotes
     available: p
-    notes: "In code editor only. Comprehensive support requires the [Markdown Preview Enhanced extension](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
+    notes: "Chỉ trong trình soạn thảo mã. Hỗ trợ toàn diện yêu cầu [tiện ích mở rộng Markdown Preview Enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
   - id: heading-ids
     available: p
-    notes: "Does not support custom IDs. Comprehensive support requires the [Markdown Preview Enhanced extension](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
+    notes: "Không hỗ trợ ID tùy chỉnh. Hỗ trợ toàn diện yêu cầu [tiện ích mở rộng Markdown Preview Enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
   - id: definition-lists
     available: p
-    notes: "Requires the [Markdown Preview Enhanced extension](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
+    notes: "Yêu cầu [tiện ích mở rộng Markdown Preview Enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
   - id: strikethrough
     available: p
-    notes: "Two tildes (`~~word~~`) only."
+    notes: "Chỉ hai dấu ngã (`~~từ~~`)."
   - id: task-lists
     available: p
-    notes: "One of the many readily available extensions can add this feature, e.g. [Markdown Preview Enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
+    notes: "Một trong nhiều tiện ích mở rộng có sẵn có thể thêm tính năng này, ví dụ: [Markdown Preview Enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
   - id: emoji-cp
     available: y
   - id: emoji-sc
     available: p
-    notes: "Requires the [Markdown Preview Enhanced extension](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
+    notes: "Yêu cầu [tiện ích mở rộng Markdown Preview Enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
   - id: highlight
     available: n
   - id: subscript
@@ -72,21 +72,20 @@ syntax:
     available: y
 ---
 
-[WikiBonsai](https://github.com/wikibonsai/wikibonsai) is a collection of open source tools to bring digital gardening workflows to markdown.
+[WikiBonsai](https://github.com/wikibonsai/wikibonsai) là một bộ sưu tập các công cụ mã nguồn mở để mang quy trình làm vườn kỹ thuật số đến markdown.
 
 {% include image.html file="/assets/images/tools/wikibonsai-demo.png" alt="vscode-wikibonsai" %}
 
-Key workflows:
+Các quy trình làm việc chính:
 
-- Extended `[[wiki]]` syntax including attributes, links, and embeds.
-- A "semantic tree" or "knowledge bonsai" structure to organize your markdown documents.
-- Graphical visualizations to explore your notes in 2D, 3D, AR, VR or map to embeddings (often used in deep learning in AI).
-- CAML: Colon Attribute Markup Language a light, YAML-like markup for semantic attributes (with [[wiki]] support!).
+- Cú pháp `[[wiki]]` mở rộng bao gồm thuộc tính, liên kết và nhúng.
+- Cấu trúc "cây ngữ nghĩa" hoặc "bonsai kiến thức" để sắp xếp các tài liệu markdown của bạn.
+- Trực quan hóa đồ họa để khám phá các ghi chú của bạn trong 2D, 3D, AR, VR hoặc ánh xạ đến nhúng (thường được sử dụng trong học sâu trong AI).
+- CAML: Colon Attribute Markup Language một đánh dấu nhẹ, giống YAML cho các thuộc tính ngữ nghĩa (với hỗ trợ [[wiki]]!).
 
-Top-level tools:
+Các công cụ cấp cao nhất:
 
-- [VSCode Extension](https://marketplace.visualstudio.com/items?itemName=manunamz.vscode-wikibonsai)
-- [CLI Tool](https://github.com/wikibonsai/tendr-cli)
+- [Tiện ích mở rộng VSCode](https://marketplace.visualstudio.com/items?itemName=manunamz.vscode-wikibonsai)
+- [Công cụ CLI](https://github.com/wikibonsai/tendr-cli)
 
 {% include tool-syntax-table.html %}
-

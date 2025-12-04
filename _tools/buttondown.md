@@ -1,7 +1,7 @@
 ---
 title: Buttondown
 category: "email"
-description: "Buttondown is an email platform to run your newsletter."
+description: "Buttondown là một nền tảng email để chạy bản tin của bạn."
 icon: buttondown.png
 website: https://buttondown.com/
 syntax:
@@ -39,7 +39,7 @@ syntax:
     available: y
   - id: heading-ids
     available: p
-    notes: "Automatically generated. There's no way to set custom heading IDs."
+    notes: "Được tạo tự động. Không có cách nào để đặt ID tiêu đề tùy chỉnh."
   - id: definition-lists
     available: n
   - id: strikethrough
@@ -62,15 +62,15 @@ syntax:
     available: n
   - id: html
     available: p
-    notes: "Some HTML is sanitized."
+    notes: "Một số HTML được làm sạch."
 ---
 
-[Buttondown](https://buttondown.com) is an email platform, similar to the now-defunct [TinyLetter](https://buttondown.com/comparisons/tinyletter), that allows you to send emails to subscribers. It also has integrations with many other platforms to automatically publish or add subscribers, amongst other possibilities.
+[Buttondown](https://buttondown.com) là một nền tảng email, tương tự như [TinyLetter](https://buttondown.com/comparisons/tinyletter) hiện đã ngừng hoạt động, cho phép bạn gửi email cho người đăng ký. Nó cũng tích hợp với nhiều nền tảng khác để tự động xuất bản hoặc thêm người đăng ký, cùng với các khả năng khác.
 
-The email editor [supports Markdown](https://buttondown.com/features/markdown), with the possibility to switch to a WYSIWYG editor for those who prefer it.
+Trình soạn thảo email [hỗ trợ Markdown](https://buttondown.com/features/markdown), với khả năng chuyển sang trình soạn thảo WYSIWYG cho những người thích nó hơn.
 
-{% include image.html file="/assets/images/tools/buttondown.png" alt="Buttondown email editor" %}
+{% include image.html file="/assets/images/tools/buttondown.png" alt="Trình soạn thảo email Buttondown" %}
 
-There are a couple minor compatibility issues noted below but, generally speaking, Buttondown has solid Markdown support. According to [their docs](https://docs.buttondown.com/using-markdown), it uses Python-Markdown for parsing and rendering along with a few extensions. The live editor is fairly intuitive and gives you a preview on how the email will look in both the archive and in email clients like Gmail. Copying and pasting Markdown-formatted text into the editor works the way you'd expect it to.
+Có một vài vấn đề tương thích nhỏ được ghi chú bên dưới nhưng, nói chung, Buttondown có hỗ trợ Markdown vững chắc. Theo [tài liệu của họ](https://docs.buttondown.com/using-markdown), nó sử dụng Python-Markdown để phân tích cú pháp và hiển thị cùng với một vài tiện ích mở rộng. Trình soạn thảo trực tiếp khá trực quan và cung cấp cho bạn bản xem trước về cách email sẽ trông như thế nào trong cả kho lưu trữ và trong các ứng dụng email như Gmail. Sao chép và dán văn bản được định dạng Markdown vào trình soạn thảo hoạt động theo cách bạn mong đợi.
 
 {% include tool-syntax-table.html %}

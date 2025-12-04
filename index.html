@@ -1,65 +1,79 @@
 ---
-title: Home
+title: Trang Chủ
 ---
 <!DOCTYPE html>
-<html lang="en">
-  {% include head.html %}
-  <body>
-    {% include nav.html %}
+<html lang="vi">
+{% include head.html %}
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <img src="/assets/images/markdown-mark-white.svg" height="128" width="208" alt="Markdown logo">
-        <p><i>The Markdown Guide</i> is a free and open-source reference guide that explains how to use Markdown, the simple and easy-to-use markup language you can use to format virtually any document.</p>
-        <p><a class="btn btn-outline-inverse btn-lg" href="/getting-started/" role="button">Get Started</a></p>
-      </div>
-    </div>
-    {% if jekyll.environment == "production" %}<center><div class="horizontal" data-ea-publisher="markdownguide" data-ea-type="image"></div></center>{% endif %}
+<body>
+  {% include nav.html %}
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
     <div class="container">
-      <div class="md-guide-feature">
-        <h2 class="no-anchor">Everything you need to learn Markdown.</h2>
-        <p class="lead" style="margin-bottom: 60px">Markdown makes writing on the web fast and easy. <em>The Markdown Guide</em> teaches you how to use it.</p>
-        <div class="row">
-          <div class="col-sm-4">
-            <a href="/getting-started/">
-              <div class="icon">
-                <i class="fas fa-edit"></i>
-              </div>
-            </a>
-            <h4 class="no-anchor">Learn the ropes.</h4>
-            <p>Start using Markdown right now by following along with the <a href="/getting-started/">Getting Started</a> guide. It's designed for everyone, even novices.</p>
-          </div>
-          <div class="col-sm-4">
-            <a href="/basic-syntax/">
-              <div class="icon">
-                <i class="fas fa-book-open"></i>
-              </div>
-            </a>
-            <h4 class="no-anchor">Dive into the syntax.</h4>
-            <p>Whether you're new to Markdown or a seasoned pro, you'll find the answers to your formatting questions on the <a href="/basic-syntax/">basic syntax page</a>.</p>
-          </div>
-          <div class="col-sm-4">
-            <a href="/extended-syntax/">
-              <div class="icon">
-                <i class="fas fa-code"></i>
-              </div>
-            </a>
-            <h4 class="no-anchor">Take it up a notch.</h4>
-            <p>Make your Markdown documents awesome by using <a href="/extended-syntax/">extended syntax</a> to create tables, fenced code blocks, automatic links, and more.</p>
-          </div>
+      <img src="{{ site.baseurl }}/assets/images/markdown-mark-white.svg" height="128" width="208" alt="Markdown logo">
+      <p><i>Hướng Dẫn Markdown</i> là tài liệu tham khảo miễn phí và mã nguồn mở giải thích cách sử dụng Markdown, ngôn
+        ngữ đánh dấu đơn giản và dễ sử dụng mà bạn có thể dùng để định dạng hầu như mọi tài liệu.</p>
+      <p><a class="btn btn-outline-inverse btn-lg" href="{{ site.baseurl }}/getting-started/" role="button">Bắt Đầu</a>
+      </p>
+    </div>
+  </div>
+  {% if jekyll.environment == "production" %}<center>
+    <div class="horizontal" data-ea-publisher="markdownguide" data-ea-type="image"></div>
+  </center>{% endif %}
+  <div class="container">
+    <div class="md-guide-feature">
+      <h2 class="no-anchor">Mọi thứ bạn cần để học Markdown.</h2>
+      <p class="lead" style="margin-bottom: 60px">Markdown giúp việc viết trên web nhanh chóng và dễ dàng. <em>Hướng Dẫn
+          Markdown</em> dạy bạn cách sử dụng nó.</p>
+      <div class="row">
+        <div class="col-sm-4">
+          <a href="{{ site.baseurl }}/getting-started/">
+            <div class="icon">
+              <i class="fas fa-edit"></i>
+            </div>
+          </a>
+          <h4 class="no-anchor">Học cơ bản.</h4>
+          <p>Bắt đầu sử dụng Markdown ngay bây giờ bằng cách làm theo hướng dẫn <a
+              href="{{ site.baseurl }}/getting-started/">Bắt Đầu</a>. Nó được thiết kế cho tất cả mọi người, ngay cả
+            người mới bắt đầu.</p>
+        </div>
+        <div class="col-sm-4">
+          <a href="{{ site.baseurl }}/basic-syntax/">
+            <div class="icon">
+              <i class="fas fa-book-open"></i>
+            </div>
+          </a>
+          <h4 class="no-anchor">Đi sâu vào cú pháp.</h4>
+          <p>Cho dù bạn là người mới làm quen với Markdown hay là một chuyên gia dày dạn kinh nghiệm, bạn sẽ tìm thấy
+            câu trả lời cho các câu hỏi định dạng của mình trên <a href="{{ site.baseurl }}/basic-syntax/">trang cú pháp
+              cơ bản</a>.</p>
+        </div>
+        <div class="col-sm-4">
+          <a href="{{ site.baseurl }}/extended-syntax/">
+            <div class="icon">
+              <i class="fas fa-code"></i>
+            </div>
+          </a>
+          <h4 class="no-anchor">Nâng cao kỹ năng.</h4>
+          <p>Làm cho tài liệu Markdown của bạn trở nên tuyệt vời bằng cách sử dụng <a
+              href="{{ site.baseurl }}/extended-syntax/">cú pháp mở rộng</a> để tạo bảng, khối mã có hàng rào, liên kết
+            tự động và hơn thế nữa.</p>
         </div>
       </div>
     </div>
-    <hr>
-    <div class="container">
-      <div class="md-guide-feature">
-        <h2 class="no-anchor">Stay in the loop.</h2>
-        <p class="lead">Sign up now to get priority notifications about <em>The Markdown Guide</em>.</p>
-        <br/>
-        <a class="btn btn-default btn-lg" href="https://pika.forklabs.com/subscription/form" style="margin-top: -10px">Stay Updated</a>
-      </div>
+  </div>
+  <hr>
+  <div class="container">
+    <div class="md-guide-feature">
+      <h2 class="no-anchor">Luôn cập nhật.</h2>
+      <p class="lead">Đăng ký ngay để nhận thông báo ưu tiên về <em>Hướng Dẫn Markdown</em>.</p>
+      <br />
+      <a class="btn btn-default btn-lg" href="https://pika.forklabs.com/subscription/form"
+        style="margin-top: -10px">Nhận Cập Nhật</a>
     </div>
-    {% include footer.html %}
-  </body>
+  </div>
+  {% include footer.html %}
+</body>
+
 </html>

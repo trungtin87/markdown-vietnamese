@@ -1,24 +1,24 @@
 ---
 title: Google Docs to Markdown
 category: "documents"
-description: "Export Google Docs to Markdown using this add-on."
+description: "Xuất Google Docs sang Markdown bằng tiện ích bổ sung này."
 icon: google-docs-to-markdown.png
 website: https://workspace.google.com/marketplace/app/docs_to_markdown/700168918607
 see-also:
-  - name: Docs to Markdown GitHub repository
+  - name: Kho lưu trữ GitHub Docs to Markdown
     link: https://github.com/evbacher/gd2md-html
 ---
 
-Let's get this out of the way first: Google Docs doesn't natively support Markdown. However, by using the free and open source [Docs to Markdown](https://workspace.google.com/marketplace/app/docs_to_markdown/700168918607) add-on for Google Docs, you can quickly and easily export a Google Doc to Markdown. (The add-on doesn't help with importing Markdown into Google Docs.) 
+Hãy làm rõ điều này trước: Google Docs không hỗ trợ Markdown nguyên bản. Tuy nhiên, bằng cách sử dụng tiện ích bổ sung [Docs to Markdown](https://workspace.google.com/marketplace/app/docs_to_markdown/700168918607) miễn phí và mã nguồn mở cho Google Docs, bạn có thể xuất Google Doc sang Markdown một cách nhanh chóng và dễ dàng. (Tiện ích bổ sung không giúp nhập Markdown vào Google Docs.)
 
-This add-on was created by a retired Google technical writer, and it's currently the best way to export a Google Doc to Markdown. Docs to Markdown is useful for teams that want to use Google Docs for the collaboration features, but ultimately need Markdown-formatted plain text to publish to a website. 
+Tiện ích bổ sung này được tạo bởi một người viết kỹ thuật đã nghỉ hưu của Google và hiện là cách tốt nhất để xuất Google Doc sang Markdown. Docs to Markdown hữu ích cho các nhóm muốn sử dụng Google Docs cho các tính năng cộng tác, nhưng cuối cùng cần văn bản thuần túy được định dạng Markdown để xuất bản lên trang web.
 
-Once you install the [Docs to Markdown](https://workspace.google.com/marketplace/app/docs_to_markdown/700168918607) add-on in your Google account, you can open a document in Google Docs and access the add-on from the **Add-ons** menu. After you select the convert option, the Markdown-formatted version of your document will appear in a sidebar, as shown below. At that point, you can copy and paste the Markdown-formatted text into another application.
+Sau khi bạn cài đặt tiện ích bổ sung [Docs to Markdown](https://workspace.google.com/marketplace/app/docs_to_markdown/700168918607) trong tài khoản Google của mình, bạn có thể mở một tài liệu trong Google Docs và truy cập tiện ích bổ sung từ menu **Add-ons**. Sau khi bạn chọn tùy chọn chuyển đổi, phiên bản được định dạng Markdown của tài liệu của bạn sẽ xuất hiện trong thanh bên, như được hiển thị bên dưới. Tại thời điểm đó, bạn có thể sao chép và dán văn bản được định dạng Markdown vào một ứng dụng khác.
 
-{% include image.html file="/assets/images/tools/google-docs-to-markdown.png" alt="Markdown in Google Docs" %}
+{% include image.html file="/assets/images/tools/google-docs-to-markdown.png" alt="Markdown trong Google Docs" %}
 
-I recently used Docs to Markdown to convert a 50-page Google Doc to Markdown. I can't say that my experience was great, but it was better than manually converting the document to Markdown by hand. 
+Gần đây tôi đã sử dụng Docs to Markdown để chuyển đổi một Google Doc dài 50 trang sang Markdown. Tôi không thể nói rằng trải nghiệm của tôi là tuyệt vời, nhưng nó tốt hơn là chuyển đổi thủ công tài liệu sang Markdown bằng tay.
 
-One issue is that the add-on has strong opinions when it comes to syntax, and there's no way to customize how the add-on outputs text to Markdown. For example, the add-on outputs italicized text using underscores instead of asterisks, something that could lead to unexpected errors in the output. I also discovered that the add-on doesn't correctly handle link conversion. There were numerous stray spaces in my links, leading to broken formatting in the Markdown-formatted text. 
+Một vấn đề là tiện ích bổ sung có quan điểm mạnh mẽ khi nói đến cú pháp và không có cách nào để tùy chỉnh cách tiện ích bổ sung xuất văn bản sang Markdown. Ví dụ, tiện ích bổ sung xuất văn bản in nghiêng bằng cách sử dụng dấu gạch dưới thay vì dấu sao, điều này có thể dẫn đến các lỗi không mong muốn trong đầu ra. Tôi cũng phát hiện ra rằng tiện ích bổ sung không xử lý chính xác việc chuyển đổi liên kết. Có rất nhiều khoảng trắng thừa trong các liên kết của tôi, dẫn đến định dạng bị hỏng trong văn bản được định dạng Markdown.
 
-No matter what type of document you convert, you should plan on inspecting the output that the Docs to Markdown add-on generates. The add-on still feels like a work-in-progress, and you may find yourself needing to fix broken formatting.
+Bất kể bạn chuyển đổi loại tài liệu nào, bạn nên lên kế hoạch kiểm tra đầu ra mà tiện ích bổ sung Docs to Markdown tạo ra. Tiện ích bổ sung vẫn có cảm giác như một công việc đang tiến hành và bạn có thể thấy mình cần phải sửa định dạng bị hỏng.

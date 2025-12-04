@@ -1,10 +1,10 @@
 ---
 title: Markdeep
 category: "websites"
-description: "Markdeep turns any Markdown file into a self-contained HTML file."
+description: "Markdeep biến bất kỳ file Markdown nào thành một file HTML độc lập."
 icon: markdeep.png
 website: https://casual-effects.com/markdeep
-notes: "tested using the default Markdeep web template"
+notes: "đã thử nghiệm bằng cách sử dụng mẫu web Markdeep mặc định"
 syntax:
   - id: headings
     available: y
@@ -14,10 +14,10 @@ syntax:
     available: n
   - id: bold
     available: p
-    notes: "Asterisks in the middle of a word (i.e., `in**middle**here`) are rendered literally."
+    notes: "Dấu sao ở giữa một từ (tức là, `ở**giữa**đây`) được hiển thị theo nghĩa đen."
   - id: italic
     available: p
-    notes: "Asterisks in the middle of a word (i.e., `in*middle*here`) are rendered literally."
+    notes: "Dấu sao ở giữa một từ (tức là, `ở*giữa*đây`) được hiển thị theo nghĩa đen."
   - id: blockquotes
     available: y
   - id: ordered-lists
@@ -66,17 +66,17 @@ syntax:
     available: y
 ---
 
-[Markdeep](https://casual-effects.com/markdeep) is a free and simple tool that turns any Markdown file into a self-contained HTML file that can be viewed in a web browser. There's nothing to install and there's no service to register for — you simply add one line of code to the bottom of your Markdown file. This is a great option if you need to quickly view a Markdown file in a web browser or share a Markdown file with someone who needs to view the rendered output.
+[Markdeep](https://casual-effects.com/markdeep) là một công cụ miễn phí và đơn giản giúp biến bất kỳ file Markdown nào thành một file HTML độc lập có thể xem được trong trình duyệt web. Không có gì để cài đặt và không có dịch vụ nào để đăng ký — bạn chỉ cần thêm một dòng mã vào cuối file Markdown của mình. Đây là một lựa chọn tuyệt vời nếu bạn cần xem nhanh một file Markdown trong trình duyệt web hoặc chia sẻ một file Markdown với ai đó cần xem đầu ra được hiển thị.
 
-Using Markdeep is a three-part process:
+Sử dụng Markdeep là một quy trình gồm ba phần:
 
-1. Add the following tag for Markdeep on a single line at the bottom of a Markdown file.
+1. Thêm thẻ sau cho Markdeep trên một dòng duy nhất ở cuối file Markdown.
 
     `<!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js" charset="utf-8"></script><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js" charset="utf-8"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>`
 
-2. Rename the Markdown file to add the `.md.html` extension (i.e., `myfile.md.html`).
-3. Open the file in a web browser to see the rendered output.
+2. Đổi tên file Markdown để thêm phần mở rộng `.md.html` (tức là, `myfile.md.html`).
+3. Mở file trong trình duyệt web để xem đầu ra được hiển thị.
 
-This tool has a lot of features beyond what's described here. For example, you can choose from a variety of templates to customize the look of your page. Markdeep also supports diagrams, LaTeX typesetting for equations, and much more. Check out the excellent [documentation](https://casual-effects.com/markdeep) for the full details.
+Công cụ này có rất nhiều tính năng ngoài những gì được mô tả ở đây. Ví dụ, bạn có thể chọn từ nhiều mẫu khác nhau để tùy chỉnh giao diện trang của mình. Markdeep cũng hỗ trợ sơ đồ, sắp chữ LaTeX cho các phương trình, và nhiều hơn nữa. Kiểm tra [tài liệu](https://casual-effects.com/markdeep) tuyệt vời để biết chi tiết đầy đủ.
 
 {% include tool-syntax-table.html %}

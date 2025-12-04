@@ -1,7 +1,7 @@
 ---
 title: Dawin (محرر دوّن)
 category: "online editor"
-description: "Dawin is a web-based RTL Markdown editor designed for using anywhere."
+description: "Dawin là một trình soạn thảo Markdown RTL dựa trên web được thiết kế để sử dụng ở mọi nơi."
 icon: dawin.png
 website: https://dawin.io
 syntax:
@@ -29,7 +29,7 @@ syntax:
     available: y
   - id: images
     available: y
-    notes: "There's no ability to upload images — you'll need to store the images on another server."
+    notes: "Không có khả năng tải lên hình ảnh — bạn sẽ cần lưu trữ hình ảnh trên một máy chủ khác."
   - id: tables
     available: y
   - id: fenced-code-blocks
@@ -46,7 +46,7 @@ syntax:
     available: y
   - id: task-lists
     available: y
-    notes: "You don't have to use dashes. Just use brackets (e.g., `[ ]`)."
+    notes: "Bạn không cần phải sử dụng dấu gạch ngang. Chỉ cần sử dụng dấu ngoặc vuông (ví dụ: `[ ]`)."
   - id: emoji-cp
     available: y
   - id: emoji-sc
@@ -64,18 +64,18 @@ syntax:
   - id: html
     available: n
 see-also:
-  - name: Dawin (RTL Markdown editor) repository on GitHub
+  - name: Kho lưu trữ Dawin (trình soạn thảo Markdown RTL) trên GitHub
     link: https://github.com/dawin-editor
-  - name: Markdown Guide in Arabic
+  - name: Hướng dẫn Markdown bằng tiếng Ả Rập
     link: https://guide.dawin.io/
 ---
 
-[Dawin](https://www.dawin.io/) (aka *Writer in Arabic Language*) is an online right to left (RTL) Markdown editor (for Arabic, Persian, etc.). Like [StackEdit](/tools/stackedit/), it loads right in your web browser without having to install anything. Dawin has two panes: The editor on the right, and the live preview on the left. The split panes make it easy to see what Markdown-formatted text looks like.
+[Dawin](https://www.dawin.io/) (còn gọi là *Writer in Arabic Language*) là một trình soạn thảo Markdown trực tuyến từ phải sang trái (RTL) (dành cho tiếng Ả Rập, tiếng Ba Tư, v.v.). Giống như [StackEdit](/tools/stackedit/), nó tải ngay trong trình duyệt web của bạn mà không cần phải cài đặt bất cứ thứ gì. Dawin có hai khung: Trình soạn thảo ở bên phải và bản xem trước trực tiếp ở bên trái. Các khung chia nhỏ giúp bạn dễ dàng xem văn bản được định dạng Markdown trông như thế nào.
 
-Dawin provides excellent Markdown support and has export options for HTML and Markdown files. And since Dawin loads in your web browser, you can preview it on your browser or your phone and install it wherever you want — it also works offline (PWA). For those reasons, Dawin is best used for experimentation and quick note taking.
+Dawin cung cấp hỗ trợ Markdown tuyệt vời và có các tùy chọn xuất cho các file HTML và Markdown. Và vì Dawin tải trong trình duyệt web của bạn, bạn có thể xem trước nó trên trình duyệt hoặc điện thoại của mình và cài đặt nó ở bất cứ đâu bạn muốn — nó cũng hoạt động ngoại tuyến (PWA). Vì những lý do đó, Dawin được sử dụng tốt nhất để thử nghiệm và ghi chú nhanh.
 
-The application uses the [markdown-it](https://github.com/markdown-it/markdown-it) Markdown processor and [simplemde-rtl](https://github.com/imAbdelhadi/simplemde-rtl).
+Ứng dụng sử dụng bộ xử lý Markdown [markdown-it](https://github.com/markdown-it/markdown-it) và [simplemde-rtl](https://github.com/imAbdelhadi/simplemde-rtl).
 
-{% include image.html file="/assets/images/dawin.png" alt="Dawin RTL Markdown editor" %}
+{% include image.html file="/assets/images/dawin.png" alt="Trình soạn thảo Markdown RTL Dawin" %}
 
 {% include tool-syntax-table.html %}

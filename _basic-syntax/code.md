@@ -1,18 +1,18 @@
 ---
-title: Code
+title: Mã (Code)
 syntax-id: code
 syntax-summary: "`code`"
-description: "To denote a word or phrase as code, enclose it in backticks (`` ` ``)."
+description: "Để biểu thị một từ hoặc cụm từ là mã, hãy bao quanh nó bằng dấu huyền (`` ` ``)."
 examples:
-  - markdown: "At the command prompt, type `nano`."
-    html: "At the command prompt, type <code>nano</code>."
+  - markdown: "Tại dấu nhắc lệnh, gõ `nano`."
+    html: "Tại dấu nhắc lệnh, gõ <code>nano</code>."
 additional-examples:
-  - name: "Escaping Backticks"
-    description: "If the word or phrase you want to denote as code includes one or more backticks, you can escape it by enclosing the word or phrase in double backticks (<code>``</code>)."
-    markdown: "``Use `code` in your Markdown file.``"
-    html: <code>Use `code` in your Markdown file.</code>
-  - name: "Code Blocks"
-    description: "To create code blocks, indent every line of the block by at least four spaces or one tab."
+  - name: "Thoát dấu huyền"
+    description: "Nếu từ hoặc cụm từ bạn muốn biểu thị là mã có chứa một hoặc nhiều dấu huyền, bạn có thể thoát nó bằng cách bao quanh từ hoặc cụm từ đó bằng hai dấu huyền (<code>``</code>)."
+    markdown: "``Sử dụng `code` trong file Markdown của bạn.``"
+    html: <code>Sử dụng `code` trong file Markdown của bạn.</code>
+  - name: "Khối mã"
+    description: "Để tạo khối mã, thụt đầu dòng mỗi dòng của khối ít nhất bốn khoảng trắng hoặc một tab."
     markdown: |
         <html>
           <head>
@@ -21,49 +21,49 @@ additional-examples:
     html: <pre><code><html><head></head></html></code></pre>
 ---
 
-To denote a word or phrase as code, enclose it in backticks (`` ` ``).
+Để biểu thị một từ hoặc cụm từ là mã, hãy bao quanh nó bằng dấu huyền (`` ` ``).
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th>Markdown</th>
       <th>HTML</th>
-      <th>Rendered Output</th>
+      <th>Kết quả hiển thị</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><code class="highlighter-rouge">At the command prompt, type `nano`.</code></td>
-      <td><code class="highlighter-rouge">At the command prompt, type &lt;code&gt;nano&lt;/code&gt;. </code></td>
-      <td>At the command prompt, type <code class="highlighter-rouge">nano</code>.</td>
+      <td><code class="highlighter-rouge">Tại dấu nhắc lệnh, gõ `nano`.</code></td>
+      <td><code class="highlighter-rouge">Tại dấu nhắc lệnh, gõ &lt;code&gt;nano&lt;/code&gt;. </code></td>
+      <td>Tại dấu nhắc lệnh, gõ <code class="highlighter-rouge">nano</code>.</td>
     </tr>
   </tbody>
 </table>
 
-### Escaping Backticks
+### Thoát dấu huyền
 
-If the word or phrase you want to denote as code includes one or more backticks, you can escape it by enclosing the word or phrase in double backticks (<code>``</code>).
+Nếu từ hoặc cụm từ bạn muốn biểu thị là mã có chứa một hoặc nhiều dấu huyền, bạn có thể thoát nó bằng cách bao quanh từ hoặc cụm từ đó bằng hai dấu huyền (<code>``</code>).
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th>Markdown</th>
       <th>HTML</th>
-      <th>Rendered Output</th>
+      <th>Kết quả hiển thị</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><code>``Use `code` in your Markdown file.``</code></td>
-      <td><code class="highlighter-rouge">&lt;code&gt;Use `code` in your Markdown file.&lt;/code&gt;</code></td>
-      <td><code>Use `code` in your Markdown file.</code></td>
+      <td><code>``Sử dụng `code` trong file Markdown của bạn.``</code></td>
+      <td><code class="highlighter-rouge">&lt;code&gt;Sử dụng `code` trong file Markdown của bạn.&lt;/code&gt;</code></td>
+      <td><code>Sử dụng `code` trong file Markdown của bạn.</code></td>
     </tr>
   </tbody>
 </table>
 
-### Code Blocks
+### Khối mã
 
-To create code blocks, indent every line of the block by at least four spaces or one tab.
+Để tạo khối mã, thụt đầu dòng mỗi dòng của khối ít nhất bốn khoảng trắng hoặc một tab.
 
 ```text
     <html>
@@ -72,7 +72,7 @@ To create code blocks, indent every line of the block by at least four spaces or
     </html>
 ```
 
-The rendered output looks like this:
+Kết quả hiển thị sẽ trông như thế này:
 
 ```text
 <html>
@@ -82,5 +82,5 @@ The rendered output looks like this:
 ```
 
 <div class="alert alert-info">
-  <i class="fas fa-info-circle"></i> <strong>Note:</strong> To create code blocks without indenting lines, use <a href="/extended-syntax/#fenced-code-blocks">fenced code blocks</a>.
+  <i class="fas fa-info-circle"></i> <strong>Lưu ý:</strong> Để tạo khối mã mà không cần thụt đầu dòng, hãy sử dụng <a href="/extended-syntax/#fenced-code-blocks">khối mã có rào chắn (fenced code blocks)</a>.
 </div>

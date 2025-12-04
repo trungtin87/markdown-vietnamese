@@ -6,7 +6,7 @@ syntax-summary: |
   : definition
 ---
 
-Some Markdown processors allow you to create *definition lists* of terms and their corresponding definitions. To create a definition list, type the term on the first line. On the next line, type a colon followed by a space and the definition.  
+Một số bộ xử lý Markdown cho phép bạn tạo *danh sách định nghĩa* của các thuật ngữ và định nghĩa tương ứng của chúng. Để tạo danh sách định nghĩa, hãy nhập thuật ngữ trên dòng đầu tiên. Trên dòng tiếp theo, nhập dấu hai chấm theo sau là khoảng trắng và định nghĩa.  
 
 ```
 First Term
@@ -17,7 +17,7 @@ Second Term
 : This is another definition of the second term.
 ```
 
-The HTML looks like this:
+HTML trông như thế này:
 
 ```html
 <dl>
@@ -29,7 +29,7 @@ The HTML looks like this:
 </dl>
 ```
 
-The rendered output looks like this:
+Kết quả hiển thị trông như thế này:
 
 First Term
 : This is the definition of the first term.

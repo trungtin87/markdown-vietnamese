@@ -4,21 +4,21 @@ syntax-id: heading-ids
 syntax-summary: "### My Great Heading {#custom-id}"
 ---
 
-Many Markdown processors support custom IDs for [headings](/basic-syntax/#headings) — some Markdown processors automatically add them. Adding custom IDs allows you to link directly to headings and modify them with CSS. To add a custom heading ID, enclose the custom ID in curly braces on the same line as the heading.
+Nhiều bộ xử lý Markdown hỗ trợ ID tùy chỉnh cho [tiêu đề](/basic-syntax/#headings) — một số bộ xử lý Markdown tự động thêm chúng. Thêm ID tùy chỉnh cho phép bạn liên kết trực tiếp đến tiêu đề và sửa đổi chúng bằng CSS. Để thêm ID tiêu đề tùy chỉnh, hãy đặt ID tùy chỉnh trong dấu ngoặc nhọn trên cùng một dòng với tiêu đề.
 
 ```text
 ### My Great Heading {#custom-id}
 ```
 
-The HTML looks like this:
+HTML trông như thế này:
 
 ```html
 <h3 id="custom-id">My Great Heading</h3>
 ```
 
-### Linking to Heading IDs
+### Liên Kết Đến ID Tiêu Đề
 
-You can link to headings with custom IDs in the file by creating a [standard link](/basic-syntax/#links) with a number sign (`#`) followed by the custom heading ID. These are commonly referred to as *anchor links*.
+Bạn có thể liên kết đến tiêu đề với ID tùy chỉnh trong tệp bằng cách tạo [liên kết tiêu chuẩn](/basic-syntax/#links) với dấu thăng (`#`) theo sau là ID tiêu đề tùy chỉnh. Chúng thường được gọi là *liên kết neo*.
 
 <table class="table table-bordered">
   <thead class="thead-light">
@@ -37,4 +37,4 @@ You can link to headings with custom IDs in the file by creating a [standard lin
   </tbody>
 </table>
 
-Other websites can link to the heading by adding the custom heading ID to the full URL of the webpage (e.g, `[Heading IDs](https://www.markdownguide.org/extended-syntax#heading-ids)`).
+Các trang web khác có thể liên kết đến tiêu đề bằng cách thêm ID tiêu đề tùy chỉnh vào URL đầy đủ của trang web (ví dụ: `[Heading IDs](https://www.markdownguide.org/extended-syntax#heading-ids)`).

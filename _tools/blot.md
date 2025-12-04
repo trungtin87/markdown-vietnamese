@@ -1,7 +1,7 @@
 ---
 title: Blot
 category: "websites"
-description: "Blot is an open source CMS which turns a folder into a website."
+description: "Blot là một CMS mã nguồn mở biến một thư mục thành một trang web."
 icon: blot.png
 website: https://blot.im/
 syntax:
@@ -62,10 +62,10 @@ syntax:
   - id: html
     available: y
 ---
-[Blot](https://blot.im) is a simple content management system (CMS) that transforms a folder on your computer into a fully functional website. It supports automatic publishing for various file types, including [Markdown files](https://blot.im/how/files/markdown).
+[Blot](https://blot.im) là một hệ thống quản lý nội dung (CMS) đơn giản giúp biến một thư mục trên máy tính của bạn thành một trang web đầy đủ chức năng. Nó hỗ trợ xuất bản tự động cho nhiều loại file khác nhau, bao gồm [các file Markdown](https://blot.im/how/files/markdown).
 
-Any Markdown file you place in the synced folder instantly becomes a post on your website. You can also embed images in Markdown files, whether they’re hosted online or stored locally in the same folder.
+Bất kỳ file Markdown nào bạn đặt trong thư mục đã đồng bộ hóa ngay lập tức trở thành một bài đăng trên trang web của bạn. Bạn cũng có thể nhúng hình ảnh vào các file Markdown, cho dù chúng được lưu trữ trực tuyến hay được lưu trữ cục bộ trong cùng một thư mục.
 
-Blot offers robust Markdown support, leveraging Pandoc for parsing and rendering, along with additional extensions to enhance functionality.
+Blot cung cấp hỗ trợ Markdown mạnh mẽ, tận dụng Pandoc để phân tích cú pháp và hiển thị, cùng với các tiện ích mở rộng bổ sung để nâng cao chức năng.
 
 {% include tool-syntax-table.html %}

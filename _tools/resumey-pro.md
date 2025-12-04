@@ -1,7 +1,7 @@
 ---
 title: Resumey.Pro
 category: "resume-builder"
-description: "Resumey.Pro is a Markdown-based resume builder."
+description: "Resumey.Pro là một trình tạo sơ yếu lý lịch dựa trên Markdown."
 icon: resumey-pro.png
 website: https://resumey.pro
 syntax:
@@ -29,7 +29,7 @@ syntax:
     available: y
   - id: images
     available: p
-    notes: "Images are not automatically styled."
+    notes: "Hình ảnh không được tạo kiểu tự động."
   - id: tables
     available: y
   - id: fenced-code-blocks
@@ -64,9 +64,8 @@ syntax:
     available: n
 ---
 
-[Resumey.Pro](https://resumey.pro) is a Markdown-based resume builder. Write the resume content in Markdown, try out various designs like Instagram filters, and then download as a PDF. The content editor supports `/` (slash) commands to quickly apply Markdown syntax. The resume designs also supports customizing accent color, font size, and spacing.
+[Resumey.Pro](https://resumey.pro) là một trình tạo sơ yếu lý lịch dựa trên Markdown. Viết nội dung sơ yếu lý lịch bằng Markdown, thử nhiều thiết kế khác nhau như bộ lọc Instagram, và sau đó tải xuống dưới dạng PDF. Trình soạn thảo nội dung hỗ trợ các lệnh `/` (gạch chéo) để áp dụng nhanh cú pháp Markdown. Các thiết kế sơ yếu lý lịch cũng hỗ trợ tùy chỉnh màu nhấn, kích thước phông chữ và khoảng cách.
 
-{% include image.html file="/assets/images/tools/resumey-pro.png" alt="Resumey.Pro Screenshot" %}
+{% include image.html file="/assets/images/tools/resumey-pro.png" alt="Ảnh chụp màn hình Resumey.Pro" %}
 
 {% include tool-syntax-table.html %}
-

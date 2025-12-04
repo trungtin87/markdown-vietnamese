@@ -5,74 +5,74 @@ description: Programmatically access Markdown documentation.
 last_modified_at: 2018-10-18
 ---
 
-## Introduction
+## Giới Thiệu
 
-The Markdown Guide API provides a subset of documentation from the *Markdown Guide* in JSON format. We hope that software developers and organizations use this API to programmatically consume our documentation and display it in applications and on websites.
+API Hướng Dẫn Markdown cung cấp một tập hợp con tài liệu từ *Hướng Dẫn Markdown* ở định dạng JSON. Chúng tôi hy vọng rằng các nhà phát triển phần mềm và tổ chức sử dụng API này để truy cập tài liệu của chúng tôi theo chương trình và hiển thị nó trong các ứng dụng và trên các trang web.
 
-### Why?
+### Tại Sao?
 
-Why create an API for Markdown documentation? Because there's so much duplicated Markdown documentation on the web! It seems like everybody has their own version of Markdown documentation for their application or website. That's a shame since most of it is exactly the same.
+Tại sao tạo API cho tài liệu Markdown? Bởi vì có quá nhiều tài liệu Markdown trùng lặp trên web! Có vẻ như mọi người đều có phiên bản tài liệu Markdown riêng cho ứng dụng hoặc trang web của họ. Thật đáng tiếc vì hầu hết chúng đều giống hệt nhau.
 
-Then came the epiphany. 💡 We realized we could create a JSON API using documentation from the *Markdown Guide*. That way, software developers could start using the API to include our documentation in their applications, and organizations like universities and libraries could use the API to include our documentation on their websites.
+Rồi đến khoảnh khắc sáng tạo. 💡 Chúng tôi nhận ra rằng chúng tôi có thể tạo một API JSON sử dụng tài liệu từ *Hướng Dẫn Markdown*. Bằng cách đó, các nhà phát triển phần mềm có thể bắt đầu sử dụng API để đưa tài liệu của chúng tôi vào ứng dụng của họ, và các tổ chức như trường đại học và thư viện có thể sử dụng API để đưa tài liệu của chúng tôi vào trang web của họ.
 
-We'd love to see the *Markdown Guide* become the central documentation repository for the thousands of Markdown instructions sprinkled around the internet. Will it work? Who knows! One thing's for sure though: We can't wait to see what you do with it. 🤘
+Chúng tôi rất muốn thấy *Hướng Dẫn Markdown* trở thành kho tài liệu trung tâm cho hàng nghìn hướng dẫn Markdown rải rác trên internet. Nó có hoạt động không? Ai biết được! Nhưng một điều chắc chắn: Chúng tôi không thể chờ đợi để xem bạn làm gì với nó. 🤘
 
-### Limitations
+### Hạn Chế
 
-The Markdown Guide API is designed to provide only essential Markdown documentation. As a result, the API doesn't include all of the documentation available on the *Markdown Guide* website. For example, the [Adding Elements in Lists](/basic-syntax/#adding-elements-in-lists) section is not available through the basic syntax endpoint.
+API Hướng Dẫn Markdown được thiết kế để chỉ cung cấp tài liệu Markdown thiết yếu. Do đó, API không bao gồm tất cả tài liệu có sẵn trên trang web *Hướng Dẫn Markdown*. Ví dụ: phần [Thêm Thành Phần Trong Danh Sách](/basic-syntax/#adding-elements-in-lists) không có sẵn thông qua endpoint cú pháp cơ bản.
 
-## Basic Syntax Endpoint
+## Endpoint Cú Pháp Cơ Bản
 
-The basic syntax endpoint contains documentation about the Markdown elements outlined in John Gruber's design document and described on the [Basic Syntax page](/basic-syntax/).
+Endpoint cú pháp cơ bản chứa tài liệu về các thành phần Markdown được nêu trong tài liệu thiết kế của John Gruber và được mô tả trên [trang Cú Pháp Cơ Bản](/basic-syntax/).
 
 <div class="card">
   <h6 class="card-header no-anchor" data-toc-skip>API Endpoint</h6>
   <div class="card-body"><a href="/api/v1/basic-syntax.json">/api/v1/basic-syntax.json</a></div>
 </div>
 
-### Request
+### Yêu Cầu
 
 `curl https://www.markdownguide.org/api/v1/basic-syntax.json`
 
-### Response
+### Phản Hồi
 
 <script src="https://gist.github.com/mattcone/a0103c47bdac8bf81a54b29f650e5cb2.js"></script>
 
-## Cheat Sheet Endpoint
+## Endpoint Bảng Tra Cứu Nhanh
 
-The cheat sheet endpoint provides an overview of the most popular basic and extended Markdown syntax elements, as described on the [Cheat Sheet page](/cheat-sheet/).
+Endpoint bảng tra cứu nhanh cung cấp tổng quan về các thành phần cú pháp Markdown cơ bản và mở rộng phổ biến nhất, như được mô tả trên [trang Bảng Tra Cứu Nhanh](/cheat-sheet/).
 
 <div class="card">
   <h6 class="card-header no-anchor" data-toc-skip>API Endpoint</h6>
   <div class="card-body"><a href="/api/v1/cheat-sheet.json">/api/v1/cheat-sheet.json</a></div>
 </div>
 
-### Request
+### Yêu Cầu
 
 `curl https://www.markdownguide.org/api/v1/cheat-sheet.json`
 
-### Response
+### Phản Hồi
 
 <script src="https://gist.github.com/mattcone/ec8057127a0ff2e0b45d2cde14355b2a.js"></script>
 
-## Changelog
+## Nhật Ký Thay Đổi
 
-Here's a list of all the changes we've made to the Markdown Guide API.
+Đây là danh sách tất cả các thay đổi chúng tôi đã thực hiện đối với API Hướng Dẫn Markdown.
 
 ```
 2018-10-18
-- Updated cheat sheet endpoint to include information about definition lists
+- Cập nhật endpoint bảng tra cứu nhanh để bao gồm thông tin về danh sách định nghĩa
 
 2018-07-12
-- Updated links description to include information about adding titles
+- Cập nhật mô tả liên kết để bao gồm thông tin về việc thêm tiêu đề
 
 2017-11-10
-- Added cheat sheet endpoint
+- Thêm endpoint bảng tra cứu nhanh
 
 2017-11-04
-- Added section about escaping backticks in code
+- Thêm phần về thoát dấu backtick trong mã
 
 2017-10-24
-- Released API v1
-- Published docs
+- Phát hành API v1
+- Xuất bản tài liệu
 ```

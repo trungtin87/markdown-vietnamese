@@ -1,24 +1,24 @@
-## How Does it Work?
+## Nó hoạt động như thế nào?
 
-Dillinger makes writing in Markdown easy because it hides the stuff happening behind the scenes, but it's worth exploring how the process works in general.
+Dillinger giúp việc viết bằng Markdown trở nên dễ dàng vì nó ẩn đi những thứ đang diễn ra ở hậu trường, nhưng cũng đáng để tìm hiểu xem quy trình này hoạt động như thế nào nói chung.
 
-When you write in Markdown, the text is stored in a plaintext file that has an `.md` or `.markdown` extension. But then what? How is your Markdown-formatted file converted into HTML or a print-ready document?
+Khi bạn viết bằng Markdown, văn bản được lưu trữ trong một file văn bản thuần túy có phần mở rộng `.md` hoặc `.markdown`. Nhưng sau đó thì sao? Làm thế nào để file được định dạng Markdown của bạn được chuyển đổi thành HTML hoặc một tài liệu sẵn sàng để in?
 
-The short answer is that you need a *Markdown application* capable of processing the Markdown file. There are lots of applications available — everything from simple scripts to desktop applications that look like Microsoft Word. Despite their visual differences, all of the applications do the same thing. Like Dillinger, they all convert Markdown-formatted text to HTML so it can be displayed in web browsers.
+Câu trả lời ngắn gọn là bạn cần một *ứng dụng Markdown* có khả năng xử lý file Markdown. Có rất nhiều ứng dụng có sẵn — mọi thứ từ các tập lệnh đơn giản đến các ứng dụng máy tính để bàn trông giống như Microsoft Word. Mặc dù có sự khác biệt về hình ảnh, tất cả các ứng dụng đều làm điều tương tự. Giống như Dillinger, tất cả chúng đều chuyển đổi văn bản được định dạng Markdown sang HTML để nó có thể được hiển thị trong các trình duyệt web.
 
-Markdown applications use something called a *Markdown processor* (also commonly referred to as a "parser" or an "implementation") to take the Markdown-formatted text and output it to HTML format. At that point, your document can be viewed in a web browser or combined with a style sheet and printed. You can see a visual representation of this process below.
+Các ứng dụng Markdown sử dụng một thứ gọi là *bộ xử lý Markdown* (cũng thường được gọi là "trình phân tích cú pháp" hoặc "triển khai") để lấy văn bản được định dạng Markdown và xuất nó sang định dạng HTML. Tại thời điểm đó, tài liệu của bạn có thể được xem trong trình duyệt web hoặc kết hợp với một bảng định kiểu và in ra. Bạn có thể thấy một hình ảnh đại diện cho quy trình này bên dưới.
 
 <div class="alert alert-info">
-  <i class="fas fa-info-circle"></i> <strong>Note:</strong> The Markdown application and processor are two separate components. For the sake of brevity, I've combined them into one element ("Markdown app") in the figure below.
+  <i class="fas fa-info-circle"></i> <strong>Lưu ý:</strong> Ứng dụng Markdown và bộ xử lý là hai thành phần riêng biệt. Để ngắn gọn, tôi đã kết hợp chúng thành một phần tử ("Ứng dụng Markdown") trong hình bên dưới.
 </div>
 
-{% include image.html file="/assets/images/markdown-flowchart.png" alt="The Markdown Process" lazy="yes" %}
+{% include image.html file="/assets/images/markdown-flowchart.png" alt="Quy trình Markdown" lazy="yes" %}
 
-To summarize, this is a four-part process:
+Tóm lại, đây là một quy trình gồm bốn phần:
 
-1. Create a Markdown file using a text editor or a dedicated Markdown application. The file should have an `.md` or `.markdown` extension.
-2. Open the Markdown file in a Markdown application.
-3. Use the Markdown application to convert the Markdown file to an HTML document.
-4. View the HTML file in a web browser or use the Markdown application to convert it to another file format, like PDF.
+1. Tạo một file Markdown bằng trình soạn thảo văn bản hoặc một ứng dụng Markdown chuyên dụng. File nên có phần mở rộng `.md` hoặc `.markdown`.
+2. Mở file Markdown trong một ứng dụng Markdown.
+3. Sử dụng ứng dụng Markdown để chuyển đổi file Markdown thành tài liệu HTML.
+4. Xem file HTML trong trình duyệt web hoặc sử dụng ứng dụng Markdown để chuyển đổi nó sang định dạng file khác, như PDF.
 
-From your perspective, the process will vary somewhat depending on the application you use. For example, Dillinger essentially combines steps 1-3 into a single, seamless interface — all you have to do is type in the left pane and the rendered output magically appears in the right pane. But if you use other tools, like a text editor with a static website generator, you'll find that the process is much more visible.
+Từ góc độ của bạn, quy trình sẽ thay đổi đôi chút tùy thuộc vào ứng dụng bạn sử dụng. Ví dụ, Dillinger về cơ bản kết hợp các bước 1-3 thành một giao diện liền mạch duy nhất — tất cả những gì bạn phải làm là gõ vào khung bên trái và kết quả hiển thị sẽ xuất hiện một cách kỳ diệu trong khung bên phải. Nhưng nếu bạn sử dụng các công cụ khác, như trình soạn thảo văn bản với trình tạo trang web tĩnh, bạn sẽ thấy rằng quy trình này rõ ràng hơn nhiều.

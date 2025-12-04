@@ -1,7 +1,7 @@
 ---
 title: HedgeDoc
 category: "websites"
-description: "HedgeDoc is an open-source real-time collaborative Markdown editor."
+description: "HedgeDoc là một trình soạn thảo Markdown cộng tác thời gian thực mã nguồn mở."
 icon: hedgedoc.png
 website: https://hedgedoc.org/
 syntax:
@@ -61,37 +61,36 @@ syntax:
     available: y
   - id: html
     available: p
-    notes: "Not all HTML elements are supported."
+    notes: "Không phải tất cả các phần tử HTML đều được hỗ trợ."
 see-also:
   - name: HedgeDoc Flavored Markdown
     link: https://docs.hedgedoc.org/references/hfm/
 ---
 
-[HedgeDoc](https://hedgedoc.org/) is an open-source real-time collaborative Markdown editor. This project was forked from — and is similar to — [CodiMD](/tools/codimd/) (see the HedgeDoc website for a summary of the [history of the project](https://hedgedoc.org/history/)). As of November 2021, HedgeDoc version 2 isn't yet publicly available — this page documents Markdown support in HedgeDoc version 1.
+[HedgeDoc](https://hedgedoc.org/) là một trình soạn thảo Markdown cộng tác thời gian thực mã nguồn mở. Dự án này được tách ra từ — và tương tự như — [CodiMD](/tools/codimd/) (xem trang web HedgeDoc để biết tóm tắt về [lịch sử của dự án](https://hedgedoc.org/history/)). Tính đến tháng 11 năm 2021, HedgeDoc phiên bản 2 vẫn chưa được công khai — trang này ghi lại hỗ trợ Markdown trong HedgeDoc phiên bản 1.
 
-{% include image.html file="/assets/images/tools/hedgedoc.png" alt="The HedgeDoc Markdown editor." %}
+{% include image.html file="/assets/images/tools/hedgedoc.png" alt="Trình soạn thảo Markdown HedgeDoc." %}
 
 {% include tool-syntax-table.html %}
 
-### Support for Additional Syntax Elements
+### Hỗ trợ cho các Phần tử Cú pháp Bổ sung
 
-As an added bonus, HedgeDoc provides support for several obscure elements.
+Như một phần thưởng thêm, HedgeDoc cung cấp hỗ trợ cho một số phần tử ít người biết đến.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">
     <tr>
-      <th>Element</th>
+      <th>Phần tử</th>
       <th>Markdown</th>
-      <th>Rendered Output</th>
+      <th>Kết quả hiển thị</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Abbreviation</td>
+      <td>Viết tắt</td>
       <td><code>*[HTML]: Hyper Text Markup Language</code><br>
-      <code>The HTML specification is maintained by the W3C.</code></td>
-      <td>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification
-is maintained by the W3C.</td>
+      <code>Đặc tả HTML được duy trì bởi W3C.</code></td>
+      <td>Đặc tả <abbr title="Hyper Text Markup Language">HTML</abbr> được duy trì bởi W3C.</td>
     </tr>
   </tbody>
 </table>

@@ -1,7 +1,7 @@
 ---
 title: MacDown
 category: "documents"
-description: "MacDown is one of the best Markdown editors available for macOS."
+description: "MacDown là một trong những trình soạn thảo Markdown tốt nhất hiện có cho macOS."
 icon: macdown.png
 website: https://macdown.uranusjr.com
 syntax:
@@ -31,75 +31,75 @@ syntax:
     available: y
   - id: tables
     available: y
-    notes: "Enabled by default in **Preferences** > **Markdown**."
+    notes: "Được bật theo mặc định trong **Preferences** > **Markdown**."
   - id: fenced-code-blocks
     available: y
-    notes: "Enabled by default in **Preferences** > **Markdown**."
+    notes: "Được bật theo mặc định trong **Preferences** > **Markdown**."
   - id: syntax-highlighting
     available: y
-    notes: "Disabled by default. Enable in **Preferences** > **Rendering**."
+    notes: "Bị vô hiệu hóa theo mặc định. Bật trong **Preferences** > **Rendering**."
   - id: footnotes
     available: y
-    notes: "Enabled by default in **Preferences** > **Markdown**."
+    notes: "Được bật theo mặc định trong **Preferences** > **Markdown**."
   - id: heading-ids
     available: n
   - id: definition-lists
     available: n
   - id: strikethrough
     available: y
-    notes: "Disabled by default. Enable in **Preferences** > **Markdown**."
+    notes: "Bị vô hiệu hóa theo mặc định. Bật trong **Preferences** > **Markdown**."
   - id: task-lists
     available: y
-    notes: "Disabled by default. Enable in **Preferences** > **Markdown**."
+    notes: "Bị vô hiệu hóa theo mặc định. Bật trong **Preferences** > **Markdown**."
   - id: emoji-cp
     available: y
   - id: emoji-sc
     available: n
   - id: highlight
     available: y
-    notes: "Disabled by default. Enable in **Preferences** > **Markdown**."
+    notes: "Bị vô hiệu hóa theo mặc định. Bật trong **Preferences** > **Markdown**."
   - id: subscript
     available: n
   - id: superscript
     available: y
-    notes: "Disabled by default. Enable in **Preferences** > **Markdown**."
+    notes: "Bị vô hiệu hóa theo mặc định. Bật trong **Preferences** > **Markdown**."
   - id: auto-url-linking
     available: y
-    notes: "Disabled by default. Enable in **Preferences** > **Markdown**."
+    notes: "Bị vô hiệu hóa theo mặc định. Bật trong **Preferences** > **Markdown**."
   - id: disabling-auto-url
     available: y
   - id: html
     available: y
 see-also:
-  - name: MacDown repository on GitHub
+  - name: Kho lưu trữ MacDown trên GitHub
     link: https://github.com/MacDownApp/macdown
 ---
 
-[MacDown](https://macdown.uranusjr.com) is one of the best Markdown editors available for macOS. The application is free and open source, and it strikes a good balance between power and simplicity. MacDown provides excellent Markdown support.
+[MacDown](https://macdown.uranusjr.com) là một trong những trình soạn thảo Markdown tốt nhất hiện có cho macOS. Ứng dụng này miễn phí và mã nguồn mở, và nó đạt được sự cân bằng tốt giữa sức mạnh và sự đơn giản. MacDown cung cấp hỗ trợ Markdown tuyệt vời.
 
-MacDown sports two panes — you type on the left and preview the formatted text on the right. Basic export options for HTML and PDF file format are provided. You can enable and disable support for many syntax elements, a nice feature for people who simply don't want or need all of the bells and whistles.
+MacDown có hai khung — bạn gõ ở bên trái và xem trước văn bản được định dạng ở bên phải. Các tùy chọn xuất cơ bản cho định dạng file HTML và PDF được cung cấp. Bạn có thể bật và tắt hỗ trợ cho nhiều phần tử cú pháp, một tính năng hay cho những người đơn giản là không muốn hoặc không cần tất cả các tính năng hào nhoáng.
 
-{% include image.html file="/assets/images/tools/macdown.png" alt="The MacDown application with open Markdown file." %}
+{% include image.html file="/assets/images/tools/macdown.png" alt="Ứng dụng MacDown với file Markdown đang mở." %}
 
 {% include tool-syntax-table.html %}
 
-### Support for Additional Syntax Elements
+### Hỗ trợ cho các Phần tử Cú pháp Bổ sung
 
-As an added bonus, MacDown provides support for several obscure elements. These are disabled by default, but you can enable them in **Preferences** > **Markdown**.
+Như một phần thưởng thêm, MacDown cung cấp hỗ trợ cho một số phần tử ít người biết đến. Những phần tử này bị vô hiệu hóa theo mặc định, nhưng bạn có thể bật chúng trong **Preferences** > **Markdown**.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">
     <tr>
-      <th>Element</th>
+      <th>Phần tử</th>
       <th>Markdown</th>
-      <th>Rendered Output</th>
+      <th>Kết quả hiển thị</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Underline</td>
-      <td><code>_word or phrase_</code></td>
-      <td><ins>word or phrase</ins></td>
+      <td>Gạch chân</td>
+      <td><code>_từ hoặc cụm từ_</code></td>
+      <td><ins>từ hoặc cụm từ</ins></td>
     </tr>
   </tbody>
 </table>

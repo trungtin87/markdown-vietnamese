@@ -1,129 +1,129 @@
 ---
-title: Blockquotes
+title: Trích dẫn khối (Blockquotes)
 syntax-id: blockquotes
 syntax-summary: "> blockquote"
-description: "To create a blockquote, add a `>` in front of a paragraph."
+description: "Để tạo một trích dẫn khối, thêm dấu `>` vào trước đoạn văn."
 examples:
-  - markdown: "> Dorothy followed her through many of the beautiful rooms in  her castle."
-    html: "<blockquote><p>Dorothy followed her through many of the beautiful rooms in her castle.</p></blockquote>"
+  - markdown: "> Dorothy đi theo bà qua nhiều căn phòng xinh đẹp trong lâu đài."
+    html: "<blockquote><p>Dorothy đi theo bà qua nhiều căn phòng xinh đẹp trong lâu đài.</p></blockquote>"
 additional-examples:
-  - name: "Blockquotes with Multiple Paragraphs"
-    description: "Blockquotes can contain multiple paragraphs. Add a `>` on the blank lines between the paragraphs."
+  - name: "Trích dẫn khối với nhiều đoạn văn"
+    description: "Trích dẫn khối có thể chứa nhiều đoạn văn. Thêm dấu `>` vào các dòng trống giữa các đoạn văn."
     markdown: |
-      > Dorothy followed her through many of the beautiful rooms in her castle.
+      > Dorothy đi theo bà qua nhiều căn phòng xinh đẹp trong lâu đài.
       >
-      > The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-    html: "<blockquote><p>Dorothy followed her through many of the beautiful rooms in her castle.</p><p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p></blockquote>"
-  - name: "Nested Blockquotes"
-    description: "Blockquotes can be nested. Add a `>>` in front of the paragraph you want to nest."
+      > Mụ phù thủy ra lệnh cho cô lau chùi nồi niêu, quét nhà và giữ cho lửa luôn cháy bằng củi.
+    html: "<blockquote><p>Dorothy đi theo bà qua nhiều căn phòng xinh đẹp trong lâu đài.</p><p>Mụ phù thủy ra lệnh cho cô lau chùi nồi niêu, quét nhà và giữ cho lửa luôn cháy bằng củi.</p></blockquote>"
+  - name: "Trích dẫn khối lồng nhau"
+    description: "Trích dẫn khối có thể được lồng vào nhau. Thêm dấu `>>` vào trước đoạn văn bạn muốn lồng."
     markdown: |
-      > Dorothy followed her through many of the beautiful rooms in her castle.
+      > Dorothy đi theo bà qua nhiều căn phòng xinh đẹp trong lâu đài.
       >
-      >> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-    html: "<blockquote><p>Dorothy followed her through many of the beautiful rooms in her castle.</p><blockquote><p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p></blockquote></blockquote>"
-  - name: "Blockquotes with Other Elements"
-    description: "Blockquotes can contain other Markdown formatted elements. Not all elements can be used — you'll need to experiment to see which ones work."
+      >> Mụ phù thủy ra lệnh cho cô lau chùi nồi niêu, quét nhà và giữ cho lửa luôn cháy bằng củi.
+    html: "<blockquote><p>Dorothy đi theo bà qua nhiều căn phòng xinh đẹp trong lâu đài.</p><blockquote><p>Mụ phù thủy ra lệnh cho cô lau chùi nồi niêu, quét nhà và giữ cho lửa luôn cháy bằng củi.</p></blockquote></blockquote>"
+  - name: "Trích dẫn khối với các phần tử khác"
+    description: "Trích dẫn khối có thể chứa các phần tử định dạng Markdown khác. Không phải tất cả các phần tử đều có thể sử dụng được — bạn sẽ cần thử nghiệm để xem cái nào hoạt động."
     markdown: |
-      > ### The quarterly results look great!
+      > ### Kết quả hàng quý trông rất tuyệt!
       >
-      > - Revenue was off the chart.
-      > - Profits were higher than ever.
+      > - Doanh thu vượt ngoài mong đợi.
+      > - Lợi nhuận cao hơn bao giờ hết.
       >
-      >  *Everything* is going according to **plan**.
-    html: "<blockquote><h3>The quarterly results look great!</h3><ul><li>Revenue was off the chart.</li><li>Profits were higher than ever.</li></ul><p><em>Everything</em> is going according to <strong>plan</strong>.</p></blockquote>"
+      >  *Mọi thứ* đang diễn ra theo đúng **kế hoạch**.
+    html: "<blockquote><h3>Kết quả hàng quý trông rất tuyệt!</h3><ul><li>Doanh thu vượt ngoài mong đợi.</li><li>Lợi nhuận cao hơn bao giờ hết.</li></ul><p><em>Mọi thứ</em> đang diễn ra theo đúng <strong>kế hoạch</strong>.</p></blockquote>"
 ---
 
-To create a blockquote, add a `>` in front of a paragraph.
+Để tạo một trích dẫn khối, thêm dấu `>` vào trước đoạn văn.
 
 ```
-> Dorothy followed her through many of the beautiful rooms in her castle.
+> Dorothy đi theo bà qua nhiều căn phòng xinh đẹp trong lâu đài.
 ```
 
-The rendered output looks like this:
+Kết quả hiển thị sẽ trông như thế này:
 
-> Dorothy followed her through many of the beautiful rooms in her castle.
+> Dorothy đi theo bà qua nhiều căn phòng xinh đẹp trong lâu đài.
 
-### Blockquotes with Multiple Paragraphs
+### Trích dẫn khối với nhiều đoạn văn
 
-Blockquotes can contain multiple paragraphs. Add a `>` on the blank lines between the paragraphs.
-
-```
-> Dorothy followed her through many of the beautiful rooms in her castle.
->
-> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-```
-
-The rendered output looks like this:
-
-> Dorothy followed her through many of the beautiful rooms in her castle.
->
-> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-
-### Nested Blockquotes
-
-Blockquotes can be nested. Add a `>>` in front of the paragraph you want to nest.
+Trích dẫn khối có thể chứa nhiều đoạn văn. Thêm dấu `>` vào các dòng trống giữa các đoạn văn.
 
 ```
-> Dorothy followed her through many of the beautiful rooms in her castle.
+> Dorothy đi theo bà qua nhiều căn phòng xinh đẹp trong lâu đài.
 >
->> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+> Mụ phù thủy ra lệnh cho cô lau chùi nồi niêu, quét nhà và giữ cho lửa luôn cháy bằng củi.
 ```
 
-The rendered output looks like this:
+Kết quả hiển thị sẽ trông như thế này:
 
-> Dorothy followed her through many of the beautiful rooms in her castle.
+> Dorothy đi theo bà qua nhiều căn phòng xinh đẹp trong lâu đài.
 >
->> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+> Mụ phù thủy ra lệnh cho cô lau chùi nồi niêu, quét nhà và giữ cho lửa luôn cháy bằng củi.
 
-### Blockquotes with Other Elements
+### Trích dẫn khối lồng nhau
 
-Blockquotes can contain other Markdown formatted elements. Not all elements can be used — you'll need to experiment to see which ones work.
+Trích dẫn khối có thể được lồng vào nhau. Thêm dấu `>>` vào trước đoạn văn bạn muốn lồng.
 
 ```
-> #### The quarterly results look great!
+> Dorothy đi theo bà qua nhiều căn phòng xinh đẹp trong lâu đài.
 >
-> - Revenue was off the chart.
-> - Profits were higher than ever.
->
->  *Everything* is going according to **plan**.
+>> Mụ phù thủy ra lệnh cho cô lau chùi nồi niêu, quét nhà và giữ cho lửa luôn cháy bằng củi.
 ```
 
-The rendered output looks like this:
+Kết quả hiển thị sẽ trông như thế này:
 
-> <h4 class="no-anchor">The quarterly results look great!</h4>
+> Dorothy đi theo bà qua nhiều căn phòng xinh đẹp trong lâu đài.
 >
-> - Revenue was off the chart.
-> - Profits were higher than ever.
+>> Mụ phù thủy ra lệnh cho cô lau chùi nồi niêu, quét nhà và giữ cho lửa luôn cháy bằng củi.
+
+### Trích dẫn khối với các phần tử khác
+
+Trích dẫn khối có thể chứa các phần tử định dạng Markdown khác. Không phải tất cả các phần tử đều có thể sử dụng được — bạn sẽ cần thử nghiệm để xem cái nào hoạt động.
+
+```
+> #### Kết quả hàng quý trông rất tuyệt!
 >
-> *Everything* is going according to **plan**.
+> - Doanh thu vượt ngoài mong đợi.
+> - Lợi nhuận cao hơn bao giờ hết.
+>
+>  *Mọi thứ* đang diễn ra theo đúng **kế hoạch**.
+```
 
-### Blockquotes Best Practices
+Kết quả hiển thị sẽ trông như thế này:
 
-For compatibility, put blank lines before and after blockquotes.
+> <h4 class="no-anchor">Kết quả hàng quý trông rất tuyệt!</h4>
+>
+> - Doanh thu vượt ngoài mong đợi.
+> - Lợi nhuận cao hơn bao giờ hết.
+>
+> *Mọi thứ* đang diễn ra theo đúng **kế hoạch**.
+
+### Thực tiễn tốt nhất cho Trích dẫn khối
+
+Để đảm bảo khả năng tương thích, hãy đặt các dòng trống trước và sau trích dẫn khối.
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>✅&nbsp; Do this</th>
-      <th>❌&nbsp; Don't do this</th>
+      <th>✅&nbsp; Nên làm</th>
+      <th>❌&nbsp; Không nên làm</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
         <code class="highlighter-rouge">
-        Try to put a blank line before...<br><br>
+        Cố gắng đặt một dòng trống trước...<br><br>
 
-        > This is a blockquote<br><br>
+        > Đây là một trích dẫn khối<br><br>
 
-        ...and after a blockquote.
+        ...và sau một trích dẫn khối.
         </code>
       </td>
       <td>
         <code class="highlighter-rouge">
-        Without blank lines, this might not look right.<br>
-        > This is a blockquote<br>
-        Don't do this!
+        Nếu không có dòng trống, nó có thể trông không đúng.<br>
+        > Đây là một trích dẫn khối<br>
+        Đừng làm điều này!
         </code>
       </td>
     </tr>

@@ -1,7 +1,7 @@
 ---
 title: MkDocs
 category: "websites"
-description: "MkDocs is a static site generator for building documentation websites."
+description: "MkDocs là một trình tạo trang web tĩnh để xây dựng các trang web tài liệu."
 icon: mkdocs.png
 website: https://www.mkdocs.org
 syntax:
@@ -62,20 +62,20 @@ syntax:
   - id: html
     available: y
 see-also:
-  - name: Writing in Markdown with MkDocs
+  - name: Viết bằng Markdown với MkDocs
     link: https://www.mkdocs.org/user-guide/writing-your-docs/#writing-with-markdown
-  - name: MkDocs repository on GitHub
+  - name: Kho lưu trữ MkDocs trên GitHub
     link: https://github.com/mkdocs/mkdocs/
 ---
 
-[MkDocs](https://www.mkdocs.org) is a static site generator designed for building documentation websites.  Written in the Python programming language, MkDocs is an open-source project with a lot of community support. A variety of [themes](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes) are available. In terms of Markdown support, MkDocs does an excellent job supporting the basic syntax elements, but it lacks support for some extended syntax elements.
+[MkDocs](https://www.mkdocs.org) là một trình tạo trang web tĩnh được thiết kế để xây dựng các trang web tài liệu. Được viết bằng ngôn ngữ lập trình Python, MkDocs là một dự án mã nguồn mở với rất nhiều sự hỗ trợ từ cộng đồng. Có nhiều [chủ đề](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes) khác nhau. Về hỗ trợ Markdown, MkDocs thực hiện công việc tuyệt vời trong việc hỗ trợ các phần tử cú pháp cơ bản, nhưng nó thiếu hỗ trợ cho một số phần tử cú pháp mở rộng.
 
-The application uses the [Python-Markdown](https://python-markdown.github.io/) Markdown processor. You can enable additional [extensions](https://www.mkdocs.org/user-guide/configuration/#markdown_extensions).
+Ứng dụng sử dụng bộ xử lý Markdown [Python-Markdown](https://python-markdown.github.io/). Bạn có thể bật thêm [các tiện ích mở rộng](https://www.mkdocs.org/user-guide/configuration/#markdown_extensions).
 
-{% include image.html file="/assets/images/tools/mkdocs.png" alt="A newly deployed MkDocs site." width="70" %}
+{% include image.html file="/assets/images/tools/mkdocs.png" alt="Một trang web MkDocs mới được triển khai." width="70" %}
 
 {% include tool-syntax-table.html %}
 
-### Using Admonitions
+### Sử dụng Lời khuyên răn (Admonitions)
 
-Here's a handy feature: You can enable an extension to use [admonitions](https://python-markdown.github.io/extensions/admonition/) in MkDocs. This is a quick and easy way to start using notes, warnings, and tips on your MkDocs site. See this [GitHub issue](https://github.com/mkdocs/mkdocs/issues/1659) for more information and examples.
+Đây là một tính năng tiện dụng: Bạn có thể bật một tiện ích mở rộng để sử dụng [lời khuyên răn](https://python-markdown.github.io/extensions/admonition/) trong MkDocs. Đây là một cách nhanh chóng và dễ dàng để bắt đầu sử dụng ghi chú, cảnh báo và mẹo trên trang web MkDocs của bạn. Xem [vấn đề GitHub này](https://github.com/mkdocs/mkdocs/issues/1659) để biết thêm thông tin và ví dụ.

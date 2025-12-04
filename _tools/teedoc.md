@@ -1,7 +1,7 @@
 ---
 title: teedoc
 category: "websites"
-description: "Static doc site generator from Markdown and jupyter, written with Python."
+description: "Trình tạo trang web tài liệu tĩnh từ Markdown và jupyter, được viết bằng Python."
 icon: teedoc.png
 website: https://teedoc.github.io
 syntax:
@@ -62,25 +62,25 @@ syntax:
   - id: html
     available: y
 see-also:
-  - name: teedoc Markdown Features
+  - name: Các tính năng Markdown của teedoc
     link: https://teedoc.github.io/get_started/en/syntax/syntax_markdown.html
 ---
 
-[teedoc](https://teedoc.github.io) is an open-source static site generator that converts Markdown files and jupyter notebooks to a documentation website. teedoc is written in the Python programming language, easy to use and extend. teedoc is especially suitable for multiple documentation sites, wikis, or knowledge bases.
+[teedoc](https://teedoc.github.io) là một trình tạo trang web tĩnh mã nguồn mở chuyển đổi các file Markdown và jupyter notebooks thành một trang web tài liệu. teedoc được viết bằng ngôn ngữ lập trình Python, dễ sử dụng và mở rộng. teedoc đặc biệt phù hợp cho nhiều trang web tài liệu, wiki hoặc cơ sở kiến thức.
 
-teedoc uses the [mistune](https://github.com/lepture/mistune) Markdown parser.
+teedoc sử dụng trình phân tích cú pháp Markdown [mistune](https://github.com/lepture/mistune).
 
-{% include image.html file="/assets/images/tools/teedoc.png" alt="Example of teedoc website" %}
+{% include image.html file="/assets/images/tools/teedoc.png" alt="Ví dụ về trang web teedoc" %}
 
 {% include tool-syntax-table.html %}
 
-### Support for Additional Syntax Elements
+### Hỗ trợ cho các Phần tử Cú pháp Bổ sung
 
-teedoc supports many useful additional syntax like:
+teedoc hỗ trợ nhiều cú pháp bổ sung hữu ích như:
 
-* [mermaid](https://mermaid-js.github.io/mermaid/): A simple markdown-like script language for generating charts from text via javascript.
-* math: Supports Latex, tex math syntax, and MathML tags.
-* tabset: A easy to use tabset syntax. For example, it shows different code examples for different programming languages.
+* [mermaid](https://mermaid-js.github.io/mermaid/): Một ngôn ngữ kịch bản đơn giản giống markdown để tạo biểu đồ từ văn bản thông qua javascript.
+* math: Hỗ trợ cú pháp toán học Latex, tex và thẻ MathML.
+* tabset: Một cú pháp tabset dễ sử dụng. Ví dụ, nó hiển thị các ví dụ mã khác nhau cho các ngôn ngữ lập trình khác nhau.
 
   ```markdown
     .. tabset::
@@ -88,18 +88,18 @@ teedoc supports many useful additional syntax like:
 
         ## Kotlin
 
-        Content 1, full Markdown syntax support
+        Nội dung 1, hỗ trợ đầy đủ cú pháp Markdown
 
         ## Java
 
-        Content 2, full Markdown syntax support
+        Nội dung 2, hỗ trợ đầy đủ cú pháp Markdown
   ```
 
-  will be rendered to:
+  sẽ được hiển thị thành:
 
   ```html
   <div class="tabset tabset-id-tabset1">
-    <div class="tabset-title">Title(optional)</div>
+    <div class="tabset-title">Tiêu đề(tùy chọn)</div>
     <div class="tabset-content">
       <div class="tabset-tab">
         <span class="tabset-tab-label tabset-tab-active" idx="0">Kotlin</span>
@@ -107,34 +107,33 @@ teedoc supports many useful additional syntax like:
       </div>
       <div class="tabset-text-container">
           <div class="tabset-text tabset-text-active" idx="0">
-            <p>Content 1, full Markdown syntax support</p>
+            <p>Nội dung 1, hỗ trợ đầy đủ cú pháp Markdown</p>
           </div>
           <div class="tabset-text" idx="1">
-            <p>Content 2, full Markdown syntax support</p>
+            <p>Nội dung 2, hỗ trợ đầy đủ cú pháp Markdown</p>
           </div>
       </div>
     </div>
   </div>
   ```
 
-* details: A syntax to generate HTML5 details tag.
+* details: Một cú pháp để tạo thẻ details HTML5.
 
   ```markdown
-    .. details::Title, click to expand
+    .. details::Tiêu đề, nhấp để mở rộng
 
-        Content, full Markdown syntax support
+        Nội dung, hỗ trợ đầy đủ cú pháp Markdown
   ```
 
-  will be rendered to:
+  sẽ được hiển thị thành:
 
   ```html
     <details>
-      <summary>Title, click to expand</summary>
+      <summary>Tiêu đề, nhấp để mở rộng</summary>
       <div class="details-content">
-        <p>Content, full Markdown syntax support</p>
+        <p>Nội dung, hỗ trợ đầy đủ cú pháp Markdown</p>
       </div>
     </details>
   ```
 
-For more syntax information, visit [teedoc markdown syntax](https://teedoc.github.io/get_started/en/syntax/syntax_markdown.html).
-
+Để biết thêm thông tin về cú pháp, hãy truy cập [cú pháp markdown teedoc](https://teedoc.github.io/get_started/en/syntax/syntax_markdown.html).

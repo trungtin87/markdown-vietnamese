@@ -1,7 +1,7 @@
 ---
 title: Markdown Space
 category: 'websites'
-description: 'Build beautiful, fast, and responsive websites with Markdown.'
+description: 'Xây dựng các trang web đẹp, nhanh và phản hồi nhanh với Markdown.'
 icon: markdown-space.png
 website: https://markdown.space
 syntax:
@@ -39,7 +39,7 @@ syntax:
     available: n
   - id: heading-ids
     available: p
-    notes: "Automatically generated. There's no way to set custom heading IDs."
+    notes: "Được tạo tự động. Không có cách nào để đặt ID tiêu đề tùy chỉnh."
   - id: definition-lists
     available: n
   - id: strikethrough
@@ -63,13 +63,13 @@ syntax:
   - id: html
     available: y
 see-also:
-  - name: Markdown Space Documentation
+  - name: Tài liệu Markdown Space
     link: https://markdown.space/documentation
 ---
 
-[Markdown Space](https://markdown.space) is a platform for building beautiful, fast, and responsive websites with Markdown syntax. Host your site on a custom domain and get the benefits of the [Cloudflare Supercloud](https://blog.cloudflare.com/welcome-to-the-supercloud-and-developer-week-2022/). Generate content with the help of AI, and add JSX components with support for [MDX](https://mdxjs.com). Leverage the beauty of [Bootswatch](https://bootswatch.com) themes.
+[Markdown Space](https://markdown.space) là một nền tảng để xây dựng các trang web đẹp, nhanh và phản hồi nhanh với cú pháp Markdown. Lưu trữ trang web của bạn trên một tên miền tùy chỉnh và nhận được những lợi ích của [Cloudflare Supercloud](https://blog.cloudflare.com/welcome-to-the-supercloud-and-developer-week-2022/). Tạo nội dung với sự trợ giúp của AI và thêm các thành phần JSX với sự hỗ trợ cho [MDX](https://mdxjs.com). Tận dụng vẻ đẹp của các chủ đề [Bootswatch](https://bootswatch.com).
 
-See the [Quick start](https://markdown.space/getting-started) guide for more details.
+Xem hướng dẫn [Bắt đầu nhanh](https://markdown.space/getting-started) để biết thêm chi tiết.
 
 {% include image.html file="/assets/images/tools/markdown-space.png" alt="Markdown Space" width="100" %}
 

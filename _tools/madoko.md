@@ -1,7 +1,7 @@
 ---
 title: Madoko
 category: documents
-description: "Madoko is an application for writing professional articles and more."
+description: "Madoko là một ứng dụng để viết các bài báo chuyên nghiệp và hơn thế nữa."
 icon: madoko.png
 website: https://github.com/koka-lang/madoko
 syntax:
@@ -29,15 +29,15 @@ syntax:
     available: y
   - id: images
     available: p
-    notes: "Images can be dropped into the document to be automatically uploaded and linked to a sub-directory of the document's folder. Just watch the file size as images larger than about 1Mb are rejected by the Madoko server."
+    notes: "Hình ảnh có thể được thả vào tài liệu để được tự động tải lên và liên kết đến một thư mục con của thư mục tài liệu. Chỉ cần chú ý kích thước file vì hình ảnh lớn hơn khoảng 1Mb sẽ bị máy chủ Madoko từ chối."
   - id: tables
     available: y
-    notes: "Madoko significantly extends the table syntax of basic Markdown."
+    notes: "Madoko mở rộng đáng kể cú pháp bảng của Markdown cơ bản."
   - id: fenced-code-blocks
     available: y
   - id: syntax-highlighting
     available: y
-    notes: "Internally, Madoko uses the Monarch library to do syntax highlighting."
+    notes: "Bên trong, Madoko sử dụng thư viện Monarch để thực hiện tô sáng cú pháp."
   - id: footnotes
     available: y
   - id: heading-ids
@@ -64,17 +64,17 @@ syntax:
     available: n
   - id: html
     available: p
-    notes: "See the Madoko Reference for more information on custom blocks."
+    notes: "Xem Tài liệu tham khảo Madoko để biết thêm thông tin về các khối tùy chỉnh."
 ---
 
-[Madoko](https://github.com/koka-lang/madoko) is a fast Markdown processor for writing professional articles, books, manuals, webpages and presentations, with a focus on simplicity and plain text readability. You can use Madoko to write complex documents in Markdown and get beautiful PDF and HTML output. Madoko is a Javascript Markdown processor written in Koka. It started out as a demo program for the new, strongly typed, Koka language and the name comes from "Markdown in Koka."
+[Madoko](https://github.com/koka-lang/madoko) là một bộ xử lý Markdown nhanh để viết các bài báo chuyên nghiệp, sách, hướng dẫn sử dụng, trang web và bài thuyết trình, tập trung vào sự đơn giản và khả năng đọc văn bản thuần túy. Bạn có thể sử dụng Madoko để viết các tài liệu phức tạp bằng Markdown và nhận được đầu ra PDF và HTML đẹp mắt. Madoko là một bộ xử lý Markdown Javascript được viết bằng Koka. Nó bắt đầu như một chương trình demo cho ngôn ngữ Koka mới, được định kiểu mạnh và tên gọi này xuất phát từ "Markdown in Koka."
 
-Madoko can both be run locally as a command-line program or on Madoko.net to take advantage of storage and collaboration features. Madoko integrates seamlessly with Dropbox, Github, and OneDrive. It automatically synchronizes all changes in the cloud. This way, your document is always available from any device. The online editor can also edit files on the local disk, or run LaTeX locally, using the Madoko local program.
+Madoko có thể được chạy cục bộ như một chương trình dòng lệnh hoặc trên Madoko.net để tận dụng các tính năng lưu trữ và cộng tác. Madoko tích hợp liền mạch với Dropbox, Github và OneDrive. Nó tự động đồng bộ hóa tất cả các thay đổi trên đám mây. Bằng cách này, tài liệu của bạn luôn có sẵn từ mọi thiết bị. Trình soạn thảo trực tuyến cũng có thể chỉnh sửa các file trên đĩa cục bộ hoặc chạy LaTeX cục bộ, sử dụng chương trình cục bộ Madoko.
 
-{% include image.html file="/assets/images/tools/madoko-editor.png" alt="Madoko editor interface" width="90" %}
+{% include image.html file="/assets/images/tools/madoko-editor.png" alt="Giao diện trình soạn thảo Madoko" width="90" %}
 
-Madoko implements extensions like Github Flavored Markdown, [pandoc](https://pandoc.org/), [Markdown Extra](https://michelf.ca/projects/php-markdown/extra/), and [multi-markdown](https://fletcherpenney.net/multimarkdown/), and it adds other useful features for writing academic and industrial documents.
+Madoko triển khai các tiện ích mở rộng như Github Flavored Markdown, [pandoc](https://pandoc.org/), [Markdown Extra](https://michelf.ca/projects/php-markdown/extra/), và [multi-markdown](https://fletcherpenney.net/multimarkdown/), và nó thêm các tính năng hữu ích khác để viết các tài liệu học thuật và công nghiệp.
 
-In Madoko, tabs are considered to be equivalent to 4 spaces. It's best to configure your editor to view tabs as 4 spaces wide or documents may look off.
+Trong Madoko, các tab được coi là tương đương với 4 khoảng trắng. Tốt nhất là định cấu hình trình soạn thảo của bạn để xem các tab rộng 4 khoảng trắng nếu không tài liệu có thể trông lệch lạc.
 
 {% include tool-syntax-table.html %}

@@ -5,13 +5,13 @@ description: A quick reference to the Markdown syntax.
 last_modified_at: 2021-12-05
 ---
 
-## Overview
+## Tổng Quan
 
-This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can't cover every edge case, so if you need more information about any of these elements, refer to the reference guides for [basic syntax](/basic-syntax/) and [extended syntax](/extended-syntax/).
+Bảng tra cứu nhanh Markdown này cung cấp tổng quan nhanh về tất cả các thành phần cú pháp Markdown. Nó không thể bao gồm mọi trường hợp đặc biệt, vì vậy nếu bạn cần thêm thông tin về bất kỳ thành phần nào trong số này, hãy tham khảo hướng dẫn tham khảo cho [cú pháp cơ bản](/basic-syntax/) và [cú pháp mở rộng](/extended-syntax/).
 
-## Basic Syntax
+## Cú Pháp Cơ Bản
 
-These are the elements outlined in John Gruber's original design document. All Markdown applications support these elements.
+Đây là các thành phần được nêu trong tài liệu thiết kế gốc của John Gruber. Tất cả các ứng dụng Markdown đều hỗ trợ các thành phần này.
 
 <table class="table table-bordered">
   <thead class="thead-light">
@@ -76,9 +76,9 @@ These are the elements outlined in John Gruber's original design document. All M
   </tbody>
 </table>
 
-## Extended Syntax
+## Cú Pháp Mở Rộng
 
-These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.
+Các thành phần này mở rộng cú pháp cơ bản bằng cách thêm các tính năng bổ sung. Không phải tất cả các ứng dụng Markdown đều hỗ trợ các thành phần này.
 
 <table class="table table-bordered">
   <thead class="thead-light">
@@ -165,6 +165,6 @@ These elements extend the basic syntax by adding additional features. Not all Ma
   </tbody>
 </table>
 
-## Downloads
+## Tải Xuống
 
-You can <a href="/assets/markdown-cheat-sheet.md" download="markdown-cheat-sheet.md">download this cheat sheet as a Markdown file</a> for use in your Markdown application.
+Bạn có thể <a href="/assets/markdown-cheat-sheet.md" download="markdown-cheat-sheet.md">tải xuống bảng tra cứu nhanh này dưới dạng tệp Markdown</a> để sử dụng trong ứng dụng Markdown của bạn.

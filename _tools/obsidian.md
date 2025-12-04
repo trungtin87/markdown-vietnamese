@@ -1,7 +1,7 @@
 ---
 title: Obsidian
 category: "notes"
-description: "Obsidian is a Markdown note-taking application loaded with features."
+description: "Obsidian là một ứng dụng ghi chú Markdown được tải với các tính năng."
 icon: obsidian.png
 website: https://obsidian.md/
 syntax:
@@ -27,7 +27,7 @@ syntax:
     available: y
   - id: links
     available: y
-    notes: "You can link to other notes in Obsidian by using the `[[file name]]` syntax."
+    notes: "Bạn có thể liên kết đến các ghi chú khác trong Obsidian bằng cách sử dụng cú pháp `[[tên file]]`."
   - id: images
     available: y
   - id: tables
@@ -36,7 +36,7 @@ syntax:
     available: y
   - id: syntax-highlighting
     available: y
-    notes: "See the [list of supported languages](https://prismjs.com/#supported-languages)."
+    notes: "Xem [danh sách các ngôn ngữ được hỗ trợ](https://prismjs.com/#supported-languages)."
   - id: footnotes
     available: y
   - id: heading-ids
@@ -55,28 +55,28 @@ syntax:
     available: y
   - id: subscript
     available: n
-    notes: "The [`sub` HTML tag](/extended-syntax/#subscript) is supported."
+    notes: "[Thẻ HTML `sub`](/extended-syntax/#subscript) được hỗ trợ."
   - id: superscript
     available: n
-    notes: "The [`sup` HTML tag](/extended-syntax/#superscript) is supported."
+    notes: "[Thẻ HTML `sup`](/extended-syntax/#superscript) được hỗ trợ."
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url
     available: y
   - id: html
     available: p
-    notes: "Some HTML is [sanitized](https://publish.obsidian.md/help/Advanced+topics/HTML+sanitization) for security purposes. Markdown inside HTML is frequently left un-parsed."
+    notes: "Một số HTML được [làm sạch](https://publish.obsidian.md/help/Advanced+topics/HTML+sanitization) vì mục đích bảo mật. Markdown bên trong HTML thường không được phân tích cú pháp."
 see-also:
-  - name: Format your notes
+  - name: Định dạng ghi chú của bạn
     link: https://publish.obsidian.md/help/How+to/Format+your+notes
 ---
 
-[Obsidian](https://obsidian.md/) is a relatively new entrant in the increasingly crowded Markdown knowledge base and note-taking market. Obsidian's excellent Markdown support and its simple, straightforward design makes it a standout application in the category. [Desktop](https://obsidian.md/download) and [mobile](https://obsidian.md/mobile) applications are available.
+[Obsidian](https://obsidian.md/) là một người mới tham gia tương đối vào thị trường ghi chú và cơ sở kiến thức Markdown ngày càng đông đúc. Hỗ trợ Markdown tuyệt vời của Obsidian và thiết kế đơn giản, dễ hiểu của nó làm cho nó trở thành một ứng dụng nổi bật trong danh mục này. Có sẵn các ứng dụng [Máy tính để bàn](https://obsidian.md/download) và [di động](https://obsidian.md/mobile).
 
-{% include image.html file="/assets/images/tools/obsidian.png" alt="Obsidian Markdown application" %}
+{% include image.html file="/assets/images/tools/obsidian.png" alt="Ứng dụng Markdown Obsidian" %}
 
-Obsidian sports virtually all of the standard fare common to the other applications in this category, but it ups the ante by including a number of other features for power users. There's a visually-striking graph view that's a kind of "mind map" of all your files stored in Obsidian, a "Markdown format importer" that can find and replace certain Markdown syntax elements in your files, and support for [math](https://publish.obsidian.md/help/How+to/Format+your+notes) and [diagram](https://publish.obsidian.md/help/How+to/Format+your+notes) syntax. That really just scratches the surface of Obsidian's capabilities. Obsidian is extensible, and there are hundreds of free community plugins available within the application. 
+Obsidian có hầu như tất cả các tính năng tiêu chuẩn phổ biến cho các ứng dụng khác trong danh mục này, nhưng nó nâng cao vị thế bằng cách bao gồm một số tính năng khác cho người dùng chuyên nghiệp. Có một chế độ xem biểu đồ trực quan nổi bật, là một loại "bản đồ tư duy" của tất cả các file của bạn được lưu trữ trong Obsidian, một "trình nhập định dạng Markdown" có thể tìm và thay thế một số phần tử cú pháp Markdown nhất định trong các file của bạn, và hỗ trợ cho cú pháp [toán học](https://publish.obsidian.md/help/How+to/Format+your+notes) và [sơ đồ](https://publish.obsidian.md/help/How+to/Format+your+notes). Điều đó thực sự chỉ mới làm trầy xước bề mặt các khả năng của Obsidian. Obsidian có thể mở rộng, và có hàng trăm plugin cộng đồng miễn phí có sẵn trong ứng dụng.
 
-Two other features are worth mentioning. Obsidian provides a simple way to publish notes to the internet, and it stores all of your files in plaintext Markdown files containing only the text you enter.
+Hai tính năng khác đáng được đề cập. Obsidian cung cấp một cách đơn giản để xuất bản ghi chú lên internet, và nó lưu trữ tất cả các file của bạn trong các file Markdown văn bản thuần túy chỉ chứa văn bản bạn nhập.
 
 {% include tool-syntax-table.html %}

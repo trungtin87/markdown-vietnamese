@@ -4,12 +4,12 @@ syntax-id: strikethrough
 syntax-summary: "~~The world is flat.~~"
 ---
 
-You can strikethrough words by putting a horizontal line through the center of them. The result looks ~~like this~~. This feature allows you to indicate that certain words are a mistake not meant for inclusion in the document. To strikethrough words, use two tilde symbols (`~~`) before and after the words.
+Bạn có thể gạch ngang các từ bằng cách đặt một đường kẻ ngang qua giữa chúng. Kết quả trông ~~như thế này~~. Tính năng này cho phép bạn chỉ ra rằng một số từ nhất định là lỗi không có ý định đưa vào tài liệu. Để gạch ngang các từ, hãy sử dụng hai ký hiệu dấu ngã (`~~`) trước và sau các từ.
 
 ```
 ~~The world is flat.~~ We now know that the world is round.
 ```
 
-The rendered output looks like this:
+Kết quả hiển thị trông như thế này:
 
 ~~The world is flat.~~ We now know that the world is round.

@@ -1,7 +1,7 @@
 ---
 title: Jekyll
 category: "websites"
-description: "Jekyll is a static site generator that converts Markdown files to a website."
+description: "Jekyll là một trình tạo trang web tĩnh giúp chuyển đổi các file Markdown thành một trang web."
 icon: jekyll.png
 website: https://jekyllrb.com
 syntax:
@@ -35,7 +35,7 @@ syntax:
     available: y
   - id: syntax-highlighting
     available: y
-    notes: "Make sure that `syntax_highlighter: rouge` is in the `kramdown` section of the `_config.yml` file."
+    notes: "Đảm bảo rằng `syntax_highlighter: rouge` nằm trong phần `kramdown` của file `_config.yml`."
   - id: footnotes
     available: y
   - id: heading-ids
@@ -44,14 +44,14 @@ syntax:
     available: y
   - id: strikethrough
     available: y
-    notes: "You can use two tildes (`~~word~~`) or one tilde (`~word~`) — both work."
+    notes: "Bạn có thể sử dụng hai dấu ngã (`~~từ~~`) hoặc một dấu ngã (`~từ~`) — cả hai đều hoạt động."
   - id: task-lists
     available: y
   - id: emoji-cp
     available: y
   - id: emoji-sc
     available: n
-    notes: "Not supported by default, but you can use the [jemoji](https://github.com/jekyll/jemoji) plugin to enable support."
+    notes: "Không được hỗ trợ theo mặc định, nhưng bạn có thể sử dụng plugin [jemoji](https://github.com/jekyll/jemoji) để bật hỗ trợ."
   - id: highlight
     available: n
   - id: subscript
@@ -65,15 +65,15 @@ syntax:
   - id: html
     available: y
 see-also:
-  - name: Jekyll Markdown configuration options
+  - name: Các tùy chọn cấu hình Markdown Jekyll
     link: https://jekyllrb.com/docs/configuration/markdown/
-  - name: kramdown documentation
+  - name: Tài liệu kramdown
     link: https://kramdown.gettalong.org/
 ---
 
-[Jekyll](https://jekyllrb.com) is a static site generator that takes Markdown files and converts them to a website. Jekyll is a free and open-source application written in the Ruby programming language. Thousands of websites, including the *Markdown Guide*, rely on Jekyll to convert Markdown source files to HTML output. [GitHub Pages](/tools/github-pages/) uses Jekyll as the backend for its free website creation service.
+[Jekyll](https://jekyllrb.com) là một trình tạo trang web tĩnh lấy các file Markdown và chuyển đổi chúng thành một trang web. Jekyll là một ứng dụng mã nguồn mở và miễn phí được viết bằng ngôn ngữ lập trình Ruby. Hàng ngàn trang web, bao gồm cả *Markdown Guide*, dựa vào Jekyll để chuyển đổi các file nguồn Markdown sang đầu ra HTML. [GitHub Pages](/tools/github-pages/) sử dụng Jekyll làm backend cho dịch vụ tạo trang web miễn phí của mình.
 
-By default, Jekyll uses the [kramdown](https://kramdown.gettalong.org/) Markdown processor with stock settings, but you can enable other kramdown options or even switch Jekyll to another Markdown processor. See the [Jekyll Markdown configuration options](https://jekyllrb.com/docs/configuration/markdown/) documentation for more information. You can change Jekyll's kramdown settings in the `_config.yml` file. The settings for the *Markdown Guide* are shown below.
+Theo mặc định, Jekyll sử dụng bộ xử lý Markdown [kramdown](https://kramdown.gettalong.org/) với các cài đặt gốc, nhưng bạn có thể bật các tùy chọn kramdown khác hoặc thậm chí chuyển Jekyll sang bộ xử lý Markdown khác. Xem tài liệu [Các tùy chọn cấu hình Markdown Jekyll](https://jekyllrb.com/docs/configuration/markdown/) để biết thêm thông tin. Bạn có thể thay đổi cài đặt kramdown của Jekyll trong file `_config.yml`. Các cài đặt cho *Markdown Guide* được hiển thị bên dưới.
 
 ```yaml
 kramdown:
@@ -85,25 +85,24 @@ kramdown:
 
 {% include tool-syntax-table.html %}
 
-### Support for Additional Syntax Elements
+### Hỗ trợ cho các Phần tử Cú pháp Bổ sung
 
-As an added bonus, Jekyll provides support for several obscure elements.
+Như một phần thưởng thêm, Jekyll cung cấp hỗ trợ cho một số phần tử ít người biết đến.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">
     <tr>
-      <th>Element</th>
+      <th>Phần tử</th>
       <th>Markdown</th>
-      <th>Rendered Output</th>
+      <th>Kết quả hiển thị</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Abbreviation</td>
+      <td>Viết tắt</td>
       <td><code>*[HTML]: Hyper Text Markup Language</code><br>
-      <code>The HTML specification is maintained by the W3C.</code></td>
-      <td>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification
-is maintained by the W3C.</td>
+      <code>Đặc tả HTML được duy trì bởi W3C.</code></td>
+      <td>Đặc tả <abbr title="Hyper Text Markup Language">HTML</abbr> được duy trì bởi W3C.</td>
     </tr>
   </tbody>
 </table>

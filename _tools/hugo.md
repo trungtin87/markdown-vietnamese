@@ -1,7 +1,7 @@
 ---
 title: Hugo
 category: "websites"
-description: "Hugo is a static site generator that converts Markdown files to a website."
+description: "Hugo là một trình tạo trang web tĩnh giúp chuyển đổi các file Markdown thành một trang web."
 icon: hugo.png
 website: https://gohugo.io
 syntax:
@@ -61,17 +61,17 @@ syntax:
     available: y
   - id: html
     available: y
-    notes: "Disabled by default if you're using Goldmark. To enable, set the `unsafe` option to `true` in the [Goldmark configuration](https://gohugo.io/getting-started/configuration-markup#goldmark)."
+    notes: "Bị vô hiệu hóa theo mặc định nếu bạn đang sử dụng Goldmark. Để bật, hãy đặt tùy chọn `unsafe` thành `true` trong [cấu hình Goldmark](https://gohugo.io/getting-started/configuration-markup#goldmark)."
 see-also:
-  - name: Hugo Supported Content Formats
+  - name: Các định dạng nội dung được Hugo hỗ trợ
     link: https://gohugo.io/content-management/formats/
-  - name: Goldmark GitHub repository
+  - name: Kho lưu trữ GitHub Goldmark
     link: https://github.com/yuin/goldmark/
 ---
 
-[Hugo](https://gohugo.io) is a popular static site generator written in the Go programming language. Hugo is jam-packed with features, but one of its main selling points is speed — Hugo takes mere seconds to generate a site with thousands of pages. [Smashing Magazine](https://www.smashingmagazine.com/2017/03/a-little-surprise-is-waiting-for-you-here/) recently switched to Hugo from WordPress.
+[Hugo](https://gohugo.io) là một trình tạo trang web tĩnh phổ biến được viết bằng ngôn ngữ lập trình Go. Hugo có rất nhiều tính năng, nhưng một trong những điểm bán hàng chính của nó là tốc độ — Hugo chỉ mất vài giây để tạo một trang web với hàng nghìn trang. [Smashing Magazine](https://www.smashingmagazine.com/2017/03/a-little-surprise-is-waiting-for-you-here/) gần đây đã chuyển sang Hugo từ WordPress.
 
-Hugo has excellent Markdown support out of the box. By default, Hugo uses the [Goldmark](https://github.com/yuin/goldmark/) Markdown processor which is fully CommonMark-compliant. See the [configuration instructions](https://gohugo.io/getting-started/configuration-markup/) to learn more about the extensions you can configure. You can change Hugo's Goldmark settings in the `config.toml` file, as shown below.
+Hugo có hỗ trợ Markdown tuyệt vời ngay lập tức. Theo mặc định, Hugo sử dụng bộ xử lý Markdown [Goldmark](https://github.com/yuin/goldmark/) hoàn toàn tuân thủ CommonMark. Xem [hướng dẫn cấu hình](https://gohugo.io/getting-started/configuration-markup/) để tìm hiểu thêm về các tiện ích mở rộng mà bạn có thể cấu hình. Bạn có thể thay đổi cài đặt Goldmark của Hugo trong file `config.toml`, như được hiển thị bên dưới.
 
 ```toml
 baseURL = "http://mysite.org/"

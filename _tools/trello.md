@@ -1,7 +1,7 @@
 ---
 title: Trello
 category: "websites"
-description: "Trello is a kanban-style project management application."
+description: "Trello là một ứng dụng quản lý dự án theo phong cách kanban."
 icon: trello.png
 website: https://trello.com
 syntax:
@@ -11,7 +11,7 @@ syntax:
     available: y
   - id: line-breaks
     available: y
-    notes: "You can press the Return key once to achieve the same result."
+    notes: "Bạn có thể nhấn phím Return một lần để đạt được kết quả tương tự."
   - id: bold
     available: y
   - id: italic
@@ -63,14 +63,14 @@ syntax:
   - id: html
     available: n
 see-also:
-  - name: How To Format Your Text in Trello
+  - name: Cách định dạng văn bản của bạn trong Trello
     link: https://help.trello.com/article/821-using-markdown-in-trello
 ---
 
-[Trello](https://trello.com) is a popular kanban-style project management application that can be used for everything from project management to making grocery shopping lists. You create a board, add columns (called "lists"), and then add cards to lists. The interactive drag-and-drop interface allows you to easily reorder cards and move them between lists as you work on tasks.
+[Trello](https://trello.com) là một ứng dụng quản lý dự án theo phong cách kanban phổ biến có thể được sử dụng cho mọi thứ từ quản lý dự án đến lập danh sách mua sắm tạp hóa. Bạn tạo một bảng, thêm các cột (được gọi là "danh sách"), và sau đó thêm thẻ vào danh sách. Giao diện kéo và thả tương tác cho phép bạn dễ dàng sắp xếp lại thẻ và di chuyển chúng giữa các danh sách khi bạn làm việc trên các tác vụ.
 
-Trello has excellent support for basic Markdown syntax. You can use Markdown in the card descriptions, checklists, and comments. You can also use Markdown for your Trello bio. Not all formatting is properly displayed when viewed in the iOS and Andriod applications.
+Trello có hỗ trợ tuyệt vời cho cú pháp Markdown cơ bản. Bạn có thể sử dụng Markdown trong mô tả thẻ, danh sách kiểm tra và bình luận. Bạn cũng có thể sử dụng Markdown cho tiểu sử Trello của mình. Không phải tất cả định dạng đều được hiển thị đúng khi xem trong các ứng dụng iOS và Android.
 
-{% include image.html file="/assets/images/tools/trello.jpeg" alt="Trello board with Markdown." %}
+{% include image.html file="/assets/images/tools/trello.jpeg" alt="Bảng Trello với Markdown." %}
 
 {% include tool-syntax-table.html %}

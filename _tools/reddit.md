@@ -1,7 +1,7 @@
 ---
 title: Reddit
 category: "website"
-description: "Reddit is a popular online community that supports posting in Markdown."
+description: "Reddit là một cộng đồng trực tuyến phổ biến hỗ trợ đăng bài bằng Markdown."
 icon: reddit.png
 website: https://www.reddit.com
 syntax:
@@ -19,20 +19,20 @@ syntax:
     available: y
   - id: ordered-lists
     available: y
-    notes: "Lists must start with the number 1. You can use parens as the ending punctuation (i.e., `1)` instead of `1.`)."
+    notes: "Danh sách phải bắt đầu bằng số 1. Bạn có thể sử dụng dấu ngoặc đơn làm dấu chấm câu kết thúc (tức là, `1)` thay vì `1.`)."
   - id: unordered-lists
     available: p
-    notes: "Cannot use plus signs (`+`)."
+    notes: "Không thể sử dụng dấu cộng (`+`)."
   - id: code
     available: y
   - id: horizontal-rules
     available: y
   - id: links
     available: y
-    notes: "Links can contain spaces."
+    notes: "Liên kết có thể chứa khoảng trắng."
   - id: images
     available: n
-    notes: "Images are only supported in the rich text editor."
+    notes: "Hình ảnh chỉ được hỗ trợ trong trình soạn thảo văn bản đa dạng thức."
   - id: tables
     available: y
   - id: fenced-code-blocks
@@ -43,7 +43,7 @@ syntax:
     available: n
   - id: heading-ids
     available: p
-    notes: "Automatically generated. There's no way to set custom heading IDs."
+    notes: "Được tạo tự động. Không có cách nào để đặt ID tiêu đề tùy chỉnh."
   - id: definition-lists
     available: n
   - id: strikethrough
@@ -71,34 +71,34 @@ see-also:
     link: https://www.reddit.com/wiki/markdown
 ---
 
-With Markdown, [Reddit](https://www.reddit.com) text formatting is a breeze. All Reddit users have the option of writing comments and posts in Markdown. The popular news website has developed its own Markdown processor called "snoomark" which is based on GitHub-Flavored Markdown. Some have started referring to this as "Reddit-flavored Markdown." For a deep dive into Reddit's Markdown support, see [this wiki article](https://www.reddit.com/wiki/markdown).
+Với Markdown, định dạng văn bản [Reddit](https://www.reddit.com) thật dễ dàng. Tất cả người dùng Reddit đều có tùy chọn viết bình luận và bài đăng bằng Markdown. Trang web tin tức phổ biến này đã phát triển bộ xử lý Markdown của riêng mình có tên là "snoomark" dựa trên GitHub-Flavored Markdown. Một số người đã bắt đầu gọi đây là "Reddit-flavored Markdown." Để tìm hiểu sâu về hỗ trợ Markdown của Reddit, hãy xem [bài viết wiki này](https://www.reddit.com/wiki/markdown).
 
-### Enabling Markdown Support
+### Bật Hỗ trợ Markdown
 
-By default, Reddit disables Markdown support for new posts and comments. You can switch from the rich text editor to Markdown by clicking the **Switch to markdown** link, as shown below.
+Theo mặc định, Reddit vô hiệu hóa hỗ trợ Markdown cho các bài đăng và bình luận mới. Bạn có thể chuyển từ trình soạn thảo văn bản đa dạng thức sang Markdown bằng cách nhấp vào liên kết **Switch to markdown**, như được hiển thị bên dưới.
 
-{% include image.html file="/assets/images/tools/reddit.png" alt="Switching to Markdown on Reddit.com" width="80" %}
+{% include image.html file="/assets/images/tools/reddit.png" alt="Chuyển sang Markdown trên Reddit.com" width="80" %}
 
-To permanently save this setting, you can enable the **Default to Markdown** setting in **User Settings** > **Feed Settings**. Enabling that setting will automatically enable Markdown for new posts or comments.
+Để lưu vĩnh viễn cài đặt này, bạn có thể bật cài đặt **Default to Markdown** trong **User Settings** > **Feed Settings**. Bật cài đặt đó sẽ tự động bật Markdown cho các bài đăng hoặc bình luận mới.
 
 {% include tool-syntax-table.html %}
 
-### Support for Additional Syntax Elements
+### Hỗ trợ cho các Phần tử Cú pháp Bổ sung
 
-As an added bonus, Reddit provides support for several obscure elements.
+Như một phần thưởng thêm, Reddit cung cấp hỗ trợ cho một số phần tử ít người biết đến.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">
     <tr>
-      <th>Element</th>
+      <th>Phần tử</th>
       <th>Markdown</th>
-      <th>Rendered Output</th>
+      <th>Kết quả hiển thị</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Spoilers</td>
-      <td><code>This text will be hidden: >!spoilers!<</code></td>
+      <td><code>Văn bản này sẽ bị ẩn: >!spoilers!<</code></td>
       <td></td>
     </tr>
   </tbody>

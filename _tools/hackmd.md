@@ -1,7 +1,7 @@
 ---
 title: HackMD
 category: "websites"
-description: "HackMD is a real-time collaborative Markdown editor for teams."
+description: "HackMD là một trình soạn thảo Markdown cộng tác thời gian thực cho các nhóm."
 icon: codimd.png
 website: https://hackmd.io
 syntax:
@@ -62,43 +62,42 @@ syntax:
   - id: html
     available: y
 see-also:
-  - name: HackMD features
+  - name: Các tính năng của HackMD
     link: https://hackmd.io/s/features
 ---
 
-[HackMD](https://hackmd.io) is a real-time, multi-platform collaborative Markdown editor. You can use HackMD to write notes with other people on your computer, tablet, or phone. HackMD provides a variety of document templates and allows users to push documents to GitHub. You can import and export documents from Dropbox, Google Drive, and GitHub gists.
+[HackMD](https://hackmd.io) là một trình soạn thảo Markdown cộng tác đa nền tảng, thời gian thực. Bạn có thể sử dụng HackMD để viết ghi chú với những người khác trên máy tính, máy tính bảng hoặc điện thoại của mình. HackMD cung cấp nhiều mẫu tài liệu khác nhau và cho phép người dùng đẩy tài liệu lên GitHub. Bạn có thể nhập và xuất tài liệu từ Dropbox, Google Drive và GitHub gists.
 
-{% include image.html file="/assets/images/tools/hackmd.png" alt="The HackMD Markdown interface" %}
+{% include image.html file="/assets/images/tools/hackmd.png" alt="Giao diện Markdown HackMD" %}
 
-HackMD supports CommonMark and other markup syntax, such as:
+HackMD hỗ trợ CommonMark và các cú pháp đánh dấu khác, chẳng hạn như:
 
-- MathJax for formulas
-- Mermaid and Graphviz for UML diagrams
-- Vega-lite for data visualizations
+- MathJax cho các công thức
+- Mermaid và Graphviz cho sơ đồ UML
+- Vega-lite cho trực quan hóa dữ liệu
 
-HackMD is the commercial version of [CodiMD](/tools/codimd/).
+HackMD là phiên bản thương mại của [CodiMD](/tools/codimd/).
 
 {% include tool-syntax-table.html %}
 
-### Support for Additional Syntax Elements
+### Hỗ trợ cho các Phần tử Cú pháp Bổ sung
 
-As an added bonus, HackMD provides support for several obscure elements.
+Như một phần thưởng thêm, HackMD cung cấp hỗ trợ cho một số phần tử ít người biết đến.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">
     <tr>
-      <th>Element</th>
+      <th>Phần tử</th>
       <th>Markdown</th>
-      <th>Rendered Output</th>
+      <th>Kết quả hiển thị</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Abbreviation</td>
+      <td>Viết tắt</td>
       <td><code>*[HTML]: Hyper Text Markup Language</code><br>
-      <code>The HTML specification is maintained by the W3C.</code></td>
-      <td>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification
-is maintained by the W3C.</td>
+      <code>Đặc tả HTML được duy trì bởi W3C.</code></td>
+      <td>Đặc tả <abbr title="Hyper Text Markup Language">HTML</abbr> được duy trì bởi W3C.</td>
     </tr>
   </tbody>
 </table>

@@ -6,4 +6,4 @@ description: Get in touch with the Markdown Guide's maintainer.
 
 ## Email
 
-Feel free to email me at <a href="mailto:matt@macinstruct.com">matt@macinstruct.com</a>. I can't reply to every message, but I do read them all.
+Vui lòng gửi email cho tôi tại <a href="mailto:matt@macinstruct.com">matt@macinstruct.com</a>. Tôi không thể trả lời mọi tin nhắn, nhưng tôi đọc tất cả.

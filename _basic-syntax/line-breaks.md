@@ -1,78 +1,77 @@
 ---
-title: Line Breaks
+title: Ngắt dòng (Line Breaks)
 syntax-id: line-breaks
-description: "To create a line break or new line (`<br>`), end a line with two or more spaces, and then type return."
+description: "Để tạo ngắt dòng hoặc dòng mới (`<br>`), kết thúc một dòng bằng hai hoặc nhiều khoảng trắng, và sau đó gõ phím return."
 examples:
   - markdown: |
-      This is the first line.  
-      And this is the second line.
-    html: "<p>This is the first line.  <br>And this is the second line.</p>"
+      Đây là dòng đầu tiên.  
+      Và đây là dòng thứ hai.
+    html: "<p>Đây là dòng đầu tiên.  <br>Và đây là dòng thứ hai.</p>"
 ---
 
-To create a line break or new line (`<br>`), end a line with two or more spaces, and then type return.
+Để tạo ngắt dòng hoặc dòng mới (`<br>`), kết thúc một dòng bằng hai hoặc nhiều khoảng trắng, và sau đó gõ phím return.
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th>Markdown</th>
       <th>HTML</th>
-      <th>Rendered Output</th>
+      <th>Kết quả hiển thị</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
         <code class="highlighter-rouge">
-          This is the first line. &nbsp;<br />
-          And this is the second line.
+          Đây là dòng đầu tiên. &nbsp;<br />
+          Và đây là dòng thứ hai.
         </code>
       </td>
       <td>
-        <code class="highlighter-rouge">&lt;p&gt;This is the first line.&lt;br&gt;<br />
-
-        And this is the second line.&lt;/p&gt;</code>
+        <code class="highlighter-rouge">&lt;p&gt;Đây là dòng đầu tiên.&lt;br&gt;<br />
+        Và đây là dòng thứ hai.&lt;/p&gt;</code>
       </td>
       <td>
-        <p>This is the first line.<br />   
-        And this is the second line.</p>
+        <p>Đây là dòng đầu tiên.<br />
+        Và đây là dòng thứ hai.</p>
       </td>
     </tr>
   </tbody>
 </table>
 
-### Line Break Best Practices
+### Thực tiễn tốt nhất cho Ngắt dòng
 
-You can use two or more spaces (commonly referred to as "trailing whitespace") for line breaks in nearly every Markdown application, but it's controversial. It's hard to see trailing whitespace in an editor, and many people accidentally or intentionally put two spaces after every sentence. For this reason, you may want to use something other than trailing whitespace for line breaks. If your Markdown application [supports HTML](/basic-syntax/#html), you can use the `<br>` HTML tag.
+Bạn có thể sử dụng hai hoặc nhiều khoảng trắng (thường được gọi là "khoảng trắng ở cuối dòng") để ngắt dòng trong hầu hết các ứng dụng Markdown, nhưng điều này gây tranh cãi. Rất khó để nhìn thấy khoảng trắng ở cuối dòng trong trình soạn thảo, và nhiều người vô tình hoặc cố ý đặt hai khoảng trắng sau mỗi câu. Vì lý do này, bạn có thể muốn sử dụng một cái gì đó khác ngoài khoảng trắng ở cuối dòng để ngắt dòng. Nếu ứng dụng Markdown của bạn [hỗ trợ HTML](/basic-syntax/#html), bạn có thể sử dụng thẻ HTML `<br>`.
 
-For compatibility, use trailing white space or the `<br>` HTML tag at the end of the line.
+Để đảm bảo khả năng tương thích, hãy sử dụng khoảng trắng ở cuối dòng hoặc thẻ HTML `<br>` ở cuối dòng.
 
-There are two other options I don't recommend using. CommonMark and a few other lightweight markup languages let you type a backslash (`\`) at the end of the line, but not all Markdown applications support this, so it isn't a great option from a compatibility perspective. And at least a couple lightweight markup languages don't require anything at the end of the line — just type return and they'll create a line break.
+Có hai tùy chọn khác mà tôi không khuyến khích sử dụng. CommonMark và một số ngôn ngữ đánh dấu nhẹ khác cho phép bạn gõ dấu gạch chéo ngược (`\`) ở cuối dòng, nhưng không phải tất cả các ứng dụng Markdown đều hỗ trợ điều này, vì vậy nó không phải là một lựa chọn tuyệt vời từ góc độ tương thích. Và ít nhất một vài ngôn ngữ đánh dấu nhẹ không yêu cầu bất cứ điều gì ở cuối dòng — chỉ cần gõ phím return và chúng sẽ tạo ra một ngắt dòng.
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>✅&nbsp; Do this</th>
-      <th>❌&nbsp; Don't do this</th>
+      <th>✅&nbsp; Nên làm</th>
+      <th>❌&nbsp; Không nên làm</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
         <code class="highlighter-rouge">
-          First line with two spaces after. &nbsp;<br>
-          And the next line.<br><br>
+          Dòng đầu tiên với hai khoảng trắng phía sau. &nbsp;<br>
+          Và dòng tiếp theo.<br><br>
 
-          First line with the HTML tag after.&lt;br&gt;<br>
-          And the next line.<br><br>
+          Dòng đầu tiên với thẻ HTML phía sau.&lt;br&gt;<br>
+          Và dòng tiếp theo.<br><br>
         </code>
       </td>
       <td>
         <code class="highlighter-rouge">
-        First line with a backslash after.\<br>
-        And the next line.<br><br>
+        Dòng đầu tiên với dấu gạch chéo ngược phía sau.\<br>
+        Và dòng tiếp theo.<br><br>
 
-        First line with nothing after.<br>
-        And the next line.<br><br>
+        Dòng đầu tiên không có gì phía sau.<br>
+        Và dòng tiếp theo.<br><br>
         </code>
       </td>
     </tr>

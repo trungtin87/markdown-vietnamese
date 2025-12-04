@@ -1,7 +1,7 @@
 ---
 title: Marked 2
 category: "documents"
-description: "Marked 2 lets you preview (not edit) Markdown files on your Mac."
+description: "Marked 2 cho phép bạn xem trước (không chỉnh sửa) các file Markdown trên máy Mac của bạn."
 icon: marked2.png
 website: https://marked2app.com/
 syntax:
@@ -11,7 +11,7 @@ syntax:
     available: y
   - id: line-breaks
     available: y
-    notes: "MultiMarkdown doesn't support trailing backslashes."
+    notes: "MultiMarkdown không hỗ trợ dấu gạch chéo ngược ở cuối."
   - id: bold
     available: y
   - id: italic
@@ -22,7 +22,7 @@ syntax:
     available: y
   - id: unordered-lists
     available: p
-    notes: "MultiMarkdown doesn't support nested unordered lists. Works with Discount."
+    notes: "MultiMarkdown không hỗ trợ danh sách không có thứ tự lồng nhau. Hoạt động với Discount."
   - id: code
     available: y
   - id: horizontal-rules
@@ -41,13 +41,13 @@ syntax:
     available: y
   - id: heading-ids
     available: p
-    notes: "Only works with MultiMarkdown."
+    notes: "Chỉ hoạt động với MultiMarkdown."
   - id: definition-lists
     available: p
-    notes: "Discount doesn't support this feature. Works with MultiMarkdown."
+    notes: "Discount không hỗ trợ tính năng này. Hoạt động với MultiMarkdown."
   - id: strikethrough
     available: p
-    notes: "MultiMarkdown doesn't support this feature. Works with Discount."
+    notes: "MultiMarkdown không hỗ trợ tính năng này. Hoạt động với Discount."
   - id: task-lists
     available: y
   - id: emoji-cp
@@ -64,44 +64,44 @@ syntax:
     available: y
   - id: disabling-auto-url
     available: p
-    notes: "Discount doesn't support this feature."
+    notes: "Discount không hỗ trợ tính năng này."
   - id: html
     available: y
 ---
 
-[Marked 2](https://marked2app.com/) is a proprietary Mac application that helps you preview (not edit) Markdown files on your Mac. The obvious use for this application is as a "missing desktop Markdown renderer" of sorts — just drag and drop a Markdown file on the Marked 2 icon and you'll see it rendered. One can imagine a teacher, for example, using this application to read and grade assignments that were submitted electronically as Markdown files. But there are numerous other uses for Marked 2. 
+[Marked 2](https://marked2app.com/) là một ứng dụng Mac độc quyền giúp bạn xem trước (không chỉnh sửa) các file Markdown trên máy Mac của bạn. Công dụng rõ ràng của ứng dụng này là như một loại "trình hiển thị Markdown trên máy tính để bàn còn thiếu" — chỉ cần kéo và thả một file Markdown vào biểu tượng Marked 2 và bạn sẽ thấy nó được hiển thị. Ví dụ, người ta có thể tưởng tượng một giáo viên sử dụng ứng dụng này để đọc và chấm điểm các bài tập được nộp điện tử dưới dạng file Markdown. Nhưng có rất nhiều công dụng khác cho Marked 2.
 
-Consider that while many newer editors like Atom and [VS Code](/tools/vscode/) have Markdown preview functionality built in, many older editors don't. Marked 2 is designed for people who use editors like Vim. You could arrange the Marked 2 window next to Vim for a live preview of what your rendered Markdown file will look like.
+Hãy xem xét rằng trong khi nhiều trình soạn thảo mới hơn như Atom và [VS Code](/tools/vscode/) có chức năng xem trước Markdown được tích hợp sẵn, nhiều trình soạn thảo cũ hơn thì không. Marked 2 được thiết kế cho những người sử dụng các trình soạn thảo như Vim. Bạn có thể sắp xếp cửa sổ Marked 2 bên cạnh Vim để xem trước trực tiếp file Markdown được hiển thị của bạn sẽ trông như thế nào.
 
-It's clear the author of this utility has invested a lot of time and effort to get things right. It's the attention to detail that makes this application worth the asking price. For instance, when you open Marked 2, a setup assistant guides you through configuring the rendering options to support your specific use case (Marked 2 actually contains two Markdown processors: MultiMarkdown and Discount). Highly recommended for Mac users that need a reliable way to preview or export Markdown files (check out the [available styles](https://marked2app.com/styles/)).
+Rõ ràng là tác giả của tiện ích này đã đầu tư rất nhiều thời gian và công sức để làm cho mọi thứ trở nên đúng đắn. Chính sự chú ý đến từng chi tiết làm cho ứng dụng này xứng đáng với mức giá yêu cầu. Ví dụ, khi bạn mở Marked 2, một trợ lý thiết lập sẽ hướng dẫn bạn cấu hình các tùy chọn hiển thị để hỗ trợ trường hợp sử dụng cụ thể của bạn (Marked 2 thực sự chứa hai bộ xử lý Markdown: MultiMarkdown và Discount). Rất khuyến khích cho người dùng Mac cần một cách đáng tin cậy để xem trước hoặc xuất các file Markdown (kiểm tra [các kiểu có sẵn](https://marked2app.com/styles/)).
 
-{% include image.html file="/assets/images/tools/marked2-1.png" alt="The Marked 2 processor selection." %}
+{% include image.html file="/assets/images/tools/marked2-1.png" alt="Lựa chọn bộ xử lý Marked 2." %}
 
 {% include tool-syntax-table.html %}
 
-### Support for Additional Syntax Elements
+### Hỗ trợ cho các Phần tử Cú pháp Bổ sung
 
-As an added bonus, Marked 2 provides support for several obscure elements when using MultiMarkdown.
+Như một phần thưởng thêm, Marked 2 cung cấp hỗ trợ cho một số phần tử ít người biết đến khi sử dụng MultiMarkdown.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">
     <tr>
-      <th>Element</th>
+      <th>Phần tử</th>
       <th>Markdown</th>
-      <th>Rendered Output</th>
+      <th>Kết quả hiển thị</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Abbreviation</td>
+      <td>Viết tắt</td>
       <td><code>*[HTML]: Hyper Text Markup Language</code><br>
-      <code>The HTML specification is maintained by the W3C.</code></td>
-      <td>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification is maintained by the W3C.</td>
+      <code>Đặc tả HTML được duy trì bởi W3C.</code></td>
+      <td>Đặc tả <abbr title="Hyper Text Markup Language">HTML</abbr> được duy trì bởi W3C.</td>
     </tr>
     <tr>
-      <td>Underline</td>
-      <td><code>_word or phrase_</code></td>
-      <td><ins>word or phrase</ins></td>
+      <td>Gạch chân</td>
+      <td><code>_từ hoặc cụm từ_</code></td>
+      <td><ins>từ hoặc cụm từ</ins></td>
     </tr>
   </tbody>
 </table>

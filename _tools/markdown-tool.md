@@ -1,7 +1,7 @@
 ---
 title: Markdown Tool
 category: "documents"
-description: "A free command line utility designed to help you manage online Markdown documents."
+description: "Một tiện ích dòng lệnh miễn phí được thiết kế để giúp bạn quản lý các tài liệu Markdown trực tuyến."
 icon: generic.png
 website: https://github.com/artiomn/markdown_articles_tool
 syntax:
@@ -63,7 +63,7 @@ syntax:
     available: y
 ---
 
-[Markdown Articles Tool](https://github.com/artiomn/markdown_articles_tool) is a free command line utility designed to help you manage online Markdown documents (e.g., articles). You can download text with images using deduplication and convert to the different formats. The Markdown Articles Tool is available for macOS, Windows, and Linux. It's written in Python — if you want to use separate functions, you can just import the package.
+[Markdown Articles Tool](https://github.com/artiomn/markdown_articles_tool) là một tiện ích dòng lệnh miễn phí được thiết kế để giúp bạn quản lý các tài liệu Markdown trực tuyến (ví dụ: các bài báo). Bạn có thể tải xuống văn bản với hình ảnh sử dụng tính năng chống trùng lặp và chuyển đổi sang các định dạng khác nhau. Markdown Articles Tool có sẵn cho macOS, Windows và Linux. Nó được viết bằng Python — nếu bạn muốn sử dụng các chức năng riêng biệt, bạn chỉ cần nhập gói.
 
 {% include image.html file="/assets/images/tools/markdown-tool.png" alt="Markdown Articles Tool" %}
 

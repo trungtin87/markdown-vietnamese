@@ -8,7 +8,7 @@ syntax-summary: |
   | Paragraph | Text |
 ---
 
-To add a table, use three or more hyphens (`---`) to create each column's header, and use pipes (`|`) to separate each column. For compatibility, you should also add a pipe on either end of the row.
+Để thêm bảng, hãy sử dụng ba hoặc nhiều dấu gạch ngang (`---`) để tạo tiêu đề của mỗi cột và sử dụng dấu gạch đứng (`|`) để phân tách các cột. Để tương thích, bạn cũng nên thêm dấu gạch đứng ở hai đầu của hàng.
 
 ```
 | Syntax      | Description |
@@ -17,7 +17,7 @@ To add a table, use three or more hyphens (`---`) to create each column's header
 | Paragraph   | Text        |
 ```
 
-The rendered output looks like this:
+Kết quả hiển thị trông như thế này:
 
 <table class="table table-bordered">
   <thead>
@@ -38,7 +38,7 @@ The rendered output looks like this:
   </tbody>
 </table>
 
-Cell widths can vary, as shown below. The rendered output will look the same.
+Độ rộng ô có thể khác nhau, như được hiển thị bên dưới. Kết quả hiển thị sẽ giống nhau.
 
 ```
 | Syntax | Description |
@@ -48,12 +48,12 @@ Cell widths can vary, as shown below. The rendered output will look the same.
 ```
 
 <div class="alert alert-success">
-  <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> Creating tables with hyphens and pipes can be tedious. To speed up the process, try using the <a href="https://www.tablesgenerator.com/markdown_tables">Markdown Tables Generator</a> or <a href="https://anywaydata.com">AnyWayData Markdown Export</a>. Build a table using the graphical interface, and then copy the generated Markdown-formatted text into your file.
+  <i class="fas fa-lightbulb"></i> <strong>Mẹo:</strong> Tạo bảng bằng dấu gạch ngang và dấu gạch đứng có thể tẻ nhạt. Để tăng tốc quá trình, hãy thử sử dụng <a href="https://www.tablesgenerator.com/markdown_tables">Markdown Tables Generator</a> hoặc <a href="https://anywaydata.com">AnyWayData Markdown Export</a>. Xây dựng bảng bằng giao diện đồ họa, sau đó sao chép văn bản định dạng Markdown được tạo vào tệp của bạn.
 </div>
 
-### Alignment
+### Căn Chỉnh
 
-You can align text in the columns to the left, right, or center by adding a colon (`:`) to the left, right, or on both side of the hyphens within the header row.
+Bạn có thể căn chỉnh văn bản trong các cột sang trái, phải hoặc giữa bằng cách thêm dấu hai chấm (`:`) vào bên trái, bên phải hoặc cả hai bên của dấu gạch ngang trong hàng tiêu đề.
 
 ```
 | Syntax      | Description | Test Text     |
@@ -62,7 +62,7 @@ You can align text in the columns to the left, right, or center by adding a colo
 | Paragraph   | Text        | And more      |
 ```
 
-The rendered output looks like this:
+Kết quả hiển thị trông như thế này:
 
 <table class="table table-bordered">
   <thead>
@@ -76,7 +76,7 @@ The rendered output looks like this:
     <tr>
       <td style="text-align: left">Header</td>
       <td style="text-align: center">Title</td>
-      <td style="text-align: right">Here’s this</td>
+      <td style="text-align: right">Here's this</td>
     </tr>
     <tr>
       <td style="text-align: left">Paragraph</td>
@@ -86,16 +86,16 @@ The rendered output looks like this:
   </tbody>
 </table>
 
-### Formatting Text in Tables
+### Định Dạng Văn Bản Trong Bảng
 
-You can format the text within tables. For example, you can add [links](/basic-syntax/#links), [code](/basic-syntax/#code-1) (words or phrases in backticks (`` ` ``) only, not [code blocks](/basic-syntax/#code-blocks)), and [emphasis](/basic-syntax/#emphasis).
+Bạn có thể định dạng văn bản trong bảng. Ví dụ: bạn có thể thêm [liên kết](/basic-syntax/#links), [mã](/basic-syntax/#code-1) (chỉ các từ hoặc cụm từ trong dấu backtick (`` ` ``), không phải [khối mã](/basic-syntax/#code-blocks)) và [nhấn mạnh](/basic-syntax/#emphasis).
 
-You can't use headings, blockquotes, lists, horizontal rules, images, or most HTML tags.
+Bạn không thể sử dụng tiêu đề, trích dẫn khối, danh sách, đường kẻ ngang, hình ảnh hoặc hầu hết các thẻ HTML.
 
 <div class="alert alert-success">
-  <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> You can use HTML to create <a href="/hacks/#line-breaks-within-table-cells">line breaks</a> and add <a href="/hacks/#lists-within-table-cells">lists</a> within table cells.
+  <i class="fas fa-lightbulb"></i> <strong>Mẹo:</strong> Bạn có thể sử dụng HTML để tạo <a href="/hacks/#line-breaks-within-table-cells">ngắt dòng</a> và thêm <a href="/hacks/#lists-within-table-cells">danh sách</a> trong các ô bảng.
 </div>
 
-### Escaping Pipe Characters in Tables
+### Thoát Ký Tự Gạch Đứng Trong Bảng
 
-You can display a pipe (`|`) character in a table by using its HTML character code (`&#124;`).
+Bạn có thể hiển thị ký tự gạch đứng (`|`) trong bảng bằng cách sử dụng mã ký tự HTML của nó (`&#124;`).

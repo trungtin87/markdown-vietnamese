@@ -1,7 +1,7 @@
 ---
 title: Ghost
 category: "websites"
-description: "Ghost is an open source CMS known for its speed, simplicity, and ease of use."
+description: "Ghost là một CMS mã nguồn mở nổi tiếng về tốc độ, sự đơn giản và dễ sử dụng."
 icon: ghost.png
 website: https://ghost.org/
 syntax:
@@ -11,20 +11,20 @@ syntax:
     available: y
   - id: line-breaks
     available: y
-    notes: "You can use a trailing backslash (`\\`) instead of trailing whitespace."
+    notes: "Bạn có thể sử dụng dấu gạch chéo ngược ở cuối (`\\`) thay vì khoảng trắng ở cuối."
   - id: bold
     available: y
   - id: italic
     available: y
   - id: blockquotes
     available: p
-    notes: Nested blockquotes are not supported.
+    notes: Trích dẫn khối lồng nhau không được hỗ trợ.
   - id: ordered-lists
     available: p
-    notes: Nested lists are not supported.
+    notes: Danh sách lồng nhau không được hỗ trợ.
   - id: unordered-lists
     available: p
-    notes: Nested lists are not supported.
+    notes: Danh sách lồng nhau không được hỗ trợ.
   - id: code
     available: y
   - id: horizontal-rules
@@ -43,7 +43,7 @@ syntax:
     available: y
   - id: heading-ids
     available: p
-    notes: "Automatically generated. There's no way to set custom heading IDs."
+    notes: "Được tạo tự động. Không có cách nào để đặt ID tiêu đề tùy chỉnh."
   - id: definition-lists
     available: n
   - id: strikethrough
@@ -67,14 +67,14 @@ syntax:
   - id: html
     available: y
 see-also:
-  - name: Using Markdown in Ghost
+  - name: Sử dụng Markdown trong Ghost
     link: https://ghost.org/faq/using-the-editor/#using-markdown
 ---
 
-[Ghost](https://ghost.org/) is a relatively new content management system (CMS) for blogging that competes with older, established CMS products like WordPress and Drupal. Ghost is an open source project renowned for its speed, simplicity, and ease of use. Markdown support is standard and available out-of-the-box.
+[Ghost](https://ghost.org/) là một hệ thống quản lý nội dung (CMS) tương đối mới để viết blog cạnh tranh với các sản phẩm CMS lâu đời hơn, đã được thiết lập như WordPress và Drupal. Ghost là một dự án mã nguồn mở nổi tiếng về tốc độ, sự đơn giản và dễ sử dụng. Hỗ trợ Markdown là tiêu chuẩn và có sẵn ngay lập tức.
 
-{% include image.html file="/assets/images/tools/ghost.png" alt="Ghost blog editor" %}
+{% include image.html file="/assets/images/tools/ghost.png" alt="Trình soạn thảo blog Ghost" %}
 
-There are a couple minor compatibility issues noted below but, generally speaking, Ghost has solid Markdown support. The live editor is fairly intuitive and seems like a good choice for bloggers. Copying and pasting Markdown-formatted text into the editor works the way you'd expect it to.
+Có một vài vấn đề tương thích nhỏ được ghi chú bên dưới nhưng, nói chung, Ghost có hỗ trợ Markdown vững chắc. Trình soạn thảo trực tiếp khá trực quan và có vẻ là một lựa chọn tốt cho các blogger. Sao chép và dán văn bản được định dạng Markdown vào trình soạn thảo hoạt động theo cách bạn mong đợi.
 
 {% include tool-syntax-table.html %}

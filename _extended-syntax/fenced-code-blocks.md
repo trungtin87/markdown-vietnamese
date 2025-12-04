@@ -11,7 +11,7 @@ syntax-summary: |
   ```
 ---
 
-The basic Markdown syntax allows you to create [code blocks](/basic-syntax/#code-blocks) by indenting lines by four spaces or one tab. If you find that inconvenient, try using fenced code blocks. Depending on your Markdown processor or editor, you'll use three backticks (<code>```</code>) or three tildes (`~~~`) on the lines before and after the code block. The best part? You don't have to indent any lines!
+Cú pháp Markdown cơ bản cho phép bạn tạo [khối mã](/basic-syntax/#code-blocks) bằng cách thụt lề các dòng bốn khoảng trắng hoặc một tab. Nếu bạn thấy điều đó bất tiện, hãy thử sử dụng khối mã có rào chắn. Tùy thuộc vào bộ xử lý hoặc trình soạn thảo Markdown của bạn, bạn sẽ sử dụng ba dấu backtick (<code>```</code>) hoặc ba dấu ngã (`~~~`) trên các dòng trước và sau khối mã. Phần tốt nhất? Bạn không cần thụt lề bất kỳ dòng nào!
 
 ~~~~~~~~~
 ```
@@ -23,7 +23,7 @@ The basic Markdown syntax allows you to create [code blocks](/basic-syntax/#code
 ```
 ~~~~~~~~~
 
-The rendered output looks like this:
+Kết quả hiển thị trông như thế này:
 
 ```text
 {
@@ -34,12 +34,12 @@ The rendered output looks like this:
 ```
 
 <div class="alert alert-success">
-  <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> Need to display backticks inside a code block? See <a href="/basic-syntax/#escaping-backticks">this section</a> to learn how to escape them.
+  <i class="fas fa-lightbulb"></i> <strong>Mẹo:</strong> Cần hiển thị dấu backtick bên trong khối mã? Xem <a href="/basic-syntax/#escaping-backticks">phần này</a> để tìm hiểu cách thoát chúng.
 </div>
 
-### Syntax Highlighting
+### Làm Nổi Bật Cú Pháp
 
-Many Markdown processors support syntax highlighting for fenced code blocks. This feature allows you to add color highlighting for whatever language your code was written in. To add syntax highlighting, specify a language next to the backticks before the fenced code block.
+Nhiều bộ xử lý Markdown hỗ trợ làm nổi bật cú pháp cho các khối mã có rào chắn. Tính năng này cho phép bạn thêm màu nổi bật cho bất kỳ ngôn ngữ nào mà mã của bạn được viết. Để thêm làm nổi bật cú pháp, hãy chỉ định ngôn ngữ bên cạnh dấu backtick trước khối mã có rào chắn.
 
 ~~~~~~~~~
 ```json
@@ -51,7 +51,7 @@ Many Markdown processors support syntax highlighting for fenced code blocks. Thi
 ```
 ~~~~~~~~~
 
-The rendered output looks like this:
+Kết quả hiển thị trông như thế này:
 
 ```json
 {

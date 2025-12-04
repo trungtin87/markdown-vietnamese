@@ -7,11 +7,11 @@ syntax-summary: |
   [^1]: This is the footnote.
 ---
 
-Footnotes allow you to add notes and references without cluttering the body of the document. When you create a footnote, a superscript number with a link appears where you added the footnote reference. Readers can click the link to jump to the content of the footnote at the bottom of the page.
+Chú thích cuối trang cho phép bạn thêm ghi chú và tham chiếu mà không làm lộn xộn nội dung tài liệu. Khi bạn tạo chú thích cuối trang, một số chỉ số trên với liên kết sẽ xuất hiện tại nơi bạn thêm tham chiếu chú thích cuối trang. Người đọc có thể nhấp vào liên kết để chuyển đến nội dung của chú thích cuối trang ở cuối trang.
 
-To create a footnote reference, add a caret and an identifier inside brackets (`[^1]`). Identifiers can be numbers or words, but they can't contain spaces or tabs. Identifiers only correlate the footnote reference with the footnote itself — in the output, footnotes are numbered sequentially.
+Để tạo tham chiếu chú thích cuối trang, hãy thêm dấu mũ và mã định danh bên trong dấu ngoặc vuông (`[^1]`). Mã định danh có thể là số hoặc từ, nhưng chúng không thể chứa khoảng trắng hoặc tab. Mã định danh chỉ liên kết tham chiếu chú thích cuối trang với chính chú thích cuối trang — trong đầu ra, các chú thích cuối trang được đánh số tuần tự.
 
-Add the footnote using another caret and number inside brackets with a colon and text (`[^1]: My footnote.`). You don't have to put footnotes at the end of the document. You can put them anywhere except inside other elements like lists, block quotes, and tables.
+Thêm chú thích cuối trang bằng cách sử dụng dấu mũ và số khác bên trong dấu ngoặc vuông với dấu hai chấm và văn bản (`[^1]: My footnote.`). Bạn không cần đặt chú thích cuối trang ở cuối tài liệu. Bạn có thể đặt chúng ở bất kỳ đâu ngoại trừ bên trong các thành phần khác như danh sách, trích dẫn khối và bảng.
 
 ```
 Here's a simple footnote,[^1] and here's a longer one.[^bignote]
@@ -27,7 +27,7 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
     Add as many paragraphs as you like.
 ```
 
-The rendered output looks like this:
+Kết quả hiển thị trông như thế này:
 
 Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 

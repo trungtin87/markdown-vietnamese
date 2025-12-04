@@ -1,7 +1,7 @@
 ---
 title: GitHub Pages
 category: "websites"
-description: "GitHub Pages is a service that turns Markdown files into a website."
+description: "GitHub Pages là một dịch vụ biến các file Markdown thành một trang web."
 icon: github-pages.png
 website: https://pages.github.com
 syntax:
@@ -35,7 +35,7 @@ syntax:
     available: y
   - id: syntax-highlighting
     available: y
-    notes: "Make sure that `syntax_highlighter: rouge` is in the `kramdown` section of the `_config.yml` file."
+    notes: "Đảm bảo rằng `syntax_highlighter: rouge` nằm trong phần `kramdown` của file `_config.yml`."
   - id: footnotes
     available: y
   - id: heading-ids
@@ -44,7 +44,7 @@ syntax:
     available: y
   - id: strikethrough
     available: y
-    notes: "You can use two tildes (`~~word~~`) or one tilde (`~word~`) — both work."
+    notes: "Bạn có thể sử dụng hai dấu ngã (`~~từ~~`) hoặc một dấu ngã (`~từ~`) — cả hai đều hoạt động."
   - id: task-lists
     available: y
   - id: emoji-cp
@@ -64,41 +64,40 @@ syntax:
   - id: html
     available: y
 see-also:
-  - name: Jekyll documentation
+  - name: Tài liệu Jekyll
     link: https://jekyllrb.com/
-  - name: kramdown documentation
+  - name: Tài liệu kramdown
     link: https://kramdown.gettalong.org/
 ---
 
-[GitHub Pages](https://pages.github.com) is a service that turns Markdown files into a website and hosts them for free on the internet. If you know how to use GitHub and you need to create a simple webpage, you can't do better than GitHub Pages. Just create a new repository on GitHub, commit the Markdown files, and enable the GitHub Pages feature.
+[GitHub Pages](https://pages.github.com) là một dịch vụ biến các file Markdown thành một trang web và lưu trữ chúng miễn phí trên internet. Nếu bạn biết cách sử dụng GitHub và bạn cần tạo một trang web đơn giản, bạn không thể làm tốt hơn GitHub Pages. Chỉ cần tạo một kho lưu trữ mới trên GitHub, cam kết các file Markdown và bật tính năng GitHub Pages.
 
-GitHub Pages uses the [Jekyll](/tools/jekyll/) static site generator to create your website, and the Markdown support is excellent. You can pick one of GitHub's pre-made themes for your website, use a [Jekyll theme](http://jekyllthemes.org/), or use your own custom CSS. Shown below is a sample webpage using one of GitHub's pre-made themes.
+GitHub Pages sử dụng trình tạo trang web tĩnh [Jekyll](/tools/jekyll/) để tạo trang web của bạn và hỗ trợ Markdown rất tuyệt vời. Bạn có thể chọn một trong các chủ đề có sẵn của GitHub cho trang web của mình, sử dụng [chủ đề Jekyll](http://jekyllthemes.org/), hoặc sử dụng CSS tùy chỉnh của riêng bạn. Dưới đây là một trang web mẫu sử dụng một trong các chủ đề có sẵn của GitHub.
 
-{% include image.html file="/assets/images/tools/github-pages.png" alt="Example of GitHub Pages websites" width="90" %}
+{% include image.html file="/assets/images/tools/github-pages.png" alt="Ví dụ về các trang web GitHub Pages" width="90" %}
 
-Confusingly, GitHub Pages renders Markdown differently than GitHub does. GitHub uses its own Markdown processor; GitHub Pages uses [jekyll-commonmark](https://github.com/github/jekyll-commonmark-ghpages). This means your `README.md` file will look different on GitHub's website than on your GitHub Pages website. For example, emoji are rendered on GitHub's website, but not on websites generated using GitHub Pages.
+Thật khó hiểu, GitHub Pages hiển thị Markdown khác với GitHub. GitHub sử dụng bộ xử lý Markdown của riêng mình; GitHub Pages sử dụng [jekyll-commonmark](https://github.com/github/jekyll-commonmark-ghpages). Điều này có nghĩa là file `README.md` của bạn sẽ trông khác trên trang web của GitHub so với trên trang web GitHub Pages của bạn. Ví dụ, biểu tượng cảm xúc được hiển thị trên trang web của GitHub, nhưng không hiển thị trên các trang web được tạo bằng GitHub Pages.
 
 {% include tool-syntax-table.html %}
 
-### Support for Additional Syntax Elements
+### Hỗ trợ cho các Phần tử Cú pháp Bổ sung
 
-As an added bonus, GitHub Pages provides support for several obscure elements.
+Như một phần thưởng thêm, GitHub Pages cung cấp hỗ trợ cho một số phần tử ít người biết đến.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">
     <tr>
-      <th>Element</th>
+      <th>Phần tử</th>
       <th>Markdown</th>
-      <th>Rendered Output</th>
+      <th>Kết quả hiển thị</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Abbreviation</td>
+      <td>Viết tắt</td>
       <td><code>*[HTML]: Hyper Text Markup Language</code><br>
-      <code>The HTML specification is maintained by the W3C.</code></td>
-      <td>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification
-is maintained by the W3C.</td>
+      <code>Đặc tả HTML được duy trì bởi W3C.</code></td>
+      <td>Đặc tả <abbr title="Hyper Text Markup Language">HTML</abbr> được duy trì bởi W3C.</td>
     </tr>
   </tbody>
 </table>

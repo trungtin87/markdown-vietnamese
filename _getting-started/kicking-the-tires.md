@@ -1,9 +1,9 @@
-## Kicking the Tires
+## Thử nghiệm
 
-The best way to get started with Markdown is to use it. That's easier than ever before thanks to a variety of free tools.
+Cách tốt nhất để bắt đầu với Markdown là sử dụng nó. Điều đó dễ dàng hơn bao giờ hết nhờ vào nhiều công cụ miễn phí.
 
-You don't even need to download anything. There are several online Markdown editors that you can use to try writing in Markdown. [Dillinger](https://dillinger.io/) is one of the best online Markdown editors. Just open the site and start typing in the left pane. A preview of the rendered document appears in the right pane.
+Bạn thậm chí không cần phải tải xuống bất cứ thứ gì. Có một số trình soạn thảo Markdown trực tuyến mà bạn có thể sử dụng để thử viết bằng Markdown. [Dillinger](https://dillinger.io/) là một trong những trình soạn thảo Markdown trực tuyến tốt nhất. Chỉ cần mở trang web và bắt đầu gõ vào khung bên trái. Bản xem trước của tài liệu được hiển thị sẽ xuất hiện trong khung bên phải.
 
-{% include image.html file="/assets/images/dillinger.png" alt="Dillinger Markdown editor" lazy="yes" %}
+{% include image.html file="/assets/images/dillinger.png" alt="Trình soạn thảo Markdown Dillinger" lazy="yes" %}
 
-You'll probably want to keep the Dillinger website open as you read through this guide. That way you can try the syntax as you learn about it. After you've become familiar with Markdown, you may want to use a Markdown application that can be installed on your desktop computer or mobile device.
+Bạn có thể sẽ muốn giữ trang web Dillinger mở khi bạn đọc qua hướng dẫn này. Bằng cách đó, bạn có thể thử cú pháp khi bạn tìm hiểu về nó. Sau khi bạn đã làm quen với Markdown, bạn có thể muốn sử dụng một ứng dụng Markdown có thể được cài đặt trên máy tính để bàn hoặc thiết bị di động của bạn.

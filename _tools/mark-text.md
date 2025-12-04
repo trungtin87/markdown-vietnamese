@@ -1,7 +1,7 @@
 ---
 title: MarkText
 category: documents
-description: "MarkText is a popular free and open-source editor designed for Markdown."
+description: "MarkText là một trình soạn thảo miễn phí và mã nguồn mở phổ biến được thiết kế cho Markdown."
 icon: mark-text.png
 website: https://github.com/marktext/marktext
 syntax:
@@ -11,7 +11,7 @@ syntax:
     available: y
   - id: line-breaks
     available: y
-    notes: "There's a discrepancy between the MarkText editor and the rendered output when you press the Return key once — that *does not* create a line break in the exported HTML and PDF. You must use trailing whitespace or a trailing backslash (`\\`)."
+    notes: "Có sự khác biệt giữa trình soạn thảo MarkText và đầu ra được hiển thị khi bạn nhấn phím Return một lần — điều đó *không* tạo ra ngắt dòng trong HTML và PDF đã xuất. Bạn phải sử dụng khoảng trắng ở cuối hoặc dấu gạch chéo ngược ở cuối (`\\`)."
   - id: bold
     available: y
   - id: italic
@@ -28,7 +28,7 @@ syntax:
     available: y
   - id: links
     available: y
-    notes: "For some reason, [angle brackets](/basic-syntax/#urls-and-email-addresses) for URLs and email addresses are rendered literally in the MarkText editor. It's a minor issue since the links are rendered correctly in the exported HTML and PDF."
+    notes: "Vì một số lý do, [dấu ngoặc nhọn](/basic-syntax/#urls-and-email-addresses) cho URL và địa chỉ email được hiển thị theo nghĩa đen trong trình soạn thảo MarkText. Đó là một vấn đề nhỏ vì các liên kết được hiển thị chính xác trong HTML và PDF đã xuất."
   - id: images
     available: y
   - id: tables
@@ -45,7 +45,7 @@ syntax:
     available: n
   - id: strikethrough
     available: y
-    notes: "You can use two tildes (`~~word~~`) or one tilde (`~word~`) — both work in the exported HTML and PDF even though the MarkText editor only renders strikethrough with two tildes."
+    notes: "Bạn có thể sử dụng hai dấu ngã (`~~từ~~`) hoặc một dấu ngã (`~từ~`) — cả hai đều hoạt động trong HTML và PDF đã xuất mặc dù trình soạn thảo MarkText chỉ hiển thị gạch ngang với hai dấu ngã."
   - id: task-lists
     available: y
   - id: emoji-cp
@@ -65,12 +65,12 @@ syntax:
   - id: html
     available: y
 see-also:
-  - name: MarkText GitHub repository
+  - name: Kho lưu trữ GitHub MarkText
     link: https://github.com/marktext/marktext
 ---
 
-[MarkText](https://github.com/marktext/marktext) is a popular free and open-source document editor designed exclusively for writing in Markdown. Like [Typora](/tools/typora/), MarkText has a polished interface and a live editor that hides the Markdown formatting after you type it. The PDF and HTML export options are handy, as is the feature that allows you to copy text out of the editor as Markdown, HTML, or plaintext.
+[MarkText](https://github.com/marktext/marktext) là một trình soạn thảo tài liệu miễn phí và mã nguồn mở phổ biến được thiết kế dành riêng cho việc viết bằng Markdown. Giống như [Typora](/tools/typora/), MarkText có giao diện bóng bẩy và trình soạn thảo trực tiếp ẩn định dạng Markdown sau khi bạn nhập. Các tùy chọn xuất PDF và HTML rất tiện dụng, cũng như tính năng cho phép bạn sao chép văn bản ra khỏi trình soạn thảo dưới dạng Markdown, HTML hoặc văn bản thuần túy.
 
-There are some minor annoyances. In several instances (noted below in the table), the appearance of the text in the application didn't match the rendered output of the exported HTML and PDF. And as with [Notion](/tools/notion/), it can be difficult to edit Markdown-formatted text after the live editor has converted it.
+Có một số phiền toái nhỏ. Trong một số trường hợp (được ghi chú bên dưới trong bảng), sự xuất hiện của văn bản trong ứng dụng không khớp với đầu ra được hiển thị của HTML và PDF đã xuất. Và cũng như với [Notion](/tools/notion/), có thể khó chỉnh sửa văn bản được định dạng Markdown sau khi trình soạn thảo trực tiếp đã chuyển đổi nó.
 
 {% include tool-syntax-table.html %}

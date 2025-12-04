@@ -1,66 +1,66 @@
 ---
-title: Bold
+title: In đậm (Bold)
 syntax-id: bold
-syntax-summary: "**bold text**"
-description: "To bold text, add two asterisks or underscores before and after a word or phrase. To bold the middle of a word for emphasis, add two asterisks without spaces around the letters."
+syntax-summary: "**văn bản in đậm**"
+description: "Để in đậm văn bản, thêm hai dấu sao hoặc dấu gạch dưới vào trước và sau một từ hoặc cụm từ. Để in đậm phần giữa của một từ nhằm nhấn mạnh, thêm hai dấu sao mà không có khoảng trắng xung quanh các chữ cái."
 examples:
-  - markdown: "I just love **bold text**."
-    html: "I just love <strong>bold text</strong>."
-  - markdown: "I just love __bold text__."
-    html: "I just love <strong>bold text</strong>."
-  - markdown: "Love**is**bold"
-    html: "Love<strong>is</strong>bold"
+  - markdown: "Tôi rất thích **chữ in đậm**."
+    html: "Tôi rất thích <strong>chữ in đậm</strong>."
+  - markdown: "Tôi rất thích __chữ in đậm__."
+    html: "Tôi rất thích <strong>chữ in đậm</strong>."
+  - markdown: "Yêu**là**đậm"
+    html: "Yêu<strong>là</strong>đậm"
 ---
 
-To bold text, add two asterisks or underscores before and after a word or phrase. To bold the middle of a word for emphasis, add two asterisks without spaces around the letters.
+Để in đậm văn bản, thêm hai dấu sao hoặc dấu gạch dưới vào trước và sau một từ hoặc cụm từ. Để in đậm phần giữa của một từ nhằm nhấn mạnh, thêm hai dấu sao mà không có khoảng trắng xung quanh các chữ cái.
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th>Markdown</th>
       <th>HTML</th>
-      <th>Rendered Output</th>
+      <th>Kết quả hiển thị</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><code class="highlighter-rouge">I just love **bold text**.</code></td>
-      <td><code class="highlighter-rouge">I just love &lt;strong&gt;bold text&lt;/strong&gt;.</code></td>
-      <td>I just love <strong>bold text</strong>.</td>
+      <td><code class="highlighter-rouge">Tôi rất thích **chữ in đậm**.</code></td>
+      <td><code class="highlighter-rouge">Tôi rất thích &lt;strong&gt;chữ in đậm&lt;/strong&gt;.</code></td>
+      <td>Tôi rất thích <strong>chữ in đậm</strong>.</td>
     </tr>
     <tr>
-      <td><code class="highlighter-rouge">I just love __bold text__.</code></td>
-      <td><code class="highlighter-rouge">I just love &lt;strong&gt;bold text&lt;/strong&gt;.</code></td>
-      <td>I just love <strong>bold text</strong>.</td>
+      <td><code class="highlighter-rouge">Tôi rất thích __chữ in đậm__.</code></td>
+      <td><code class="highlighter-rouge">Tôi rất thích &lt;strong&gt;chữ in đậm&lt;/strong&gt;.</code></td>
+      <td>Tôi rất thích <strong>chữ in đậm</strong>.</td>
     </tr>
     <tr>
-      <td><code class="highlighter-rouge">Love**is**bold</code></td> <td><code class="highlighter-rouge">Love&lt;strong&gt;is&lt;/strong&gt;bold</code></td>
-      <td>Love<strong>is</strong>bold</td>
+      <td><code class="highlighter-rouge">Yêu**là**đậm</code></td> <td><code class="highlighter-rouge">Yêu&lt;strong&gt;là&lt;/strong&gt;đậm</code></td>
+      <td>Yêu<strong>là</strong>đậm</td>
     </tr>
   </tbody>
 </table>
 
-#### Bold Best Practices
+#### Thực tiễn tốt nhất cho In đậm
 
-Markdown applications don't agree on how to handle underscores in the middle of a word. For compatibility, use asterisks to bold the middle of a word for emphasis.
+Các ứng dụng Markdown không thống nhất về cách xử lý dấu gạch dưới ở giữa một từ. Để đảm bảo khả năng tương thích, hãy sử dụng dấu sao để in đậm phần giữa của một từ nhằm nhấn mạnh.
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>✅&nbsp; Do this</th>
-      <th>❌&nbsp; Don't do this</th>
+      <th>✅&nbsp; Nên làm</th>
+      <th>❌&nbsp; Không nên làm</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
         <code class="highlighter-rouge">
-          Love**is**bold
+          Yêu**là**đậm
         </code>
       </td>
       <td>
         <code class="highlighter-rouge">
-          Love__is__bold
+          Yêu__là__đậm
         </code>
       </td>
     </tr>

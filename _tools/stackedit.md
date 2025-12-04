@@ -1,7 +1,7 @@
 ---
 title: StackEdit
 category: "online editor"
-description: "StackEdit is a powerful online Markdown editor you can use anywhere."
+description: "StackEdit là một trình soạn thảo Markdown trực tuyến mạnh mẽ mà bạn có thể sử dụng ở bất cứ đâu."
 icon: stackedit.png
 website: https://stackedit.io
 syntax:
@@ -29,7 +29,7 @@ syntax:
     available: y
   - id: images
     available: y
-    notes: "There's no ability to upload images — you'll need to store the images on another server."
+    notes: "Không có khả năng tải lên hình ảnh — bạn sẽ cần lưu trữ hình ảnh trên một máy chủ khác."
   - id: tables
     available: y
   - id: fenced-code-blocks
@@ -40,7 +40,7 @@ syntax:
     available: y
   - id: heading-ids
     available: p
-    notes: "Automatically generated. There's no way to set custom heading IDs."
+    notes: "Được tạo tự động. Không có cách nào để đặt ID tiêu đề tùy chỉnh."
   - id: definition-lists
     available: y
   - id: strikethrough
@@ -64,39 +64,38 @@ syntax:
   - id: html
     available: y
 see-also:
-  - name: StackEdit repository on GitHub
+  - name: Kho lưu trữ StackEdit trên GitHub
     link: https://github.com/benweet/stackedit/
 ---
 
-[StackEdit](https://stackedit.io) is a powerful online Markdown editor. Like [Dillinger](/tools/dillinger/), it loads right in your web browser, so there's no need to download and install an application on your computer. StackEdit has a wide variety of features and configurable options for power users, making it in many ways a better all-around option than comparable desktop applications.
+[StackEdit](https://stackedit.io) là một trình soạn thảo Markdown trực tuyến mạnh mẽ. Giống như [Dillinger](/tools/dillinger/), nó tải ngay trong trình duyệt web của bạn, vì vậy không cần tải xuống và cài đặt ứng dụng trên máy tính của bạn. StackEdit có nhiều tính năng và tùy chọn cấu hình cho người dùng chuyên nghiệp, khiến nó trở thành một lựa chọn toàn diện tốt hơn so với các ứng dụng máy tính để bàn tương đương theo nhiều cách.
 
-{% include image.html file="/assets/images/tools/stackedit.png" alt="StackEdit Markdown editor" %}
+{% include image.html file="/assets/images/tools/stackedit.png" alt="Trình soạn thảo Markdown StackEdit" %}
 
-StackEdit's Markdown support is excellent. Features include the ability to sync and save files to third-party services, output to various file formats using custom templates, and configure metadata properties for files. (Note that you must subscribe to StackEdit to output to some of the file formats, like PDF.) LaTeX and UML diagrams are also supported. You can apparently use StackEdit without an internet connection.
+Hỗ trợ Markdown của StackEdit rất tuyệt vời. Các tính năng bao gồm khả năng đồng bộ hóa và lưu file vào các dịch vụ của bên thứ ba, xuất sang các định dạng file khác nhau bằng cách sử dụng các mẫu tùy chỉnh và định cấu hình các thuộc tính siêu dữ liệu cho các file. (Lưu ý rằng bạn phải đăng ký StackEdit để xuất sang một số định dạng file, như PDF.) LaTeX và sơ đồ UML cũng được hỗ trợ. Bạn dường như có thể sử dụng StackEdit mà không cần kết nối internet.
 
-StackEdit is limited by a lack of documentation. Users are left to discover and toy around with many of the application's features on their own. That's a shame, because the undocumented features are essentially unusable by all but the most advanced users. For example, you can create your own templates for exported files, but there's no information about what templating language is used, and no guidance on how to create your own templates. There is a [community support forum](https://community.stackedit.io/), but users shouldn't have to read through questions and answers to figure out how to do something simple.
+StackEdit bị hạn chế bởi sự thiếu tài liệu. Người dùng phải tự khám phá và tìm hiểu nhiều tính năng của ứng dụng. Thật đáng tiếc, vì các tính năng không có tài liệu về cơ bản là không thể sử dụng được bởi tất cả mọi người trừ những người dùng cao cấp nhất. Ví dụ, bạn có thể tạo các mẫu của riêng mình cho các file đã xuất, nhưng không có thông tin về ngôn ngữ tạo mẫu nào được sử dụng và không có hướng dẫn về cách tạo các mẫu của riêng bạn. Có một [diễn đàn hỗ trợ cộng đồng](https://community.stackedit.io/), nhưng người dùng không nên phải đọc qua các câu hỏi và câu trả lời để tìm ra cách làm một việc đơn giản.
 
 {% include tool-syntax-table.html %}
 
-### Support for Additional Syntax Elements
+### Hỗ trợ cho các Phần tử Cú pháp Bổ sung
 
-As an added bonus, StackEdit provides support for several obscure elements.
+Như một phần thưởng thêm, StackEdit cung cấp hỗ trợ cho một số phần tử ít người biết đến.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">
     <tr>
-      <th>Element</th>
+      <th>Phần tử</th>
       <th>Markdown</th>
-      <th>Rendered Output</th>
+      <th>Kết quả hiển thị</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Abbreviation</td>
+      <td>Viết tắt</td>
       <td><code>*[HTML]: Hyper Text Markup Language</code><br>
-      <code>The HTML specification is maintained by the W3C.</code></td>
-      <td>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification
-is maintained by the W3C.</td>
+      <code>Đặc tả HTML được duy trì bởi W3C.</code></td>
+      <td>Đặc tả <abbr title="Hyper Text Markup Language">HTML</abbr> được duy trì bởi W3C.</td>
     </tr>
   </tbody>
 </table>

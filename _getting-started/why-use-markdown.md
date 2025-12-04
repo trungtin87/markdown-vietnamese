@@ -1,13 +1,13 @@
-## Why Use Markdown?
+## Tại sao nên sử dụng Markdown?
 
-You might be wondering why people use Markdown instead of a WYSIWYG editor. Why write with Markdown when you can press buttons in an interface to format your text? As it turns out, there are several reasons why people use Markdown instead of WYSIWYG editors.
+Bạn có thể tự hỏi tại sao mọi người sử dụng Markdown thay vì trình soạn thảo WYSIWYG. Tại sao phải viết bằng Markdown khi bạn có thể nhấn các nút trong giao diện để định dạng văn bản của mình? Hóa ra, có một vài lý do tại sao mọi người sử dụng Markdown thay vì các trình soạn thảo WYSIWYG.
 
-- Markdown can be used for everything. People use it to create [websites](#websites), [documents](#documents), [notes](#notes), [books](#books), [presentations](#presentations), [email messages](#email), and [technical documentation](#documentation).
+- Markdown có thể được sử dụng cho mọi thứ. Mọi người sử dụng nó để tạo [trang web](#websites), [tài liệu](#documents), [ghi chú](#notes), [sách](#books), [thuyết trình](#presentations), [tin nhắn email](#email), và [tài liệu kỹ thuật](#documentation).
 
-- Markdown is portable. Files containing Markdown-formatted text can be opened using virtually any application. If you decide you don't like the Markdown application you're currently using, you can import your Markdown files into another Markdown application. That's in stark contrast to word processing applications like Microsoft Word that lock your content into a proprietary file format.
+- Markdown có tính di động. Các file chứa văn bản được định dạng Markdown có thể được mở bằng hầu hết mọi ứng dụng. Nếu bạn quyết định không thích ứng dụng Markdown mà bạn đang sử dụng, bạn có thể nhập các file Markdown của mình vào một ứng dụng Markdown khác. Điều đó hoàn toàn trái ngược với các ứng dụng xử lý văn bản như Microsoft Word khóa nội dung của bạn vào một định dạng file độc quyền.
 
-- Markdown is platform independent. You can create Markdown-formatted text on any device running any operating system.
+- Markdown độc lập với nền tảng. Bạn có thể tạo văn bản được định dạng Markdown trên mọi thiết bị chạy mọi hệ điều hành.
 
-- Markdown is future proof. Even if the application you're using stops working at some point in the future, you'll still be able to read your Markdown-formatted text using a text editing application. This is an important consideration when it comes to books, university theses, and other milestone documents that need to be preserved indefinitely.
+- Markdown phù hợp với tương lai. Ngay cả khi ứng dụng bạn đang sử dụng ngừng hoạt động vào một thời điểm nào đó trong tương lai, bạn vẫn có thể đọc văn bản được định dạng Markdown của mình bằng ứng dụng soạn thảo văn bản. Đây là một cân nhắc quan trọng khi nói đến sách, luận văn đại học và các tài liệu quan trọng khác cần được bảo quản vô thời hạn.
 
-- Markdown is everywhere. Websites like [Reddit](/tools/reddit/) and GitHub support Markdown, and lots of desktop and web-based applications support it.
+- Markdown có ở khắp mọi nơi. Các trang web như [Reddit](/tools/reddit/) và GitHub hỗ trợ Markdown, và rất nhiều ứng dụng máy tính để bàn và dựa trên web hỗ trợ nó.

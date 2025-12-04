@@ -1,7 +1,7 @@
 ---
 title: Notion
 category: "wiki"
-description: "Notion is an all-in-one knowledge management solution for everyone."
+description: "Notion là một giải pháp quản lý kiến thức tất cả trong một cho mọi người."
 icon: notion.png
 website: https://www.notion.so
 syntax:
@@ -11,14 +11,14 @@ syntax:
     available: y
   - id: line-breaks
     available: y
-    notes: "When copying and pasting Markdown-formatted text, you can also use a trailing backslash or press the Return key once to achieve the same result. When typing in Notion, press Shift-Return."
+    notes: "Khi sao chép và dán văn bản được định dạng Markdown, bạn cũng có thể sử dụng dấu gạch chéo ngược ở cuối hoặc nhấn phím Return một lần để đạt được kết quả tương tự. Khi nhập trong Notion, nhấn Shift-Return."
   - id: bold
     available: y
   - id: italic
     available: y
   - id: blockquotes
     available: y
-    notes: 'Notion uses `|` or `"` to denote a blockquote, instead of the standard `>` (which creates a Toggle).'
+    notes: 'Notion sử dụng `|` hoặc `"` để biểu thị một trích dẫn khối, thay vì `>` tiêu chuẩn (tạo ra một Toggle).'
   - id: ordered-lists
     available: y
   - id: unordered-lists
@@ -29,18 +29,18 @@ syntax:
     available: y
   - id: links
     available: p
-    notes: "Copying and pasting Markdown-formatted links works, but you can't type them in Notion's editor. Use the `/link` slash command instead (only works for internal links to other pages in Notion)."
+    notes: "Sao chép và dán các liên kết được định dạng Markdown hoạt động, nhưng bạn không thể nhập chúng trong trình soạn thảo của Notion. Sử dụng lệnh gạch chéo `/link` thay thế (chỉ hoạt động cho các liên kết nội bộ đến các trang khác trong Notion)."
   - id: images
     available: p
-    notes: "Copying and pasting Markdown-formatted images works, but you can't use that format in Notion's editor. Use the `/images` slash command instead, or paste the image directly."
+    notes: "Sao chép và dán các hình ảnh được định dạng Markdown hoạt động, nhưng bạn không thể sử dụng định dạng đó trong trình soạn thảo của Notion. Sử dụng lệnh gạch chéo `/images` thay thế, hoặc dán hình ảnh trực tiếp."
   - id: tables
     available: p
-    notes: "Copying and pasting Markdown-formatted tables works, but you can't type them in Notion's editor. Use the `/table` slash command instead."
+    notes: "Sao chép và dán các bảng được định dạng Markdown hoạt động, nhưng bạn không thể nhập chúng trong trình soạn thảo của Notion. Sử dụng lệnh gạch chéo `/table` thay thế."
   - id: fenced-code-blocks
     available: y
   - id: syntax-highlighting
     available: p
-    notes: "Must pick the programming language to highlight using the GUI."
+    notes: "Phải chọn ngôn ngữ lập trình để tô sáng bằng GUI."
   - id: footnotes
     available: n
   - id: heading-ids
@@ -49,15 +49,15 @@ syntax:
     available: n
   - id: strikethrough
     available: p
-    notes: "Uses only one tilde symbol before and after the phrase when typing. Conversely, only works for pasted content with two tildes."
+    notes: "Chỉ sử dụng một ký hiệu dấu ngã trước và sau cụm từ khi nhập. Ngược lại, chỉ hoạt động cho nội dung đã dán với hai dấu ngã."
   - id: task-lists
     available: y
-    notes: "Copying and pasting Markdown-formatted task lists works. You can generate todo boxes with `[]` or use the `/todo` slash command instead."
+    notes: "Sao chép và dán danh sách tác vụ được định dạng Markdown hoạt động. Bạn có thể tạo các hộp việc cần làm bằng `[]` hoặc sử dụng lệnh gạch chéo `/todo` thay thế."
   - id: emoji-cp
     available: y
   - id: emoji-sc
     available: y
-    notes: "The second colon isn't needed. Type `:` followed by the name of the emoji e.g. `:fire`. Unavailable when copy-pasting into Notion."
+    notes: "Dấu hai chấm thứ hai không cần thiết. Nhập `:` theo sau là tên của biểu tượng cảm xúc, ví dụ: `:fire`. Không khả dụng khi sao chép-dán vào Notion."
   - id: highlight
     available: n
   - id: subscript
@@ -71,16 +71,16 @@ syntax:
   - id: html
     available: n
 see-also:
-  - name: Notion keyboard shortcuts
+  - name: Phím tắt Notion
     link: https://www.notion.so/help/keyboard-shortcuts
 ---
 
-[Notion](https://www.notion.so) is an innovative application that bills itself as an all-in-one knowledge management solution for individuals and teams. You could think of it as a note-taking app or a wiki, but those descriptions don't really do it justice. You really have to try it to get a sense of what it's capable of - Notion does offer a free pricing tier for single users for this purpose. Some organizations use Notion for project management and task tracking, among other things. The application also supports "databases": collections of documents with additional properties similar to YAML headers, but defined from the application GUI.
+[Notion](https://www.notion.so) là một ứng dụng sáng tạo tự quảng cáo là giải pháp quản lý kiến thức tất cả trong một cho cá nhân và nhóm. Bạn có thể coi nó như một ứng dụng ghi chú hoặc một wiki, nhưng những mô tả đó thực sự không công bằng với nó. Bạn thực sự phải thử nó để có cảm nhận về những gì nó có khả năng - Notion cung cấp một bậc giá miễn phí cho người dùng đơn lẻ cho mục đích này. Một số tổ chức sử dụng Notion để quản lý dự án và theo dõi tác vụ, cùng những thứ khác. Ứng dụng cũng hỗ trợ "cơ sở dữ liệu": bộ sưu tập các tài liệu với các thuộc tính bổ sung tương tự như tiêu đề YAML, nhưng được xác định từ GUI ứng dụng.
 
-Notion has desktop and mobile apps available, as well as a web-based interface. You create an account for yourself and your organization — the accounts are used to sync everything with Notion's servers. Documents are stored remotely, requiring an internet connection to access and update. Limited offline editing is available, but only for documents you have already opened recently.
+Notion có sẵn các ứng dụng máy tính để bàn và di động, cũng như giao diện dựa trên web. Bạn tạo một tài khoản cho chính mình và tổ chức của mình — các tài khoản được sử dụng để đồng bộ hóa mọi thứ với máy chủ của Notion. Tài liệu được lưu trữ từ xa, yêu cầu kết nối internet để truy cập và cập nhật. Chỉnh sửa ngoại tuyến hạn chế có sẵn, nhưng chỉ cho các tài liệu bạn đã mở gần đây.
 
-{% include image.html file="/assets/images/tools/notion.png" alt="Notion Markdown application" %}
+{% include image.html file="/assets/images/tools/notion.png" alt="Ứng dụng Markdown Notion" %}
 
-Notion's Markdown support is hit or miss. Copying and pasting Markdown-formatted text into Notion generally works the way you'd expect, but using Notion's live editor to write using Markdown doesn't always work. You can, for instance, use asterisks to make text bold, but trying to use brackets to create a link or pipes to create a table doesn't work — which is strange considering that those syntax elements _do_ work when you copy and paste them in. It's also difficult to edit Markdown-formatted text that you've copied and pasted in Notion.
+Hỗ trợ Markdown của Notion lúc được lúc không. Sao chép và dán văn bản được định dạng Markdown vào Notion thường hoạt động theo cách bạn mong đợi, nhưng sử dụng trình soạn thảo trực tiếp của Notion để viết bằng Markdown không phải lúc nào cũng hoạt động. Ví dụ, bạn có thể sử dụng dấu sao để làm đậm văn bản, nhưng cố gắng sử dụng dấu ngoặc vuông để tạo liên kết hoặc dấu gạch đứng để tạo bảng không hoạt động — điều này thật kỳ lạ khi xem xét rằng các phần tử cú pháp đó _có_ hoạt động khi bạn sao chép và dán chúng vào. Cũng rất khó để chỉnh sửa văn bản được định dạng Markdown mà bạn đã sao chép và dán vào Notion.
 
 {% include tool-syntax-table.html %}

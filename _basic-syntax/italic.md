@@ -1,67 +1,67 @@
 ---
-title: Italic
+title: In nghiêng (Italic)
 syntax-id: italic
-syntax-summary: "*italicized text*"
-description: "To italicize text, add one asterisk or underscore before and after a word or phrase. To italicize the middle of a word for emphasis, add one asterisk without spaces around the letters."
+syntax-summary: "*văn bản in nghiêng*"
+description: "Để in nghiêng văn bản, thêm một dấu sao hoặc dấu gạch dưới vào trước và sau một từ hoặc cụm từ. Để in nghiêng phần giữa của một từ nhằm nhấn mạnh, thêm một dấu sao mà không có khoảng trắng xung quanh các chữ cái."
 examples:
-  - markdown: "Italicized text is the *cat's meow*."
-    html: "Italicized text is the <em>cat's meow</em>."
-  - markdown: "Italicized text is the _cat's meow_."
-    html: "Italicized text is the <em>cat's meow</em>."
-  - markdown: "A*cat*meow"
-    html: "A<em>cat</em>meow"
+  - markdown: "Văn bản in nghiêng là *cat's meow*."
+    html: "Văn bản in nghiêng là <em>cat's meow</em>."
+  - markdown: "Văn bản in nghiêng là _cat's meow_."
+    html: "Văn bản in nghiêng là <em>cat's meow</em>."
+  - markdown: "Một*con*mèo"
+    html: "Một<em>con</em>mèo"
 ---
 
-To italicize text, add one asterisk or underscore before and after a word or phrase. To italicize the middle of a word for emphasis, add one asterisk without spaces around the letters.
+Để in nghiêng văn bản, thêm một dấu sao hoặc dấu gạch dưới vào trước và sau một từ hoặc cụm từ. Để in nghiêng phần giữa của một từ nhằm nhấn mạnh, thêm một dấu sao mà không có khoảng trắng xung quanh các chữ cái.
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th>Markdown</th>
       <th>HTML</th>
-      <th>Rendered Output</th>
+      <th>Kết quả hiển thị</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><code class="highlighter-rouge">Italicized text is the *cat's meow*.</code></td>
-      <td><code class="highlighter-rouge">Italicized text is the &lt;em&gt;cat's meow&lt;/em&gt;.</code></td>
-      <td>Italicized text is the <em>cat’s meow</em>.</td>
+      <td><code class="highlighter-rouge">Văn bản in nghiêng là *cat's meow*.</code></td>
+      <td><code class="highlighter-rouge">Văn bản in nghiêng là &lt;em&gt;cat's meow&lt;/em&gt;.</code></td>
+      <td>Văn bản in nghiêng là <em>cat’s meow</em>.</td>
     </tr>
     <tr>
-      <td><code class="highlighter-rouge">Italicized text is the _cat's meow_.</code></td>
-      <td><code class="highlighter-rouge">Italicized text is the &lt;em&gt;cat's meow&lt;/em&gt;.</code></td>
-      <td>Italicized text is the <em>cat’s meow</em>.</td>
+      <td><code class="highlighter-rouge">Văn bản in nghiêng là _cat's meow_.</code></td>
+      <td><code class="highlighter-rouge">Văn bản in nghiêng là &lt;em&gt;cat's meow&lt;/em&gt;.</code></td>
+      <td>Văn bản in nghiêng là <em>cat’s meow</em>.</td>
     </tr>
     <tr>
-      <td><code class="highlighter-rouge">A*cat*meow</code></td>
-      <td><code class="highlighter-rouge">A&lt;em&gt;cat&lt;/em&gt;meow</code></td>
-      <td>A<em>cat</em>meow</td>
+      <td><code class="highlighter-rouge">Một*con*mèo</code></td>
+      <td><code class="highlighter-rouge">Một&lt;em&gt;con&lt;/em&gt;mèo</code></td>
+      <td>Một<em>con</em>mèo</td>
     </tr>
   </tbody>
 </table>
 
-#### Italic Best Practices
+#### Thực tiễn tốt nhất cho In nghiêng
 
-Markdown applications don't agree on how to handle underscores in the middle of a word. For compatibility, use asterisks to italicize the middle of a word for emphasis.
+Các ứng dụng Markdown không thống nhất về cách xử lý dấu gạch dưới ở giữa một từ. Để đảm bảo khả năng tương thích, hãy sử dụng dấu sao để in nghiêng phần giữa của một từ nhằm nhấn mạnh.
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>✅&nbsp; Do this</th>
-      <th>❌&nbsp; Don't do this</th>
+      <th>✅&nbsp; Nên làm</th>
+      <th>❌&nbsp; Không nên làm</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
         <code class="highlighter-rouge">
-          A*cat*meow
+          Một*con*mèo
         </code>
       </td>
       <td>
         <code class="highlighter-rouge">
-          A_cat_meow
+          Một_con_mèo
         </code>
       </td>
     </tr>

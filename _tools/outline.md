@@ -1,7 +1,7 @@
 ---
 title: Outline
 category: "wiki"
-description: "Outline is a modern knowledge base and wiki for teams."
+description: "Outline là một cơ sở kiến thức và wiki hiện đại cho các nhóm."
 icon: outline.png
 website: https://www.getoutline.com
 syntax:
@@ -11,7 +11,7 @@ syntax:
     available: y
   - id: line-breaks
     available: y
-    notes: "The Outline editor persists line breaks by default without extra syntax."
+    notes: "Trình soạn thảo Outline duy trì ngắt dòng theo mặc định mà không cần cú pháp bổ sung."
   - id: bold
     available: y
   - id: italic
@@ -32,7 +32,7 @@ syntax:
     available: y
   - id: tables
     available: p
-    notes: "You can't type them in Outline's editor. Use the `/table` slash command or block insert toolbar."
+    notes: "Bạn không thể nhập chúng trong trình soạn thảo của Outline. Sử dụng lệnh gạch chéo `/table` hoặc thanh công cụ chèn khối."
   - id: fenced-code-blocks
     available: y
   - id: syntax-highlighting
@@ -41,7 +41,7 @@ syntax:
     available: n
   - id: heading-ids
     available: p
-    notes: "You can't type them in Outline's editor, but all headings are given a unique ID by default."
+    notes: "Bạn không thể nhập chúng trong trình soạn thảo của Outline, nhưng tất cả các tiêu đề đều được cấp một ID duy nhất theo mặc định."
   - id: definition-lists
     available: n
   - id: strikethrough
@@ -65,17 +65,16 @@ syntax:
   - id: html
     available: n
 see-also:
-  - name: Open Source Editor
+  - name: Trình soạn thảo mã nguồn mở
     link: https://github.com/outline/rich-markdown-editor
 ---
 
-[Outline](https://www.getoutline.com) is a fast knowledge base and wiki designed for teams. Outline's live editor supports a wide variety of Markdown shortcuts. Documents created in the app are stored in Markdown format and can be exported as Markdown too, so you're never locked in.
+[Outline](https://www.getoutline.com) là một cơ sở kiến thức và wiki nhanh được thiết kế cho các nhóm. Trình soạn thảo trực tiếp của Outline hỗ trợ nhiều phím tắt Markdown. Các tài liệu được tạo trong ứng dụng được lưu trữ ở định dạng Markdown và cũng có thể được xuất dưới dạng Markdown, vì vậy bạn không bao giờ bị khóa.
 
-Beyond Markdown, Outline supports a range of features such as structured organization of documents, search, read/write permissions, user groups, backlinking, public sharing, and more.
+Ngoài Markdown, Outline hỗ trợ một loạt các tính năng như tổ chức tài liệu có cấu trúc, tìm kiếm, quyền đọc/ghi, nhóm người dùng, backlinking, chia sẻ công khai và hơn thế nữa.
 
-{% include image.html file="/assets/images/tools/outline.png" alt="Outline Screenshot" %}
+{% include image.html file="/assets/images/tools/outline.png" alt="Ảnh chụp màn hình Outline" %}
 
-Outline is offered as a hosted service, and is also available for self hosting as a docker container. The [source code is 
-publicly available](https://github.com/outline/outline) on GitHub.
+Outline được cung cấp dưới dạng dịch vụ được lưu trữ và cũng có sẵn để tự lưu trữ dưới dạng vùng chứa docker. [Mã nguồn được công khai](https://github.com/outline/outline) trên GitHub.
 
 {% include tool-syntax-table.html %}

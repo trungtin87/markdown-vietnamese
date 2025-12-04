@@ -3,24 +3,24 @@ title: Automatic URL Linking
 syntax-id: automatic-url-linking
 ---
 
-Many Markdown processors automatically turn URLs into links. That means if you type http://www.example.com, your Markdown processor will automatically turn it into a link even though you haven’t [used brackets](/basic-syntax/#links).
+Nhiều bộ xử lý Markdown tự động chuyển URL thành liên kết. Điều đó có nghĩa là nếu bạn nhập http://www.example.com, bộ xử lý Markdown của bạn sẽ tự động chuyển nó thành liên kết mặc dù bạn chưa [sử dụng dấu ngoặc vuông](/basic-syntax/#links).
 
 ```
 http://www.example.com
 ```
 
-The rendered output looks like this:
+Kết quả hiển thị trông như thế này:
 
 [http://www.example.com](http://www.example.com)
 
-## Disabling Automatic URL Linking
+## Vô Hiệu Hóa Tự Động Liên Kết URL
 
-If you don't want a URL to be automatically linked, you can remove the link by [denoting the URL as code](/basic-syntax/#code) with backticks.
+Nếu bạn không muốn URL được tự động liên kết, bạn có thể xóa liên kết bằng cách [biểu thị URL dưới dạng mã](/basic-syntax/#code) với dấu backtick.
 
 ```
 `http://www.example.com`
 ```
 
-The rendered output looks like this:
+Kết quả hiển thị trông như thế này:
 
 `http://www.example.com`

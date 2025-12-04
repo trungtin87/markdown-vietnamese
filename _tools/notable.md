@@ -1,7 +1,7 @@
 ---
 title: Notable
 category: "notes"
-description: "Notable is a bare-bones note taking application with great Markdown support."
+description: "Notable là một ứng dụng ghi chú đơn giản với hỗ trợ Markdown tuyệt vời."
 icon: notable.png
 website: https://notable.app
 syntax:
@@ -11,7 +11,7 @@ syntax:
     available: y
   - id: line-breaks
     available: y
-    notes: "In addition to trailing whitespace, you can also use a trailing backslash or press the Return key once to achieve the same result."
+    notes: "Ngoài khoảng trắng ở cuối, bạn cũng có thể sử dụng dấu gạch chéo ngược ở cuối hoặc nhấn phím Return một lần để đạt được kết quả tương tự."
   - id: bold
     available: y
   - id: italic
@@ -40,7 +40,7 @@ syntax:
     available: y
   - id: heading-ids
     available: p
-    notes: "Automatically generated. There's no way to set custom heading IDs."
+    notes: "Được tạo tự động. Không có cách nào để đặt ID tiêu đề tùy chỉnh."
   - id: definition-lists
     available: n
   - id: strikethrough
@@ -64,18 +64,18 @@ syntax:
   - id: html
     available: y
 see-also:
-  - name: Notable Markdown Cheatsheet
+  - name: Bảng tra cứu Markdown Notable
     link: https://notable.app/static/pdfs/cheatsheet.pdf
 ---
 
-[Notable](https://notable.app) is a bare-bones note taking application with excellent Markdown support. Free for desktop use, Notable is designed for people who like to see Markdown-formatted text while they're typing. There's no live editor here. It's just you and raw text. You can click the Edit button to switch between the editor and preview screen — a handy feature when you're reading through your notes.
+[Notable](https://notable.app) là một ứng dụng ghi chú đơn giản với hỗ trợ Markdown tuyệt vời. Miễn phí cho máy tính để bàn, Notable được thiết kế cho những người thích xem văn bản được định dạng Markdown trong khi họ đang nhập. Không có trình soạn thảo trực tiếp ở đây. Chỉ có bạn và văn bản thô. Bạn có thể nhấp vào nút Chỉnh sửa (Edit) để chuyển đổi giữa trình soạn thảo và màn hình xem trước — một tính năng tiện dụng khi bạn đang đọc qua các ghi chú của mình.
 
-{% include image.html file="/assets/images/tools/notable.png" alt="Notable Markdown application" width="90" %}
+{% include image.html file="/assets/images/tools/notable.png" alt="Ứng dụng Markdown Notable" width="90" %}
 
-One of Notable's best features, if you can call it that, is the lack of features. There's no need to create an account, and there's no synchronization feature. Some might see that as a limitation, but it does eliminate the possibility of your files being compromised on a third-party server.
+Một trong những tính năng tốt nhất của Notable, nếu bạn có thể gọi nó như vậy, là sự thiếu các tính năng. Không cần tạo tài khoản và không có tính năng đồng bộ hóa. Một số người có thể coi đó là một hạn chế, nhưng nó loại bỏ khả năng các file của bạn bị xâm phạm trên máy chủ của bên thứ ba.
 
-But without a doubt, Notable's best feature is that it doesn't manipulate your Markdown files in any way — they're stored on your computer in the same format you see in Notable. If you decide later that you don't like Notable, you can take your Markdown files and do anything with them.  
+Nhưng chắc chắn, tính năng tốt nhất của Notable là nó không thao tác các file Markdown của bạn theo bất kỳ cách nào — chúng được lưu trữ trên máy tính của bạn ở cùng định dạng bạn thấy trong Notable. Nếu sau này bạn quyết định rằng bạn không thích Notable, bạn có thể lấy các file Markdown của mình và làm bất cứ điều gì với chúng.
 
-The application uses the [markdown-it](https://github.com/markdown-it/markdown-it) Markdown processor.
+Ứng dụng sử dụng bộ xử lý Markdown [markdown-it](https://github.com/markdown-it/markdown-it).
 
 {% include tool-syntax-table.html %}

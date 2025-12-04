@@ -1,10 +1,10 @@
 ---
 title: Byword
 category: "documents"
-description: "Byword is a capable Markdown editor available for macOS and iOS."
+description: "Byword là một trình soạn thảo Markdown có năng lực dành cho macOS và iOS."
 icon: byword.png
 website: https://bywordapp.com
-notes: I only tested the Mac app, not the iOS app. Should probably test both in the future.
+notes: Tôi chỉ mới thử nghiệm ứng dụng Mac, chưa thử ứng dụng iOS. Có lẽ nên thử nghiệm cả hai trong tương lai.
 syntax:
   - id: headings
     available: y
@@ -22,7 +22,7 @@ syntax:
     available: y
   - id: unordered-lists
     available: p
-    notes: "Nested lists are not supported."
+    notes: "Danh sách lồng nhau không được hỗ trợ."
   - id: code
     available: y
   - id: horizontal-rules
@@ -65,29 +65,28 @@ syntax:
     available: y
 ---
 
-[Byword](https://bywordapp.com) is no-frills Markdown editor for macOS and iOS. You type Markdown-formatted text, use a menu option to invoke the preview, and export to one of several available file formats including HTML, PDF, Microsoft Word, and LaTeX. You can publish to several blogging services, and the iCloud sync feature lets you author and access the files from all of your Apple devices. Byword isn't fancy by any means — some people might even be put off by the application's insubstantial look and feel — but it gets the job done.
+[Byword](https://bywordapp.com) là trình soạn thảo Markdown đơn giản dành cho macOS và iOS. Bạn gõ văn bản được định dạng Markdown, sử dụng tùy chọn menu để gọi bản xem trước và xuất sang một trong số các định dạng file có sẵn bao gồm HTML, PDF, Microsoft Word và LaTeX. Bạn có thể xuất bản lên một số dịch vụ viết blog và tính năng đồng bộ hóa iCloud cho phép bạn soạn thảo và truy cập các file từ tất cả các thiết bị Apple của mình. Byword không hào nhoáng chút nào — một số người thậm chí có thể cảm thấy khó chịu bởi giao diện và cảm giác không đáng kể của ứng dụng — nhưng nó hoàn thành công việc.
 
 {% include tool-syntax-table.html %}
 
-### Support for Additional Syntax Elements
+### Hỗ trợ cho các Phần tử Cú pháp Bổ sung
 
-As an added bonus, Byword provides support for several obscure elements.
+Như một phần thưởng thêm, Byword cung cấp hỗ trợ cho một số phần tử ít người biết đến.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">
     <tr>
-      <th>Element</th>
+      <th>Phần tử</th>
       <th>Markdown</th>
-      <th>Rendered Output</th>
+      <th>Kết quả hiển thị</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Abbreviation</td>
+      <td>Viết tắt</td>
       <td><code>*[HTML]: Hyper Text Markup Language</code><br>
-      <code>The HTML specification is maintained by the W3C.</code></td>
-      <td>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification
-is maintained by the W3C.</td>
+      <code>Đặc tả HTML được duy trì bởi W3C.</code></td>
+      <td>Đặc tả <abbr title="Hyper Text Markup Language">HTML</abbr> được duy trì bởi W3C.</td>
     </tr>
   </tbody>
 </table>

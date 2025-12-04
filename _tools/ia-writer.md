@@ -1,7 +1,7 @@
 ---
 title: iA Writer
 category: "documents"
-description: "iA Writer is one of the most established and widely-acclaimed Markdown editors."
+description: "iA Writer là một trong những trình soạn thảo Markdown lâu đời và được đánh giá cao nhất."
 icon: ia-writer.png
 website: https://ia.net/writer
 syntax:
@@ -11,7 +11,7 @@ syntax:
     available: y
   - id: line-breaks
     available: y
-    notes: "You can use a trailing backslash (`\\`) instead of trailing whitespace."
+    notes: "Bạn có thể sử dụng dấu gạch chéo ngược ở cuối (`\\`) thay vì khoảng trắng ở cuối."
   - id: bold
     available: y
   - id: italic
@@ -40,7 +40,7 @@ syntax:
     available: y
   - id: heading-ids
     available: p
-    notes: "Automatically generated. Use `[custom-id]` for custom heading IDs."
+    notes: "Được tạo tự động. Sử dụng `[custom-id]` cho các ID tiêu đề tùy chỉnh."
   - id: definition-lists
     available: y
   - id: strikethrough
@@ -61,45 +61,44 @@ syntax:
     available: n
   - id: disabling-auto-url
     available: y
-    notes: "You don't need to use this since URLs aren't automatically linked."
+    notes: "Bạn không cần sử dụng cái này vì các URL không được liên kết tự động."
   - id: html
     available: y
 see-also:
-  - name: iA Writer Markdown Guide
+  - name: Hướng dẫn Markdown iA Writer
     link: https://ia.net/writer/support/general/markdown-guide
 ---
 
-[iA Writer](https://ia.net/writer) is one of the most established and widely-acclaimed Markdown editors. Considered to be a "gold standard" Markdown editor, iA Writer is available for devices running macOS, Windows, iOS, and Android operating systems. The application allows you to export Markdown files to HTML, PDF, and Microsoft Word file format using [custom templates](https://ia.net/writer/templates).
+[iA Writer](https://ia.net/writer) là một trong những trình soạn thảo Markdown lâu đời và được đánh giá cao nhất. Được coi là trình soạn thảo Markdown "tiêu chuẩn vàng", iA Writer có sẵn cho các thiết bị chạy hệ điều hành macOS, Windows, iOS và Android. Ứng dụng cho phép bạn xuất các file Markdown sang định dạng file HTML, PDF và Microsoft Word bằng cách sử dụng [các mẫu tùy chỉnh](https://ia.net/writer/templates).
 
-One of the hallmarks of the application is *focus mode*. When enabled, that feature keeps the sentence you're currently working on horizontally centered, as shown in the screenshot below. It feels a little like using a typewriter.
+Một trong những đặc điểm nổi bật của ứng dụng là *chế độ tập trung* (focus mode). Khi được bật, tính năng đó giữ cho câu bạn đang làm việc được căn giữa theo chiều ngang, như được hiển thị trong ảnh chụp màn hình bên dưới. Cảm giác hơi giống như sử dụng máy đánh chữ.
 
-{% include image.html file="/assets/images/tools/ia-writer.png" alt="iA Writer in focus mode" %}
+{% include image.html file="/assets/images/tools/ia-writer.png" alt="iA Writer ở chế độ tập trung" %}
 
-There are a couple of quirks you should be aware of. iA Writer doesn't save new files with the Markdown extension (`.md`) by default. If you plan to exclusively create Markdown files using iA Writer, you should change the default extension to `.md` in **Preferences** > **Files**.
+Có một vài điều kỳ quặc bạn nên biết. iA Writer không lưu các file mới với phần mở rộng Markdown (`.md`) theo mặc định. Nếu bạn định tạo độc quyền các file Markdown bằng iA Writer, bạn nên thay đổi phần mở rộng mặc định thành `.md` trong **Preferences** > **Files**.
 
-The Preview button is the little triangle button in the top-right corner of the window. You can click that to preview the output, and then click it again to return to the source.
+Nút Xem trước (Preview) là nút hình tam giác nhỏ ở góc trên bên phải của cửa sổ. Bạn có thể nhấp vào đó để xem trước đầu ra, và sau đó nhấp lại vào nó để quay lại nguồn.
 
 {% include tool-syntax-table.html %}
 
-### Support for Additional Syntax Elements
+### Hỗ trợ cho các Phần tử Cú pháp Bổ sung
 
-As an added bonus, iA Writer provides support for several obscure elements.
+Như một phần thưởng thêm, iA Writer cung cấp hỗ trợ cho một số phần tử ít người biết đến.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">
     <tr>
-      <th>Element</th>
+      <th>Phần tử</th>
       <th>Markdown</th>
-      <th>Rendered Output</th>
+      <th>Kết quả hiển thị</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Abbreviation</td>
+      <td>Viết tắt</td>
       <td><code>*[HTML]: Hyper Text Markup Language</code><br>
-      <code>The HTML specification is maintained by the W3C.</code></td>
-      <td>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification
-is maintained by the W3C.</td>
+      <code>Đặc tả HTML được duy trì bởi W3C.</code></td>
+      <td>Đặc tả <abbr title="Hyper Text Markup Language">HTML</abbr> được duy trì bởi W3C.</td>
     </tr>
   </tbody>
 </table>

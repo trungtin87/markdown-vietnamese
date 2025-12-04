@@ -4,37 +4,37 @@ title: Privacy Policy
 description: "The privacy policy for the Markdown Guide."
 ---
 
-## Overview
+## Tổng Quan
 
-We collect as little personal data as possible, and we don't track you. In this policy, you can read how we collect and use your information. It also describes how we use cookies.
+Chúng tôi thu thập càng ít dữ liệu cá nhân càng tốt và chúng tôi không theo dõi bạn. Trong chính sách này, bạn có thể đọc cách chúng tôi thu thập và sử dụng thông tin của bạn. Nó cũng mô tả cách chúng tôi sử dụng cookies.
 
-## How we collect and use information
+## Cách chúng tôi thu thập và sử dụng thông tin
 
-We collect and use information in order to provide you the services of the Markdown Guide. Unless stated otherwise, we do not process or store your IP address or any other personally identifiable information.
+Chúng tôi thu thập và sử dụng thông tin để cung cấp cho bạn các dịch vụ của Hướng Dẫn Markdown. Trừ khi có quy định khác, chúng tôi không xử lý hoặc lưu trữ địa chỉ IP của bạn hoặc bất kỳ thông tin nhận dạng cá nhân nào khác.
 
-Here are all the ways in which we collect and use your information:
+Dưới đây là tất cả các cách chúng tôi thu thập và sử dụng thông tin của bạn:
 
-- **Serving requests**: Our hosting partner [Fastly](https://docs.fastly.com/en/guides/data-management) collects your IP address. This data is retained for no longer than 30 days.
-- **Analyzing web traffic**: We use a self-hosted instance of [Plausible](https://plausible.io/) to process the pages you request, as well as your IP address. Your IP address is used to estimate your geolocation and will not be stored.
-- **Serving ads**: Our partner [EthicalAds](https://www.ethicalads.io/) processes your IP address to estimate your geolocation in order to serve country specific ads.
-- **Contacting us**: When you [contact us](/contact/), you can provide your name and email address. If you do, they will be sent to us by email, in order for us to reply to you.
+- **Phục vụ yêu cầu**: Đối tác lưu trữ của chúng tôi [Fastly](https://docs.fastly.com/en/guides/data-management) thu thập địa chỉ IP của bạn. Dữ liệu này được lưu giữ không quá 30 ngày.
+- **Phân tích lưu lượng web**: Chúng tôi sử dụng phiên bản tự lưu trữ của [Plausible](https://plausible.io/) để xử lý các trang bạn yêu cầu, cũng như địa chỉ IP của bạn. Địa chỉ IP của bạn được sử dụng để ước tính vị trí địa lý của bạn và sẽ không được lưu trữ.
+- **Phục vụ quảng cáo**: Đối tác của chúng tôi [EthicalAds](https://www.ethicalads.io/) xử lý địa chỉ IP của bạn để ước tính vị trí địa lý của bạn nhằm phục vụ quảng cáo theo quốc gia cụ thể.
+- **Liên hệ với chúng tôi**: Khi bạn [liên hệ với chúng tôi](/contact/), bạn có thể cung cấp tên và địa chỉ email của mình. Nếu bạn làm vậy, chúng sẽ được gửi cho chúng tôi qua email, để chúng tôi có thể trả lời bạn.
 
 ## Cookies
 
-We don't use cookies on the Markdown Guide.
+Chúng tôi không sử dụng cookies trên Hướng Dẫn Markdown.
 
-## Safeguards
+## Biện Pháp Bảo Vệ
 
-The Markdown Guide follows generally accepted industry standards and maintains reasonable safeguards to attempt to ensure the security, integrity, and privacy of the information in the Markdown Guide's possession.
+Hướng Dẫn Markdown tuân theo các tiêu chuẩn được chấp nhận chung trong ngành và duy trì các biện pháp bảo vệ hợp lý để cố gắng đảm bảo tính bảo mật, toàn vẹn và quyền riêng tư của thông tin trong quyền sở hữu của Hướng Dẫn Markdown.
 
-## What choices do I have?
+## Tôi có những lựa chọn nào?
 
-As you can tell by the list above, we collect very limited information. Of this data, the personally identifiable information is necessary in order to provide the services of the Markdown Guide. You can choose not to use the Markdown Guide if you do not want us to use this information.
+Như bạn có thể thấy từ danh sách trên, chúng tôi thu thập rất ít thông tin. Trong số dữ liệu này, thông tin nhận dạng cá nhân là cần thiết để cung cấp các dịch vụ của Hướng Dẫn Markdown. Bạn có thể chọn không sử dụng Hướng Dẫn Markdown nếu bạn không muốn chúng tôi sử dụng thông tin này.
 
-## Changes and questions
+## Thay đổi và câu hỏi
 
-We may revise this policy from time to time. The changes will not be retroactive, and the most current version of this policy will govern our relationship with you. By continuing to access or use the Markdown Guide after those revisions become effective, you agree to the revised policy.
+Chúng tôi có thể sửa đổi chính sách này theo thời gian. Các thay đổi sẽ không có hiệu lực hồi tố và phiên bản mới nhất của chính sách này sẽ điều chỉnh mối quan hệ của chúng tôi với bạn. Bằng cách tiếp tục truy cập hoặc sử dụng Hướng Dẫn Markdown sau khi các sửa đổi đó có hiệu lực, bạn đồng ý với chính sách đã sửa đổi.
 
-If you have any questions or feedback regarding this privacy policy, you may [contact us](/contact/).
+Nếu bạn có bất kỳ câu hỏi hoặc phản hồi nào về chính sách quyền riêng tư này, bạn có thể [liên hệ với chúng tôi](/contact/).
 
-Last updated: 2023-09-24
+Cập nhật lần cuối: 2023-09-24

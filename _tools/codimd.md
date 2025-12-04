@@ -1,7 +1,7 @@
 ---
 title: CodiMD
 category: "websites"
-description: "CodiMD is an open-source real-time collaborative Markdown editor."
+description: "CodiMD là một trình soạn thảo Markdown cộng tác thời gian thực mã nguồn mở."
 icon: codimd.png
 website: https://github.com/hackmdio/codimd
 syntax:
@@ -62,16 +62,16 @@ syntax:
   - id: html
     available: y
 see-also:
-  - name: CodiMD documentation
+  - name: Tài liệu CodiMD
     link: https://hackmd.io/c/codimd-documentation/
 ---
 
-[CodiMD](https://github.com/hackmdio/codimd) is an open-source real-time collaborative Markdown editor. You can easily [deploy CodiMD with Docker following this tutorial](https://hackmd.io/s/codimd-docker-deployment). CodiMD supports CommonMark and other markup syntax, such as:
+[CodiMD](https://github.com/hackmdio/codimd) là một trình soạn thảo Markdown cộng tác thời gian thực mã nguồn mở. Bạn có thể dễ dàng [triển khai CodiMD với Docker theo hướng dẫn này](https://hackmd.io/s/codimd-docker-deployment). CodiMD hỗ trợ CommonMark và các cú pháp đánh dấu khác, chẳng hạn như:
 
-- MathJax for formulas
-- Mermaid and Graphviz for UML diagrams
-- Vega-lite for data visualizations
+- MathJax cho các công thức
+- Mermaid và Graphviz cho sơ đồ UML
+- Vega-lite cho trực quan hóa dữ liệu
 
-CodiMD is the open-source version of [HackMD](/tools/hackmd/).
+CodiMD là phiên bản mã nguồn mở của [HackMD](/tools/hackmd/).
 
 {% include tool-syntax-table.html %}

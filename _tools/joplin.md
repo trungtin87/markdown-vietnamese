@@ -1,7 +1,7 @@
 ---
 title: Joplin
 category: "notes"
-description: "Joplin is a note taking application that respects your privacy."
+description: "Joplin là một ứng dụng ghi chú tôn trọng quyền riêng tư của bạn."
 icon: joplin.png
 website: https://joplinapp.org
 syntax:
@@ -11,7 +11,7 @@ syntax:
     available: y
   - id: line-breaks
     available: y
-    notes: "In addition to trailing whitespace, you can also use a trailing backslash or press the Return key once to achieve the same result."
+    notes: "Ngoài khoảng trắng ở cuối, bạn cũng có thể sử dụng dấu gạch chéo ngược ở cuối hoặc nhấn phím Return một lần để đạt được kết quả tương tự."
   - id: bold
     available: y
   - id: italic
@@ -40,10 +40,10 @@ syntax:
     available: y
   - id: heading-ids
     available: p
-    notes: "Automatically generated. There's no way to set custom heading IDs."
+    notes: "Được tạo tự động. Không có cách nào để đặt ID tiêu đề tùy chỉnh."
   - id: definition-lists
     available: y
-    notes: "Not enabled by default, but can be enabled in **Preferences** > **Plugins**."
+    notes: "Không được bật theo mặc định, nhưng có thể được bật trong **Preferences** > **Plugins**."
   - id: strikethrough
     available: y
   - id: task-lists
@@ -52,7 +52,7 @@ syntax:
     available: y
   - id: emoji-sc
     available: y
-    notes: "Not enabled by default, but can be enabled in **Preferences** > **Plugins**."
+    notes: "Không được bật theo mặc định, nhưng có thể được bật trong **Preferences** > **Plugins**."
   - id: highlight
     available: y
   - id: subscript
@@ -66,44 +66,43 @@ syntax:
   - id: html
     available: y
 see-also:
-  - name: Joplin Markdown documentation
+  - name: Tài liệu Markdown Joplin
     link: https://joplinapp.org
 ---
 
-[Joplin](https://joplinapp.org) is a free and open-source note taking application that works on every platform. Joplin's user interface isn't as polished as some of its competitors — it feels more geeky, if that makes any sense — but the application is a favorite among privacy advocates and is recommended by [Privacy Guides](https://www.privacyguides.org/en/notebooks/). Joplin stores notes on your local file system, provides end-to-end encryption, and allows you to synchronize files across devices by storing them on a service like Dropbox or Nextcloud. Or, you can subscribe to [Joplin Cloud](https://joplinapp.org/plans/) for syncing. 
+[Joplin](https://joplinapp.org) là một ứng dụng ghi chú mã nguồn mở và miễn phí hoạt động trên mọi nền tảng. Giao diện người dùng của Joplin không bóng bẩy như một số đối thủ cạnh tranh — nó có cảm giác lập dị hơn, nếu điều đó có ý nghĩa — nhưng ứng dụng này là một ứng dụng yêu thích của những người ủng hộ quyền riêng tư và được [Privacy Guides](https://www.privacyguides.org/en/notebooks/) khuyên dùng. Joplin lưu trữ các ghi chú trên hệ thống file cục bộ của bạn, cung cấp mã hóa đầu cuối và cho phép bạn đồng bộ hóa các file trên các thiết bị bằng cách lưu trữ chúng trên một dịch vụ như Dropbox hoặc Nextcloud. Hoặc, bạn có thể đăng ký [Joplin Cloud](https://joplinapp.org/plans/) để đồng bộ hóa.
 
-{% include image.html file="/assets/images/tools/joplin.png" alt="Joplin Markdown application" width="90" %}
+{% include image.html file="/assets/images/tools/joplin.png" alt="Ứng dụng Markdown Joplin" width="90" %}
 
 {% include tool-syntax-table.html %}
 
-### Support for Additional Syntax Elements
+### Hỗ trợ cho các Phần tử Cú pháp Bổ sung
 
-As an added bonus, Joplin provides support for several obscure elements.
+Như một phần thưởng thêm, Joplin cung cấp hỗ trợ cho một số phần tử ít người biết đến.
 
 <div class="alert alert-success">
-  <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> Most of these elements are disabled by default. You can enable them in <strong>Preferences</strong> > <strong>Plugins</strong>.
+  <i class="fas fa-lightbulb"></i> <strong>Mẹo:</strong> Hầu hết các phần tử này bị vô hiệu hóa theo mặc định. Bạn có thể bật chúng trong <strong>Preferences</strong> > <strong>Plugins</strong>.
 </div>
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">
     <tr>
-      <th>Element</th>
+      <th>Phần tử</th>
       <th>Markdown</th>
-      <th>Rendered Output</th>
+      <th>Kết quả hiển thị</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Abbreviation</td>
+      <td>Viết tắt</td>
       <td><code>*[HTML]: Hyper Text Markup Language</code><br>
-      <code>The HTML specification is maintained by the W3C.</code></td>
-      <td>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification
-is maintained by the W3C.</td>
+      <code>Đặc tả HTML được duy trì bởi W3C.</code></td>
+      <td>Đặc tả <abbr title="Hyper Text Markup Language">HTML</abbr> được duy trì bởi W3C.</td>
     </tr>
     <tr>
-      <td>Insert</td>
-      <td><code>++This text has been inserted++</code></td>
-      <td><ins>This text has been inserted</ins></td>
+      <td>Chèn</td>
+      <td><code>++Văn bản này đã được chèn++</code></td>
+      <td><ins>Văn bản này đã được chèn</ins></td>
     </tr>
   </tbody>
 </table>

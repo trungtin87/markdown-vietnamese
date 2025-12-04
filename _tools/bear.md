@@ -1,25 +1,25 @@
 ---
 title: Bear
 category: notes
-description: "Bear is a Markdown notes application for macOS and iOS devices."
+description: "Bear là một ứng dụng ghi chú Markdown cho các thiết bị macOS và iOS."
 icon: bear.png
 website: https://bear.app
 syntax:
   - id: headings
     available: p
-    notes: "[Alternative syntax](/basic-syntax/#alternate-syntax) is not supported."
+    notes: "[Cú pháp thay thế](/basic-syntax/#alternate-syntax) không được hỗ trợ."
   - id: paragraphs
     available: y
   - id: line-breaks
     available: p
-    notes: "The Markdown syntax (trailing whitespace) is not supported, but you can press the Return key once to achieve the same result."
+    notes: "Cú pháp Markdown (khoảng trắng ở cuối dòng) không được hỗ trợ, nhưng bạn có thể nhấn phím Return một lần để đạt được kết quả tương tự."
   - id: bold
     available: y
   - id: italic
     available: y
   - id: blockquotes
     available: p
-    notes: "[Nested blockquotes](/basic-syntax/#nested-blockquotes) are not supported."
+    notes: "[Trích dẫn khối lồng nhau](/basic-syntax/#nested-blockquotes) không được hỗ trợ."
   - id: ordered-lists
     available: y
   - id: unordered-lists
@@ -30,10 +30,10 @@ syntax:
     available: y
   - id: links
     available: y
-    notes: "You can link to other notes by enclosing a note's name in double brackets (i.e., `[[note-name]]`)."
+    notes: "Bạn có thể liên kết đến các ghi chú khác bằng cách bao quanh tên ghi chú trong dấu ngoặc vuông kép (tức là, `[[tên-ghi-chú]]`)."
   - id: images
     available: n
-    notes: "The Markdown syntax is not supported, but you can drag and drop images into a note."
+    notes: "Cú pháp Markdown không được hỗ trợ, nhưng bạn có thể kéo và thả hình ảnh vào ghi chú."
   - id: tables
     available: n
   - id: fenced-code-blocks
@@ -44,7 +44,7 @@ syntax:
     available: n
   - id: heading-ids
     available: p
-    notes: "Automatically generated. There's no way to set custom heading IDs. You can copy a link to a heading by clicking the **H#** symbol next to the heading in the margin and selecting **Copy Link to Here**. See the [documentation](https://bear.app/faq/how-to-link-notes-together/) for more information."
+    notes: "Được tạo tự động. Không có cách nào để đặt ID tiêu đề tùy chỉnh. Bạn có thể sao chép liên kết đến tiêu đề bằng cách nhấp vào biểu tượng **H#** bên cạnh tiêu đề ở lề và chọn **Copy Link to Here**. Xem [tài liệu](https://bear.app/faq/how-to-link-notes-together/) để biết thêm thông tin."
   - id: definition-lists
     available: n
   - id: strikethrough
@@ -57,7 +57,7 @@ syntax:
     available: y
   - id: highlight
     available: y
-    notes: "Use two colons instead of equal signs (e.g., `::word or phrase::`)."
+    notes: "Sử dụng hai dấu hai chấm thay vì dấu bằng (ví dụ: `::từ hoặc cụm từ::`)."
   - id: subscript
     available: n
   - id: superscript
@@ -68,47 +68,47 @@ syntax:
     available: y
   - id: html
     available: p
-    notes: "HTML is not rendered in Bear notes, but it is apparently rendered in the HTML output from exported notes."
+    notes: "HTML không được hiển thị trong ghi chú Bear, nhưng dường như nó được hiển thị trong đầu ra HTML từ các ghi chú đã xuất."
 see-also:
-  - name: How to use Markdown in Bear
+  - name: Cách sử dụng Markdown trong Bear
     link: https://bear.app/faq/how-to-use-markdown-in-bear/
 ---
 
-[Bear](https://bear.app) is a macOS and iOS application designed for one thing: note taking. It's like [Evernote](https://evernote.com/), but without the bloat.
+[Bear](https://bear.app) là một ứng dụng macOS và iOS được thiết kế cho một việc: ghi chú. Nó giống như [Evernote](https://evernote.com/), nhưng không cồng kềnh.
 
-There aren't a lot of whizbang features in Bear. Instead, Bear consistently delivers on all of its promises. Tags, search, and syncing all work flawlessly. The application is intuitive, and that's exactly what you want when you're taking notes.
+Không có nhiều tính năng hào nhoáng trong Bear. Thay vào đó, Bear luôn thực hiện đúng tất cả các lời hứa của mình. Thẻ, tìm kiếm và đồng bộ hóa đều hoạt động hoàn hảo. Ứng dụng này trực quan, và đó chính xác là những gì bạn muốn khi ghi chú.
 
-{% include image.html file="/assets/images/tools/bear.png" alt="Markdown in the Bear Markdown app" %}
+{% include image.html file="/assets/images/tools/bear.png" alt="Markdown trong ứng dụng Markdown Bear" %}
 
-Bear doesn't automatically enable support Markdown by default, but you can [enable it in the preferences](#enabling-markdown-support). The application has a hybrid live editor and text editor — you can see both the Markdown syntax and the way the formatting changes the text. It takes a while to get used to, but it's useful if you're just getting started with Markdown.
+Bear không tự động bật hỗ trợ Markdown theo mặc định, nhưng bạn có thể [bật nó trong tùy chọn](#enabling-markdown-support). Ứng dụng có trình soạn thảo trực tiếp và trình soạn thảo văn bản lai — bạn có thể thấy cả cú pháp Markdown và cách định dạng thay đổi văn bản. Phải mất một lúc để làm quen, nhưng nó hữu ích nếu bạn mới bắt đầu với Markdown.
 
-### Enabling Markdown Support
+### Bật Hỗ trợ Markdown
 
-To enable Markdown support in Bear, open the Preferences window. On the **General** tab, turn on the setting for **Markdown compatibility mode**.
+Để bật hỗ trợ Markdown trong Bear, hãy mở cửa sổ Tùy chọn (Preferences). Trên tab **General**, bật cài đặt cho **Markdown compatibility mode**.
 
 <div class="alert alert-success">
-  <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> If you're using Bear on more than one device, you'll need to enable the Markdown compatibility mode setting on all of your devices.
+  <i class="fas fa-lightbulb"></i> <strong>Mẹo:</strong> Nếu bạn đang sử dụng Bear trên nhiều thiết bị, bạn sẽ cần bật cài đặt chế độ tương thích Markdown trên tất cả các thiết bị của mình.
 </div>
 
 {% include tool-syntax-table.html %}
 
-### Support for Additional Syntax Elements
+### Hỗ trợ cho các Phần tử Cú pháp Bổ sung
 
-As an added bonus, Bear provides support for several obscure elements.
+Như một phần thưởng thêm, Bear cung cấp hỗ trợ cho một số phần tử ít người biết đến.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">
     <tr>
-      <th>Element</th>
+      <th>Phần tử</th>
       <th>Markdown</th>
-      <th>Rendered Output</th>
+      <th>Kết quả hiển thị</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Underline</td>
-      <td><code>~word or phrase~</code></td>
-      <td><ins>word or phrase</ins></td>
+      <td>Gạch chân</td>
+      <td><code>~từ hoặc cụm từ~</code></td>
+      <td><ins>từ hoặc cụm từ</ins></td>
     </tr>
   </tbody>
 </table>

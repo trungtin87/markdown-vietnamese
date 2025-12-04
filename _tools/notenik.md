@@ -1,7 +1,7 @@
 ---
 title: Notenik
 category: "notes"
-description: "Notenik is a Mac app for collecting and organizing notes."
+description: "Notenik là một ứng dụng Mac để thu thập và sắp xếp các ghi chú."
 icon: notenik.png
 website: https://notenik.app/
 syntax:
@@ -63,26 +63,26 @@ syntax:
     available: y
 ---
 
-Notenik is a free and open-source Mac app for taking and organizing notes using Markdown. It can be downloaded from the [Mac App Store](https://apps.apple.com/us/app/notenik/id1465997984). 
+Notenik là một ứng dụng Mac miễn phí và mã nguồn mở để ghi chú và sắp xếp các ghi chú bằng Markdown. Nó có thể được tải xuống từ [Mac App Store](https://apps.apple.com/us/app/notenik/id1465997984).
 
-Notenik has a few distinguishing features in the increasingly crowded field of note-taking apps:
+Notenik có một vài tính năng khác biệt trong lĩnh vực ứng dụng ghi chú ngày càng đông đúc:
 
-+ It is a native Mac app written entirely in Swift, and using AppKit
-+ It has a very traditional Mac user interface
-+ It is free and open-source
-+ Notes are stored in plain text files
-+ Notes can be stored in multiple collections (aka folders)
-+ Collections/folders can be stored anywhere the user likes
-+ Notenik supports multiple fields per note, and many different field types
-+ The body of a note is always formatted using Markdown, but other fields (a teaser, for example) can also be formatted using Markdown
-+ Notenik supports filtering, sorting, and merging of notes to create static websites
-+ Support is provided for importing, exporting, and sharing notes using a wide variety of formats
-+ Supports both MultiMarkdown metadata as well as YAML frontmatter 
++ Nó là một ứng dụng Mac gốc được viết hoàn toàn bằng Swift và sử dụng AppKit
++ Nó có giao diện người dùng Mac rất truyền thống
++ Nó miễn phí và mã nguồn mở
++ Ghi chú được lưu trữ trong các file văn bản thuần túy
++ Ghi chú có thể được lưu trữ trong nhiều bộ sưu tập (còn gọi là thư mục)
++ Bộ sưu tập/thư mục có thể được lưu trữ ở bất cứ đâu người dùng thích
++ Notenik hỗ trợ nhiều trường cho mỗi ghi chú và nhiều loại trường khác nhau
++ Phần thân của ghi chú luôn được định dạng bằng Markdown, nhưng các trường khác (ví dụ: đoạn giới thiệu) cũng có thể được định dạng bằng Markdown
++ Notenik hỗ trợ lọc, sắp xếp và hợp nhất các ghi chú để tạo các trang web tĩnh
++ Hỗ trợ được cung cấp để nhập, xuất và chia sẻ ghi chú bằng nhiều định dạng khác nhau
++ Hỗ trợ cả siêu dữ liệu MultiMarkdown cũng như frontmatter YAML
 
-The Collection window shows two tabs on the left, and another two on the right. On the left, the user can switch between a sorted list of all notes in the collection, and an outline of all notes, organized by tags. On the right, the user can switch between an edit view and a display view. 
+Cửa sổ Bộ sưu tập hiển thị hai tab ở bên trái và hai tab khác ở bên phải. Ở bên trái, người dùng có thể chuyển đổi giữa danh sách được sắp xếp của tất cả các ghi chú trong bộ sưu tập và dàn ý của tất cả các ghi chú, được sắp xếp theo thẻ. Ở bên phải, người dùng có thể chuyển đổi giữa chế độ xem chỉnh sửa và chế độ xem hiển thị.
 
-All Notenik documentation is stored in the Notenik Knowledge Base, which is itself a Notenik Collection, and is always accessible from within Notenik (as well as from the [web](https://notenik.app/knowledge-base/EPUB/html/notenik-knowledge-base.html)).
+Tất cả tài liệu Notenik được lưu trữ trong Cơ sở kiến thức Notenik, bản thân nó là một Bộ sưu tập Notenik và luôn có thể truy cập được từ bên trong Notenik (cũng như từ [web](https://notenik.app/knowledge-base/EPUB/html/notenik-knowledge-base.html)).
 
-{% include image.html file="/assets/images/tools/notenik.png" alt="The Notenik Knowledge Base opened in Notenik" %}
+{% include image.html file="/assets/images/tools/notenik.png" alt="Cơ sở kiến thức Notenik được mở trong Notenik" %}
 
 {% include tool-syntax-table.html %}

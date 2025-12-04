@@ -1,7 +1,7 @@
 ---
 title: Mattermost
 category: collaboration
-description: "Mattermost is an open source messaging and team collaboration application."
+description: "Mattermost là một ứng dụng nhắn tin và cộng tác nhóm dành cho doanh nghiệp mã nguồn mở."
 icon: mattermost.png
 website: https://mattermost.com
 syntax:
@@ -11,7 +11,7 @@ syntax:
     available: y
   - id: line-breaks
     available: y
-    notes: "You can also press the Shift and Return keys to go to the next line."
+    notes: "Bạn cũng có thể nhấn phím Shift và Return để xuống dòng tiếp theo."
   - id: bold
     available: y
   - id: italic
@@ -63,10 +63,10 @@ syntax:
   - id: html
     available: n
 see-also:
-  - name: The Magic of Mattermost Markdown
+  - name: Sự kỳ diệu của Mattermost Markdown
     link: https://www.mattermost.org/open-source-slack-alternative-adopts-markdown/
 ---
 
-[Mattermost](https://mattermost.com) is an open source enterprise messaging and team collaboration application. It's like [Slack](/tools/slack/), but with excellent Markdown support. In fact, Mattermost provides exactly the type of Markdown support you want to see in a messaging application. You can type messages in Markdown or copy and paste Markdown-formatted text into the message field — it works exactly the way you'd expect it to. The application uses [a fork of the marked Markdown processor](https://github.com/mattermost/marked).
+[Mattermost](https://mattermost.com) là một ứng dụng nhắn tin và cộng tác nhóm dành cho doanh nghiệp mã nguồn mở. Nó giống như [Slack](/tools/slack/), nhưng có hỗ trợ Markdown tuyệt vời. Trên thực tế, Mattermost cung cấp chính xác loại hỗ trợ Markdown mà bạn muốn thấy trong một ứng dụng nhắn tin. Bạn có thể nhập tin nhắn bằng Markdown hoặc sao chép và dán văn bản được định dạng Markdown vào trường tin nhắn — nó hoạt động chính xác theo cách bạn mong đợi. Ứng dụng sử dụng [một nhánh của bộ xử lý Markdown marked](https://github.com/mattermost/marked).
 
 {% include tool-syntax-table.html %}

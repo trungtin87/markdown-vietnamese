@@ -1,7 +1,7 @@
 ---
 title: Logseq
 category: "notes"
-description: "Logseq is an open-source note taking application that supports Markdown and Orgmode syntax."
+description: "Logseq là một ứng dụng ghi chú mã nguồn mở hỗ trợ cú pháp Markdown và Orgmode."
 icon: logseq.png
 website: https://logseq.com
 syntax:
@@ -9,10 +9,10 @@ syntax:
     available: y
   - id: paragraphs
     available: y
-    notes: "Every paragraph starts with a hyphen character (`-`)"
+    notes: "Mỗi đoạn văn bắt đầu bằng một ký tự gạch nối (`-`)"
   - id: line-breaks
     available: y
-    notes: "Use CR character (`\\r`)"
+    notes: "Sử dụng ký tự CR (`\\r`)"
   - id: bold
     available: y
   - id: italic
@@ -39,7 +39,7 @@ syntax:
     available: y
   - id: footnotes
     available: n
-    notes: "Not yet supported, but it's on the roadmap"
+    notes: "Chưa được hỗ trợ, nhưng nó nằm trong lộ trình"
   - id: heading-ids
     available: n
   - id: definition-lists
@@ -48,7 +48,7 @@ syntax:
     available: y
   - id: task-lists
     available: n
-    notes: "Logseq has predefined commands for this: TODO/DOING/DONE or LATER/NOW"
+    notes: "Logseq có các lệnh được xác định trước cho việc này: TODO/DOING/DONE hoặc LATER/NOW"
   - id: emoji-cp
     available: y
   - id: emoji-sc
@@ -57,26 +57,26 @@ syntax:
     available: y
   - id: subscript
     available: n
-    notes: "Use `X_{sub}`"
+    notes: "Sử dụng `X_{sub}`"
   - id: superscript
     available: n
-    notes: "Use `X^{super}`"
+    notes: "Sử dụng `X^{super}`"
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url
     available: n
   - id: html
     available: y
-    notes: "Requires XHTML tags: tags must be closed or self-closing (e.g. `<p/>`)"
+    notes: "Yêu cầu thẻ XHTML: thẻ phải được đóng hoặc tự đóng (ví dụ: `<p/>`)"
 see-also:
-  - name: Logseq documentation
+  - name: Tài liệu Logseq
     link: https://docs.logseq.com/
 ---
 
-[Logseq](https://logseq.com) is an open-source note taking application that supports Markdown and Orgmode syntax. As it prioritizes privacy, everything is stored locally on your machine for the desktop and web applications. There are [mobile apps](https://logseq.com/downloads) available for iOS and Android devices.
+[Logseq](https://logseq.com) là một ứng dụng ghi chú mã nguồn mở hỗ trợ cú pháp Markdown và Orgmode. Vì nó ưu tiên quyền riêng tư, mọi thứ được lưu trữ cục bộ trên máy của bạn cho các ứng dụng máy tính để bàn và web. Có [các ứng dụng di động](https://logseq.com/downloads) có sẵn cho các thiết bị iOS và Android.
 
-Logseq provides a very promising feature set: Back links, note graphs (inspired by Roam Research), automated card creation (for learning), templates, and much more.
+Logseq cung cấp một bộ tính năng rất hứa hẹn: Back links, biểu đồ ghi chú (lấy cảm hứng từ Roam Research), tạo thẻ tự động (để học tập), mẫu, và nhiều hơn nữa.
 
-{% include image.html file="/assets/images/tools/logseq.png" alt="Logseq application" %}
+{% include image.html file="/assets/images/tools/logseq.png" alt="Ứng dụng Logseq" %}
 
 {% include tool-syntax-table.html %}

@@ -3,11 +3,11 @@ title: Availability
 syntax-id: availability
 ---
 
-Not all Markdown applications support extended syntax elements. You'll need to check whether or not the lightweight markup language your application is using supports the extended syntax elements you want to use. If it doesn't, it may still be possible to enable extensions in your Markdown processor.
+Không phải tất cả các ứng dụng Markdown đều hỗ trợ các thành phần cú pháp mở rộng. Bạn cần kiểm tra xem ngôn ngữ đánh dấu nhẹ mà ứng dụng của bạn đang sử dụng có hỗ trợ các thành phần cú pháp mở rộng mà bạn muốn sử dụng hay không. Nếu không, vẫn có thể kích hoạt các tiện ích mở rộng trong bộ xử lý Markdown của bạn.
 
-### Lightweight Markup Languages
+### Ngôn Ngữ Đánh Dấu Nhẹ
 
-There are several lightweight markup languages that are *supersets* of Markdown. They include basic syntax and build upon it by adding additional elements like tables, code blocks, syntax highlighting, URL auto-linking, and footnotes. Many of the most popular Markdown applications use one of the following lightweight markup languages:
+Có một số ngôn ngữ đánh dấu nhẹ là *tập cha* của Markdown. Chúng bao gồm cú pháp cơ bản và xây dựng dựa trên đó bằng cách thêm các thành phần bổ sung như bảng, khối mã, làm nổi bật cú pháp, tự động liên kết URL và chú thích cuối trang. Nhiều ứng dụng Markdown phổ biến nhất sử dụng một trong các ngôn ngữ đánh dấu nhẹ sau:
 
 - [CommonMark](https://commonmark.org)
 - [GitHub Flavored Markdown (GFM)](https://github.github.com/gfm/)
@@ -15,6 +15,6 @@ There are several lightweight markup languages that are *supersets* of Markdown.
 - [MultiMarkdown](https://fletcherpenney.net/multimarkdown/)
 - [R Markdown](https://rmarkdown.rstudio.com/)
 
-### Markdown Processors
+### Bộ Xử Lý Markdown
 
-There are [dozens of Markdown processors](https://github.com/markdown/markdown.github.com/wiki/Implementations) available. Many of them allow you to add extensions that enable extended syntax elements. Check your processor's documentation for more information.
+Có [hàng chục bộ xử lý Markdown](https://github.com/markdown/markdown.github.com/wiki/Implementations) có sẵn. Nhiều trong số chúng cho phép bạn thêm các tiện ích mở rộng để kích hoạt các thành phần cú pháp mở rộng. Kiểm tra tài liệu của bộ xử lý của bạn để biết thêm thông tin.

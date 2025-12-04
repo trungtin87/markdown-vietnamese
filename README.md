@@ -1,24 +1,24 @@
-# Markdown Guide
+# Hướng Dẫn Markdown
 
-*[The Markdown Guide](https://www.markdownguide.org)* is a comprehensive Markdown reference designed for both novices and experts. It was born out of frustration with existing Markdown references that are incomplete and inadequate.
+*[Hướng Dẫn Markdown](https://www.markdownguide.org)* là tài liệu tham khảo Markdown toàn diện được thiết kế cho cả người mới bắt đầu và chuyên gia. Nó ra đời từ sự thất vọng với các tài liệu tham khảo Markdown hiện có vốn không đầy đủ và không thỏa đáng.
 
-## Contributing
+## Đóng Góp
 
-Contributions are welcome. Feel free to open a pull request with changes.
+Chúng tôi hoan nghênh các đóng góp. Vui lòng mở pull request với các thay đổi.
 
-### Running it Locally
+### Chạy Cục Bộ
 
-It can be helpful to preview changes on your computer before opening a pull request. *The Markdown Guide* uses the [Jekyll static site generator](http://jekyllrb.com/). After forking or cloning the repository, perform the following steps to generate the site and preview it:
+Có thể hữu ích khi xem trước các thay đổi trên máy tính của bạn trước khi mở pull request. *Hướng Dẫn Markdown* sử dụng [trình tạo trang web tĩnh Jekyll](http://jekyllrb.com/). Sau khi fork hoặc clone kho lưu trữ, thực hiện các bước sau để tạo trang web và xem trước:
 
-- Make sure you have ruby installed on your computer. See https://www.ruby-lang.org/en/downloads/
+- Đảm bảo bạn đã cài đặt ruby trên máy tính của mình. Xem https://www.ruby-lang.org/en/downloads/
 - `bundle install`
 - `bundle exec jekyll serve`
-- Point your browser at http://127.0.0.1:4000/
+- Trỏ trình duyệt của bạn đến http://127.0.0.1:4000/
 
-### Adding tools
+### Thêm Công Cụ
 
-See [this page](https://github.com/mattcone/markdown-guide/wiki/Markdown-tool-directory) for information about adding applications to the [Markdown tools directory](https://www.markdownguide.org/tools/).
+Xem [trang này](https://github.com/mattcone/markdown-guide/wiki/Markdown-tool-directory) để biết thông tin về việc thêm ứng dụng vào [thư mục công cụ Markdown](https://www.markdownguide.org/tools/).
 
-## License
+## Giấy Phép
 
-The content of this project itself is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International license](LICENSE), and the underlying source code used to format and display that content is licensed under the [MIT license](LICENSE-CODE).
+Nội dung của dự án này được cấp phép theo [giấy phép Creative Commons Attribution-ShareAlike 4.0 International](LICENSE), và mã nguồn cơ bản được sử dụng để định dạng và hiển thị nội dung đó được cấp phép theo [giấy phép MIT](LICENSE-CODE).

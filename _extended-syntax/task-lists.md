@@ -7,7 +7,7 @@ syntax-summary: |
   - [ ] Contact the media
 ---
 
-Task lists (also referred to as *checklists* and *todo* lists) allow you to create a list of items with checkboxes. In Markdown applications that support task lists, checkboxes will be displayed next to the content. To create a task list, add dashes (`-`) and brackets with a space (`[ ]`) in front of task list items. To select a checkbox, add an `x` in between the brackets (`[x]`).
+Danh sách tác vụ (còn được gọi là *danh sách kiểm tra* và danh sách *việc cần làm*) cho phép bạn tạo danh sách các mục với hộp kiểm. Trong các ứng dụng Markdown hỗ trợ danh sách tác vụ, các hộp kiểm sẽ được hiển thị bên cạnh nội dung. Để tạo danh sách tác vụ, hãy thêm dấu gạch ngang (`-`) và dấu ngoặc vuông với khoảng trắng (`[ ]`) trước các mục trong danh sách tác vụ. Để chọn hộp kiểm, hãy thêm `x` vào giữa các dấu ngoặc vuông (`[x]`).
 
 ```
 - [x] Write the press release
@@ -15,6 +15,6 @@ Task lists (also referred to as *checklists* and *todo* lists) allow you to crea
 - [ ] Contact the media
 ```
 
-The rendered output looks like this:
+Kết quả hiển thị trông như thế này:
 
 <img src="/assets/images/tasklist.png" class="img-fluid" alt="Markdown task list">

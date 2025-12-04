@@ -1,356 +1,356 @@
 ---
 title: Slack
 category: collaboration
-description: "Slack is a messaging and team collaboration application."
+description: "Slack là một ứng dụng nhắn tin và cộng tác nhóm."
 icon: slack.png
 website: https://slack.com
 ---
 
-[Slack](https://slack.com) is a popular team messaging and collaboration application that supports a subset of the Markdown syntax. Different parts of the interface provide different levels of Markdown support.
+[Slack](https://slack.com) là một ứng dụng nhắn tin và cộng tác nhóm phổ biến hỗ trợ một tập hợp con của cú pháp Markdown. Các phần khác nhau của giao diện cung cấp các mức hỗ trợ Markdown khác nhau.
 
-### Messages
+### Tin nhắn
 
-Slack's message interface is the one people use most. Support for some [basic syntax](/basic-syntax/) is provided, although support for many elements is notably absent.
+Giao diện tin nhắn của Slack là giao diện mọi người sử dụng nhiều nhất. Hỗ trợ cho một số [cú pháp cơ bản](/basic-syntax/) được cung cấp, mặc dù hỗ trợ cho nhiều phần tử vắng mặt đáng kể.
 
-In November 2019, Slack introduced a new WYSIWYG interface, as shown below. This feature is enabled for all users by default. The most obvious change is the addition of formatting buttons in the interface controls, but there's also a live editor that hides the Markdown formatting after you type it. You don't have to use the interface controls to format your text — you can still use the Markdown syntax elements described in the next section.
+Vào tháng 11 năm 2019, Slack đã giới thiệu một giao diện WYSIWYG mới, như được hiển thị bên dưới. Tính năng này được bật cho tất cả người dùng theo mặc định. Thay đổi rõ ràng nhất là việc bổ sung các nút định dạng trong các điều khiển giao diện, nhưng cũng có một trình soạn thảo trực tiếp ẩn định dạng Markdown sau khi bạn nhập. Bạn không cần phải sử dụng các điều khiển giao diện để định dạng văn bản của mình — bạn vẫn có thể sử dụng các phần tử cú pháp Markdown được mô tả trong phần tiếp theo.
 
-{% include image.html file="/assets/images/tools/slack-messages.png" alt="Slack markdown in the message interface" width="70" %}
+{% include image.html file="/assets/images/tools/slack-messages.png" alt="Slack markdown trong giao diện tin nhắn" width="70" %}
 
-You can disable the WYSIWYG interface in **Preferences** > **Advanced**. Select the **Format messages with markup** setting, as shown below. Enabling this setting will hide the WYSIWYG formatting buttons and disable the live editor so you can see the Markdown formatting as you type it.
+Bạn có thể tắt giao diện WYSIWYG trong **Preferences** > **Advanced**. Chọn cài đặt **Format messages with markup**, như được hiển thị bên dưới. Bật cài đặt này sẽ ẩn các nút định dạng WYSIWYG và tắt trình soạn thảo trực tiếp để bạn có thể thấy định dạng Markdown khi bạn nhập.
 
 <div class="alert alert-success">
-  <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> If you have multiple workplaces open in Slack, you'll need to enable this setting for each workplace.
+  <i class="fas fa-lightbulb"></i> <strong>Mẹo:</strong> Nếu bạn mở nhiều không gian làm việc trong Slack, bạn sẽ cần bật cài đặt này cho từng không gian làm việc.
 </div>
 
-{% include image.html file="/assets/images/tools/slack-enable-markdown.png" alt="Enable Markdown in the Slack message interface" width="80" %}
+{% include image.html file="/assets/images/tools/slack-enable-markdown.png" alt="Bật Markdown trong giao diện tin nhắn Slack" width="80" %}
 
-#### Slack Markdown Support in Messages
+#### Hỗ trợ Markdown của Slack trong Tin nhắn
 
-The Slack message interface provides support for the following the Markdown elements.
+Giao diện tin nhắn Slack cung cấp hỗ trợ cho các phần tử Markdown sau.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">
     <tr>
-      <th>Element</th>
-      <th>Support</th>
-      <th>Notes</th>
+      <th>Phần tử</th>
+      <th>Hỗ trợ</th>
+      <th>Ghi chú</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><a href="/basic-syntax/#headings">Headings</a></td>
-      <td class="table-danger">No</td>
+      <td><a href="/basic-syntax/#headings">Tiêu đề</a></td>
+      <td class="table-danger">Không</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#paragraphs-1">Paragraphs</a></td>
-      <td class="table-danger">No</td>
+      <td><a href="/basic-syntax/#paragraphs-1">Đoạn văn</a></td>
+      <td class="table-danger">Không</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#line-breaks">Line Breaks</a></td>
-      <td class="table-danger">No</td>
-      <td>The Markdown syntax is not supported, but you can press the Shift and Return keys to go to the next line.</td>
+      <td><a href="/basic-syntax/#line-breaks">Ngắt dòng</a></td>
+      <td class="table-danger">Không</td>
+      <td>Cú pháp Markdown không được hỗ trợ, nhưng bạn có thể nhấn phím Shift và Return để xuống dòng tiếp theo.</td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#bold">Bold</a></td>
-      <td class="table-danger">No</td>
-      <td>The Markdown syntax is not supported, but you can add bold styling with single asterisks, which is the standard Markdown syntax for italic. Very confusing!</td>
+      <td><a href="/basic-syntax/#bold">In đậm</a></td>
+      <td class="table-danger">Không</td>
+      <td>Cú pháp Markdown không được hỗ trợ, nhưng bạn có thể thêm kiểu in đậm bằng dấu sao đơn, đây là cú pháp Markdown tiêu chuẩn cho in nghiêng. Rất khó hiểu!</td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#italic">Italic</a></td>
-      <td class="table-warning">Partial</td>
-      <td>Only underscores are supported.</td>
+      <td><a href="/basic-syntax/#italic">In nghiêng</a></td>
+      <td class="table-warning">Một phần</td>
+      <td>Chỉ dấu gạch dưới được hỗ trợ.</td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#blockquotes-1">Blockquotes</a></td>
-      <td class="table-success">Yes</td>
+      <td><a href="/basic-syntax/#blockquotes-1">Trích dẫn khối</a></td>
+      <td class="table-success">Có</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#ordered-lists">Ordered Lists</a></td>
-      <td class="table-danger">Partial</td>
-      <td>Standard Markdown syntax is *only* supported if WYSIWIG editor is disabled.</td>
+      <td><a href="/basic-syntax/#ordered-lists">Danh sách có thứ tự</a></td>
+      <td class="table-danger">Một phần</td>
+      <td>Cú pháp Markdown tiêu chuẩn *chỉ* được hỗ trợ nếu trình soạn thảo WYSIWIG bị tắt.</td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#unordered-lists">Unordered Lists</a></td>
-      <td class="table-danger">Partial</td>
-      <td>Standard Markdown syntax is *only* supported if WYSIWIG editor is disabled. Only supports dash and asterisk for unordered list.</td>
+      <td><a href="/basic-syntax/#unordered-lists">Danh sách không có thứ tự</a></td>
+      <td class="table-danger">Một phần</td>
+      <td>Cú pháp Markdown tiêu chuẩn *chỉ* được hỗ trợ nếu trình soạn thảo WYSIWIG bị tắt. Chỉ hỗ trợ dấu gạch ngang và dấu sao cho danh sách không có thứ tự.</td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#code">Code</a></td>
-      <td class="table-warning">Partial</td>
-      <td><a href="/basic-syntax/#code-blocks">Code blocks</a> are not supported.</td>
+      <td><a href="/basic-syntax/#code">Mã</a></td>
+      <td class="table-warning">Một phần</td>
+      <td><a href="/basic-syntax/#code-blocks">Khối mã</a> không được hỗ trợ.</td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#horizontal-rules">Horizontal Rules</a></td>
-      <td class="table-danger">No</td>
+      <td><a href="/basic-syntax/#horizontal-rules">Quy tắc ngang</a></td>
+      <td class="table-danger">Không</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#links">Links</a></td>
-      <td class="table-danger">Partial</td>
-      <td>Standard Markdown syntax is *only* supported if WYSIWIG editor is disabled.</td>
+      <td><a href="/basic-syntax/#links">Liên kết</a></td>
+      <td class="table-danger">Một phần</td>
+      <td>Cú pháp Markdown tiêu chuẩn *chỉ* được hỗ trợ nếu trình soạn thảo WYSIWIG bị tắt.</td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#images-1">Images</a></td>
-      <td class="table-danger">No</td>
-      <td>The Markdown syntax is not supported, but you can drag and drop images to share them.</td>
+      <td><a href="/basic-syntax/#images-1">Hình ảnh</a></td>
+      <td class="table-danger">Không</td>
+      <td>Cú pháp Markdown không được hỗ trợ, nhưng bạn có thể kéo và thả hình ảnh để chia sẻ chúng.</td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#tables">Tables</a></td>
-      <td class="table-danger">No</td>
+      <td><a href="/extended-syntax/#tables">Bảng</a></td>
+      <td class="table-danger">Không</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#fenced-code-blocks">Fenced Code Blocks</a></td>
-      <td class="table-success">Yes</td>
+      <td><a href="/extended-syntax/#fenced-code-blocks">Khối mã có rào chắn</a></td>
+      <td class="table-success">Có</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#syntax-highlighting">Syntax Highlighting</a></td>
-      <td class="table-danger">No</td>
+      <td><a href="/extended-syntax/#syntax-highlighting">Tô sáng cú pháp</a></td>
+      <td class="table-danger">Không</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#footnotes">Footnotes</a></td>
-      <td class="table-danger">No</td>
+      <td><a href="/extended-syntax/#footnotes">Chú thích cuối trang</a></td>
+      <td class="table-danger">Không</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#heading-ids">Heading IDs</a></td>
-      <td class="table-danger">No</td>
+      <td><a href="/extended-syntax/#heading-ids">ID tiêu đề</a></td>
+      <td class="table-danger">Không</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#definition-lists">Definition Lists</a></td>
-      <td class="table-danger">No</td>
+      <td><a href="/extended-syntax/#definition-lists">Danh sách định nghĩa</a></td>
+      <td class="table-danger">Không</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#strikethrough">Strikethrough</a></td>
-      <td class="table-warning">Partial</td>
-      <td>Use only one tilde symbol before and after the phrase.</td>
+      <td><a href="/extended-syntax/#strikethrough">Gạch ngang</a></td>
+      <td class="table-warning">Một phần</td>
+      <td>Chỉ sử dụng một ký hiệu dấu ngã trước và sau cụm từ.</td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#task-lists">Task Lists</a></td>
-      <td class="table-danger">No</td>
-      <td>Is interpreted as an unordered list</td>
+      <td><a href="/extended-syntax/#task-lists">Danh sách tác vụ</a></td>
+      <td class="table-danger">Không</td>
+      <td>Được hiểu là một danh sách không có thứ tự</td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#copying-and-pasting-emoji">Emoji (copy and paste)</a></td>
-      <td class="table-success">Yes</td>
+      <td><a href="/extended-syntax/#copying-and-pasting-emoji">Biểu tượng cảm xúc (sao chép và dán)</a></td>
+      <td class="table-success">Có</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#using-emoji-shortcodes">Emoji (shortcodes)</a></td>
-      <td class="table-success">Yes</td>
+      <td><a href="/extended-syntax/#using-emoji-shortcodes">Biểu tượng cảm xúc (mã ngắn)</a></td>
+      <td class="table-success">Có</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#highlight">Highlight</a></td>
-      <td class="table-danger">No</td>
+      <td><a href="/extended-syntax/#highlight">Tô sáng</a></td>
+      <td class="table-danger">Không</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#subscript">Subscript</a></td>
-      <td class="table-danger">No</td>
+      <td><a href="/extended-syntax/#subscript">Chỉ số dưới</a></td>
+      <td class="table-danger">Không</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#superscript">Superscript</a></td>
-      <td class="table-danger">No</td>
+      <td><a href="/extended-syntax/#superscript">Chỉ số trên</a></td>
+      <td class="table-danger">Không</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#automatic-url-linking">Automatic URL Linking</a></td>
-      <td class="table-success">Yes</td>
+      <td><a href="/extended-syntax/#automatic-url-linking">Liên kết URL tự động</a></td>
+      <td class="table-success">Có</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#disabling-automatic-url-linking">Disabling Automatic URL Linking</a></td>
-      <td class="table-danger">Yes</td>
+      <td><a href="/extended-syntax/#disabling-automatic-url-linking">Vô hiệu hóa liên kết URL tự động</a></td>
+      <td class="table-danger">Có</td>
       <td></td>
     </tr>
     <tr>
       <td><a href="/basic-syntax/#html">HTML</a></td>
-      <td class="table-danger">No</td>
+      <td class="table-danger">Không</td>
       <td></td>
     </tr>
   </tbody>
 </table>
 
 <div class="alert alert-success">
-  <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> This information relates to the message interface in Slack's user interface. The Slack API for messages supports additional syntax elements that aren't supported in Slack's user interface. See <a href="https://api.slack.com/messaging/composing/formatting">Slack's API documentation</a> for more information.
+  <i class="fas fa-lightbulb"></i> <strong>Mẹo:</strong> Thông tin này liên quan đến giao diện tin nhắn trong giao diện người dùng của Slack. API Slack cho tin nhắn hỗ trợ các phần tử cú pháp bổ sung không được hỗ trợ trong giao diện người dùng của Slack. Xem <a href="https://api.slack.com/messaging/composing/formatting">tài liệu API của Slack</a> để biết thêm thông tin.
 </div>
 
-### Posts
+### Bài đăng
 
-The Slack post interface is editor that allows you to create a document for sharing in Slack. This is a live editor, which means you will see the actual formatting immediately after you type Markdown formatted text. For example, if you type `_test_`, the underscores will disappear and you'll see the word "test" in italics.
+Giao diện bài đăng của Slack là trình soạn thảo cho phép bạn tạo tài liệu để chia sẻ trong Slack. Đây là một trình soạn thảo trực tiếp, có nghĩa là bạn sẽ thấy định dạng thực tế ngay sau khi bạn nhập văn bản được định dạng Markdown. Ví dụ, nếu bạn nhập `_test_`, các dấu gạch dưới sẽ biến mất và bạn sẽ thấy từ "test" được in nghiêng.
 
-To create a post, click the shortcuts icon and select **Create a Post** as shown below.
+Để tạo một bài đăng, hãy nhấp vào biểu tượng phím tắt và chọn **Create a Post** như được hiển thị bên dưới.
 
-<img src="/assets/images/tools/slack-posts.png" class="img-fluid" style="width:50%" alt="Slack markdown in the post interface">
+<img src="/assets/images/tools/slack-posts.png" class="img-fluid" style="width:50%" alt="Slack markdown trong giao diện bài đăng">
 
-#### Slack Markdown Support in Posts
+#### Hỗ trợ Markdown của Slack trong Bài đăng
 
-The Slack post interface provides support for the following Markdown elements.
+Giao diện bài đăng Slack cung cấp hỗ trợ cho các phần tử Markdown sau.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">
     <tr>
-      <th>Element</th>
-      <th>Support</th>
-      <th>Notes</th>
+      <th>Phần tử</th>
+      <th>Hỗ trợ</th>
+      <th>Ghi chú</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><a href="/basic-syntax/#headings">Headings</a></td>
-      <td class="table-warning">Partial</td>
-      <td>Only heading levels one and two are supported. Only number signs are supported.</td>
+      <td><a href="/basic-syntax/#headings">Tiêu đề</a></td>
+      <td class="table-warning">Một phần</td>
+      <td>Chỉ các mức tiêu đề một và hai được hỗ trợ. Chỉ hỗ trợ dấu thăng.</td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#paragraphs-1">Paragraphs</a></td>
-      <td class="table-success">Yes</td>
+      <td><a href="/basic-syntax/#paragraphs-1">Đoạn văn</a></td>
+      <td class="table-success">Có</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#line-breaks">Line Breaks</a></td>
-      <td class="table-danger">No</td>
+      <td><a href="/basic-syntax/#line-breaks">Ngắt dòng</a></td>
+      <td class="table-danger">Không</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#bold">Bold</a></td>
-      <td class="table-danger">No</td>
-      <td>The Markdown syntax is not supported, but you can add bold styling with single asterisks, which is the standard Markdown syntax for italic. Very confusing!</td>
+      <td><a href="/basic-syntax/#bold">In đậm</a></td>
+      <td class="table-danger">Không</td>
+      <td>Cú pháp Markdown không được hỗ trợ, nhưng bạn có thể thêm kiểu in đậm bằng dấu sao đơn, đây là cú pháp Markdown tiêu chuẩn cho in nghiêng. Rất khó hiểu!</td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#italic">Italic</a></td>
-      <td class="table-warning">Partial</td>
-      <td>Only underscores are supported.</td>
+      <td><a href="/basic-syntax/#italic">In nghiêng</a></td>
+      <td class="table-warning">Một phần</td>
+      <td>Chỉ dấu gạch dưới được hỗ trợ.</td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#blockquotes-1">Blockquotes</a></td>
-      <td class="table-success">Yes</td>
+      <td><a href="/basic-syntax/#blockquotes-1">Trích dẫn khối</a></td>
+      <td class="table-success">Có</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#ordered-lists">Ordered Lists</a></td>
-      <td class="table-success">Yes</td>
+      <td><a href="/basic-syntax/#ordered-lists">Danh sách có thứ tự</a></td>
+      <td class="table-success">Có</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#unordered-lists">Unordered Lists</a></td>
-      <td class="table-success">Yes</td>
+      <td><a href="/basic-syntax/#unordered-lists">Danh sách không có thứ tự</a></td>
+      <td class="table-success">Có</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#code">Code</a></td>
-      <td class="table-success">Yes</td>
+      <td><a href="/basic-syntax/#code">Mã</a></td>
+      <td class="table-success">Có</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#horizontal-rules">Horizontal Rules</a></td>
-      <td class="table-danger">No</td>
+      <td><a href="/basic-syntax/#horizontal-rules">Quy tắc ngang</a></td>
+      <td class="table-danger">Không</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#links">Links</a></td>
-      <td class="table-danger">No</td>
+      <td><a href="/basic-syntax/#links">Liên kết</a></td>
+      <td class="table-danger">Không</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#images-1">Images</a></td>
-      <td class="table-danger">No</td>
+      <td><a href="/basic-syntax/#images-1">Hình ảnh</a></td>
+      <td class="table-danger">Không</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#tables">Tables</a></td>
-      <td class="table-danger">No</td>
+      <td><a href="/extended-syntax/#tables">Bảng</a></td>
+      <td class="table-danger">Không</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#fenced-code-blocks">Fenced Code Blocks</a></td>
-      <td class="table-success">Yes</td>
+      <td><a href="/extended-syntax/#fenced-code-blocks">Khối mã có rào chắn</a></td>
+      <td class="table-success">Có</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#syntax-highlighting">Syntax Highlighting</a></td>
-      <td class="table-danger">No</td>
+      <td><a href="/extended-syntax/#syntax-highlighting">Tô sáng cú pháp</a></td>
+      <td class="table-danger">Không</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#footnotes">Footnotes</a></td>
-      <td class="table-danger">No</td>
+      <td><a href="/extended-syntax/#footnotes">Chú thích cuối trang</a></td>
+      <td class="table-danger">Không</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#heading-ids">Heading IDs</a></td>
-      <td class="table-danger">No</td>
+      <td><a href="/extended-syntax/#heading-ids">ID tiêu đề</a></td>
+      <td class="table-danger">Không</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#definition-lists">Definition Lists</a></td>
-      <td class="table-danger">No</td>
+      <td><a href="/extended-syntax/#definition-lists">Danh sách định nghĩa</a></td>
+      <td class="table-danger">Không</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#strikethrough">Strikethrough</a></td>
-      <td class="table-warning">Partial</td>
-      <td>Use only one tilde symbol before and after the phrase.</td>
+      <td><a href="/extended-syntax/#strikethrough">Gạch ngang</a></td>
+      <td class="table-warning">Một phần</td>
+      <td>Chỉ sử dụng một ký hiệu dấu ngã trước và sau cụm từ.</td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#task-lists">Task Lists</a></td>
-      <td class="table-danger">No</td>
+      <td><a href="/extended-syntax/#task-lists">Danh sách tác vụ</a></td>
+      <td class="table-danger">Không</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#copying-and-pasting-emoji">Emoji (copy and paste)</a></td>
-      <td class="table-success">Yes</td>
+      <td><a href="/extended-syntax/#copying-and-pasting-emoji">Biểu tượng cảm xúc (sao chép và dán)</a></td>
+      <td class="table-success">Có</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#using-emoji-shortcodes">Emoji (shortcodes)</a></td>
-      <td class="table-success">Yes</td>
+      <td><a href="/extended-syntax/#using-emoji-shortcodes">Biểu tượng cảm xúc (mã ngắn)</a></td>
+      <td class="table-success">Có</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#highlight">Highlight</a></td>
-      <td class="table-danger">No</td>
+      <td><a href="/extended-syntax/#highlight">Tô sáng</a></td>
+      <td class="table-danger">Không</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#subscript">Subscript</a></td>
-      <td class="table-danger">No</td>
+      <td><a href="/extended-syntax/#subscript">Chỉ số dưới</a></td>
+      <td class="table-danger">Không</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#superscript">Superscript</a></td>
-      <td class="table-danger">No</td>
+      <td><a href="/extended-syntax/#superscript">Chỉ số trên</a></td>
+      <td class="table-danger">Không</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#automatic-url-linking">Automatic URL Linking</a></td>
-      <td class="table-success">Yes</td>
+      <td><a href="/extended-syntax/#automatic-url-linking">Liên kết URL tự động</a></td>
+      <td class="table-success">Có</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#disabling-automatic-url-linking">Disabling Automatic URL Linking</a></td>
-      <td class="table-success">Yes</td>
+      <td><a href="/extended-syntax/#disabling-automatic-url-linking">Vô hiệu hóa liên kết URL tự động</a></td>
+      <td class="table-success">Có</td>
       <td></td>
     </tr>
     <tr>
       <td><a href="/basic-syntax/#html">HTML</a></td>
-      <td class="table-danger">No</td>
+      <td class="table-danger">Không</td>
       <td></td>
     </tr>
   </tbody>
 </table>
 
-### See Also
+### Xem thêm
 
-- [Formatting Slack messages in the interface](https://get.slack.help/hc/en-us/articles/202288908-Format-your-messages)
-- [Formatting Slack posts in the interface](https://get.slack.help/hc/en-us/articles/203950418-Composing-a-Post#-formatting-options)
-- [API documentation for formatting Slack messages](https://api.slack.com/messaging/composing/formatting)
+- [Định dạng tin nhắn Slack trong giao diện](https://get.slack.help/hc/en-us/articles/202288908-Format-your-messages)
+- [Định dạng bài đăng Slack trong giao diện](https://get.slack.help/hc/en-us/articles/203950418-Composing-a-Post#-formatting-options)
+- [Tài liệu API để định dạng tin nhắn Slack](https://api.slack.com/messaging/composing/formatting)
 - [slack_markdown ruby gem](https://github.com/rutan/slack_markdown)

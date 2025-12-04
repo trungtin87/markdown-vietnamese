@@ -1,7 +1,7 @@
 ---
 title: Simpleen
 category: "translations"
-description: "Simpleen is a Markdown translation tool you can use via web app or API."
+description: "Simpleen là một công cụ dịch Markdown mà bạn có thể sử dụng qua ứng dụng web hoặc API."
 icon: simpleen.png
 website: https://simpleen.io
 syntax:
@@ -23,25 +23,25 @@ syntax:
     available: y
   - id: code
     available: y
-    notes: "Code examples are not getting translated on purpose."
+    notes: "Các ví dụ mã không được dịch theo chủ ý."
   - id: horizontal-rules
     available: y
   - id: links
     available: p
-    notes: "Additional title is not translated."
+    notes: "Tiêu đề bổ sung không được dịch."
   - id: images
     available: p
-    notes: "Title and alt-text are not translated."
+    notes: "Tiêu đề và văn bản thay thế không được dịch."
   - id: tables
     available: y
   - id: fenced-code-blocks
     available: y
-    notes: "Code examples are not getting translated on purpose."
+    notes: "Các ví dụ mã không được dịch theo chủ ý."
   - id: syntax-highlighting
     available: y
   - id: footnotes
     available: p
-    notes: "Footnotes with `fn-1` instead of `^1`."
+    notes: "Chú thích cuối trang với `fn-1` thay vì `^1`."
   - id: heading-ids
     available: y
   - id: definition-lists
@@ -67,14 +67,14 @@ syntax:
   - id: html
     available: y
 see-also:
-  - name: Simpleen Markdown Translation Blogpost
+  - name: Bài đăng trên blog về dịch Markdown của Simpleen
     link: https://simpleen.io/blog/translate-markdown-files
 ---
 
-[Simpleen](https://simpleen.io) is a localization tool to translate Markdown files that you can use directly via web app or API. You simply sign up on the Simpleen website, choose a pre-configured Markdown translator (or create a new one) and copy your Markdown files into the online translator. You get instant results that you can download. Translated segments are stored for future editing and access.
+[Simpleen](https://simpleen.io) là một công cụ bản địa hóa để dịch các file Markdown mà bạn có thể sử dụng trực tiếp qua ứng dụng web hoặc API. Bạn chỉ cần đăng ký trên trang web Simpleen, chọn một trình dịch Markdown được cấu hình sẵn (hoặc tạo một cái mới) và sao chép các file Markdown của bạn vào trình dịch trực tuyến. Bạn nhận được kết quả ngay lập tức mà bạn có thể tải xuống. Các phân đoạn đã dịch được lưu trữ để chỉnh sửa và truy cập trong tương lai.
 
-It supports CommonMark and GitHub Flavored Markdown (GFM) as well as your individual styles.
+Nó hỗ trợ CommonMark và GitHub Flavored Markdown (GFM) cũng như các kiểu cá nhân của bạn.
 
-{% include image.html file="/assets/images/tools/simpleen.png" alt="Simpleen Markdown translation tool" %}
+{% include image.html file="/assets/images/tools/simpleen.png" alt="Công cụ dịch Markdown Simpleen" %}
 
 {% include tool-syntax-table.html %}

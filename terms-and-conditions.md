@@ -4,42 +4,42 @@ title: Terms and Conditions
 description: "The terms and conditions for the Markdown Guide."
 ---
 
-## Overview
+## Tổng Quan
 
-By accessing this website, you are agreeing to be bound by these Terms and Conditions of Use, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.
+Bằng cách truy cập trang web này, bạn đồng ý bị ràng buộc bởi các Điều Khoản và Điều Kiện Sử Dụng này, tất cả các luật và quy định hiện hành, và đồng ý rằng bạn chịu trách nhiệm tuân thủ mọi luật địa phương hiện hành. Nếu bạn không đồng ý với bất kỳ điều khoản nào trong số này, bạn bị cấm sử dụng hoặc truy cập trang web này. Các tài liệu có trong trang web này được bảo vệ bởi luật bản quyền và thương hiệu hiện hành.
 
-## License
+## Giấy Phép
 
-This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) ](https://creativecommons.org/licenses/by-sa/4.0/).
+Tác phẩm này được cấp phép theo [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
 
-## Disclaimer
+## Tuyên Bố Từ Chối Trách Nhiệm
 
-The materials on the Markdown Guide’s website are provided “as is”. The Markdown Guide makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties, including without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights. Further, the Markdown Guide does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its Internet website or otherwise relating to such materials or on any sites linked to this site.
+Các tài liệu trên trang web của Hướng Dẫn Markdown được cung cấp "nguyên trạng". Hướng Dẫn Markdown không đưa ra bất kỳ bảo đảm nào, dù rõ ràng hay ngụ ý, và từ chối và phủ nhận tất cả các bảo đảm khác, bao gồm nhưng không giới hạn, các bảo đảm hoặc điều kiện ngụ ý về khả năng bán được, sự phù hợp cho một mục đích cụ thể, hoặc không vi phạm sở hữu trí tuệ hoặc vi phạm quyền khác. Hơn nữa, Hướng Dẫn Markdown không bảo đảm hoặc đưa ra bất kỳ tuyên bố nào liên quan đến độ chính xác, kết quả có thể xảy ra hoặc độ tin cậy của việc sử dụng các tài liệu trên trang web Internet của nó hoặc liên quan đến các tài liệu đó hoặc trên bất kỳ trang web nào được liên kết đến trang web này.
 
-## Limitations
+## Giới Hạn
 
-In no event shall the Markdown Guide or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption,) arising out of the use or inability to use the materials on the Markdown Guide’s Internet site, even if the Markdown Guide or an authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.
+Trong mọi trường hợp, Hướng Dẫn Markdown hoặc các nhà cung cấp của nó sẽ không chịu trách nhiệm về bất kỳ thiệt hại nào (bao gồm, nhưng không giới hạn, thiệt hại do mất dữ liệu hoặc lợi nhuận, hoặc do gián đoạn kinh doanh) phát sinh từ việc sử dụng hoặc không thể sử dụng các tài liệu trên trang web Internet của Hướng Dẫn Markdown, ngay cả khi Hướng Dẫn Markdown hoặc đại diện được ủy quyền đã được thông báo bằng lời nói hoặc bằng văn bản về khả năng xảy ra thiệt hại đó. Vì một số khu vực pháp lý không cho phép giới hạn đối với các bảo đảm ngụ ý, hoặc giới hạn trách nhiệm đối với các thiệt hại do hậu quả hoặc ngẫu nhiên, các giới hạn này có thể không áp dụng cho bạn.
 
-## Revisions and Errata
+## Sửa Đổi và Lỗi
 
-The materials appearing on the Markdown Guide’s website could include technical, typographical, or photographic errors. The Markdown Guide does not warrant that any of the materials on its website are accurate, complete, or current. The Markdown Guide may make changes to the materials contained on its website at any time without notice. The Markdown Guide does not, however, make any commitment to update the materials.
+Các tài liệu xuất hiện trên trang web của Hướng Dẫn Markdown có thể bao gồm các lỗi kỹ thuật, đánh máy hoặc ảnh. Hướng Dẫn Markdown không bảo đảm rằng bất kỳ tài liệu nào trên trang web của nó là chính xác, đầy đủ hoặc hiện tại. Hướng Dẫn Markdown có thể thực hiện các thay đổi đối với các tài liệu có trong trang web của nó bất cứ lúc nào mà không cần thông báo. Tuy nhiên, Hướng Dẫn Markdown không cam kết cập nhật các tài liệu.
 
-## Links
+## Liên Kết
 
-The Markdown Guide has not reviewed all of the sites linked to its Internet website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by the Markdown Guide of the site. Use of any such linked website is at the user’s own risk.
+Hướng Dẫn Markdown chưa xem xét tất cả các trang web được liên kết đến trang web Internet của nó và không chịu trách nhiệm về nội dung của bất kỳ trang web được liên kết nào như vậy. Việc bao gồm bất kỳ liên kết nào không ngụ ý sự chứng thực của Hướng Dẫn Markdown đối với trang web đó. Việc sử dụng bất kỳ trang web được liên kết nào như vậy là do người dùng tự chịu rủi ro.
 
-## Affiliate Information
+## Thông Tin Liên Kết
 
-The Markdown Guide is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.
+Hướng Dẫn Markdown là thành viên của Chương Trình Đối Tác Amazon Services LLC, một chương trình quảng cáo liên kết được thiết kế để cung cấp phương tiện cho các trang web kiếm phí quảng cáo bằng cách quảng cáo và liên kết đến Amazon.
 
-## Modifications
+## Sửa Đổi
 
-The Markdown Guide may revise these terms of use for its website at any time without notice. By using this website you are agreeing to be bound by the then current version of these Terms and Conditions of Use.
+Hướng Dẫn Markdown có thể sửa đổi các điều khoản sử dụng này cho trang web của nó bất cứ lúc nào mà không cần thông báo. Bằng cách sử dụng trang web này, bạn đồng ý bị ràng buộc bởi phiên bản hiện tại của các Điều Khoản và Điều Kiện Sử Dụng này.
 
-## Governing Law
+## Luật Điều Chỉnh
 
-Any claim relating to the Markdown Guide’s website shall be governed by the laws of the State of New Mexico without regard to its conflict of law provisions.
+Bất kỳ khiếu nại nào liên quan đến trang web của Hướng Dẫn Markdown sẽ được điều chỉnh bởi luật của Bang New Mexico mà không xét đến các quy định xung đột pháp luật của nó.
 
-## Contact Us
+## Liên Hệ Với Chúng Tôi
 
-If you have any questions about these Terms and Conditions of Use, please [contact us](/contact/).
+Nếu bạn có bất kỳ câu hỏi nào về các Điều Khoản và Điều Kiện Sử Dụng này, vui lòng [liên hệ với chúng tôi](/contact/).

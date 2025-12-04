@@ -1,7 +1,7 @@
 ---
 title: Typora
 category: documents
-description: "Typora is a simple and configurable editor designed for notes and documents."
+description: "Typora là một trình soạn thảo đơn giản và có thể cấu hình được thiết kế cho ghi chú và tài liệu."
 icon: typora.png
 website: https://typora.io
 syntax:
@@ -9,10 +9,10 @@ syntax:
     available: y
   - id: paragraphs
     available: y
-    notes: "By default, you only need to press the Return key once (not twice). See the [Typora documentation](https://support.typora.io/Line-Break/) for more information."
+    notes: "Theo mặc định, bạn chỉ cần nhấn phím Return một lần (không phải hai lần). Xem [tài liệu Typora](https://support.typora.io/Line-Break/) để biết thêm thông tin."
   - id: line-breaks
     available: y
-    notes: "By default, you need to press Command-Shift-Return. See the [Typora documentation](https://support.typora.io/Line-Break/) for more information."
+    notes: "Theo mặc định, bạn cần nhấn Command-Shift-Return. Xem [tài liệu Typora](https://support.typora.io/Line-Break/) để biết thêm thông tin."
   - id: bold
     available: y
   - id: italic
@@ -29,22 +29,22 @@ syntax:
     available: y
   - id: links
     available: y
-    notes: "See the [Typora documentation](https://support.typora.io/Links/) for instructions on linking to files on your computer."
+    notes: "Xem [tài liệu Typora](https://support.typora.io/Links/) để biết hướng dẫn về cách liên kết đến các file trên máy tính của bạn."
   - id: images
     available: y
-    notes: "To insert images from your computer, use the options under **Format > Images**."
+    notes: "Để chèn hình ảnh từ máy tính của bạn, hãy sử dụng các tùy chọn trong **Format > Images**."
   - id: tables
     available: y
   - id: fenced-code-blocks
     available: y
   - id: syntax-highlighting
     available: y
-    notes: "See the [list of supported languages](https://support.typora.io/Code-Fences-Language-Support/)."
+    notes: "Xem [danh sách các ngôn ngữ được hỗ trợ](https://support.typora.io/Code-Fences-Language-Support/)."
   - id: footnotes
     available: y
   - id: heading-ids
     available: p
-    notes: "Automatically generated. For example, if you have a heading called `Heading IDs`, you can link to it with `[link](#heading-ids)`. There's apparently no way to set custom heading IDs. It's unclear what happens when there are two identical headings."
+    notes: "Được tạo tự động. Ví dụ, nếu bạn có một tiêu đề có tên `Heading IDs`, bạn có thể liên kết đến nó bằng `[link](#heading-ids)`. Dường như không có cách nào để đặt ID tiêu đề tùy chỉnh. Không rõ điều gì xảy ra khi có hai tiêu đề giống hệt nhau."
   - id: definition-lists
     available: n
   - id: strikethrough
@@ -57,47 +57,47 @@ syntax:
     available: y
   - id: highlight
     available: y
-    notes: "To use this feature, open the Preferences and enable the setting under **Markdown** > **Syntax Support**."
+    notes: "Để sử dụng tính năng này, hãy mở Preferences và bật cài đặt trong **Markdown** > **Syntax Support**."
   - id: subscript
     available: y
-    notes: "To use this feature, open the Preferences and enable the setting under **Markdown** > **Syntax Support**."
+    notes: "Để sử dụng tính năng này, hãy mở Preferences và bật cài đặt trong **Markdown** > **Syntax Support**."
   - id: superscript
     available: y
-    notes: "To use this feature, open the Preferences and enable the setting under **Markdown** > **Syntax Support**."
+    notes: "Để sử dụng tính năng này, hãy mở Preferences và bật cài đặt trong **Markdown** > **Syntax Support**."
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url
     available: y
   - id: html
     available: p
-    notes: "See the [Typora documentation](https://support.typora.io/HTML/) for information about which HTML elements are supported."
+    notes: "Xem [tài liệu Typora](https://support.typora.io/HTML/) để biết thông tin về các phần tử HTML nào được hỗ trợ."
 see-also:
-  - name: Typora support
+  - name: Hỗ trợ Typora
     link: https://support.typora.io/
 ---
 
-[Typora](https://typora.io) is a simple and configurable document editor that provides excellent Markdown support. This application is ideal for students and professionals who need to write essays and reports. It might be difficult using Typora for multi-file projects or for website publishing.
+[Typora](https://typora.io) là một trình soạn thảo tài liệu đơn giản và có thể cấu hình cung cấp hỗ trợ Markdown tuyệt vời. Ứng dụng này lý tưởng cho sinh viên và chuyên gia cần viết bài luận và báo cáo. Có thể khó sử dụng Typora cho các dự án nhiều file hoặc để xuất bản trang web.
 
-Typora stands out by offering a variety of settings without sacrificing the simplicity of a barebones interface. Newcomers to Markdown may appreciate the keyboard shortcuts for formatting options as well as the intuitive live editor that hides the Markdown formatting syntax after you type it.
+Typora nổi bật bằng cách cung cấp nhiều cài đặt khác nhau mà không hy sinh sự đơn giản của giao diện tối giản. Người mới làm quen với Markdown có thể đánh giá cao các phím tắt cho các tùy chọn định dạng cũng như trình soạn thảo trực tiếp trực quan ẩn cú pháp định dạng Markdown sau khi bạn nhập.
 
-See the Typora [Markdown reference](https://support.typora.io/Markdown-Reference/) for the official documentation. The Typora documentation indicates that the application generally uses [GitHub Flavored Markdown (GFM)](https://github.github.com/gfm/).
+Xem [tài liệu tham khảo Markdown](https://support.typora.io/Markdown-Reference/) của Typora cho tài liệu chính thức. Tài liệu Typora chỉ ra rằng ứng dụng thường sử dụng [GitHub Flavored Markdown (GFM)](https://github.github.com/gfm/).
 
-{% include image.html file="/assets/images/tools/typora-editor.png" alt="Typora editor interface" width="70" %}
+{% include image.html file="/assets/images/tools/typora-editor.png" alt="Giao diện trình soạn thảo Typora" width="70" %}
 
 {% include tool-syntax-table.html %}
 
-### Themes
+### Chủ đề
 
-Typora [provides a variety of themes](https://theme.typora.io/) for when you export your documents. If you know CSS, you can customize these themes. Open the Preferences window and see the settings under **Appearance** > **Themes**.
+Typora [cung cấp nhiều chủ đề khác nhau](https://theme.typora.io/) cho khi bạn xuất tài liệu của mình. Nếu bạn biết CSS, bạn có thể tùy chỉnh các chủ đề này. Mở cửa sổ Preferences và xem các cài đặt trong **Appearance** > **Themes**.
 
-### Strict Mode
+### Chế độ nghiêm ngặt
 
-Typora provides *strict mode* settings for users who want to enforce syntax limitations on headings, ordered lists, and unordered lists. For example, you could configure unordered lists to only use hyphens and not asterisks. Configure these settings in the Preferences window under **Markdown** > **Syntax Preference**. See the Typora [documentation](https://support.typora.io/Strict-Mode/) for additional information.
+Typora cung cấp cài đặt *chế độ nghiêm ngặt* cho người dùng muốn thực thi các hạn chế cú pháp đối với tiêu đề, danh sách có thứ tự và danh sách không có thứ tự. Ví dụ, bạn có thể cấu hình danh sách không có thứ tự chỉ sử dụng dấu gạch ngang và không sử dụng dấu sao. Cấu hình các cài đặt này trong cửa sổ Preferences trong **Markdown** > **Syntax Preference**. Xem [tài liệu](https://support.typora.io/Strict-Mode/) Typora để biết thêm thông tin.
 
-### Source Code Mode
+### Chế độ mã nguồn
 
-You can disable Typora's live editor by selecting **View** > **Source Code Mode**. This will reveal all of the Markdown formatting that's hidden by the live editor.
+Bạn có thể tắt trình soạn thảo trực tiếp của Typora bằng cách chọn **View** > **Source Code Mode**. Điều này sẽ hiển thị tất cả định dạng Markdown bị ẩn bởi trình soạn thảo trực tiếp.
 
-### Export Options
+### Tùy chọn xuất
 
-Typora provides a wide variety of export options under **File** > **Export** for when you're ready to publish your Markdown document. Some of the export options, like Microsoft Word and LaTeX format, require [Pandoc](https://pandoc.org/).
+Typora cung cấp nhiều tùy chọn xuất khác nhau trong **File** > **Export** cho khi bạn sẵn sàng xuất bản tài liệu Markdown của mình. Một số tùy chọn xuất, như định dạng Microsoft Word và LaTeX, yêu cầu [Pandoc](https://pandoc.org/).

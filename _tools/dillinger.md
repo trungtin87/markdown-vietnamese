@@ -1,7 +1,7 @@
 ---
 title: Dillinger
 category: "online editor"
-description: "Dillinger is an online Markdown editor designed for on-the-go writing."
+description: "Dillinger là một trình soạn thảo Markdown trực tuyến được thiết kế để viết khi đang di chuyển."
 icon: dillinger.png
 website: https://dillinger.io
 syntax:
@@ -11,7 +11,7 @@ syntax:
     available: y
   - id: line-breaks
     available: p
-    notes: "The Markdown syntax (trailing whitespace) is not supported, but you can press the Return key once to achieve the same result."
+    notes: "Cú pháp Markdown (khoảng trắng ở cuối dòng) không được hỗ trợ, nhưng bạn có thể nhấn phím Return một lần để đạt được kết quả tương tự."
   - id: bold
     available: y
   - id: italic
@@ -30,7 +30,7 @@ syntax:
     available: y
   - id: images
     available: y
-    notes: "There's no ability to upload images — you'll need to store the images on another server."
+    notes: "Không có khả năng tải lên hình ảnh — bạn sẽ cần lưu trữ hình ảnh trên một máy chủ khác."
   - id: tables
     available: y
   - id: fenced-code-blocks
@@ -41,14 +41,14 @@ syntax:
     available: y
   - id: heading-ids
     available: p
-    notes: "Automatically generated. There's no way to set custom heading IDs."
+    notes: "Được tạo tự động. Không có cách nào để đặt ID tiêu đề tùy chỉnh."
   - id: definition-lists
     available: y
   - id: strikethrough
     available: y
   - id: task-lists
     available: y
-    notes: "You don't have to use dashes. Just use brackets (e.g., `[ ]`)."
+    notes: "Bạn không cần phải sử dụng dấu gạch ngang. Chỉ cần sử dụng dấu ngoặc vuông (ví dụ: `[ ]`)."
   - id: emoji-cp
     available: y
   - id: emoji-sc
@@ -66,44 +66,43 @@ syntax:
   - id: html
     available: n
 see-also:
-  - name: Dillinger repository on GitHub
+  - name: Kho lưu trữ Dillinger trên GitHub
     link: https://github.com/joemccann/dillinger
 ---
 
-[Dillinger](https://dillinger.io) is an online Markdown editor. Like [StackEdit](/tools/stackedit/), it loads right in your web browser, so there's no need to download and install an application on your computer. Dillinger has two panes: the editor on the left, and the live preview on the right. The split panes make it easy to see what Markdown-formatted text looks like.
+[Dillinger](https://dillinger.io) là một trình soạn thảo Markdown trực tuyến. Giống như [StackEdit](/tools/stackedit/), nó tải ngay trong trình duyệt web của bạn, vì vậy không cần phải tải xuống và cài đặt ứng dụng trên máy tính của bạn. Dillinger có hai khung: trình soạn thảo ở bên trái và bản xem trước trực tiếp ở bên phải. Các khung chia nhỏ giúp bạn dễ dàng xem văn bản được định dạng Markdown trông như thế nào.
 
-Dillinger provides excellent Markdown support. Unfortunately, the export options are not customizable and the file saving features are a bit flaky. And since Dillinger loads in your web browser, it's entirely dependent on a consistent internet connection. If your internet connection goes down or your web browser crashes, you could lose your work. For those reasons, Dillinger is best used for experimentation and quick note taking.
+Dillinger cung cấp hỗ trợ Markdown tuyệt vời. Thật không may, các tùy chọn xuất không thể tùy chỉnh và các tính năng lưu file hơi chập chờn. Và vì Dillinger tải trong trình duyệt web của bạn, nó hoàn toàn phụ thuộc vào kết nối internet ổn định. Nếu kết nối internet của bạn bị ngắt hoặc trình duyệt web của bạn bị treo, bạn có thể mất công việc của mình. Vì những lý do đó, Dillinger được sử dụng tốt nhất để thử nghiệm và ghi chú nhanh.
 
-The application uses the [markdown-it](https://github.com/markdown-it/markdown-it) Markdown processor.
+Ứng dụng sử dụng bộ xử lý Markdown [markdown-it](https://github.com/markdown-it/markdown-it).
 
-{% include image.html file="/assets/images/dillinger.png" alt="Dillinger Markdown editor" %}
+{% include image.html file="/assets/images/dillinger.png" alt="Trình soạn thảo Markdown Dillinger" %}
 
 {% include tool-syntax-table.html %}
 
-### Support for Additional Syntax Elements
+### Hỗ trợ cho các Phần tử Cú pháp Bổ sung
 
-As an added bonus, Dillinger provides support for several obscure elements.
+Như một phần thưởng thêm, Dillinger cung cấp hỗ trợ cho một số phần tử ít người biết đến.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">
     <tr>
-      <th>Element</th>
+      <th>Phần tử</th>
       <th>Markdown</th>
-      <th>Rendered Output</th>
+      <th>Kết quả hiển thị</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Abbreviation</td>
+      <td>Viết tắt</td>
       <td><code>*[HTML]: Hyper Text Markup Language</code><br>
-      <code>The HTML specification is maintained by the W3C.</code></td>
-      <td>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification
-is maintained by the W3C.</td>
+      <code>Đặc tả HTML được duy trì bởi W3C.</code></td>
+      <td>Đặc tả <abbr title="Hyper Text Markup Language">HTML</abbr> được duy trì bởi W3C.</td>
     </tr>
     <tr>
-      <td>Insert</td>
-      <td><code>++This text has been inserted++</code></td>
-      <td><ins>This text has been inserted</ins></td>
+      <td>Chèn</td>
+      <td><code>++Văn bản này đã được chèn++</code></td>
+      <td><ins>Văn bản này đã được chèn</ins></td>
     </tr>
   </tbody>
 </table>

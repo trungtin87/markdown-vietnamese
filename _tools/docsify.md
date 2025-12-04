@@ -1,7 +1,7 @@
 ---
 title: Docsify
 category: "websites"
-description: "A magical documentation site generator."
+description: "Một trình tạo trang web tài liệu kỳ diệu."
 icon: docsify.png
 website: https://docsify.js.org
 syntax:
@@ -39,7 +39,7 @@ syntax:
     available: n
   - id: heading-ids
     available: p
-    notes: "Automatically generated. There's no way to set custom heading IDs."
+    notes: "Được tạo tự động. Không có cách nào để đặt ID tiêu đề tùy chỉnh."
   - id: definition-lists
     available: n
   - id: strikethrough
@@ -63,15 +63,15 @@ syntax:
   - id: html
     available: y
 see-also:
-  - name: Docsify repository on GitHub
+  - name: Kho lưu trữ Docsify trên GitHub
     link: https://github.com/docsifyjs/docsify/
-  - name: Awesome Docsify - A curated list of awesome things related to docsify
+  - name: Awesome Docsify - Một danh sách được tuyển chọn các thứ tuyệt vời liên quan đến docsify
     link: https://docsify.js.org/#/awesome 
 ---
 
-[Docsify](https://docsify.js.org/) generates your documentation website on the fly. Unlike [GitBook](/tools/gitbook/), it does not generate static html files. Instead, it smartly loads and parses your Markdown files and displays them as a website. To start using it, all you need to do is create an `index.html` and [deploy it on GitHub Pages](https://docsify.js.org/#/deploy).
+[Docsify](https://docsify.js.org/) tạo trang web tài liệu của bạn một cách nhanh chóng. Không giống như [GitBook](/tools/gitbook/), nó không tạo các file html tĩnh. Thay vào đó, nó tải và phân tích cú pháp các file Markdown của bạn một cách thông minh và hiển thị chúng dưới dạng một trang web. Để bắt đầu sử dụng nó, tất cả những gì bạn cần làm là tạo một `index.html` và [triển khai nó trên GitHub Pages](https://docsify.js.org/#/deploy).
 
-See the [Quick start](https://docsify.js.org/#/quickstart) guide for more details.
+Xem hướng dẫn [Bắt đầu nhanh](https://docsify.js.org/#/quickstart) để biết thêm chi tiết.
 
 {% include image.html file="/assets/images/tools/docsify.png" alt="Docsify" width="100" %}
 

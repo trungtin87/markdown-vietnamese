@@ -1,10 +1,10 @@
 ---
 title: Markdown Here
 category: "browser extension"
-description: "Markdown Here is a browser extension that converts Markdown text in web forms."
+description: "Markdown Here là một tiện ích mở rộng trình duyệt chuyển đổi văn bản Markdown trong các biểu mẫu web."
 icon: markdown-here.png
 website: https://markdown-here.com
-notes: "tested in gmail"
+notes: "đã thử nghiệm trong gmail"
 syntax:
   - id: headings
     available: y
@@ -12,7 +12,7 @@ syntax:
     available: y
   - id: line-breaks
     available: y
-    notes: "You can also press the Return key once to achieve the same result."
+    notes: "Bạn cũng có thể nhấn phím Return một lần để đạt được kết quả tương tự."
   - id: bold
     available: y
   - id: italic
@@ -64,18 +64,18 @@ syntax:
   - id: html
     available: y
 see-also:
-  - name: Markdown Here compatibility list
+  - name: Danh sách tương thích Markdown Here
     link: https://github.com/adam-p/markdown-here/wiki/Compatibility
-  - name: Markdown Here repository on GitHub
+  - name: Kho lưu trữ Markdown Here trên GitHub
     link: https://github.com/adam-p/markdown-here
 ---
 
-[Markdown Here](https://markdown-here.com) is a free and open-source browser extension that converts Markdown text in website forms to properly-formatted rich text. This a good way to start using Markdown everywhere you type, whether you're drafting email messages in Gmail or writing blog posts in WordPress. The marketing material positions Markdown Here as a solution for email, but the extension can be used with virtually any website that supports rich text, including Evernote. See the list of [compatible websites and services](https://github.com/adam-p/markdown-here/wiki/Compatibility) for more information.
+[Markdown Here](https://markdown-here.com) là một tiện ích mở rộng trình duyệt miễn phí và mã nguồn mở giúp chuyển đổi văn bản Markdown trong các biểu mẫu trang web thành văn bản đa dạng thức được định dạng đúng. Đây là một cách tốt để bắt đầu sử dụng Markdown ở mọi nơi bạn nhập, cho dù bạn đang soạn thảo tin nhắn email trong Gmail hay viết bài đăng trên blog trong WordPress. Tài liệu tiếp thị định vị Markdown Here như một giải pháp cho email, nhưng tiện ích mở rộng này có thể được sử dụng với hầu như bất kỳ trang web nào hỗ trợ văn bản đa dạng thức, bao gồm Evernote. Xem danh sách [các trang web và dịch vụ tương thích](https://github.com/adam-p/markdown-here/wiki/Compatibility) để biết thêm thông tin.
 
-To use Markdown Here after installing it, start typing Markdown-formatted text in a form, like a new email message in Gmail. When you're finished writing the message, right click in the form and select **Markdown Toggle**, as shown in the screenshot below. Markdown Here will convert your Markdown-formatted text to properly-formatted rich text.
+Để sử dụng Markdown Here sau khi cài đặt nó, hãy bắt đầu nhập văn bản được định dạng Markdown vào một biểu mẫu, chẳng hạn như một tin nhắn email mới trong Gmail. Khi bạn viết xong tin nhắn, hãy nhấp chuột phải vào biểu mẫu và chọn **Markdown Toggle**, như được hiển thị trong ảnh chụp màn hình bên dưới. Markdown Here sẽ chuyển đổi văn bản được định dạng Markdown của bạn thành văn bản đa dạng thức được định dạng đúng.
 
-{% include image.html file="/assets/images/tools/markdown-here.png" alt="Markdown Here in Gmail" width="60" %}
+{% include image.html file="/assets/images/tools/markdown-here.png" alt="Markdown Here trong Gmail" width="60" %}
 
-One source of frustration is the inconsistency in rendered output. Since Markdown Here relies on the features provided by whatever rich text editor you happen to be working in, the rendered output varies from website to website. This probably goes without saying, but you should be careful to examine the output before sending your email message or saving your file.
+Một nguồn gây thất vọng là sự không nhất quán trong đầu ra được hiển thị. Vì Markdown Here dựa vào các tính năng được cung cấp bởi bất kỳ trình soạn thảo văn bản đa dạng thức nào mà bạn tình cờ đang làm việc, đầu ra được hiển thị sẽ khác nhau giữa các trang web. Điều này có lẽ không cần phải nói, nhưng bạn nên cẩn thận kiểm tra đầu ra trước khi gửi tin nhắn email hoặc lưu file của mình.
 
 {% include tool-syntax-table.html %}

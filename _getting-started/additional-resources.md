@@ -1,8 +1,8 @@
-## Additional Resources
+## Tài nguyên bổ sung
 
-There are lots of resources you can use to learn Markdown. Here are some other introductory resources:
+Có rất nhiều tài nguyên bạn có thể sử dụng để học Markdown. Dưới đây là một số tài nguyên giới thiệu khác:
 
-- [John Gruber's Markdown documentation](https://daringfireball.net/projects/markdown/). The original guide written by the creator of Markdown.
-- [Markdown Tutorial](https://www.markdowntutorial.com/). An open source website that allows you to try Markdown in your web browser.
-- [Awesome Markdown](https://github.com/mundimark/awesome-markdown). A list of Markdown tools and learning resources.
-- [Typesetting Markdown](https://dave.autonoma.ca/blog/2019/05/22/typesetting-markdown-part-1). A multi-part series that describes an ecosystem for typesetting Markdown documents using [pandoc](https://pandoc.org/) and [ConTeXt](https://www.contextgarden.net/).
+- [Tài liệu Markdown của John Gruber](https://daringfireball.net/projects/markdown/). Hướng dẫn gốc được viết bởi người tạo ra Markdown.
+- [Hướng dẫn Markdown](https://www.markdowntutorial.com/). Một trang web mã nguồn mở cho phép bạn thử Markdown trong trình duyệt web của mình.
+- [Awesome Markdown](https://github.com/mundimark/awesome-markdown). Danh sách các công cụ Markdown và tài nguyên học tập.
+- [Sắp chữ Markdown](https://dave.autonoma.ca/blog/2019/05/22/typesetting-markdown-part-1). Một loạt bài gồm nhiều phần mô tả một hệ sinh thái để sắp chữ các tài liệu Markdown bằng cách sử dụng [pandoc](https://pandoc.org/) và [ConTeXt](https://www.contextgarden.net/).

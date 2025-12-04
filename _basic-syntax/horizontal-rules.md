@@ -1,8 +1,8 @@
 ---
-title: Horizontal Rules
+title: Quy tắc ngang (Horizontal Rules)
 syntax-id: horizontal-rules
 syntax-summary: "---"
-description: "To create a horizontal rule, use three or more asterisks (`***`), dashes (`---`), or underscores (`___`) on a line by themselves."
+description: "Để tạo một quy tắc ngang, sử dụng ba hoặc nhiều dấu sao (`***`), dấu gạch ngang (`---`), hoặc dấu gạch dưới (`___`) trên một dòng riêng biệt."
 examples:
   - markdown: "***"
     html: "<hr>"
@@ -12,7 +12,7 @@ examples:
     html: "<hr>"
 ---
 
-To create a horizontal rule, use three or more asterisks (`***`), dashes (`---`), or underscores (`___`) on a line by themselves.
+Để tạo một quy tắc ngang, sử dụng ba hoặc nhiều dấu sao (`***`), dấu gạch ngang (`---`), hoặc dấu gạch dưới (`___`) trên một dòng riêng biệt.
 
 ```
 ***
@@ -22,37 +22,37 @@ To create a horizontal rule, use three or more asterisks (`***`), dashes (`---`)
 _________________
 ```
 
-The rendered output of all three looks identical:
+Kết quả hiển thị của cả ba đều giống hệt nhau:
 
 ---
 
-### Horizontal Rule Best Practices
+### Thực tiễn tốt nhất cho Quy tắc ngang
 
-For compatibility, put blank lines before and after horizontal rules.
+Để đảm bảo khả năng tương thích, hãy đặt các dòng trống trước và sau quy tắc ngang.
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>✅&nbsp; Do this</th>
-      <th>❌&nbsp; Don't do this</th>
+      <th>✅&nbsp; Nên làm</th>
+      <th>❌&nbsp; Không nên làm</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
         <code class="highlighter-rouge">
-        Try to put a blank line before...<br><br>
+        Cố gắng đặt một dòng trống trước...<br><br>
 
         ---<br><br>
 
-        ...and after a horizontal rule.
+        ...và sau một quy tắc ngang.
         </code>
       </td>
       <td>
         <code class="highlighter-rouge">
-        Without blank lines, this would be a heading.<br>
+        Nếu không có dòng trống, đây sẽ là một tiêu đề.<br>
         ---<br>
-        Don't do this!
+        Đừng làm điều này!
         </code>
       </td>
     </tr>

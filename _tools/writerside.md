@@ -1,7 +1,7 @@
 ---
 title: Writerside
 category: "websites"
-description: "Writerside is a new technical authoring and publishing environment from JetBrains."
+description: "Writerside là một môi trường viết và xuất bản kỹ thuật mới từ JetBrains."
 icon: writerside.png
 website: https://www.jetbrains.com/writerside/
 syntax:
@@ -17,7 +17,7 @@ syntax:
     available: y
   - id: blockquotes
     available: y
-    notes: "By default, the blockquotes markup will turn into an admonition block called a tip. One can change the block type to note or warning. Read more here: <https://www.jetbrains.com/help/writerside/admonition-blocks.html>."
+    notes: "Theo mặc định, đánh dấu trích dẫn khối sẽ chuyển thành một khối lời khuyên răn được gọi là mẹo. Người ta có thể thay đổi loại khối thành ghi chú hoặc cảnh báo. Đọc thêm tại đây: <https://www.jetbrains.com/help/writerside/admonition-blocks.html>."
   - id: ordered-lists
     available: y
   - id: unordered-lists
@@ -64,9 +64,9 @@ syntax:
     available: n
 ---
 
-[Writerside](https://www.jetbrains.com/writerside/) is a new technical authoring and publishing environment from JetBrains. It consists of an editor, a static site builder, and a customizable frontend tailored specifically for technical documentation. 
-Created by JetBrains, Writerside is based on the IntelliJ platform.
+[Writerside](https://www.jetbrains.com/writerside/) là một môi trường viết và xuất bản kỹ thuật mới từ JetBrains. Nó bao gồm một trình soạn thảo, một trình tạo trang web tĩnh và một giao diện người dùng có thể tùy chỉnh được thiết kế riêng cho tài liệu kỹ thuật.
+Được tạo bởi JetBrains, Writerside dựa trên nền tảng IntelliJ.
 
-Writerside uses the [flexmark](https://github.com/vsch/flexmark-java) Markdown processor.
+Writerside sử dụng bộ xử lý Markdown [flexmark](https://github.com/vsch/flexmark-java).
 
 {% include tool-syntax-table.html %}

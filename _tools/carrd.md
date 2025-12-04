@@ -1,7 +1,7 @@
 ---
 title: Carrd
 category: "websites"
-description: "Carrd is a subscription service for building landing pages and simple websites."
+description: "Carrd là một dịch vụ đăng ký để xây dựng các trang đích và trang web đơn giản."
 icon: carrd.png
 website: https://carrd.co
 syntax:
@@ -19,18 +19,18 @@ syntax:
     available: n
   - id: ordered-lists
     available: p
-    notes: "Nested lists are not supported."
+    notes: "Danh sách lồng nhau không được hỗ trợ."
   - id: unordered-lists
     available: p
-    notes: "Nested lists are not supported."
+    notes: "Danh sách lồng nhau không được hỗ trợ."
   - id: code
     available: p
-    notes: "Code blocks are not supported."
+    notes: "Khối mã không được hỗ trợ."
   - id: horizontal-rules
     available: n
   - id: links
     available: p
-    notes: "The link styles for [URLs and email addresses](/basic-syntax/#urls-and-email-addresses) and [reference-style links](/basic-syntax/#reference-style-links) are not supported."
+    notes: "Các kiểu liên kết cho [URL và địa chỉ email](/basic-syntax/#urls-and-email-addresses) và [liên kết kiểu tham chiếu](/basic-syntax/#reference-style-links) không được hỗ trợ."
   - id: images
     available: n
   - id: tables
@@ -67,10 +67,10 @@ syntax:
     available: n
 ---
 
-[Carrd](https://carrd.co) is a web-based subscription services that helps you build landing pages and simple websites. It really shines when you need a one-page website *now* — it literally takes minutes to build and publish a website using Caard. You can use Carrd's "no code" web interface to easily add and edit elements on your websites, like images and text. 
+[Carrd](https://carrd.co) là một dịch vụ đăng ký dựa trên web giúp bạn xây dựng các trang đích và trang web đơn giản. Nó thực sự tỏa sáng khi bạn cần một trang web một trang *ngay bây giờ* — thực sự chỉ mất vài phút để xây dựng và xuất bản một trang web bằng Carrd. Bạn có thể sử dụng giao diện web "không mã" của Carrd để dễ dàng thêm và chỉnh sửa các phần tử trên trang web của mình, như hình ảnh và văn bản.
 
-{% include image.html file="/assets/images/tools/carrd.png" alt="The Carrd website builder with Markdown." %}
+{% include image.html file="/assets/images/tools/carrd.png" alt="Trình xây dựng trang web Carrd với Markdown." %}
 
-Carrd supports a limited subset of basic Markdown syntax for text. Carrd's Markdown support is fairly limited, but it works for this particular use case. The supported syntax elements are mostly limited to text formatting — bold, italic, and lists. 
+Carrd hỗ trợ một tập hợp con hạn chế của cú pháp Markdown cơ bản cho văn bản. Hỗ trợ Markdown của Carrd khá hạn chế, nhưng nó hoạt động cho trường hợp sử dụng cụ thể này. Các phần tử cú pháp được hỗ trợ chủ yếu giới hạn ở định dạng văn bản — in đậm, in nghiêng và danh sách.
 
 {% include tool-syntax-table.html %}

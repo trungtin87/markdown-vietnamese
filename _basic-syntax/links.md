@@ -1,193 +1,193 @@
 ---
-title: Links
+title: Liên kết (Links)
 syntax-id: links
-syntax-summary: "[link name](https://www.example.com)"
-description: "To create a link, enclose the link text in brackets (e.g., `[Duck Duck Go]`) and then follow it immediately with the URL in parentheses (e.g., `(https://duckduckgo.com)`). You can optionally add a title after the URL in the parentheses."
+syntax-summary: "[tên liên kết](https://www.example.com)"
+description: "Để tạo một liên kết, bao quanh văn bản liên kết trong dấu ngoặc vuông (ví dụ: `[Duck Duck Go]`) và sau đó theo ngay sau đó là URL trong dấu ngoặc đơn (ví dụ: `(https://duckduckgo.com)`). Bạn có thể tùy chọn thêm tiêu đề sau URL trong dấu ngoặc đơn."
 examples:
-  - markdown: "My favorite search engine is [Duck Duck Go](https://duckduckgo.com \"The best search engine for privacy\")."
-    html: My favorite search engine is <a href=\"https://duckduckgo.com\" title=\"The best search engine for privacy\">Duck Duck Go</a>.
+  - markdown: "Công cụ tìm kiếm yêu thích của tôi là [Duck Duck Go](https://duckduckgo.com \"Công cụ tìm kiếm tốt nhất cho quyền riêng tư\")."
+    html: Công cụ tìm kiếm yêu thích của tôi là <a href=\"https://duckduckgo.com\" title=\"Công cụ tìm kiếm tốt nhất cho quyền riêng tư\">Duck Duck Go</a>.
 additional-examples:
-  - name: "URLs and Email Addresses"
-    description: "To quickly turn a URL or email address into a link, enclose it in angle brackets."
+  - name: "URL và Địa chỉ Email"
+    description: "Để nhanh chóng biến một URL hoặc địa chỉ email thành một liên kết, hãy bao quanh nó trong dấu ngoặc nhọn."
     markdown: "<https://www.markdownguide.org><fake@example.com>"
     html: <a href=\"https://www.markdownguide.org\">https://www.markdownguide.org</a><a href=\"&#x6d;&#97;&#105;&#x6c;&#116;&#x6f;&#58;&#x66;&#x61;&#x6b;&#101;&#64;&#x65;&#120;&#x61;&#x6d;&#x70;&#108;&#101;&#46;&#99;&#x6f;&#109;\">&#x66;&#x61;&#x6b;&#101;&#64;&#x65;&#120;&#x61;&#x6d;&#x70;&#108;&#101;&#46;&#99;&#x6f;&#109;</a>
-  - name: "Formatting Links"
-    description: "To emphasize links, add asterisks before and after the brackets and parentheses."
-    markdown: "I love supporting **[EFF](https://eff.org)**. This is the *[Markdown Guide](https://www.markdownguide.org)*."
-    html: I love supporting <strong><a href=\"https://eff.org\">EFF</a></strong>. This is the <em><a href=\"https://www.markdownguide.org\">Markdown Guide</a></em>.
+  - name: "Định dạng Liên kết"
+    description: "Để nhấn mạnh các liên kết, thêm dấu sao vào trước và sau dấu ngoặc vuông và dấu ngoặc đơn."
+    markdown: "Tôi thích ủng hộ **[EFF](https://eff.org)**. Đây là *[Hướng dẫn Markdown](https://www.markdownguide.org)*."
+    html: Tôi thích ủng hộ <strong><a href=\"https://eff.org\">EFF</a></strong>. Đây là <em><a href=\"https://www.markdownguide.org\">Hướng dẫn Markdown</a></em>.
 ---
 
-To create a link, enclose the link text in brackets (e.g., `[Duck Duck Go]`) and then follow it immediately with the URL in parentheses (e.g., `(https://duckduckgo.com)`).
+Để tạo một liên kết, bao quanh văn bản liên kết trong dấu ngoặc vuông (ví dụ: `[Duck Duck Go]`) và sau đó theo ngay sau đó là URL trong dấu ngoặc đơn (ví dụ: `(https://duckduckgo.com)`).
 
 ```
-My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
+Công cụ tìm kiếm yêu thích của tôi là [Duck Duck Go](https://duckduckgo.com).
 ```
 
-The rendered output looks like this:
+Kết quả hiển thị sẽ trông như thế này:
 
-My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
+Công cụ tìm kiếm yêu thích của tôi là [Duck Duck Go](https://duckduckgo.com).
 
 <div class="alert alert-info">
-  <i class="fas fa-info-circle"></i> <strong>Note:</strong> To link to an element on the same page, see <a href="/extended-syntax/#linking-to-heading-ids">linking to heading IDs</a>. To create a link that opens in a new tab or window, see the section on <a href="/hacks/#link-targets">link targets</a>.
+  <i class="fas fa-info-circle"></i> <strong>Lưu ý:</strong> Để liên kết đến một phần tử trên cùng một trang, xem <a href="/extended-syntax/#linking-to-heading-ids">liên kết đến ID tiêu đề</a>. Để tạo một liên kết mở trong tab hoặc cửa sổ mới, xem phần về <a href="/hacks/#link-targets">mục tiêu liên kết</a>.
 </div>
 
-### Adding Titles
+### Thêm Tiêu đề
 
-You can optionally add a title for a link. This will appear as a tooltip when the user hovers over the link. To add a title, enclose it in quotation marks after the URL.
+Bạn có thể tùy chọn thêm tiêu đề cho một liên kết. Tiêu đề này sẽ xuất hiện dưới dạng chú giải công cụ khi người dùng di chuột qua liên kết. Để thêm tiêu đề, hãy bao quanh nó trong dấu ngoặc kép sau URL.
 
 ```
-My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
+Công cụ tìm kiếm yêu thích của tôi là [Duck Duck Go](https://duckduckgo.com "Công cụ tìm kiếm tốt nhất cho quyền riêng tư").
 ```
 
-The rendered output looks like this:
+Kết quả hiển thị sẽ trông như thế này:
 
-My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
+Công cụ tìm kiếm yêu thích của tôi là [Duck Duck Go](https://duckduckgo.com "Công cụ tìm kiếm tốt nhất cho quyền riêng tư").
 
-### URLs and Email Addresses
+### URL và Địa chỉ Email
 
-To quickly turn a URL or email address into a link, enclose it in angle brackets.
+Để nhanh chóng biến một URL hoặc địa chỉ email thành một liên kết, hãy bao quanh nó trong dấu ngoặc nhọn.
 
 ```
 <https://www.markdownguide.org>
 <fake@example.com>
 ```
 
-The rendered output looks like this:
+Kết quả hiển thị sẽ trông như thế này:
 
 <https://www.markdownguide.org><br/>
 <fake@example.com>
 
-### Formatting Links
+### Định dạng Liên kết
 
-To [emphasize](#emphasis) links, add asterisks before and after the brackets and parentheses. To denote links as [code](#code), add backticks in the brackets.
+Để [nhấn mạnh](#emphasis) các liên kết, thêm dấu sao vào trước và sau dấu ngoặc vuông và dấu ngoặc đơn. Để biểu thị các liên kết là [mã](#code), thêm dấu huyền vào trong dấu ngoặc vuông.
 
 ```
-I love supporting the **[EFF](https://eff.org)**.
-This is the *[Markdown Guide](https://www.markdownguide.org)*.
-See the section on [`code`](#code).
+Tôi thích ủng hộ **[EFF](https://eff.org)**.
+Đây là *[Hướng dẫn Markdown](https://www.markdownguide.org)*.
+Xem phần về [`code`](#code).
 ```
 
-The rendered output looks like this:
+Kết quả hiển thị sẽ trông như thế này:
 
-I love supporting the **[EFF](https://eff.org)**.<br/>
-This is the *[Markdown Guide](https://www.markdownguide.org)*.<br/>
-See the section on [`code`](#code).
+Tôi thích ủng hộ **[EFF](https://eff.org)**.<br/>
+Đây là *[Hướng dẫn Markdown](https://www.markdownguide.org)*.<br/>
+Xem phần về [`code`](#code).
 
-### Reference-style Links
+### Liên kết kiểu tham chiếu
 
-Reference-style links are a special kind of link that make URLs easier to display and read in Markdown. Reference-style links are constructed in two parts: the part you keep inline with your text and the part you store somewhere else in the file to keep the text easy to read.
+Liên kết kiểu tham chiếu là một loại liên kết đặc biệt giúp URL dễ hiển thị và dễ đọc hơn trong Markdown. Liên kết kiểu tham chiếu được xây dựng thành hai phần: phần bạn giữ nội tuyến với văn bản của mình và phần bạn lưu trữ ở một nơi khác trong file để giữ cho văn bản dễ đọc.
 
-#### Formatting the First Part of the Link
+#### Định dạng Phần đầu tiên của Liên kết
 
-The first part of a reference-style link is formatted with two sets of brackets. The first set of brackets surrounds the text that should appear linked. The second set of brackets displays a label used to point to the link you're storing elsewhere in your document.
+Phần đầu tiên của liên kết kiểu tham chiếu được định dạng bằng hai bộ dấu ngoặc vuông. Bộ dấu ngoặc vuông đầu tiên bao quanh văn bản sẽ xuất hiện dưới dạng liên kết. Bộ dấu ngoặc vuông thứ hai hiển thị nhãn được sử dụng để trỏ đến liên kết bạn đang lưu trữ ở nơi khác trong tài liệu của mình.
 
-Although not required, you can include a space between the first and second set of brackets. The label in the second set of brackets is not case sensitive and can include letters, numbers, spaces, or punctuation.
+Mặc dù không bắt buộc, bạn có thể bao gồm một khoảng trắng giữa bộ dấu ngoặc vuông thứ nhất và thứ hai. Nhãn trong bộ dấu ngoặc vuông thứ hai không phân biệt chữ hoa chữ thường và có thể bao gồm chữ cái, số, khoảng trắng hoặc dấu câu.
 
-This means the following example formats are roughly equivalent for the first part of the link:
+Điều này có nghĩa là các định dạng ví dụ sau đây gần như tương đương cho phần đầu tiên của liên kết:
 
 - `[hobbit-hole][1]`
 - `[hobbit-hole] [1]`
 
-#### Formatting the Second Part of the Link
+#### Định dạng Phần thứ hai của Liên kết
 
-The second part of a reference-style link is formatted with the following attributes:
+Phần thứ hai của liên kết kiểu tham chiếu được định dạng với các thuộc tính sau:
 
-1. The label, in brackets, followed immediately by a colon and at least one space (e.g., `[label]: `).
-2. The URL for the link, which you can optionally enclose in angle brackets.
-3. The optional title for the link, which you can enclose in double quotes, single quotes, or parentheses.
+1. Nhãn, trong dấu ngoặc vuông, theo ngay sau đó là dấu hai chấm và ít nhất một khoảng trắng (ví dụ: `[nhãn]:`).
+2. URL cho liên kết, bạn có thể tùy chọn bao quanh trong dấu ngoặc nhọn.
+3. Tiêu đề tùy chọn cho liên kết, bạn có thể bao quanh trong dấu ngoặc kép, dấu ngoặc đơn hoặc dấu ngoặc đơn.
 
-This means the following example formats are all roughly equivalent for the second part of the link:
+Điều này có nghĩa là các định dạng ví dụ sau đây đều gần như tương đương cho phần thứ hai của liên kết:
 
 - `[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle`
-- `[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle "Hobbit lifestyles"`
-- `[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle 'Hobbit lifestyles'`
-- `[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle (Hobbit lifestyles)`
-- `[1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> "Hobbit lifestyles"`
-- `[1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> 'Hobbit lifestyles'`
-- `[1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> (Hobbit lifestyles)`
+- `[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle "Lối sống Hobbit"`
+- `[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle 'Lối sống Hobbit'`
+- `[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle (Lối sống Hobbit)`
+- `[1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> "Lối sống Hobbit"`
+- `[1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> 'Lối sống Hobbit'`
+- `[1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> (Lối sống Hobbit)`
 
-You can place this second part of the link anywhere in your Markdown document. Some people place them immediately after the paragraph in which they appear while other people place them at the end of the document (like endnotes or footnotes).
+Bạn có thể đặt phần thứ hai này của liên kết ở bất kỳ đâu trong tài liệu Markdown của mình. Một số người đặt chúng ngay sau đoạn văn mà chúng xuất hiện trong khi những người khác đặt chúng ở cuối tài liệu (giống như chú thích cuối trang hoặc chú thích cuối sách).
 
-#### An Example Putting the Parts Together
+#### Một Ví dụ Kết hợp các Phần lại với nhau
 
-Say you add a URL as a [standard URL link](#links) to a paragraph and it looks like this in Markdown:
-
-```
-In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends
-of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to
-eat: it was a [hobbit-hole](https://en.wikipedia.org/wiki/Hobbit#Lifestyle "Hobbit lifestyles"), and that means comfort.
-```
-
-Though it may point to interesting additional information, the URL as displayed really doesn't add much to the existing raw text other than making it harder to read. To fix that, you could format the URL like this instead:
+Giả sử bạn thêm một URL dưới dạng [liên kết URL chuẩn](#links) vào một đoạn văn và nó trông như thế này trong Markdown:
 
 ```
-In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends
-of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to
-eat: it was a [hobbit-hole][1], and that means comfort.
-
-[1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> "Hobbit lifestyles"
+Trong một cái hang dưới đất có một người hobbit sinh sống. Không phải là một cái hang bẩn thỉu, dơ dáy, ẩm ướt, đầy đầu
+giun và mùi hôi thối, cũng không phải là một cái hang khô khan, trần trụi, đầy cát không có gì để ngồi hoặc để
+ăn: đó là một [hang hobbit](https://en.wikipedia.org/wiki/Hobbit#Lifestyle "Lối sống Hobbit"), và điều đó có nghĩa là sự thoải mái.
 ```
 
-In both instances above, the rendered output would be identical:
-
-> In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to  eat: it was a <a href="https://en.wikipedia.org/wiki/Hobbit#Lifestyle" title="Hobbit lifestyles">hobbit-hole</a>, and that means comfort.
-
-and the HTML for the link would be:
+Mặc dù nó có thể trỏ đến thông tin bổ sung thú vị, nhưng URL khi hiển thị thực sự không thêm nhiều vào văn bản thô hiện có ngoài việc làm cho nó khó đọc hơn. Để khắc phục điều đó, bạn có thể định dạng URL như thế này thay thế:
 
 ```
-<a href="https://en.wikipedia.org/wiki/Hobbit#Lifestyle" title="Hobbit lifestyles">hobbit-hole</a>
+Trong một cái hang dưới đất có một người hobbit sinh sống. Không phải là một cái hang bẩn thỉu, dơ dáy, ẩm ướt, đầy đầu
+giun và mùi hôi thối, cũng không phải là một cái hang khô khan, trần trụi, đầy cát không có gì để ngồi hoặc để
+ăn: đó là một [hang hobbit][1], và điều đó có nghĩa là sự thoải mái.
+
+[1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> "Lối sống Hobbit"
 ```
 
-### Link Best Practices
+Trong cả hai trường hợp trên, kết quả hiển thị sẽ giống hệt nhau:
 
-Markdown applications don't agree on how to handle spaces in the middle of a URL. For compatibility, try to URL encode any spaces with `%20`. Alternatively, if your Markdown application [supports HTML](#html), you could use the `a` HTML tag. 
+> Trong một cái hang dưới đất có một người hobbit sinh sống. Không phải là một cái hang bẩn thỉu, dơ dáy, ẩm ướt, đầy đầu giun và mùi hôi thối, cũng không phải là một cái hang khô khan, trần trụi, đầy cát không có gì để ngồi hoặc để ăn: đó là một <a href="https://en.wikipedia.org/wiki/Hobbit#Lifestyle" title="Lối sống Hobbit">hang hobbit</a>, và điều đó có nghĩa là sự thoải mái.
+
+và HTML cho liên kết sẽ là:
+
+```
+<a href="https://en.wikipedia.org/wiki/Hobbit#Lifestyle" title="Lối sống Hobbit">hang hobbit</a>
+```
+
+### Thực tiễn tốt nhất cho Liên kết
+
+Các ứng dụng Markdown không thống nhất về cách xử lý khoảng trắng ở giữa URL. Để đảm bảo khả năng tương thích, hãy cố gắng mã hóa URL bất kỳ khoảng trắng nào bằng `%20`. Ngoài ra, nếu ứng dụng Markdown của bạn [hỗ trợ HTML](#html), bạn có thể sử dụng thẻ HTML `a`.
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>✅&nbsp; Do this</th>
-      <th>❌&nbsp; Don't do this</th>
+      <th>✅&nbsp; Nên làm</th>
+      <th>❌&nbsp; Không nên làm</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
         <code class="highlighter-rouge">
-        [link](https://www.example.com/my%20great%20page)<br><br>
+        [liên kết](https://www.example.com/my%20great%20page)<br><br>
 
-        &lt;a href="https://www.example.com/my great page"&gt;link&lt;/a&gt;<br><br>
+        &lt;a href="https://www.example.com/my great page"&gt;liên kết&lt;/a&gt;<br><br>
         </code>
       </td>
       <td>
         <code class="highlighter-rouge">
-        [link](https://www.example.com/my great page)<br><br>
+        [liên kết](https://www.example.com/my great page)<br><br>
         </code>
       </td>
     </tr>
   </tbody>
 </table>
 
-Parentheses in the middle of a URL can also be problematic. For compatibility, try to URL encode the opening parenthesis (`(`) with `%28` and the closing parenthesis (`)`) with `%29`. Alternatively, if your Markdown application [supports HTML](#html), you could use the `a` HTML tag. 
+Dấu ngoặc đơn ở giữa URL cũng có thể gây ra vấn đề. Để đảm bảo khả năng tương thích, hãy cố gắng mã hóa URL dấu ngoặc đơn mở (`(`) bằng `%28` và dấu ngoặc đơn đóng (`)`) bằng `%29`. Ngoài ra, nếu ứng dụng Markdown của bạn [hỗ trợ HTML](#html), bạn có thể sử dụng thẻ HTML `a`.
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>✅&nbsp; Do this</th>
-      <th>❌&nbsp; Don't do this</th>
+      <th>✅&nbsp; Nên làm</th>
+      <th>❌&nbsp; Không nên làm</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
         <code class="highlighter-rouge">
-        [a novel](https://en.wikipedia.org/wiki/<wbr>The_Milagro_Beanfield_War_%28novel%29)<br><br>
+        [tiểu thuyết](https://en.wikipedia.org/wiki/<wbr>The_Milagro_Beanfield_War_%28novel%29)<br><br>
 
-        &lt;a href="https://en.wikipedia.org/wiki/<wbr>The_Milagro_Beanfield_War_(novel)"&gt;a novel&lt;/a&gt;<br><br>
+        &lt;a href="https://en.wikipedia.org/wiki/<wbr>The_Milagro_Beanfield_War_(novel)"&gt;tiểu thuyết&lt;/a&gt;<br><br>
         </code>
       </td>
       <td>
         <code class="highlighter-rouge">
-        [a novel](https://en.wikipedia.org/wiki/<wbr>The_Milagro_Beanfield_War_(novel))
+        [tiểu thuyết](https://en.wikipedia.org/wiki/<wbr>The_Milagro_Beanfield_War_(novel))
         </code>
       </td>
     </tr>

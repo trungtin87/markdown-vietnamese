@@ -3,17 +3,17 @@ title: Superscript
 syntax-id: superscript
 ---
 
-This isn't common, but some Markdown processors allow you to use *superscript* to position one or more characters slightly above the normal line of type. To create a superscript, use one caret symbol (`^`) before and after the characters.
+Điều này không phổ biến, nhưng một số bộ xử lý Markdown cho phép bạn sử dụng *chỉ số trên* để đặt một hoặc nhiều ký tự hơi cao hơn dòng văn bản thông thường. Để tạo chỉ số trên, hãy sử dụng một ký hiệu mũ (`^`) trước và sau các ký tự.
 
 ```text
 X^2^
 ```
 
-The rendered output looks like this:
+Kết quả hiển thị trông như thế này:
 
 X<sup>2</sup>
 
-Alternatively, if your Markdown application supports [HTML](/basic-syntax/#html), you can use the `sup` HTML tag.
+Ngoài ra, nếu ứng dụng Markdown của bạn hỗ trợ [HTML](/basic-syntax/#html), bạn có thể sử dụng thẻ HTML `sup`.
 
 ```html
 X<sup>2</sup>

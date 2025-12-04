@@ -1,7 +1,7 @@
 ---
 title: GitBook
 category: "websites"
-description: "GitBook is a hosted solution for documentation websites and knowledge bases."
+description: "GitBook là một giải pháp được lưu trữ cho các trang web tài liệu và cơ sở kiến thức."
 icon: gitbook.png
 website: https://www.gitbook.com
 syntax:
@@ -62,14 +62,14 @@ syntax:
   - id: html
     available: n
 see-also:
-  - name: GitBook Markdown documentation
+  - name: Tài liệu Markdown GitBook
     link: https://docs.gitbook.com/content-creation/editor/markdown
 ---
 
-[GitBook](https://www.gitbook.com) is a hosted solution for documentation websites and knowledge bases. In a nutshell, you sign in to GitBook's website and use their web-based editor to write your documentation. Or, if you'd rather maintain control over your content, you can keep it in a git repository that is [integrated with GitBook](https://docs.gitbook.com/product-tour/git-sync). Either way, you can create different webpages and organize them in a logical order. When everything looks the way you want it, you can publish it on a custom domain.
+[GitBook](https://www.gitbook.com) là một giải pháp được lưu trữ cho các trang web tài liệu và cơ sở kiến thức. Tóm lại, bạn đăng nhập vào trang web của GitBook và sử dụng trình soạn thảo dựa trên web của họ để viết tài liệu của bạn. Hoặc, nếu bạn muốn duy trì quyền kiểm soát nội dung của mình, bạn có thể giữ nó trong một kho lưu trữ git được [tích hợp với GitBook](https://docs.gitbook.com/product-tour/git-sync). Dù bằng cách nào, bạn có thể tạo các trang web khác nhau và sắp xếp chúng theo thứ tự hợp lý. Khi mọi thứ trông theo cách bạn muốn, bạn có thể xuất bản nó trên một tên miền tùy chỉnh.
 
-Like so many projects, GitBook started as an open source toolchain with a commercial offering, but eventually dropped the open source project in favor of a new proprietary and closed-source offering that's hosted exclusively on their website. The [open source toolchain is still available](https://github.com/GitbookIO/gitbook), but as that option is now unsupported, this article only documents the new hosted option.
+Giống như rất nhiều dự án khác, GitBook bắt đầu như một chuỗi công cụ mã nguồn mở với một dịch vụ thương mại, nhưng cuối cùng đã từ bỏ dự án mã nguồn mở để ủng hộ một dịch vụ độc quyền và mã nguồn đóng mới được lưu trữ độc quyền trên trang web của họ. [Chuỗi công cụ mã nguồn mở vẫn có sẵn](https://github.com/GitbookIO/gitbook), nhưng vì tùy chọn đó hiện không được hỗ trợ, bài viết này chỉ ghi lại tùy chọn được lưu trữ mới.
 
-The advantage of GitBook over a tool like [Docusaurus](/tools/docusaurus/) is that GitBook takes care of building and hosting the site, and the WYSIWYG controls are intuitive enough to be used by Markdown novices. On the GitBook website, the live editor hides the Markdown formatting syntax after you type it. The editor is a bit flaky, but weird little bugs aside, the website generally works for both Markdown experts and people who don't have any experience with Markdown. You can also simply copy and paste Markdown-formatted text into the GitBook interface.
+Lợi thế của GitBook so với một công cụ như [Docusaurus](/tools/docusaurus/) là GitBook đảm nhận việc xây dựng và lưu trữ trang web, và các điều khiển WYSIWYG đủ trực quan để những người mới làm quen với Markdown sử dụng. Trên trang web GitBook, trình soạn thảo trực tiếp ẩn cú pháp định dạng Markdown sau khi bạn gõ nó. Trình soạn thảo hơi chập chờn, nhưng bỏ qua những lỗi nhỏ kỳ lạ, trang web nói chung hoạt động cho cả các chuyên gia Markdown và những người không có bất kỳ kinh nghiệm nào với Markdown. Bạn cũng có thể chỉ cần sao chép và dán văn bản được định dạng Markdown vào giao diện GitBook.
 
 {% include tool-syntax-table.html %}

@@ -1,7 +1,7 @@
 ---
 title: Deepdwn
 category: notes
-description: "Deepdwn is a Markdown editing suite for Windows, Mac, and Linux."
+description: "Deepdwn là một bộ công cụ chỉnh sửa Markdown cho Windows, Mac và Linux."
 icon: deepdwn.png
 website: https://www.deepdwn.com
 syntax:
@@ -39,7 +39,7 @@ syntax:
     available: y
   - id: heading-ids
     available: p
-    notes: Heading IDs are automatically generated and link to headings via autocomplete.
+    notes: ID tiêu đề được tạo tự động và liên kết đến các tiêu đề thông qua tự động hoàn thành.
   - id: definition-lists
     available: y
   - id: strikethrough
@@ -64,46 +64,45 @@ syntax:
     available: y
 ---
 
-[Deepdwn](https://billiam.itch.io/deepdwn) is an offline-only, feature-rich Markdown editor for Windows, Mac, and Linux.
+[Deepdwn](https://billiam.itch.io/deepdwn) là một trình soạn thảo Markdown ngoại tuyến, giàu tính năng dành cho Windows, Mac và Linux.
 
-{% include image.html file="/assets/images/tools/deepdwn.png" alt="Deepdwn application window with panels for filters, file list, document outline and editor." %}
+{% include image.html file="/assets/images/tools/deepdwn.png" alt="Cửa sổ ứng dụng Deepdwn với các bảng cho bộ lọc, danh sách file, dàn ý tài liệu và trình soạn thảo." %}
 
-Deepdwn supports organizing documents by both tags and categories stored in your document's YAML front matter, and supports backlinks to connect documents together.
+Deepdwn hỗ trợ tổ chức tài liệu theo cả thẻ và danh mục được lưu trữ trong front matter YAML của tài liệu của bạn, và hỗ trợ backlinks để kết nối các tài liệu với nhau.
 
-Deepdwn has a number of editing features, like document outline, distraction-free mode, table auto-formatting and editing, Vim and Emacs keybindings, automatic list continuation, persistent section folding, image drag-and-drop and in-editor image preview, per-file and global word count history, and special effects for writing streaks.
+Deepdwn có một số tính năng chỉnh sửa, như dàn ý tài liệu, chế độ không xao nhãng, tự động định dạng và chỉnh sửa bảng, phím tắt Vim và Emacs, tiếp tục danh sách tự động, gập phần liên tục, kéo và thả hình ảnh và xem trước hình ảnh trong trình soạn thảo, lịch sử đếm từ theo file và toàn cầu, và các hiệu ứng đặc biệt cho chuỗi viết.
 
-Deepdwn also supports some additional block elements:
+Deepdwn cũng hỗ trợ một số phần tử khối bổ sung:
 
-* Mermaid diagrams
-* AsciiMath, Katex, and mhchem for math and chemistry rendering
-* Sheet music, guitar tabs, and songbooks
+* Sơ đồ Mermaid
+* AsciiMath, Katex, và mhchem để hiển thị toán học và hóa học
+* Bản nhạc, tab guitar và sách bài hát
 
 {% include tool-syntax-table.html %}
 
-### Support for Additional Syntax Elements
+### Hỗ trợ cho các Phần tử Cú pháp Bổ sung
 
-As an added bonus, Deepdwn provides support for several obscure elements.
+Như một phần thưởng thêm, Deepdwn cung cấp hỗ trợ cho một số phần tử ít người biết đến.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">
     <tr>
-      <th>Element</th>
+      <th>Phần tử</th>
       <th>Markdown</th>
-      <th>Rendered Output</th>
+      <th>Kết quả hiển thị</th>
     </tr>
   </thead>
   <tbody>
       <tr>
-      <td>Abbreviation</td>
+      <td>Viết tắt</td>
       <td><code>*[HTML]: Hyper Text Markup Language</code><br>
-      <code>The HTML specification is maintained by the W3C.</code></td>
-      <td>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification
-is maintained by the W3C.</td>
+      <code>Đặc tả HTML được duy trì bởi W3C.</code></td>
+      <td>Đặc tả <abbr title="Hyper Text Markup Language">HTML</abbr> được duy trì bởi W3C.</td>
     </tr>
     <tr>
-      <td>Center</td>
-      <td><code>-&gt;This text has been centered&lt;-</code></td>
-      <td><center>This text has been centered</center></td>
+      <td>Căn giữa</td>
+      <td><code>-&gt;Văn bản này đã được căn giữa&lt;-</code></td>
+      <td><center>Văn bản này đã được căn giữa</center></td>
     </tr>
   </tbody>
 </table>

@@ -1,81 +1,81 @@
 ---
-title: Emphasis
+title: Nhấn mạnh (Emphasis)
 syntax-id: emphasis
 api: "no"
 ---
 
-You can add emphasis by making text bold or italic.
+Bạn có thể thêm nhấn mạnh bằng cách làm cho văn bản in đậm hoặc in nghiêng.
 
 {% include syntax.html type="basic-sub" syntax-id="bold" %}
 
 {% include syntax.html type="basic-sub" syntax-id="italic" %}
 
-### Bold and Italic
+### In đậm và In nghiêng
 
-To emphasize text with bold and italics at the same time, add three asterisks or underscores before and after a word or phrase. To bold and italicize the middle of a word for emphasis, add three asterisks without spaces around the letters.
+Để nhấn mạnh văn bản bằng cả in đậm và in nghiêng cùng một lúc, thêm ba dấu sao hoặc dấu gạch dưới vào trước và sau một từ hoặc cụm từ. Để in đậm và in nghiêng phần giữa của một từ nhằm nhấn mạnh, thêm ba dấu sao mà không có khoảng trắng xung quanh các chữ cái.
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th>Markdown</th>
       <th>HTML</th>
-      <th>Rendered Output</th>
+      <th>Kết quả hiển thị</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><code class="highlighter-rouge">This text is ***really important***.</code></td>
-      <td><code class="highlighter-rouge">This text is &lt;em&gt;&lt;strong&gt;really important&lt;/strong&gt;&lt;/em&gt;.</code></td>
-      <td>This text is <em><strong>really important</strong></em>.</td>
+      <td><code class="highlighter-rouge">Văn bản này ***thực sự quan trọng***.</code></td>
+      <td><code class="highlighter-rouge">Văn bản này &lt;em&gt;&lt;strong&gt;thực sự quan trọng&lt;/strong&gt;&lt;/em&gt;.</code></td>
+      <td>Văn bản này <em><strong>thực sự quan trọng</strong></em>.</td>
     </tr>
     <tr>
-      <td><code class="highlighter-rouge">This text is ___really important___.</code></td>
-      <td><code class="highlighter-rouge">This text is &lt;em&gt;&lt;strong&gt;really important&lt;/strong&gt;&lt;/em&gt;.</code></td>
-      <td>This text is <em><strong>really important</strong></em>.</td>
+      <td><code class="highlighter-rouge">Văn bản này ___thực sự quan trọng___.</code></td>
+      <td><code class="highlighter-rouge">Văn bản này &lt;em&gt;&lt;strong&gt;thực sự quan trọng&lt;/strong&gt;&lt;/em&gt;.</code></td>
+      <td>Văn bản này <em><strong>thực sự quan trọng</strong></em>.</td>
     </tr>
     <tr>
-      <td><code class="highlighter-rouge">This text is __*really important*__.</code></td>
-      <td><code class="highlighter-rouge">This text is &lt;em&gt;&lt;strong&gt;really important&lt;/strong&gt;&lt;/em&gt;.</code></td>
-      <td>This text is <em><strong>really important</strong></em>.</td>
+      <td><code class="highlighter-rouge">Văn bản này __*thực sự quan trọng*__.</code></td>
+      <td><code class="highlighter-rouge">Văn bản này &lt;em&gt;&lt;strong&gt;thực sự quan trọng&lt;/strong&gt;&lt;/em&gt;.</code></td>
+      <td>Văn bản này <em><strong>thực sự quan trọng</strong></em>.</td>
     </tr>
     <tr>
-      <td><code class="highlighter-rouge">This text is **_really important_**.</code></td>
-      <td><code class="highlighter-rouge">This text is &lt;em&gt;&lt;strong&gt;really important&lt;/strong&gt;&lt;/em&gt;.</code></td>
-      <td>This text is <em><strong>really important</strong></em>.</td>
+      <td><code class="highlighter-rouge">Văn bản này **_thực sự quan trọng_**.</code></td>
+      <td><code class="highlighter-rouge">Văn bản này &lt;em&gt;&lt;strong&gt;thực sự quan trọng&lt;/strong&gt;&lt;/em&gt;.</code></td>
+      <td>Văn bản này <em><strong>thực sự quan trọng</strong></em>.</td>
     </tr>
     <tr>
-      <td><code class="highlighter-rouge">This is really***very***important text.</code></td>
-      <td><code class="highlighter-rouge">This is really&lt;em&gt;&lt;strong&gt;very&lt;/strong&gt;&lt;/em&gt;important text.</code></td>
-      <td>This is really<em><strong>very</strong></em>important text.</td>
+      <td><code class="highlighter-rouge">Đây là văn bản thực sự***rất***quan trọng.</code></td>
+      <td><code class="highlighter-rouge">Đây là văn bản thực sự&lt;em&gt;&lt;strong&gt;rất&lt;/strong&gt;&lt;/em&gt;quan trọng.</code></td>
+      <td>Đây là văn bản thực sự<em><strong>rất</strong></em>quan trọng.</td>
     </tr>
   </tbody>
 </table>
 
 <div class="alert alert-info">
-  <i class="fas fa-info-circle"></i> <strong>Note:</strong> The order of the <code>em</code> and <code>strong</code> tags might be reversed depending on the Markdown processor you're using.
+  <i class="fas fa-info-circle"></i> <strong>Lưu ý:</strong> Thứ tự của các thẻ <code>em</code> và <code>strong</code> có thể bị đảo ngược tùy thuộc vào bộ xử lý Markdown bạn đang sử dụng.
 </div>
 
-#### Bold and Italic Best Practices
+#### Thực tiễn tốt nhất cho In đậm và In nghiêng
 
-Markdown applications don't agree on how to handle underscores in the middle of a word. For compatibility, use asterisks to bold and italicize the middle of a word for emphasis.
+Các ứng dụng Markdown không thống nhất về cách xử lý dấu gạch dưới ở giữa một từ. Để đảm bảo khả năng tương thích, hãy sử dụng dấu sao để in đậm và in nghiêng phần giữa của một từ nhằm nhấn mạnh.
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>✅&nbsp; Do this</th>
-      <th>❌&nbsp; Don't do this</th>
+      <th>✅&nbsp; Nên làm</th>
+      <th>❌&nbsp; Không nên làm</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
         <code class="highlighter-rouge">
-          This is really***very***important text.
+          Đây là văn bản thực sự***rất***quan trọng.
         </code>
       </td>
       <td>
         <code class="highlighter-rouge">
-          This is really___very___important text.
+          Đây là văn bản thực sự___rất___quan trọng.
         </code>
       </td>
     </tr>

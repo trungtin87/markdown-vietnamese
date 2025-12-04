@@ -1,7 +1,7 @@
 ---
 title: Wiki.js
 category: "wiki"
-description: "Wiki.js is an open source wiki that supports Markdown."
+description: "Wiki.js là một wiki mã nguồn mở hỗ trợ Markdown."
 icon: wikijs.png
 website: https://js.wiki/
 syntax:
@@ -11,7 +11,7 @@ syntax:
     available: y
   - id: line-breaks
     available: y
-    notes: "You can use a trailing backslash (`\\`) instead of trailing whitespace."
+    notes: "Bạn có thể sử dụng dấu gạch chéo ngược ở cuối (`\\`) thay vì khoảng trắng ở cuối."
   - id: bold
     available: y
   - id: italic
@@ -28,7 +28,7 @@ syntax:
     available: y
   - id: links
     available: y
-    notes: "You can link to other notes by using the `[[Link name|filename]]` syntax."
+    notes: "Bạn có thể liên kết đến các ghi chú khác bằng cách sử dụng cú pháp `[[Tên liên kết|tên file]]`."
   - id: images
     available: y
   - id: tables
@@ -41,7 +41,7 @@ syntax:
     available: y
   - id: heading-ids
     available: y
-    notes: "Automatically generated."
+    notes: "Được tạo tự động."
   - id: definition-lists
     available: n
   - id: strikethrough
@@ -65,39 +65,38 @@ syntax:
   - id: html
     available: y
 see-also:
-  - name: Wiki.js Markdown
+  - name: Markdown Wiki.js
     link: https://docs.requarks.io/en/editors/markdown
-  - name: Wiki.js GitHub repository
+  - name: Kho lưu trữ GitHub Wiki.js
     link: https://github.com/Requarks/wiki
 ---
 
-[Wiki.js](https://js.wiki/) is an open source wiki application that provides excellent Markdown support. I've been impressed by the quality of this free software and recommend it to anyone interested in a wiki for personal or team use. Wiki.js is easy to use and provides a number of powerful configuration options, including the ability to enable Pandoc for converting between markup formats, like AsciiDoc, and settings for enabling and disabling various Markdown formatting options. It works well out of the box and rivals many propriety software offerings.
+[Wiki.js](https://js.wiki/) là một ứng dụng wiki mã nguồn mở cung cấp hỗ trợ Markdown tuyệt vời. Tôi đã ấn tượng với chất lượng của phần mềm miễn phí này và khuyên dùng nó cho bất kỳ ai quan tâm đến một wiki để sử dụng cá nhân hoặc nhóm. Wiki.js dễ sử dụng và cung cấp một số tùy chọn cấu hình mạnh mẽ, bao gồm khả năng bật Pandoc để chuyển đổi giữa các định dạng đánh dấu, như AsciiDoc, và các cài đặt để bật và tắt các tùy chọn định dạng Markdown khác nhau. Nó hoạt động tốt ngay lập tức và cạnh tranh với nhiều phần mềm độc quyền.
 
-This is a web-based application that requires a database, so installation could be a bit of a headache depending on your familiarity with command line utilities. That said, this is an open source project with fantastic documentation and support. If you run into problems, you could probably file a GitHub issue or swing by the Wiki.js Slack workspace.
+Đây là một ứng dụng dựa trên web yêu cầu cơ sở dữ liệu, vì vậy việc cài đặt có thể hơi đau đầu tùy thuộc vào sự quen thuộc của bạn với các tiện ích dòng lệnh. Điều đó nói rằng, đây là một dự án mã nguồn mở với tài liệu và hỗ trợ tuyệt vời. Nếu bạn gặp vấn đề, bạn có thể nộp một vấn đề GitHub hoặc ghé qua không gian làm việc Slack của Wiki.js.
 
-{% include image.html file="/assets/images/tools/wikijs.png" alt="Wiki.js Markdown application" %}
+{% include image.html file="/assets/images/tools/wikijs.png" alt="Ứng dụng Markdown Wiki.js" %}
 
 {% include tool-syntax-table.html %}
 
-### Support for Additional Syntax Elements
+### Hỗ trợ cho các Phần tử Cú pháp Bổ sung
 
-As an added bonus, Wiki.js provides support for several obscure elements.
+Như một phần thưởng thêm, Wiki.js cung cấp hỗ trợ cho một số phần tử ít người biết đến.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">
     <tr>
-      <th>Element</th>
+      <th>Phần tử</th>
       <th>Markdown</th>
-      <th>Rendered Output</th>
+      <th>Kết quả hiển thị</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Abbreviation</td>
+      <td>Viết tắt</td>
       <td><code>*[HTML]: Hyper Text Markup Language</code><br>
-      <code>The HTML specification is maintained by the W3C.</code></td>
-      <td>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification
-is maintained by the W3C.</td>
+      <code>Đặc tả HTML được duy trì bởi W3C.</code></td>
+      <td>Đặc tả <abbr title="Hyper Text Markup Language">HTML</abbr> được duy trì bởi W3C.</td>
     </tr>
   </tbody>
 </table>

@@ -1,7 +1,7 @@
 ---
 title: GitJournal
 category: "notes"
-description: "GitJournal is a mobile-first Markdown editor integrated with Git."
+description: "GitJournal là một trình soạn thảo Markdown ưu tiên thiết bị di động được tích hợp với Git."
 icon: gitjournal.png
 website: https://gitjournal.io
 syntax:
@@ -62,35 +62,35 @@ syntax:
   - id: html
     available: n
 see-also:
-  - name: GitJournal repository on GitHub
+  - name: Kho lưu trữ GitJournal trên GitHub
     link: https://github.com/GitJournal/GitJournal
 ---
 
-[GitJournal](https://gitjournal.io) is a mobile-first Markdown editor integrated with Git.
+[GitJournal](https://gitjournal.io) là một trình soạn thảo Markdown ưu tiên thiết bị di động được tích hợp với Git.
 
-It supporting syncing your notes using any git repository accessible vis SSH, including GitHub, GitLab, Gitea, or your own server. The entire code base is also completely open source. GitJournal focuses on giving users control of their data and allowing them to access it with multiple devices using an open and well known protocol: git. There are various free and commercial git hosting providers, and setting up your own git server has a lower bar of entry than any other syncing solution.
+Nó hỗ trợ đồng bộ hóa các ghi chú của bạn bằng cách sử dụng bất kỳ kho lưu trữ git nào có thể truy cập qua SSH, bao gồm GitHub, GitLab, Gitea hoặc máy chủ của riêng bạn. Toàn bộ cơ sở mã cũng hoàn toàn là mã nguồn mở. GitJournal tập trung vào việc cung cấp cho người dùng quyền kiểm soát dữ liệu của họ và cho phép họ truy cập nó bằng nhiều thiết bị bằng giao thức mở và nổi tiếng: git. Có nhiều nhà cung cấp dịch vụ lưu trữ git miễn phí và thương mại khác nhau, và việc thiết lập máy chủ git của riêng bạn có rào cản gia nhập thấp hơn bất kỳ giải pháp đồng bộ hóa nào khác.
 
-GitJournal additionally lets you easily link your notes together with a Wiki style link - ``[[FileName]]``.  This lets you easily interlink different ideas and even build your own knowledge base.
+GitJournal cũng cho phép bạn dễ dàng liên kết các ghi chú của mình với nhau bằng liên kết kiểu Wiki - ``[[TênFile]]``. Điều này cho phép bạn dễ dàng liên kết các ý tưởng khác nhau và thậm chí xây dựng cơ sở kiến thức của riêng bạn.
 
 {% include tool-syntax-table.html %}
 
-### Support for Additional Syntax Elements
+### Hỗ trợ cho các Phần tử Cú pháp Bổ sung
 
-As an added bonus, GitJournal provides support for several obscure elements.
+Như một phần thưởng thêm, GitJournal cung cấp hỗ trợ cho một số phần tử ít người biết đến.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">
     <tr>
-      <th>Element</th>
+      <th>Phần tử</th>
       <th>Markdown</th>
-      <th>Rendered Output</th>
+      <th>Kết quả hiển thị</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>WikiLinks</td>
-      <td><code>[[PageName]]</code></td>
-      <td>Links to the file <code>PageName.md</code></td>
+      <td><code>[[TênTrang]]</code></td>
+      <td>Liên kết đến file <code>TênTrang.md</code></td>
     </tr>
   </tbody>
 </table>

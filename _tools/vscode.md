@@ -1,7 +1,7 @@
 ---
 title: VS Code
 category: documents
-description: "A cross-platform, open-source, extensible source code editor."
+description: "Một trình soạn thảo mã nguồn đa nền tảng, mã nguồn mở, có thể mở rộng."
 icon: vscode.png
 website: https://code.visualstudio.com
 syntax:
@@ -29,7 +29,7 @@ syntax:
     available: y
   - id: images
     available: y
-    notes: "Image display in preview is subject to content security policy, adjustable from the drop-down menu to the top-right"
+    notes: "Hiển thị hình ảnh trong xem trước tuân theo chính sách bảo mật nội dung, có thể điều chỉnh từ menu thả xuống ở góc trên bên phải"
   - id: tables
     available: y
   - id: fenced-code-blocks
@@ -38,24 +38,24 @@ syntax:
     available: y
   - id: footnotes
     available: p
-    notes: "In code editor only. Comprehensive support requires the [Markdown Preview Enhanced extension](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
+    notes: "Chỉ trong trình soạn thảo mã. Hỗ trợ toàn diện yêu cầu [tiện ích mở rộng Markdown Preview Enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
   - id: heading-ids
     available: p
-    notes: "Does not support custom IDs. Comprehensive support requires the [Markdown Preview Enhanced extension](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
+    notes: "Không hỗ trợ ID tùy chỉnh. Hỗ trợ toàn diện yêu cầu [tiện ích mở rộng Markdown Preview Enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
   - id: definition-lists
     available: p
-    notes: "Requires the [Markdown Preview Enhanced extension](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
+    notes: "Yêu cầu [tiện ích mở rộng Markdown Preview Enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
   - id: strikethrough
     available: p
-    notes: "Two tildes (`~~word~~`) only."
+    notes: "Chỉ hai dấu ngã (`~~từ~~`)."
   - id: task-lists
     available: p
-    notes: "One of the many readily available extensions can add this feature, e.g. [Markdown Preview Enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
+    notes: "Một trong nhiều tiện ích mở rộng có sẵn có thể thêm tính năng này, ví dụ: [Markdown Preview Enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
   - id: emoji-cp
     available: y
   - id: emoji-sc
     available: p
-    notes: "Requires the [Markdown Preview Enhanced extension](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
+    notes: "Yêu cầu [tiện ích mở rộng Markdown Preview Enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
   - id: highlight
     available: n
   - id: subscript
@@ -69,34 +69,34 @@ syntax:
   - id: html
     available: y
 see-also:
-  - name: Visual Studio Code repository on GitHub
+  - name: Kho lưu trữ Visual Studio Code trên GitHub
     link: https://github.com/microsoft/vscode
 ---
 
-[Visual Studio Code](https://code.visualstudio.com) is a source code editor. It is extensible, free, open-source, and cross-platform. It owes much of its success to its active community of extension developers. Whenever it lacks a certain feature, there is usually an extension to fix that shortcoming. Its out-of-the-box Markdown support includes:
+[Visual Studio Code](https://code.visualstudio.com) là một trình soạn thảo mã nguồn. Nó có thể mở rộng, miễn phí, mã nguồn mở và đa nền tảng. Nó nợ phần lớn thành công của mình cho cộng đồng các nhà phát triển tiện ích mở rộng tích cực. Bất cứ khi nào nó thiếu một tính năng nhất định, thường có một tiện ích mở rộng để khắc phục thiếu sót đó. Hỗ trợ Markdown ngay lập tức của nó bao gồm:
 
-* CommonMark support
-* Syntax highlighting
-* Preview
-* Autocompletion
-* Themes
-* Code style
+* Hỗ trợ CommonMark
+* Tô sáng cú pháp
+* Xem trước
+* Tự động hoàn thành
+* Chủ đề
+* Kiểu mã
 
-It does not support WYSIWIG editing. While Visual Studio Code does not come with out-of-the-box ability to export Markdown to any other formats, it can copy Markdown code with syntax coloring intact.
+Nó không hỗ trợ chỉnh sửa WYSIWIG. Mặc dù Visual Studio Code không đi kèm với khả năng xuất Markdown sang bất kỳ định dạng nào khác ngay lập tức, nhưng nó có thể sao chép mã Markdown với màu cú pháp còn nguyên vẹn.
 
 {% include image.html file="/assets/images/tools/vscode.png" alt="Visual Studio Code" %}
 
-Markdown extensions available in the Visual Studio marketplace extend it with the following features:
+Các tiện ích mở rộng Markdown có sẵn trong thị trường Visual Studio mở rộng nó với các tính năng sau:
 
-* Extended syntax (e.g. "Markdown Extended")
-* Markdown code formatting (e.g. "Prettier - Code formatter")
-* Exporting to other formats (e.g. "Markdown Preview Enhanced")
-* UI elements (e.g. "Markdown Shortcuts")
-* Extended markdown syntax highlighting (e.g. "One Dark Pro")
-* Linting (e.g. "markdownlint") – It is a feature for developers but a huge annoyance for ordinary writers
-* Style-compliance kits for different services (e.g. "Docs Authoring Pack" for Microsoft Docs)
-* Spelling check (e.g. "Code Spell Checker")
+* Cú pháp mở rộng (ví dụ: "Markdown Extended")
+* Định dạng mã Markdown (ví dụ: "Prettier - Code formatter")
+* Xuất sang các định dạng khác (ví dụ: "Markdown Preview Enhanced")
+* Các phần tử UI (ví dụ: "Markdown Shortcuts")
+* Tô sáng cú pháp markdown mở rộng (ví dụ: "One Dark Pro")
+* Linting (ví dụ: "markdownlint") – Đây là một tính năng cho nhà phát triển nhưng là một phiền toái lớn cho các nhà văn bình thường
+* Bộ công cụ tuân thủ kiểu cho các dịch vụ khác nhau (ví dụ: "Docs Authoring Pack" cho Microsoft Docs)
+* Kiểm tra chính tả (ví dụ: "Code Spell Checker")
 
-{% include image.html file="/assets/images/tools/vscode-extended.png" alt="Visual Studio Code, with Markdown Preview Enhanced, Markdownlint, and One Dark Pro" lazy="yes" %}
+{% include image.html file="/assets/images/tools/vscode-extended.png" alt="Visual Studio Code, với Markdown Preview Enhanced, Markdownlint, và One Dark Pro" lazy="yes" %}
 
 {% include tool-syntax-table.html %}

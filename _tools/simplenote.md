@@ -1,7 +1,7 @@
 ---
 title: Simplenote
 category: notes
-description: "Simplenote is a cross-platform Markdown notes application."
+description: "Simplenote là một ứng dụng ghi chú Markdown đa nền tảng."
 icon: simplenote.png
 website: https://simplenote.com
 syntax:
@@ -15,7 +15,7 @@ syntax:
     available: y
   - id: italic
     available: p
-    notes: "Underscores are not supported — they're used for underlining text."
+    notes: "Dấu gạch dưới không được hỗ trợ — chúng được sử dụng để gạch chân văn bản."
   - id: blockquotes
     available: y
   - id: ordered-lists
@@ -24,7 +24,7 @@ syntax:
     available: y
   - id: code
     available: p
-    notes: "[Code blocks](/basic-syntax/#code-blocks) are not supported — use [fenced code blocks](/extended-syntax/#fenced-code-blocks) instead."
+    notes: "[Khối mã](/basic-syntax/#code-blocks) không được hỗ trợ — hãy sử dụng [khối mã có rào chắn](/extended-syntax/#fenced-code-blocks) thay thế."
   - id: horizontal-rules
     available: y
   - id: links
@@ -39,7 +39,7 @@ syntax:
     available: n
   - id: footnotes
     available: p
-    notes: "iOS and macOS only"
+    notes: "Chỉ iOS và macOS"
   - id: heading-ids
     available: n
   - id: definition-lists
@@ -65,47 +65,47 @@ syntax:
   - id: html
     available: n
 see-also:
-  - name: Simplenote Markdown support documentation
+  - name: Tài liệu hỗ trợ Markdown Simplenote
     link: https://simplenote.com/help/#markdown
 ---
 
-[Simplenote](https://simplenote.com) is a basic note-taking application developed by Automattic, the same company that created WordPress. The application is free and available on every platform, including Linux. It's also [open source](https://simplenote.com/developers/). You can use Simplenote in your web browser.
+[Simplenote](https://simplenote.com) là một ứng dụng ghi chú cơ bản được phát triển bởi Automattic, cùng công ty đã tạo ra WordPress. Ứng dụng này miễn phí và có sẵn trên mọi nền tảng, bao gồm cả Linux. Nó cũng là [mã nguồn mở](https://simplenote.com/developers/). Bạn có thể sử dụng Simplenote trong trình duyệt web của mình.
 
-After you download the application, you'll be prompted to create an account. That account is used to back up your notes to Automattic's servers and synchronize your notes across all of your other devices. Note that Automattic [doesn't encrypt your content](https://simplenote.com/help/#encryption) on their servers. You can't disable the synchronizing feature.
+Sau khi bạn tải xuống ứng dụng, bạn sẽ được nhắc tạo một tài khoản. Tài khoản đó được sử dụng để sao lưu các ghi chú của bạn vào máy chủ của Automattic và đồng bộ hóa các ghi chú của bạn trên tất cả các thiết bị khác của bạn. Lưu ý rằng Automattic [không mã hóa nội dung của bạn](https://simplenote.com/help/#encryption) trên máy chủ của họ. Bạn không thể tắt tính năng đồng bộ hóa.
 
-Export options are limited, but the *Publish to Web* feature allows you to share your notes on the internet with a public URL.
+Các tùy chọn xuất bị hạn chế, nhưng tính năng *Publish to Web* cho phép bạn chia sẻ các ghi chú của mình trên internet với một URL công khai.
 
-### Enabling Markdown Support
+### Bật Hỗ trợ Markdown
 
-To enable Markdown support in Simplenote, create a note, click the Info icon, and then select **Markdown Formatted**.
+Để bật hỗ trợ Markdown trong Simplenote, hãy tạo một ghi chú, nhấp vào biểu tượng Thông tin (Info), và sau đó chọn **Markdown Formatted**.
 
-{% include image.html file="/assets/images/tools/simplenote-markdown.png" alt="Enabling Markdown support in Simplenote" width="30" %}
+{% include image.html file="/assets/images/tools/simplenote-markdown.png" alt="Bật hỗ trợ Markdown trong Simplenote" width="30" %}
 
-The currently selected note and any new notes you create in the future will have this setting enabled automatically.
+Ghi chú được chọn hiện tại và bất kỳ ghi chú mới nào bạn tạo trong tương lai sẽ tự động bật cài đặt này.
 
 {% include tool-syntax-table.html %}
 
-### Support for Additional Syntax Elements
+### Hỗ trợ cho các Phần tử Cú pháp Bổ sung
 
-As an added bonus, Simplenote provides support for several obscure elements.
+Như một phần thưởng thêm, Simplenote cung cấp hỗ trợ cho một số phần tử ít người biết đến.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">
     <tr>
-      <th>Element</th>
+      <th>Phần tử</th>
       <th>Markdown</th>
-      <th>Rendered Output</th>
+      <th>Kết quả hiển thị</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Underline</td>
-      <td><code>_word or phrase_</code></td>
-      <td><ins>word or phrase</ins></td>
+      <td>Gạch chân</td>
+      <td><code>_từ hoặc cụm từ_</code></td>
+      <td><ins>từ hoặc cụm từ</ins></td>
     </tr>
   </tbody>
 </table>
 
-### Previewing Markdown Documents
+### Xem trước Tài liệu Markdown
 
-Simplenote doesn't use a live editor. You'll continue to see the Markdown-formatted text after you've typed it. To preview Markdown documents in Simplenote, click the Preview Markdown icon — it looks like an eye.
+Simplenote không sử dụng trình soạn thảo trực tiếp. Bạn sẽ tiếp tục thấy văn bản được định dạng Markdown sau khi bạn đã nhập nó. Để xem trước các tài liệu Markdown trong Simplenote, hãy nhấp vào biểu tượng Xem trước Markdown (Preview Markdown) — nó trông giống như một con mắt.

@@ -1,86 +1,86 @@
 ---
-title: Escaping Characters
+title: Thoát ký tự (Escaping Characters)
 syntax-id: escaping-characters
 api: "no"
 ---
 
-To display a literal character that would otherwise be used to format text in a Markdown document, add a backslash (`\`) in front of the character.
+Để hiển thị một ký tự theo nghĩa đen mà nếu không sẽ được sử dụng để định dạng văn bản trong tài liệu Markdown, hãy thêm dấu gạch chéo ngược (`\`) vào trước ký tự đó.
 
 ```
-\* Without the backslash, this would be a bullet in an unordered list.
+\* Nếu không có dấu gạch chéo ngược, đây sẽ là một dấu chấm đầu dòng trong danh sách không có thứ tự.
 ```
 
-The rendered output looks like this:
+Kết quả hiển thị sẽ trông như thế này:
 
-\* Without the backslash, this would be a bullet in an unordered list.
+\* Nếu không có dấu gạch chéo ngược, đây sẽ là một dấu chấm đầu dòng trong danh sách không có thứ tự.
 
-### Characters You Can Escape
+### Các ký tự bạn có thể thoát
 
-You can use a backslash to escape the following characters.
+Bạn có thể sử dụng dấu gạch chéo ngược để thoát các ký tự sau.
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>Character</th>
-      <th>Name</th>
+      <th>Ký tự</th>
+      <th>Tên</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>\</td>
-      <td>backslash</td>
+      <td>dấu gạch chéo ngược (backslash)</td>
     </tr>
     <tr>
       <td>`</td>
-      <td>backtick (see also <a href="#escaping-backticks">escaping backticks in code</a>)</td>
+      <td>dấu huyền (backtick) (xem thêm <a href="#escaping-backticks">thoát dấu huyền trong mã</a>)</td>
     </tr>
     <tr>
       <td>*</td>
-      <td>asterisk</td>
+      <td>dấu sao (asterisk)</td>
     </tr>
     <tr>
       <td>_</td>
-      <td>underscore</td>
+      <td>dấu gạch dưới (underscore)</td>
     </tr>
     <tr>
       <td>{ }</td>
-      <td>curly braces</td>
+      <td>dấu ngoặc nhọn (curly braces)</td>
     </tr>
     <tr>
       <td>[ ]</td>
-      <td>brackets</td>
+      <td>dấu ngoặc vuông (brackets)</td>
     </tr>
     <tr>
       <td>< ></td>
-      <td>angle brackets</td>
+      <td>dấu ngoặc nhọn (góc) (angle brackets)</td>
     </tr>
     <tr>
       <td>( )</td>
-      <td>parentheses</td>
+      <td>dấu ngoặc đơn (parentheses)</td>
     </tr>
     <tr>
       <td>#</td>
-      <td>pound sign</td>
+      <td>dấu thăng (pound sign)</td>
     </tr>
     <tr>
       <td>+</td>
-      <td>plus sign</td>
+      <td>dấu cộng (plus sign)</td>
     </tr>
     <tr>
       <td>-</td>
-      <td>minus sign (hyphen)</td>
+      <td>dấu trừ / gạch nối (minus sign / hyphen)</td>
     </tr>
     <tr>
       <td>.</td>
-      <td>dot</td>
+      <td>dấu chấm (dot)</td>
     </tr>
     <tr>
       <td>!</td>
-      <td>exclamation mark</td>
+      <td>dấu chấm than (exclamation mark)</td>
     </tr>
     <tr>
       <td>|</td>
-      <td>pipe (see also <a href="/extended-syntax/#escaping-pipe-characters-in-tables">escaping pipe in tables</a>)</td>
+      <td>dấu gạch đứng (pipe) (xem thêm <a href="/extended-syntax/#escaping-pipe-characters-in-tables">thoát dấu gạch đứng trong bảng</a>)</td>
     </tr>
   </tbody>
 </table>

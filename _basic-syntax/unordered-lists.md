@@ -1,243 +1,243 @@
 ---
-title: Unordered Lists
+title: Danh sách không có thứ tự (Unordered Lists)
 syntax-id: unordered-lists
 syntax-summary: |
-  - First item
-  - Second item
-  - Third item
-description: "To create an unordered list, add dashes (`-`), asterisks (`*`), or plus signs (`+`) in front of line items. Indent one or more items to create a nested list."
+  - Mục đầu tiên
+  - Mục thứ hai
+  - Mục thứ ba
+description: "Để tạo danh sách không có thứ tự, thêm dấu gạch ngang (`-`), dấu sao (`*`), hoặc dấu cộng (`+`) vào trước các mục dòng. Thụt đầu dòng một hoặc nhiều mục để tạo danh sách lồng nhau."
 examples:
   - markdown: |
-      - First item
-      - Second item
-      - Third item
-      - Fourth item
-    html: <ul><li>First item</li><li>Second item</li><li>Third item</li><li>Fourth item</li></ul>
+      - Mục đầu tiên
+      - Mục thứ hai
+      - Mục thứ ba
+      - Mục thứ tư
+    html: <ul><li>Mục đầu tiên</li><li>Mục thứ hai</li><li>Mục thứ ba</li><li>Mục thứ tư</li></ul>
   - markdown: |
-      * First item
-      * Second item
-      * Third item
-      * Fourth item
-    html: <ul><li>First item</li><li>Second item</li><li>Third item</li><li>Fourth item</li></ul>
+      * Mục đầu tiên
+      * Mục thứ hai
+      * Mục thứ ba
+      * Mục thứ tư
+    html: <ul><li>Mục đầu tiên</li><li>Mục thứ hai</li><li>Mục thứ ba</li><li>Mục thứ tư</li></ul>
   - markdown: |
-      + First item
-      * Second item
-      - Third item
-      + Fourth item
-    html: <ul><li>First item</li><li>Second item</li><li>Third item</li><li>Fourth item</li></ul>
+      + Mục đầu tiên
+      * Mục thứ hai
+      - Mục thứ ba
+      + Mục thứ tư
+    html: <ul><li>Mục đầu tiên</li><li>Mục thứ hai</li><li>Mục thứ ba</li><li>Mục thứ tư</li></ul>
   - markdown: |
-      - First item
-      - Second item
-      - Third item
-          - Indented item
-          - Indented item
-      - Fourth item
-    html: <ul><li>First item</li><li>Second item</li><li>Third item<ul><li>Indented item</li><li>Indented item</li></ul></li><li>Fourth item</li></ul>
+      - Mục đầu tiên
+      - Mục thứ hai
+      - Mục thứ ba
+          - Mục được thụt đầu dòng
+          - Mục được thụt đầu dòng
+      - Mục thứ tư
+    html: <ul><li>Mục đầu tiên</li><li>Mục thứ hai</li><li>Mục thứ ba<ul><li>Mục được thụt đầu dòng</li><li>Mục được thụt đầu dòng</li></ul></li><li>Mục thứ tư</li></ul>
 ---
 
-To create an unordered list, add dashes (`-`), asterisks (`*`), or plus signs (`+`) in front of line items. Indent one or more items to create a nested list.
+Để tạo danh sách không có thứ tự, thêm dấu gạch ngang (`-`), dấu sao (`*`), hoặc dấu cộng (`+`) vào trước các mục dòng. Thụt đầu dòng một hoặc nhiều mục để tạo danh sách lồng nhau.
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th>Markdown</th>
       <th>HTML</th>
-      <th>Rendered Output</th>
+      <th>Kết quả hiển thị</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
         <code class="highlighter-rouge">
-          - First item<br/>
-          - Second item<br/>
-          - Third item<br/>
-          - Fourth item
+          - Mục đầu tiên<br/>
+          - Mục thứ hai<br/>
+          - Mục thứ ba<br/>
+          - Mục thứ tư
         </code>
       </td>
       <td>
         <code class="highlighter-rouge">
           &lt;ul&gt;<br>
-            &nbsp;&nbsp;&lt;li&gt;First item&lt;/li&gt;<br/>
-            &nbsp;&nbsp;&lt;li&gt;Second item&lt;/li&gt;<br/>
-            &nbsp;&nbsp;&lt;li&gt;Third item&lt;/li&gt;<br/>
-            &nbsp;&nbsp;&lt;li&gt;Fourth item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Mục đầu tiên&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Mục thứ hai&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Mục thứ ba&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Mục thứ tư&lt;/li&gt;<br/>
           &lt;/ul&gt;
         </code>
       </td>
       <td>
         <ul>
-          <li>First item</li>
-          <li>Second item</li>
-          <li>Third item</li>
-          <li>Fourth item</li>
+          <li>Mục đầu tiên</li>
+          <li>Mục thứ hai</li>
+          <li>Mục thứ ba</li>
+          <li>Mục thứ tư</li>
         </ul>
       </td>
     </tr>
     <tr>
       <td>
         <code class="highlighter-rouge">
-          * First item<br/>
-          * Second item<br>
-          * Third item<br/>
-          * Fourth item
+          * Mục đầu tiên<br/>
+          * Mục thứ hai<br>
+          * Mục thứ ba<br/>
+          * Mục thứ tư
         </code>
       </td>
       <td>
         <code class="highlighter-rouge">
           &lt;ul&gt;<br>
-            &nbsp;&nbsp;&lt;li&gt;First item&lt;/li&gt;<br/>
-            &nbsp;&nbsp;&lt;li&gt;Second item&lt;/li&gt;<br/>
-            &nbsp;&nbsp;&lt;li&gt;Third item&lt;/li&gt;<br/>
-            &nbsp;&nbsp;&lt;li&gt;Fourth item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Mục đầu tiên&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Mục thứ hai&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Mục thứ ba&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Mục thứ tư&lt;/li&gt;<br/>
           &lt;/ul&gt;
         </code>
       </td>
       <td>
         <ul>
-          <li>First item</li>
-          <li>Second item</li>
-          <li>Third item</li>
-          <li>Fourth item</li>
+          <li>Mục đầu tiên</li>
+          <li>Mục thứ hai</li>
+          <li>Mục thứ ba</li>
+          <li>Mục thứ tư</li>
         </ul>
       </td>
     </tr>
     <tr>
       <td>
         <code class="highlighter-rouge">
-          + First item<br/>
-          + Second item<br/>
-          + Third item<br/>
-          + Fourth item
+          + Mục đầu tiên<br/>
+          + Mục thứ hai<br/>
+          + Mục thứ ba<br/>
+          + Mục thứ tư
         </code>
       </td>
       <td>
         <code class="highlighter-rouge">
           &lt;ul&gt;<br>
-            &nbsp;&nbsp;&lt;li&gt;First item&lt;/li&gt;<br/>
-            &nbsp;&nbsp;&lt;li&gt;Second item&lt;/li&gt;<br/>
-            &nbsp;&nbsp;&lt;li&gt;Third item&lt;/li&gt;<br/>
-            &nbsp;&nbsp;&lt;li&gt;Fourth item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Mục đầu tiên&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Mục thứ hai&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Mục thứ ba&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Mục thứ tư&lt;/li&gt;<br/>
           &lt;/ul&gt;
         </code>
       </td>
       <td>
         <ul>
-          <li>First item</li>
-          <li>Second item</li>
-          <li>Third item</li>
-          <li>Fourth item</li>
+          <li>Mục đầu tiên</li>
+          <li>Mục thứ hai</li>
+          <li>Mục thứ ba</li>
+          <li>Mục thứ tư</li>
         </ul>
       </td>
     </tr>
     <tr>
       <td>
         <code class="highlighter-rouge">
-          - First item<br/>
-          - Second item<br/>
-          - Third item<br/>
-          &nbsp;&nbsp;&nbsp;&nbsp;- Indented item<br/>
-          &nbsp;&nbsp;&nbsp;&nbsp;- Indented item<br/>
-          - Fourth item
+          - Mục đầu tiên<br/>
+          - Mục thứ hai<br/>
+          - Mục thứ ba<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;- Mục được thụt đầu dòng<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;- Mục được thụt đầu dòng<br/>
+          - Mục thứ tư
         </code>
       </td>
       <td>
         <code class="highlighter-rouge">
           &lt;ul&gt;<br/>
-            &nbsp;&nbsp;&lt;li&gt;First item&lt;/li&gt;<br/>
-            &nbsp;&nbsp;&lt;li&gt;Second item&lt;/li&gt;<br/>
-            &nbsp;&nbsp;&lt;li&gt;Third item<br/>
+            &nbsp;&nbsp;&lt;li&gt;Mục đầu tiên&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Mục thứ hai&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Mục thứ ba<br/>
               &nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;<br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Indented item&lt;/li&gt;<br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Indented item&lt;/li&gt;<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Mục được thụt đầu dòng&lt;/li&gt;<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Mục được thụt đầu dòng&lt;/li&gt;<br/>
               &nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;<br/>
             &nbsp;&nbsp;&lt;/li&gt;<br/>
-            &nbsp;&nbsp;&lt;li&gt;Fourth item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Mục thứ tư&lt;/li&gt;<br/>
           &lt;/ul&gt;
         </code>
       </td>
       <td>
         <ul>
-          <li>First item</li>
-          <li>Second item</li>
-          <li>Third item
+          <li>Mục đầu tiên</li>
+          <li>Mục thứ hai</li>
+          <li>Mục thứ ba
             <ul>
-              <li>Indented item</li>
-              <li>Indented item</li>
+              <li>Mục được thụt đầu dòng</li>
+              <li>Mục được thụt đầu dòng</li>
             </ul>
           </li>
-          <li>Fourth item</li>
+          <li>Mục thứ tư</li>
         </ul>
       </td>
     </tr>
   </tbody>
 </table>
 
-#### Starting Unordered List Items With Numbers
+#### Bắt đầu Mục Danh sách không có thứ tự bằng Số
 
-If you need to start an unordered list item with a number followed by a period, you can use a backslash (`\`) to [escape](#escaping-characters) the period.
+Nếu bạn cần bắt đầu một mục danh sách không có thứ tự bằng một số theo sau là dấu chấm, bạn có thể sử dụng dấu gạch chéo ngược (`\`) để [thoát](#escaping-characters) dấu chấm.
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th>Markdown</th>
       <th>HTML</th>
-      <th>Rendered Output</th>
+      <th>Kết quả hiển thị</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
         <code class="highlighter-rouge">
-          - 1968\. A great year!<br/>
-          - I think 1969 was second best.
+          - 1968\. Một năm tuyệt vời!<br/>
+          - Tôi nghĩ năm 1969 là năm tuyệt vời thứ hai.
         </code>
       </td>
       <td>
         <code class="highlighter-rouge">
           &lt;ul&gt;<br>
-            &nbsp;&nbsp;&lt;li&gt;1968. A great year!&lt;/li&gt;<br/>
-            &nbsp;&nbsp;&lt;li&gt;I think 1969 was second best.&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;1968. Một năm tuyệt vời!&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Tôi nghĩ năm 1969 là năm tuyệt vời thứ hai.&lt;/li&gt;<br/>
           &lt;/ul&gt;
         </code>
       </td>
       <td>
         <ul>
-          <li>1968. A great year!</li>
-          <li>I think 1969 was second best.</li>
+          <li>1968. Một năm tuyệt vời!</li>
+          <li>Tôi nghĩ năm 1969 là năm tuyệt vời thứ hai.</li>
         </ul>
       </td>
     </tr>
   </tbody>
 </table>
 
-#### Unordered List Best Practices
+#### Thực tiễn tốt nhất cho Danh sách không có thứ tự
 
-Markdown applications don’t agree on how to handle different delimiters in the same list. For compatibility, don't mix and match delimiters in the same list — pick one and stick with it.
+Các ứng dụng Markdown không thống nhất về cách xử lý các dấu phân cách khác nhau trong cùng một danh sách. Để đảm bảo khả năng tương thích, đừng trộn lẫn và kết hợp các dấu phân cách trong cùng một danh sách — hãy chọn một và gắn bó với nó.
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>✅&nbsp; Do this</th>
-      <th>❌&nbsp; Don't do this</th>
+      <th>✅&nbsp; Nên làm</th>
+      <th>❌&nbsp; Không nên làm</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
         <code class="highlighter-rouge">
-          - First item<br>
-          - Second item<br>
-          - Third item<br>
-          - Fourth item
+          - Mục đầu tiên<br>
+          - Mục thứ hai<br>
+          - Mục thứ ba<br>
+          - Mục thứ tư
         </code>
       </td>
       <td>
         <code class="highlighter-rouge">
-          + First item<br>
-          * Second item<br>
-          - Third item<br>
-          + Fourth item
+          + Mục đầu tiên<br>
+          * Mục thứ hai<br>
+          - Mục thứ ba<br>
+          + Mục thứ tư
         </code>
       </td>
     </tr>

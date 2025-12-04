@@ -1,7 +1,7 @@
 ---
 title: Standard Notes
 category: "notes"
-description: "Standard Notes is an encrypted, open-source note taking application. "
+description: "Standard Notes là một ứng dụng ghi chú mã nguồn mở, được mã hóa."
 icon: standard-notes.png
 website: https://standardnotes.com
 syntax:
@@ -11,7 +11,7 @@ syntax:
     available: y
   - id: line-breaks
     available: y
-    notes: "You can use a trailing backslash (`\\`) instead of trailing whitespace."
+    notes: "Bạn có thể sử dụng dấu gạch chéo ngược ở cuối (`\\`) thay vì khoảng trắng ở cuối."
   - id: bold
     available: y
   - id: italic
@@ -44,7 +44,7 @@ syntax:
     available: n
   - id: strikethrough
     available: y
-    notes: "You can use either one or two tilde symbols before and after the phrase."
+    notes: "Bạn có thể sử dụng một hoặc hai ký hiệu dấu ngã trước và sau cụm từ."
   - id: task-lists
     available: y
   - id: emoji-cp
@@ -64,14 +64,14 @@ syntax:
   - id: html
     available: y
 see-also:
-  - name: Standard Notes web application GitHub repository
+  - name: Kho lưu trữ GitHub ứng dụng web Standard Notes
     link: https://github.com/standardnotes/app
 ---
 
-[Standard Notes](https://standardnotes.com) is an elegant, open-source note taking application with an excellent feature set. Markdown support is not provided by default, but by paying for the optional [subscription](https://standardnotes.com/plans), you can enable one of several Markdown extensions available to subscribers.
+[Standard Notes](https://standardnotes.com) là một ứng dụng ghi chú mã nguồn mở, thanh lịch với bộ tính năng tuyệt vời. Hỗ trợ Markdown không được cung cấp theo mặc định, nhưng bằng cách trả tiền cho [đăng ký](https://standardnotes.com/plans) tùy chọn, bạn có thể bật một trong số các tiện ích mở rộng Markdown có sẵn cho người đăng ký.
 
-{% include image.html file="/assets/images/tools/standard-notes.png" alt="Markdown in Standard Notes" %}
+{% include image.html file="/assets/images/tools/standard-notes.png" alt="Markdown trong Standard Notes" %}
 
-Admittedly, the category for Markdown note taking applications is a crowded one. Standard Notes stands out by offering a great user experience, outstanding privacy and synchronization features, and a strong commitment to open source software. The application and the overall experience feels professional-grade. Standard Notes works on every platform.
+Phải thừa nhận rằng danh mục cho các ứng dụng ghi chú Markdown là một danh mục đông đúc. Standard Notes nổi bật bằng cách cung cấp trải nghiệm người dùng tuyệt vời, các tính năng bảo mật và đồng bộ hóa vượt trội, và cam kết mạnh mẽ đối với phần mềm mã nguồn mở. Ứng dụng và trải nghiệm tổng thể mang lại cảm giác chuyên nghiệp. Standard Notes hoạt động trên mọi nền tảng.
 
 {% include tool-syntax-table.html %}

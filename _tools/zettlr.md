@@ -1,7 +1,7 @@
 ---
 title: Zettlr
 category: documents
-description: "Zettlr is an open source Markdown editor designed for academic writing."
+description: "Zettlr là một trình soạn thảo Markdown mã nguồn mở được thiết kế cho việc viết học thuật."
 icon: zettlr.png
 website: https://www.zettlr.com/
 syntax:
@@ -11,7 +11,7 @@ syntax:
     available: y
   - id: line-breaks
     available: y
-    notes: "In addition to trailing whitespace, you can also use a trailing backslash or press the Return key once to achieve the same result."
+    notes: "Ngoài khoảng trắng ở cuối, bạn cũng có thể sử dụng dấu gạch chéo ngược ở cuối hoặc nhấn phím Return một lần để đạt được kết quả tương tự."
   - id: bold
     available: y
   - id: italic
@@ -64,12 +64,12 @@ syntax:
     available: u
 ---
 
-[Zettlr](https://www.zettlr.com/) is free and open source Markdown application designed for academic writing. It provides a lot of powerful tools to help you write academic texts right out of the box.
+[Zettlr](https://www.zettlr.com/) là một ứng dụng Markdown miễn phí và mã nguồn mở được thiết kế cho việc viết học thuật. Nó cung cấp rất nhiều công cụ mạnh mẽ để giúp bạn viết các văn bản học thuật ngay lập tức.
 
-The application's stated goal is simple: "Enabling researchers of arts and humanities, e.g. those people without any knowledge of coding, to finally free themselves from software that costs hundreds of dollars and pave the way into an Open Source era. This would be only fitting, given the fact that especially in political science and sociology, cries for Open Access journals are on the rise. So here’s what Zettlr is all about: It wants to be serious competition for word processors."
+Mục tiêu được nêu của ứng dụng rất đơn giản: "Cho phép các nhà nghiên cứu về nghệ thuật và nhân văn, ví dụ: những người không có bất kỳ kiến thức nào về lập trình, cuối cùng giải phóng bản thân khỏi phần mềm có giá hàng trăm đô la và mở đường vào kỷ nguyên Mã nguồn mở. Điều này sẽ chỉ phù hợp, với thực tế rằng đặc biệt là trong khoa học chính trị và xã hội học, tiếng kêu gọi các tạp chí Truy cập mở đang gia tăng. Vì vậy, đây là những gì Zettlr là tất cả về: Nó muốn trở thành đối thủ cạnh tranh nghiêm túc cho các bộ xử lý văn bản."
 
-{% include image.html file="/assets/images/tools/zettlr_view.png" alt="Zettlr editor interface" %}
+{% include image.html file="/assets/images/tools/zettlr_view.png" alt="Giao diện trình soạn thảo Zettlr" %}
 
-See the [Zettlr Documentation](https://docs.zettlr.com/en/) for the official documentation. Zettlr itself implements a mixture of different dialects. The editor itself highlights only GitHub Flavored Markdown plus some extra elements which extends Markdown syntax with Zettelkasten elements. You can also add LaTeX-commands.
+Xem [Tài liệu Zettlr](https://docs.zettlr.com/en/) cho tài liệu chính thức. Bản thân Zettlr triển khai một hỗn hợp của các phương ngữ khác nhau. Bản thân trình soạn thảo chỉ làm nổi bật GitHub Flavored Markdown cộng với một số phần tử bổ sung mở rộng cú pháp Markdown với các phần tử Zettelkasten. Bạn cũng có thể thêm các lệnh LaTeX.
 
 {% include tool-syntax-table.html %}

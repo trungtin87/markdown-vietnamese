@@ -1,78 +1,78 @@
 ---
-title: Paragraphs
+title: Đoạn văn (Paragraphs)
 syntax-id: paragraphs
-description: "To create paragraphs, use a blank line to separate one or more lines of text. You should not indent paragraphs with spaces or tabs."
+description: "Để tạo các đoạn văn, sử dụng một dòng trống để tách một hoặc nhiều dòng văn bản. Bạn không nên thụt đầu dòng các đoạn văn bằng khoảng trắng hoặc tab."
 examples:
   - markdown: |
-      I really like using Markdown.
+      Tôi thực sự thích sử dụng Markdown.
 
-      I think I'll use it to format all of my documents from now on.
-    html: "<p>I really like using Markdown.</p><p>I think I'll use it to format all of my documents from now on.</p>"
+      Tôi nghĩ tôi sẽ sử dụng nó để định dạng tất cả các tài liệu của mình từ bây giờ.
+    html: "<p>Tôi thực sự thích sử dụng Markdown.</p><p>Tôi nghĩ tôi sẽ sử dụng nó để định dạng tất cả các tài liệu của mình từ bây giờ.</p>"
 ---
 
-To create paragraphs, use a blank line to separate one or more lines of text.
+Để tạo các đoạn văn, sử dụng một dòng trống để tách một hoặc nhiều dòng văn bản.
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th>Markdown</th>
       <th>HTML</th>
-      <th>Rendered Output</th>
+      <th>Kết quả hiển thị</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
         <code class="highlighter-rouge">
-          I really like using Markdown.<br /><br />
+          Tôi thực sự thích sử dụng Markdown.<br /><br />
 
-          I think I'll use it to format all of my documents from now on.
+          Tôi nghĩ tôi sẽ sử dụng nó để định dạng tất cả các tài liệu của mình từ bây giờ.
         </code>
       </td>
       <td>
-        <code class="highlighter-rouge">&lt;p&gt;I really like using Markdown.&lt;/p&gt;<br /><br />
+        <code class="highlighter-rouge">&lt;p&gt;Tôi thực sự thích sử dụng Markdown.&lt;/p&gt;<br /><br />
 
-        &lt;p&gt;I think I'll use it to format all of my documents from now on.&lt;/p&gt;</code>
+        &lt;p&gt;Tôi nghĩ tôi sẽ sử dụng nó để định dạng tất cả các tài liệu của mình từ bây giờ.&lt;/p&gt;</code>
       </td>
       <td>
-        <p>I really like using Markdown.</p>
+        <p>Tôi thực sự thích sử dụng Markdown.</p>
 
-        <p>I think I'll use it to format all of my documents from now on.</p>
+        <p>Tôi nghĩ tôi sẽ sử dụng nó để định dạng tất cả các tài liệu của mình từ bây giờ.</p>
       </td>
     </tr>
   </tbody>
 </table>
 
-### Paragraph Best Practices
+### Thực tiễn tốt nhất cho Đoạn văn
 
-Unless the [paragraph is in a list](/basic-syntax/#paragraphs), don't indent paragraphs with spaces or tabs.
+Trừ khi [đoạn văn nằm trong một danh sách](/basic-syntax/#paragraphs), đừng thụt đầu dòng các đoạn văn bằng khoảng trắng hoặc tab.
 
 <div class="alert alert-info">
-  <i class="fas fa-info-circle"></i> <strong>Note:</strong> If you need to indent paragraphs in the output, see the section on how to <a href="/hacks/#indent-tab">indent (tab)</a>.
+  <i class="fas fa-info-circle"></i> <strong>Lưu ý:</strong> Nếu bạn cần thụt đầu dòng các đoạn văn trong đầu ra, xem phần về cách <a href="/hacks/#indent-tab">thụt đầu dòng (tab)</a>.
 </div>
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>✅&nbsp; Do this</th>
-      <th>❌&nbsp; Don't do this</th>
+      <th>✅&nbsp; Nên làm</th>
+      <th>❌&nbsp; Không nên làm</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
         <code class="highlighter-rouge">
-          Don't put tabs or spaces in front of your paragraphs.<br><br>
+          Đừng đặt tab hoặc khoảng trắng trước các đoạn văn của bạn.<br><br>
 
-          Keep lines left-aligned like this.<br><br>
+          Giữ các dòng căn trái như thế này.<br><br>
         </code>
       </td>
       <td>
         <code class="highlighter-rouge">
-        &nbsp;&nbsp;&nbsp;&nbsp;This can result in unexpected
-        formatting problems.<br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;Điều này có thể dẫn đến các vấn đề
+        định dạng không mong muốn.<br><br>
 
-        &nbsp;&nbsp;Don't add tabs or spaces in front of paragraphs.
+        &nbsp;&nbsp;Đừng thêm tab hoặc khoảng trắng trước các đoạn văn.
         </code>
       </td>
     </tr>

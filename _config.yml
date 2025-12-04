@@ -1,8 +1,8 @@
-title: "Markdown Guide"
-url: https://www.markdownguide.org # site url
-baseurl: "" # apply repo name if use it under gh-pages branch
+title: "Hướng Dẫn Markdown"
+url: https://trungtin87.github.io # site url
+baseurl: "/markdown-vietnamese" # apply repo name if use it under gh-pages branch
 
-repo: https://github.com/mattcone/markdown-guide
+repo: https://github.com/trungtin87/markdown-vietnamese
 comments: false
 
 plugins:
@@ -35,7 +35,7 @@ author:
   name     : "Matt Cone"
 
 # social settings
-og_locale: "en_US"
+og_locale: "vi_VN"
 
 kramdown:
   syntax_highlighter: rouge

@@ -1,7 +1,7 @@
 ---
 title: Supernotes
 category: "notes"
-description: "Supernotes is a fast cross-platform notes app using Markdown notecards."
+description: "Supernotes là một ứng dụng ghi chú đa nền tảng nhanh chóng sử dụng thẻ ghi chú Markdown."
 icon: supernotes.png
 website: https://supernotes.app
 syntax:
@@ -61,47 +61,47 @@ syntax:
     available: y
   - id: html
     available: p
-    notes: "Some tags, such as `<script>`, are not supported."
+    notes: "Một số thẻ, chẳng hạn như `<script>`, không được hỗ trợ."
     
 see-also:
-  - name: Supernotes documentation
+  - name: Tài liệu Supernotes
     link: https://docs.supernotes.app/
 ---
 
-[Supernotes](https://supernotes.app) is a fast note-taking app available on Mac, Windows, Linux, Android, iOS, and the web. The app encourages you to break down your information into short-form notecards. This helps you to connect your knowledge together in a more flexible way – each notecard is taggable, nestable, linkable, and shareable. You can view your cards in a handful of different ways: as a List, as a grid in Broadsheet view, or as nodes in the Graph view. 
+[Supernotes](https://supernotes.app) là một ứng dụng ghi chú nhanh có sẵn trên Mac, Windows, Linux, Android, iOS và web. Ứng dụng khuyến khích bạn chia nhỏ thông tin của mình thành các thẻ ghi chú dạng ngắn. Điều này giúp bạn kết nối kiến thức của mình với nhau theo cách linh hoạt hơn – mỗi thẻ ghi chú đều có thể gắn thẻ, lồng nhau, liên kết và chia sẻ. Bạn có thể xem các thẻ của mình theo một số cách khác nhau: dưới dạng Danh sách, dưới dạng lưới trong chế độ xem Broadsheet hoặc dưới dạng các nút trong chế độ xem Đồ thị.
 
-Along with extended Markdown support, Supernotes supports LaTeX equations and [advanced editing features](https://docs.supernotes.app/en/articles/6048775-advanced-editing-techniques) such as multiple cursor support and an assortment of handy keybindings. Supernotes is a web-first application, with an emphasis on fast syncing between devices and effortless sharing between users. On Supernotes your data is always encrypted in transit (forced TLS) and encrypted at rest (AES-256).
+Cùng với hỗ trợ Markdown mở rộng, Supernotes hỗ trợ các phương trình LaTeX và [các tính năng chỉnh sửa nâng cao](https://docs.supernotes.app/en/articles/6048775-advanced-editing-techniques) chẳng hạn như hỗ trợ nhiều con trỏ và một loạt các phím tắt tiện dụng. Supernotes là một ứng dụng ưu tiên web, chú trọng vào việc đồng bộ hóa nhanh giữa các thiết bị và chia sẻ dễ dàng giữa những người dùng. Trên Supernotes, dữ liệu của bạn luôn được mã hóa khi truyền (bắt buộc TLS) và được mã hóa khi nghỉ (AES-256).
 
-One of the biggest benefits of Supernotes is the community. The  co-founders are very active on the [Community Forum](https://community.supernotes.app), where users suggest new feature ideas, report bugs and share workflows. The co-founders also run [free Onboarding sessions](https://supernotes.app/welcome) to help new users get started with Supernotes. 
+Một trong những lợi ích lớn nhất của Supernotes là cộng đồng. Những người đồng sáng lập rất tích cực trên [Diễn đàn cộng đồng](https://community.supernotes.app), nơi người dùng đề xuất các ý tưởng tính năng mới, báo cáo lỗi và chia sẻ quy trình làm việc. Những người đồng sáng lập cũng tổ chức [các phiên giới thiệu miễn phí](https://supernotes.app/welcome) để giúp người dùng mới bắt đầu với Supernotes.
 
-[All of the Supernotes features](https://supernotes.app/features/) come included on the free Starter plan. On the Starter plan you start with 40 cards, but you can refer friends or upgrade to the Unlimited plan for more features. Supernotes is a small independent startup, built by a team of two, and the subscription goes towards supporting them and the development of the platform.
+[Tất cả các tính năng của Supernotes](https://supernotes.app/features/) đều được bao gồm trong gói Starter miễn phí. Trên gói Starter, bạn bắt đầu với 40 thẻ, nhưng bạn có thể giới thiệu bạn bè hoặc nâng cấp lên gói Unlimited để có nhiều tính năng hơn. Supernotes là một công ty khởi nghiệp độc lập nhỏ, được xây dựng bởi một nhóm hai người và việc đăng ký sẽ hỗ trợ họ và sự phát triển của nền tảng.
 
-{% include image.html file="/assets/images/tools/supernotes.png" alt="Supernotes Markdown application" width="90" %}
+{% include image.html file="/assets/images/tools/supernotes.png" alt="Ứng dụng Markdown Supernotes" width="90" %}
 
 {% include tool-syntax-table.html %}
 
-### Support for Additional Syntax Elements
+### Hỗ trợ cho các Phần tử Cú pháp Bổ sung
 
-As an added bonus, Supernotes provides support for several obscure elements.
+Như một phần thưởng thêm, Supernotes cung cấp hỗ trợ cho một số phần tử ít người biết đến.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">
     <tr>
-      <th>Element</th>
+      <th>Phần tử</th>
       <th>Markdown</th>
-      <th>Rendered Output</th>
+      <th>Kết quả hiển thị</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Spoilers</td>
-      <td><code>!!This text is blurred on render!!</code></td>
-      <td><span class="spoiler" style="filter: blur(4px);">This text is blurred on render</span></td>
+      <td><code>!!Văn bản này bị mờ khi hiển thị!!</code></td>
+      <td><span class="spoiler" style="filter: blur(4px);">Văn bản này bị mờ khi hiển thị</span></td>
     </tr>
      <tr>
-      <td>Embedabble Videos</td>
+      <td>Video có thể nhúng</td>
       <td><code>@[youtube](F7puJIw0k-w)</code><br/><code>@[vimeo](106365480)</code></td>
-      <td>The Youtube video embedded in an iframe.<br/>The Vimeo video embedded in an iframe.</td>
+      <td>Video Youtube được nhúng trong iframe.<br/>Video Vimeo được nhúng trong iframe.</td>
     </tr>
   </tbody>
 </table>

@@ -1,7 +1,7 @@
 ---
 title: FSNotes
 category: "notes"
-description: "FSNotes is a Markdown notes application for macOS and iOS."
+description: "FSNotes là một ứng dụng ghi chú Markdown cho macOS và iOS."
 icon: fsnotes.png
 website: https://fsnot.es
 syntax:
@@ -62,16 +62,16 @@ syntax:
   - id: html
     available: y
 see-also:
-  - name: FSNotes repository on GitHub
+  - name: Kho lưu trữ FSNotes trên GitHub
     link: https://github.com/glushchenko/fsnotes/
-  - name: FSNotes Markdown reference
+  - name: Tham khảo Markdown FSNotes
     link: https://github.com/glushchenko/fsnotes/wiki/Markdown-Reference
 ---
 
-[FSNotes](https://fsnot.es) is an open source Markdown notes application designed for devices running macOS and iOS. The application is well maintained and supported with an active developer and user community. FSNotes can be downloaded for free from [GitHub](https://github.com/glushchenko/fsnotes/), but the preferred method of distribution is the Apple App Store — both the macOS and iOS versions can be purchased for a nominal fee.
+[FSNotes](https://fsnot.es) là một ứng dụng ghi chú Markdown mã nguồn mở được thiết kế cho các thiết bị chạy macOS và iOS. Ứng dụng được bảo trì tốt và được hỗ trợ bởi một cộng đồng nhà phát triển và người dùng tích cực. FSNotes có thể được tải xuống miễn phí từ [GitHub](https://github.com/glushchenko/fsnotes/), nhưng phương pháp phân phối ưu tiên là Apple App Store — cả phiên bản macOS và iOS đều có thể được mua với một khoản phí nhỏ.
 
-{% include image.html file="/assets/images/tools/fsnotes.png" alt="FSNotes Markdown editor" %}
+{% include image.html file="/assets/images/tools/fsnotes.png" alt="Trình soạn thảo Markdown FSNotes" %}
 
-FSNotes' Markdown support is excellent. The application sports a number of features that will appeal to power users. For example, the security features allow you to encrypt notes automatically when your computer goes to sleep. There are also auto-save and archive features for git, iCloud, and Dropbox. The tagging and search features work flawlessly. Overall, FSNotes is a great option for people looking for a notes application designed for Apple devices.
+Hỗ trợ Markdown của FSNotes rất tuyệt vời. Ứng dụng có một số tính năng sẽ thu hút người dùng chuyên nghiệp. Ví dụ, các tính năng bảo mật cho phép bạn mã hóa ghi chú tự động khi máy tính của bạn chuyển sang chế độ ngủ. Ngoài ra còn có các tính năng tự động lưu và lưu trữ cho git, iCloud và Dropbox. Các tính năng gắn thẻ và tìm kiếm hoạt động hoàn hảo. Nhìn chung, FSNotes là một lựa chọn tuyệt vời cho những người đang tìm kiếm một ứng dụng ghi chú được thiết kế cho các thiết bị Apple.
 
 {% include tool-syntax-table.html %}

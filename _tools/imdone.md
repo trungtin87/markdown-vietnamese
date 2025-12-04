@@ -1,7 +1,7 @@
 ---
 title: Imdone
 category: "kanban"
-description: "Developer-first task management tools with Markdown kanban boards and Jira sync."
+description: "Công cụ quản lý tác vụ ưu tiên nhà phát triển với bảng kanban Markdown và đồng bộ hóa Jira."
 icon: imdone.png
 website: https://imdone.io
 syntax:
@@ -63,8 +63,8 @@ syntax:
     available: y
 ---
 
-[Imdone](https://imdone.io) is a comprehensive suite of developer-first task management tools designed to work seamlessly with Markdown and code. The toolkit includes a powerful kanban board where Markdown blocks in your notes, docs, and code are represented as cards, a command-line interface (CLI) for syncing with Jira to keep your project management in sync, a VSCode extension for integrated task management within your development environment, and an Obsidian plugin for note-based task management. You can add and edit cards using the built-in card editor, your favorite text editor, or directly through Jira sync, making it convenient to update your tasks while you're working on a Markdown document or code.
+[Imdone](https://imdone.io) là một bộ công cụ quản lý tác vụ toàn diện ưu tiên nhà phát triển được thiết kế để hoạt động liền mạch với Markdown và mã. Bộ công cụ bao gồm một bảng kanban mạnh mẽ, nơi các khối Markdown trong ghi chú, tài liệu và mã của bạn được thể hiện dưới dạng thẻ, giao diện dòng lệnh (CLI) để đồng bộ hóa với Jira để giữ cho việc quản lý dự án của bạn được đồng bộ, tiện ích mở rộng VSCode để quản lý tác vụ tích hợp trong môi trường phát triển của bạn và plugin Obsidian để quản lý tác vụ dựa trên ghi chú. Bạn có thể thêm và chỉnh sửa thẻ bằng trình chỉnh sửa thẻ tích hợp, trình soạn thảo văn bản yêu thích của bạn hoặc trực tiếp thông qua đồng bộ hóa Jira, giúp thuận tiện cập nhật các tác vụ của bạn trong khi bạn đang làm việc trên tài liệu Markdown hoặc mã.
 
-{% include image.html file="/assets/images/tools/imdone.png" alt="Imdone kanban application" width="90" %}
+{% include image.html file="/assets/images/tools/imdone.png" alt="Ứng dụng kanban Imdone" width="90" %}
 
 {% include tool-syntax-table.html %}
