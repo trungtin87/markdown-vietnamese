@@ -164,7 +164,7 @@ Các thành phần này mở rộng cú pháp cơ bản bằng cách thêm các 
     </tr>
   </tbody>
 </table>
-
+<!--
 ## Tải Xuống
-
 Bạn có thể <a href="{{ site.baseurl }}/assets/markdown-cheat-sheet.md" download="markdown-cheat-sheet.md">tải xuống bảng tra cứu nhanh này dưới dạng tệp Markdown</a> để sử dụng trong ứng dụng Markdown của bạn.
+-->
