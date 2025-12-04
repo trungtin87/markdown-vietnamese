@@ -1,5 +1,5 @@
 ---
-title: Definition Lists
+title: Định nghĩa danh sách
 syntax-id: definition-lists
 syntax-summary: |
   term

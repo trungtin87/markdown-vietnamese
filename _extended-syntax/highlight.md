@@ -1,5 +1,5 @@
 ---
-title: Highlight
+title: Nổi bật (Highlight)
 syntax-id: highlight
 ---
 

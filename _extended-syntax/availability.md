@@ -1,5 +1,5 @@
 ---
-title: Availability
+title: Tính khả dụng (Availability)
 syntax-id: availability
 ---
 

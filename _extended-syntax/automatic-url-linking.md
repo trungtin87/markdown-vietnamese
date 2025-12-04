@@ -1,5 +1,5 @@
 ---
-title: Automatic URL Linking
+title: Tự động liên kết URL
 syntax-id: automatic-url-linking
 ---
 

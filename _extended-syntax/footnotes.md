@@ -1,5 +1,5 @@
 ---
-title: Footnotes
+title: Chú thích cuối trang (Footnotes)
 syntax-id: footnotes
 syntax-summary: |
   Here's a sentence with a footnote. [^1]

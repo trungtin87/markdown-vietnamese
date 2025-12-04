@@ -1,5 +1,5 @@
 ---
-title: Superscript
+title: Chỉ số trên (Superscript)
 syntax-id: superscript
 ---
 

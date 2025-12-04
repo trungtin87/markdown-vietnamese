@@ -1,5 +1,5 @@
 ---
-title: Tables
+title: Bảng (Tables)
 syntax-id: tables
 syntax-summary: |
   | Syntax | Description |

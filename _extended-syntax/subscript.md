@@ -1,5 +1,5 @@
 ---
-title: Subscript
+title: Chỉ số dưới (Subscript)
 syntax-id: subscript
 ---
 

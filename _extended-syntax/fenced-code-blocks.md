@@ -1,5 +1,5 @@
 ---
-title: Fenced Code Blocks
+title: Khối mã có rào chắn (Fenced Code Blocks)
 syntax-id: fenced-code-blocks
 syntax-summary: |
   ```

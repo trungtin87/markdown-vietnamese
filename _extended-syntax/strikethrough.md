@@ -1,5 +1,5 @@
 ---
-title: Strikethrough
+title: Gạch ngang (Strikethrough)
 syntax-id: strikethrough
 syntax-summary: "~~The world is flat.~~"
 ---
