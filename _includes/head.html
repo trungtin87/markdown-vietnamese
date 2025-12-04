@@ -9,8 +9,10 @@
   <link rel="mask-icon" href="{{ site.baseurl }}/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title == 'Home' %}Hướng Dẫn Markdown{% elsif page.title == 'Get the Book' %}Sách | Hướng Dẫn
-    Markdown{% else %}{{ page.title }}{% if page.url contains 'tools' and page.title != 'Tools' %} Tài Liệu Tham Khảo
+  <title>{% if page.title == 'Home' or page.title == 'Trang Chủ' %}Hướng Dẫn Markdown{% elsif page.title == 'Get the
+    Book' %}Sách | Hướng Dẫn
+    Markdown{% else %}{{ page.title }}{% if page.url contains 'tools' and page.title != 'Tools' and page.title != 'Công
+    Cụ' %} Tài Liệu Tham Khảo
     Markdown{% endif %} | Hướng Dẫn Markdown{% endif %}</title>
 
   <meta name="description"
@@ -20,7 +22,7 @@
   <meta property="og:url"
     content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
   <meta property="og:title"
-    content="{% if page.title == 'Home' %}Hướng Dẫn Markdown{% elsif page.title == 'Get the Book' %}Sách | Hướng Dẫn Markdown{% else %}{{ page.title }} | Hướng Dẫn Markdown{% endif %}" />
+    content="{% if page.title == 'Home' or page.title == 'Trang Chủ' %}Hướng Dẫn Markdown{% elsif page.title == 'Get the Book' %}Sách | Hướng Dẫn Markdown{% else %}{{ page.title }} | Hướng Dẫn Markdown{% endif %}" />
   <meta property="og:description"
     content="{% if page.description %}{{ page.description }}{% else %} Tài liệu tham khảo miễn phí và mã nguồn mở giải thích cách sử dụng Markdown.{% endif %}" />
   <meta property="og:image" content="https://www.markdownguide.org/assets/images/markdown-guide-og.jpg" />
@@ -33,7 +35,7 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/docsearch.min.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syntax.css">
 
-  {% if page.title == 'Home' or page.title == '404 Not Found' %}
+  {% if page.title == 'Home' or page.title == 'Trang Chủ' or page.title == '404 Not Found' %}
   <link href="{{ site.baseurl }}/assets/css/homepage.css" rel="stylesheet">
   {% else %}
   <link href="{{ site.baseurl }}/assets/css/page.css" rel="stylesheet">

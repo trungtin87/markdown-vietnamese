@@ -1,7 +1,7 @@
 ---
 layout: default
 title: API
-description: Programmatically access Markdown documentation.
+description: Truy cập tài liệu Markdown theo chương trình.
 last_modified_at: 2018-10-18
 ---
 

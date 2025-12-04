@@ -1,7 +1,7 @@
 ---
 layout: tools
-title: Tools
-description: Applications and components that support Markdown.
+title: Công Cụ
+description: Ứng dụng và thành phần hỗ trợ Markdown.
 last_modified_at: 2025-11-25
 ---
 

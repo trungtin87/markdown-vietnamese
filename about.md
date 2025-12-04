@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: Giới Thiệu
 description: Học về tất cả các thông tin về Markdown.
 ---
 
@@ -32,6 +32,6 @@ Nội dung của dự án này được cấp phép theo [giấy phép Creative 
 
 Một số liên kết đến sản phẩm trên trang web này sử dụng liên kết liên kết Amazon. Nếu bạn mua một mặt hàng thông qua một trong các liên kết này, tôi nhận được một tỷ lệ phần trăm nhỏ của giá mua (khoảng 4-5%).
 
-Đây là chi tiết: 
+Đây là chi tiết:
 
 > *Hướng Dẫn Markdown* là thành viên của Chương Trình Đối Tác Amazon Services LLC, một chương trình quảng cáo liên kết được thiết kế để cung cấp phương tiện cho các trang web kiếm phí quảng cáo bằng cách quảng cáo và liên kết đến Amazon.com.

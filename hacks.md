@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Hacks
+title: Thủ Thuật
 description: Giải pháp thay thế cho những thứ không được Markdown hỗ trợ chính thức.
 last_modified_at: 2022-04-15
 ---

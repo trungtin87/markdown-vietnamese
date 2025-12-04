@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Contact
+title: Liên Hệ
 description: Liên hệ với người bảo trì Hướng Dẫn Markdown.
 ---
 

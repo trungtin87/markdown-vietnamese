@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Basic Syntax
+title: Cú Pháp Cơ Bản
 description: Các thành phần Markdown được nêu trong tài liệu thiết kế gốc.
 last_modified_at: 2025-09-28
 ---
